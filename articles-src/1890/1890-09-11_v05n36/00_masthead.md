@@ -1,0 +1,3 @@
+# The American Sentinel.
+
+VOLUME 5. | OAKLAND, CALIFORNIA, SEPTEMBER 11, 1890 | NUMBER 36.

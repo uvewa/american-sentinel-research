@@ -1,0 +1,3 @@
+# The American Sentinel.
+
+VOLUME 5. | OAKLAND, CALIFORNIA, MAY 29, 1890 | NUMBER 22.

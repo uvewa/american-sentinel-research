@@ -1,0 +1,3 @@
+# The American Sentinel.
+
+VOLUME 2. | OAKLAND, CALIFORNIA, JULY, 1887 | NUMBER 7.

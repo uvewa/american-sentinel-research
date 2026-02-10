@@ -1,0 +1,3 @@
+# The American Sentinel.
+
+VOLUME 5. | OAKLAND, CALIFORNIA, MARCH 20, 1890 | NUMBER 12.

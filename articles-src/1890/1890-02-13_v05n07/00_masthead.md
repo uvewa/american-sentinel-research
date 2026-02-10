@@ -1,0 +1,3 @@
+# The American Sentinel.
+
+VOLUME 5. | OAKLAND, CALIFORNIA, FEBRUARY 13, 1890 | NUMBER 7.

@@ -1,0 +1,5 @@
+I FIND that human revolt against oppression of all kinds has uniformly resulted in the intensification of the oppression, and in the spreading and strengthening of the cause of the oppressed; and that all attempts to deny freedom of speech, and of any action not touching liberty and property, tend to the life of the suppressed party, and of immersed faithfulness, have not only failed, but have forwarded the ends they sought to defeat. This lesson has been impressed upon mankind since the dawn of history.—*Julian Hawthorne*.
+
+---
+
+So far as their fellow-men or the State is concerned, Robert Ingersoll has the utmost right to teach his infidelity, and the Unitarians to build their churches and preach their views; and any man who attempts by physical force or legal enactment to prevent them, has struck a blow at the liberty of which, as Americans, we are justly proud. On the other hand, I claim and glory in the right to combat their errors by all the power of my pen and voice. My right I propose to exercise, and would be the last to-day to enforce what I claim for myself.—*C. H. Hobart, Baptist Minister, Oakland, California*.

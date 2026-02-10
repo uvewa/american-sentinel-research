@@ -1,0 +1,3 @@
+# The American Sentinel.
+
+VOLUME 4. | OAKLAND, CALIFORNIA, JULY 10, 1889 | NUMBER 24.

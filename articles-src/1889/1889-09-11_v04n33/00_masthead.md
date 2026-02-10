@@ -1,0 +1,3 @@
+# The American Sentinel.
+
+VOLUME 4. | OAKLAND, CALIFORNIA, SEPTEMBER 11, 1889 | NUMBER 33.

@@ -1,0 +1,80 @@
+---
+title: "The National Sunday Bill."
+date: 1888-10-01
+publication: "American Sentinel"
+volume: 3
+issue: 10
+attribution: "editorial"
+
+principles:
+  - "The Sabbath Question"
+  - "Church and State"
+  - "Constitutional Principles"
+
+applications:
+  - "Sunday Legislation"
+  - "Enforced Observance"
+  - "Religious vs Civil Law"
+  - "First Amendment"
+
+keywords:
+  - Blair Sunday Bill
+  - Senator Blair
+  - Constantine
+  - United States Senate
+  - constitutional amendment
+  - Papacy
+  - religious despotism
+---
+
+# The National Sunday Bill.
+
+The National Sunday Bill, introduced into the United States Senate by Senator Blair, is a queer piece of legislation for this enlightened age and country, in more senses than one. We have referred to it in our columns before; but as the legislation itself is the first step taken in an endless controversy, this is ample excuse for referring to it again. But besides this there is sufficient material in the bill itself to justify a long discussion, and even continuous repetition, until the people shall see the danger there is threatening their cherished liberties and dearest rights.
+
+We propose to notice it section by section, and call attention, briefly, to some of the moral and civil delinquencies that show themselves in the bill.
+
+The first section embodies legislation in regard to “the Lord’s day,” and is as follows:—
+
+> *“Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled,* That no person, or corporation, or the agent, servant, or employe of any person or corporation, shall perform or authorize to be performed any secular work, labor, or business to the disturbance of others, works of necessity, mercy, and humanity excepted; nor shall any person engage in any play, game, or amusement, or recreation, to the disturbance of others on the first day of the week, commonly known as the Lord’s day, or during any part thereof, in any Territory, district, vessel, or place subject to the exclusive jurisdiction of the United States; nor shall it be lawful for any person or corporation to receive pay for labor or service performed or rendered in violation of this section.”
+
+This is contrary to the word of Christ. Christ said: “Render therefore unto Cesar the things that are Cesar’s; and unto God the things that are God’s.” By these words it is clear that that which is the Lord’s is not to be rendered to Cesar, but to the Lord. Cesar is civil government; therefore, we are not to render to civil government that which is the Lord’s; with what is the Lord’s Cesar has nothing to do. Senator Blair’s bill, in legislating upon that which pertains to the Lord, plainly sets itself against the word of Christ, and is, therefore, antichristian.
+
+Again, this section declares that no person shall do any work, “nor engage in any play, game, or amusement, or recreation, to the disturbance of others on the first day of the week, commonly known as the Lord’s day, or during any part thereof.” This leaves it entirely with the other man, or with judge or jury, to say whether that which has been done was a disturbance; and that is only to make every man’s action on Sunday subject to the whim or caprice of his neighbor. But “any condition of the law which allows the test of criminality to depend on the whim or caprice of judge or juror, savors of tyranny.” The doctrine embodied in this section of the Blair bill is subversive of liberty. It attacks, not only the inherent rights, but the constitutional rights, of every American citizen. For a sound judicial decision upon this principle of this section see the article entitled, “The Savor of Tyranny,” in another column of this paper.
+
+Section two is as follows:—
+
+> “Sec. 2. That no mails or mail matter shall hereafter be transported in time of peace over any land postal-route, nor shall any mail matter be collected, assorted, handled, or delivered during any part of the first day of the week: *Provided,* That whenever any letter shall relate to a work of necessity or mercy, or shall concern the health, life, or decease of any person, and the fact shall be plainly » stated upon the face of the envelope containing the same, the postmaster-general shall provide for the transportation of such letter or letters in packages separate from other mail matter, and shall make regulations for the delivery thereof, the same having been received at its place of destination before the said first day of the week, during such limited portion of the day as shall best suit the public convenience and least interfere with the due observance of the day as one of worship and rest: *And provided further,* That when there shall have been an interruption in the due and regular transmission of the mails it shall be lawful to so far examine the same when delivered as to ascertain if there be such matter therein for lawful delivery on the first day of the week.”
+
+The object of this section is to stop the carrying of the mails on Sunday; but yet any letter that relates to a work of necessity or mercy, or the health, life, or death of any person, which has the fact plainly stated upon the face of the envelope, shall be delivered on the first day of the week.
+
+Section 3 is as follows:—
+
+> “Sec. 3. That the prosecution of commerce between the States and with the Indian tribes, the same not being work of necessity, mercy, or humanity, by the transportation of persons or property by land or water in such way as to interfere with or disturb the people in the enjoyment of the first day of the week, or any portion thereof, as a day of rest from labor, the same not being labor of necessity, mercy, or humanity, or its observance as a day of religious worship, is hereby prohibited, and any person or corporation, or the agent, servant, or employe of any person or corporation who shall willfully violate this section shall be punished by a fine of not less than ten nor more than one thousand dollars, and no service performed in the prosecution of such prohibited commerce shall be lawful, nor shall any compensation be recoverable or be paid for the same.”
+
+This section embodies the same principle as the first in regard to the disturbance of others, and sets a heavy penalty upon conduct lacking in the essential element of criminality. Upon what principle except that of religious intolerance can it ever be made to [74] appear that an act which is not only perfectly innocent but entirely laudable when performed on any other day of the week, becomes so intensely criminal when performed on the first day of the week as to deserve a penalty of a thousand dollars fine?
+
+Section 4 reads:—
+
+> “Sec. 4. That all military and naval drills, musters, and parades, not in time of active service or immediate preparation therefor, of soldiers, sailors, marines, or cadets of the United States on the first day of the week, except assemblies for the due and orderly observance of religious worship, are hereby prohibited, nor shall any unnecessary labor be performed or permitted in the military or naval service of the United States on the Lord’s day.”
+
+So far as anything in this section is in itself concerned there is nothing particularly to be noticed except that it is directly in the line of Constantine’s Sunday legislation. He, however, went a step further and caused his soldiers to parade expressly for worship, and wrote out a prayer which he had them all repeat at a given signal. Something like this may fairly be expected to follow should this bill become a law; because, as religious observance and religious worship are the objects of the bill, why should not the soldiers be required to pray on Sunday as well as to religiously observe the day? It may be said that the *religious* observance of the day is not required; but when we come to section six, it will be seen that it is.
+
+Section 5 reads thus:—
+
+> “Sec. 5. That it shall be unlawful to pay or to receive payment or wages in any manner for service rendered or for labor performed or for the transportation of persons or property in violation of the provisions of this act, nor shall any action lie for the recovery thereof, and when so paid, whether in advance or otherwise, the same may be recovered back by whoever shall first sue for the same.”
+
+This section provides that if any person works for any other person on Sunday, and receives payment for it at any time, then any person in the wide world, except the parties concerned, can enter suit, and recover the money so paid. If you work for me on Sunday, and I ever pay you for it, then the first man that finds it out can sue you and get the money. That is what the bill says. The bill says that when wages are paid for Sunday work, whether in advance or otherwise, the same may be recovered back by *whoever* shall *first* sue for the same. “Whoever,” is a universal term. Therefore, this bill deliberately proposes that when any man who is subject to the exclusive jurisdiction of the United States, receives payment for work done on Sunday, except of necessity or mercy, he may be sued for that money by whoever first learns that he has received it, and that person shall get the money.
+
+To think that any such legislation as is embodied in this section should ever be thought of by any sane person, is sufficiently astonishing; but that it should not only have been thought of, but should have been thought of and embodied in a bill, and introduced into the United States Senate by a United States Senator, and that it should have passed two readings in that body without a dissenting voice, is simply astounding. It almost surpasses belief. But here are the facts which demonstrate that such things have been done in this land of liberty, in the National Legislature, in this year of the nineteenth century. When United States Senators will employ their time in such legislation as that, then whose liberties are safe? Senator Blair is a Prohibitionist of National reputation. He may justly be considered a representative Prohibitionist, and the legislation proposed in this bill, and in this section of the bill, may justly be considered a representative piece of Prohibitionist legislation.
+
+But if that be so, then the fewer Prohibitionists who ever, as such, secure legislative power, the better will it be for the people. And when such legislation as is here proposed can be introduced, and read twice in the United States Senate, without a dissenting voice, then it is high time that the American people were awaking to that eternal vigilance which only is the price of liberty.
+
+The last section of the bill is as follows:—
+
+> “Sec. 6. That labor or service performed and rendered on the first day of the week in consequence of accident, disaster, or unavoidable delays in making the regular connections upon postal routes and routes of travel and transportation, the preservation of perishable and exposed property, and the regular and necessary transportation and delivery of articles of food in condition for healthy use, and such transportation for short distances from one State, district, or Territory into another State, district, or Territory as by local laws shall be declared to be necessary for the public good, shall not be deemed violations of this act, but the same shall be construed so far as possible to secure to the whole people rest from toil during the first day of the week, their mental and moral culture, and the religious observance of the Sabbath day.”
+
+This section is simply provisory, and requires no comment, except the last few lines, which show the object of the entire bill; and that is, “to secure to the whole people rest, . . . and the religious observance of the Sabbath day.” No one, therefore, need attempt to evade the force of objections against this bill by saying that it is not the religious, but the *civil,* observance of the day that is required; because here it is plainly declared in the bill itself, that it is not only to secure rest to all the people, but that it is also to secure the *religious* observance of the Sabbath day. There is not a single reference in the bill to any such thing as the civil observance of the day. The word “civil” is not used in the bill. It is a religious bill wholly. The first section defines the Lord’s day; the second section refers to the day as one of worship and rest; section three refers to it as a day of religious worship; section four refers to its observance as that of religious worship; and section six plainly declares what is apparent throughout, that the object of the whole bill is “to secure to the whole people rest *and religious* observance of the Sabbath day,” on the first day of the week.
+
+It is religious legislation, and that only; but as the present Constitution forbids religious legislation, it was necessary to follow the presentation of this bill by a proposed amendment to the Constitution establishing the Christian religion. Thus the two go hand in hand. They belong together; either necessitates the other. Let either be adopted, and in the language of the United States Senate in 1829, it will “involve a legislative decision on a religious controversy, and on a point in which good citizens may honestly differ in opinion, without disturbing the peace of society, or endangering its liberties. If this principle is once introduced it will be impossible to define its bounds. ... If admitted it may be justly apprehended that the future measures of the Government will be strongly marked, if not eventually controlled, by the same influence. All religious despotism commences by combination and influence; and when that influence begins to operate upon the political institutions of a country, the civil power soon bends under it, and the catastrophe of other nations furnishes an awful warning of the consequences. ... If the principle is once established that religion, or religious observances, shall be interwoven with our legislative acts we must pursue it to its *ultimatum. . . *. Let the National Legislature once perform an act which involves the decision of religious controversy, and it will have passed its legitimate bounds. The precedent will then be established, and the foundation laid, for that usurpation of the divine prerogative in this country which has been the desolating scourge to the fairest portions of the Old World.”
+
+The Blair Sunday Bill and its accompanying constitutional amendment bear in them, or in either of them, this desolating scourge, and if adopted will spread that scourge over all this fair land. Therefore we are eternally opposed to this bill or anything like it. We oppose it as human beings who have respect for human rights; we oppose it as American citizens who believe in the rights and liberties asserted for mankind by the Declaration of Independence, and maintained for all by the American Constitution as it is, and which inhere in the genius of American institutions. We oppose it as men who fear God, and respect the right of every man to worship God according to the dictates of his own conscience, or, so far as civil government is concerned, not to worship him at all if he chooses; we oppose it as Christians who love Christ and endeavor sincerely to do his will, and who, at the same time, maintain that, under civil government, every other man is entitled to all the rights to which the Christian is entitled; and we would have every soul in the United States inspired with the spirit, and, we hope, with the deathless endurance, with which our own opposition is inspired.

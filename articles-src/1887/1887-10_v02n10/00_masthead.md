@@ -1,0 +1,3 @@
+# The American Sentinel.
+
+VOLUME 2. | OAKLAND, CALIFORNIA, OCTOBER, 1887 | NUMBER 10.

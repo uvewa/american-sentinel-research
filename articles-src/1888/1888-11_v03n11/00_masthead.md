@@ -1,0 +1,3 @@
+# The American Sentinel.
+
+VOLUME 3. | OAKLAND, CALIFORNIA, NOVEMBER, 1888 | NUMBER 11.

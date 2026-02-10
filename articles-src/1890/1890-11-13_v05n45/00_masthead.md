@@ -1,0 +1,3 @@
+# The American Sentinel.
+
+VOLUME 5. | OAKLAND, CALIFORNIA, NOVEMBER 13, 1890 | NUMBER 45.

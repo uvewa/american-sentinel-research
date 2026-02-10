@@ -1,0 +1,50 @@
+---
+title: "Should Civil Law Forbid Blasphemy?"
+author: "Alonzo T. Jones"
+author_short: "ATJ"
+date: 1889-08-07
+publication: "American Sentinel"
+volume: 4
+issue: 28
+attribution: "explicit"
+
+principles:
+  - "Limits of Civil Authority"
+  - "Religious Liberty"
+  - "Church and State"
+
+applications:
+  - "Legislating Morality"
+  - "Religious vs Civil Law"
+  - "Historical Parallels"
+
+keywords:
+  - Judge Cooley
+  - Chief Justice Kent
+  - Supreme Court of Pennsylvania
+  - blasphemy laws
+  - Roman Empire
+  - Constantine
+---
+
+# Should Civil Law Forbid Blasphemy?
+
+According to Judge Cooley’s definition, blasphemy is an attempt to lessen men’s reverence, not only for the Deity, but for “the accepted religion” as well. But any man in this wide world has the right to lessen men’s reverence for the accepted religion, if he thinks that religion to be wrong. Consequently, that which would be counted blasphemy in this country, would not be counted blasphemy in China; and that which is in the strictest accordance with the word of God and the faith of Jesus Christ here, is necessarily blasphemy in China, or in Turkey, or in Russia. A man who preaches the gospel of Jesus Christ in China commits blasphemy under this definition. He does make a willful attempt to lessen men’s reverence for their accepted religion, and for the deities recognized in their religion. He has to do so, if he is ever to get them to believe in Christ and the religion of Christ. He has to bring them to the place where they will have no reverence for their deities or for their accepted religion, before they ever can accept the religion of Jesus Christ. Wherever the gospel of Jesus Christ is preached in any heathen country, it is blasphemy under this definition, because its sole object is not only to lessen men’s reverence for their deities and for their accepted religion, but to turn them wholly from it.
+
+It is so likewise in Russia. Anybody there who speaks against the accepted religion, or against the saints, or their images, is subject to the penalty of blasphemy, which is banishment for life to Siberia.
+
+But if blasphemy be a proper subject of legislation by civil government, if it be right for a government to make itself the “defender of the faith,” then it is perfectly proper for the laws of China to prohibit under whatever penalty it pleases, the preaching of the gospel of Jesus Christ within the Chinese dominions; because its effect is to lessen men’s reverence for the deities recognized by China, and for the accepted religion of the country. And in that case there is no such thing as persecution on account of religion. The only persecutions that have ever been were because of men’s speaking against the accepted religion, If this principle be correct, then the Roman empire did perfectly right in prohibiting under penalty of death the preaching of the religion of Jesus Christ. Whenever Paul, or any of his brethren, spoke in the Roman empire, they blasphemed, according to the Roman law. They were held as blasphemers, and were put to death under the very principle of this definition, which is the principle of the American statutes on the subject of blasphemy. The Christians had to tell the Romans that the Roman gods were no gods. And they did it with the express purpose of destroying reverence for them and for the accepted religion. Rome put them to death. And I repeat, if the principle of the American statutes against blasphemy is correct, then Rome did right.
+
+To make this clearer, I quote a passage from the Supreme Court of Pennsylvania in defense of this principle, in a decision upon this very subject, which says: “To prohibit the open, public, and explicit denial of the popular religion of a country, is a necessary measure to preserve the tranquillity of a government.” That is precisely what the Roman empire did. Christianity did openly, publicly, and explicitly deny the popular religion of the country. It did it with intent to destroy men’s reverence for the deities and the religion of that country. Rome prohibited it; and upon the principle of the decision of the Supreme Court of Pennsylvania, which is the principle of American law on blasphemy, Rome did right, and Christianity was a blaspheming religion. The principle of this decision seems to be that those who represent the popular religion of a country have so little of the real virtue of the religion which they profess, that if anybody speaks against it, it is sure to rouse their combativeness to such a degree as to endanger the public tranquillity. Therefore, in order to keep civil those who represent the popular religion, the State must forbid anybody to deny that religion.
+
+This decision of the Supreme Court of Pennsylvania is one of the grand precedents that have been followed in all the later decisions upon this subject in the younger States; but this decision itself followed one by Chief Justice Kent of the Supreme Court of New York in 1811, in which he embodies the same principles. He defends the right of the State to punish such offenses against what he calls a Christian people, and not equally to punish like offenses against the religion of other people in this country, by the following argument:—
+
+> “Nor are we bound by any expression in the Constitution, as some have strangely supposed, cither not to punish at all, or to punish indiscriminately the like attacks upon the religion of Mohammed, or of the Grand Llama, and for this [218] plain reason: that the case assumes that we are a Christian people, and the morality of the country is deeply engrafted upon Christianity, and not upon the doctrines or worship of those impostors.”
+
+This is only to argue that if the morality of the country were engrafted upon the religion of Mohammed or the Grand Llama, and Christians were to speak against and deny that accepted religion, it would be proper that the State should punish those Christians for so doing. If that principle be correct, then a Mohammedan country has the right to prohibit the preaching of the gospel of Jesus Christ within its limits.
+
+According to these decisions, Luther and the reformers of his day were blasphemers. The reformers did hold up to ridicule and contempt the popular religion of all Europe. They did right, too; and when the State punished them, it was but carrying out the principles upheld by Chancellor Kent and the Supreme Court of Pennsylvania, and all the other States that have legislated on the subject of religion. As we have already stated, it was upon this principle precisely that the Roman Empire forbade the preaching of the gospel of Christ. It only forbade an open, public, and explicit denial of the popular religion of the country, yet in forbidding that, it forbade the preaching of the gospel of Christ. But Christ sent forth his disciples to preach the gospel to every creature, and they did it in the face of the Roman law, and in opposition to the whole power of the Roman Empire; and everybody in all the world has an undeniable right to make an open, public, and explicit, denial of the popular religion of this country, or any other, if he thinks that religion to be wrong.
+
+The principle of these decisions and of the civil statutes against blasphemy, is essentially a pagan principle, and not a Christian principle. It is peculiarly appropriate, therefore, that Chief Justice Kent not only cited the precedents of the church-and-state principles of the colonies and of the British Government, but appealed to the pagan governments of antiquity and the Papal institutions of modern Europe, as the basis of his decision. It is true that all these nations have set themselves up as the special guardians of their deities, and have prohibited the denial of the popular religion; and it is equally true that all these Nations have resisted every step in enlightenment and progress that has ever been made in the march of time. Every step forward in religion and in enlightenment has of necessity been taken in the face of all the opposition which these States and empires could bring to bear. But the principle of American institutions are neither pagan nor Papal. The principles of the American Constitution which forbids legislation on the subject of religion, are Christian principles. And it is strictly in order for Supreme Courts in making decisions in behalf of what they boast of as the Christian religion, to base their decision upon something else than the course of the pagan governments of antiquity, and the Papal institutions of modern Europe. Upon such a subject one would naturally expect them to refer to the teachings of the Author of Christianity, but they have never done so, for the very good reason that the teachings of Jesus Christ are directly against their theory.
+
+His word forbids civil government to have anything to do with what pertains to God. And instead of teaching his disciples to prosecute, to line, and to punish by civil law those who speak against them or their religion, he says, “Love your enemies, do good to them that hate you, pray for them that despitefully use you and persecute you; that ye may be the children of your Father which is in heaven.” How can men be brought to respect God or Jesus Christ by civil penalties upon their bodies and goods? How can they respect the religion of men who are ready to prosecute and imprison them? Every principle of the thing is contrary both to the spirit and the letter of Christianity. The religion of Jesus Christ properly exemplified in the daily lives of those who profess it, is the best argument and the strongest defense against blasphemy, both as defined by the Scriptures and by the civil statutes.A. T. J.

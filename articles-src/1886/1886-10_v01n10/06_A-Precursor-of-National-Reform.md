@@ -1,0 +1,76 @@
+---
+title: "A Precursor of National Reform"
+author: "Alonzo T. Jones"
+author_short: "ATJ"
+date: 1886-10-01
+publication: "American Sentinel"
+volume: 1
+issue: 10
+attribution: "explicit"
+
+principles:
+  - "Persecution"
+  - "Religious Liberty"
+  - "The Sabbath Question"
+
+applications:
+  - "Legal Persecution"
+  - "Sunday Legislation"
+  - "Enforced Observance"
+  - "Minority Rights"
+
+keywords:
+  - R. M. Kilgore
+  - Christian Cynosure
+  - President Blanchard
+  - Wheaton College
+  - National Reform Association
+  - Felix R. Brunot
+  - Inter Ocean
+  - Arkansas Sunday Law
+  - J. W. Scoles
+  - James Poole
+  - William Martin
+  - J. M. Davis
+  - F. M. Elmore
+  - J. A. Armstrong
+  - Allen Meek
+  - Springdale, Arkansas
+  - Seventh-day Adventists
+  - George Bancroft
+  - Madison
+  - Theodoric the Ostrogoth
+---
+
+# A Precursor of National Reform
+
+The matter is stated in few words and is as follows: It seems that some Seventh-day Adventists were holding meetings in Chicago. One of their preachers, Elder R. M. Kilgore delivered a sermon on the National Reform movement, taking the same position in regard to it that the Sentinel does—that persecution for conscience’ sake will inevitably follow the success of National Reform. In proof of this Mr. Kilgore states that already in Arkansas, Tennessee, and Pennsylvania, there has been persecution, even to fine and imprisonment, of members of that denomination for working on Sunday after having conscientiously and religiously observed the seventh day according to the commandment of God. The sermon was printed in the *Inter Ocean.*
+
+Now the *Christian Cynosure* is also printed in Chicago, and its editor, President Blanchard, of Wheaton College, is one of the vice-presidents of the National Reform Association. The *Cynosure* found the sermon in the *Inter Ocean, *and as the preacher, it seems, had struck pretty close to home, the *Cynosure,* making the slight mistake of thinking the preacher a Seventh-day Baptist, commented upon the subject as follows, under the title of “A Sad Mistake Somewhere”:—
+
+> “Elder R. M. Kilgore (Seventh-day Baptist) is thus reported in the *Inter Ocean,* July 19: ‘What is the significance of the National Reform movement which is agitating our country from center to circumference? What is the aim of this great party? It is to unite Church and State. It is to change our Constitution so as to restrict the rights of conscience.’ And further on: ‘Already persecution has broken out in Arkansas, Tennessee and Pennsylvania, and those who worship God according to the teachings of God’s word are suffering under this [Sabbath] law.’
+
+> “The president of the National Reform Association is Felix R. Brunot, understood to be an Episcopalian. There are some one hundred vice-presidents, more or less, of whom the editor of the *Cynosure* is one. Bishop Huntington is, and the late Bishop Simpson of the Methodist Episcopal church was another, and one hundred men could not be selected in the United States to whom the idea of ‘Church and State,’ the coercing of conscience by the civil law, would be more abhorrent than to the list of vice-presidents which have for years been published in the organ of that body, which seeks a recognition of God as the author of civil government. And if there are Seventh-day Baptists now in jail, or fined, because, having kept Saturday as their Sabbath, they have refused to keep Sunday also, their names and the jails where they are confined should be published at once.
+> “The American people have for years gone the length of tolerating Mormon Danites and polygamists, who practiced polygamy and assassination and called that religion; and will they punish, by fine and imprisonment, civil, orderly Christians who only differ from them as to the hours of Sabbath rest? Nothing could be more abhorrent to our Constitution than such persecution.”
+When the *Cynosure* was issued which contained this, Mr. Kilgore happened to be in Arkansas, and he immediately answered the call of the *Cynosure* for names, etc., as follows, and his letter was printed in the *Cynosure* of August 12, 1886:—
+
+> “Editor *Christian Cynosure:* In your issue of [78] July 29, 1886, you refer to the sermon given by myself, as reported in the *Inter Ocean,* July 19, in which it was stated that ‘the aim of the National Reform Association was to secure a religious amendment to the Constitution of the United States, thereby making our Nation a Christian nation, thus forming a union of Church and State, and restricting the rights of conscience; that already persecution has broken out in Arkansas, Tennessee, etc., and those who worship God according to the teachings of God’s word, are suffering under this Sunday law.’
+
+> “This article is called forth in response to your statement, that ‘if there are Seventh-day Baptists now in jail or fined because, having kept Saturday as their Sabbath, they have refused to keep Sunday also, their names and the jails where they are confined should be published at once.’
+> “We are Seventh-day Adventists not Seventh-day Baptists, and as I am now on the ground where our brethren are feeling the effects of this bitter spirit of persecution, I am glad to give you and your readers the desired information.
+> “Two years ago a church of Seventh-day Adventists was raised up in this place (Springdale, Ark.). Last fall they erected a house of worship, and for painting, one Sunday, on the rear of the house, unseen from the road, Elder J. W. Scoles was indicted by the Grand Jury at Fayetteville, Washington County, Ark., tried, convicted, and fined by the Circuit Court. An appeal was taken, and the case is now pending the action of the Supreme Court of the State. James Poole, of the same county, a conscientious Sabbath-keeper, for pulling weeds in his garden on Sunday morning, was indicted by the Grand Jury and fined by the same court, though he had attended public worship in the forenoon and afternoon, four miles from his home. William Martin was indicted by the same jury for sowing oats, and tried before the Circuit Court, but the jury disagreed. J. M. Davis was indicted by the Grand Jury for ‘harrowing oats on the Christian Sabbath or Sunday,’ and tried before the Circuit Court, but failing to sustain the charge, the court picked up a man who swore that he saw Mr. Davis hauling wood on Sunday, and without even an indictment for said offense, the court fined him and taxed him the costs. F. M. Elmore, for three minutes’ labor on Sunday, was indicted, convicted, and fined in the Circuit Court of this county. The second arrest of J. A. Armstrong, of Springdale, was effected July 9, for digging potatoes on Sunday for the table. In four hours after his arrest he was on his way to jail at Fayetteville, where he was kept five days to commute the fine imposed upon him, which he refused to pay, and thus honor an unjust law and a partial administration which oppressed the conscientious observers of the Fourth Commandment, while others who observed neither day were permitted to go unmolested. The railroad cars could rumble, and carry their heavy burdens, and the loud voice of the locomotive could be heard more than once every Sunday, and yet go unrebuked. The factory could ply its vocation and keep its servants at work every Sunday; the hotels could send their runners to each train soliciting patronage and collect their fees for labor performed on Sunday without a word of censure from the authorities. Other citizens could drive their hogs to market; livery teams could be hired to pleasure-seekers and money exchanged for such service, and no one was disturbed enough to take cognizance of the matter, and report it to the Grand Jury; and when the jury was told of these breaches of the law, by a Sabbath-keeper who was summoned to testify against a brother, no notice was taken of them, while the brother was arrested and fined for wielding, quietly, a paintbrush, after he had conscientiously observed the day before as the Sabbath, according to the commandment of God.
+> “Allen Meek, of Star of the West, Pike County, was indicted by the Grand Jury for planting potatoes on Sunday morning, on the testimony forced from a friend who was visiting him. While the case was pending in the court he was cited to appear on Monday morning twenty-five miles distant. The road being rough he was compelled to repair the break in his wagon on Sunday. He was again indicted and fined for that offense, on the testimony of a man who came to see him on *business.* The man who came on business could go home free after causing the arrest of the Sabbath-keeper. Others with whom I am personally acquainted in this same county, and whose names I could give, have also been arrested and fined in this same manner.
+> “Any one can see that it is not because the Sunday law is broken, or that these good and conscientious Sabbath-keepers make more noise or disturbance than others; but the strong arm of the law is the best argument that can be wielded against their faith and practice. However ‘abhorrent to our Constitution such persecution’ may appear to the editor of the *Cynosure,* we are now realizing its effects.”
+It is true that “nothing could be more abhorrent to our Constitution” than is such persecution; but it is the purpose of the National Reform party to *subvert our Constitution* so that such persecution, instead of being merely local and perhaps temporary, may be made national and permanent.
+
+But see the infamous meanness of this Arkansas iniquity—even to the forcing from a guest, evidence by which to convict the one whose hospitality he had enjoyed. And all this not for any “matter of wrong or of wicked lewdness;”—if it were that, like Gallio of old, reason would that it should be borne with,— but for simply pulling a few weeds in the garden, or digging a few potatoes for dinner, and this too not only after having religiously kept one day, but after having attended public worship twice on the same day. If there is anybody in the United States who wants to see in free America anything more like to the Inquisition than is this, just let him work for National Reform.
+
+If it be true, as the *Cynosure* says, that this persecution is “abhorrent” to President Brunot, the editor of the *Cynosure* and the one hundred or more other vice-presidents of the National Reform Association, then it is high time for them to take their names from the list of officers, and separate themselves from the work, of that Association. To force all people in these United States, without any distinction at all, to keep Sunday as the Sabbath, is the purpose of the proposed religious amendment to the Constitution and the laws that shall be enacted under it. And that is simply to make possible in all this Nation the enactment of such scenes as these which have been enacted in Arkansas. That President Brunot and his associate officers in that association would abhor such persecution, does not help the matter a particle. They are doing their very best to establish a system of government and laws under which it will be possible for such persecution to be inflicted by those who do not abhor it, but who on the contrary are bigoted and fanatical enough to enjoy it.
+
+Admit that these men are so humane that they would shrink from the enforcement of such laws, such consideration does not in the least relieve them from the responsibility so long as they persist in doing their utmost to make it possible for the fanatic or the savage to enforce the laws which they put into his hands. George Bancroft truly says: “As the humane ever decline to enforce the laws dictated by bigotry, the office devolves on the fanatic or the savage. Hence the severity of their execution usually surpasses the intention of their authors.” Doubtless there are people in Arkansas who favored the enactment of these laws, who are now shocked at such an enforcement of them. But that does not relieve them of the responsibility, they had no business, much less had they any right, to enact such laws. So we say of these men who favor the National Reform movement. It matters not how humane, nor how eminent for Christian character, they may be, they are but playing into the hands of the fanatic and the man of savage disposition. If they so abhor persecution just let them withhold from such characters as these the power to persecute. It certainly is not too much to ask President Brunot and his associates to deny themselves this luxury, but we know it is more than they *will *deny themselves. Only a few years ago, there was introduced into the Pennsylvania Legislature a bill to exempt Seventh-day Baptists from the rigors of such laws as these in Arkansas, and the most active man in. Pennsylvania for the defeat of that bill was Felix R. Brunot, in his official capacity as president of the National Reform Association: *and the bill was defeated. *So it would fairly seem that so far as he is concerned the statement of the *Cynosure* is entirely gratuitous, and we very much fear that it is so also, of the majority of the one hundred or more of his associate officers of the National Reform Association.
+
+Again we say, It is true that nothing could be more abhorrent to our Constitution than is such persecution. But it is the purpose of the National Reform party to subvert the Constitution so that such persecution shall become national. And that is why we abhor the principles and the work of the National Reform Association. And they ought to be abhorred by all men who love liberty and human right.  A. T. J.
+
+To pretend to a dominion over the conscience, is to usurp the prerogative of God; by the nature of things the power of sovereigns is confined to practical government; they have no right of punishment but over those who disturb the public peace; the most dangerous heresy is that of a sovereign who separates himself from part of his subjects, because they believe not according to his belief.—*Theodoric the Ostrogoth, *a. d. *500.*
+
+Religion is essentially distinct from human government and exempt from its cognizance. A connection between them is injurious to both. There are causes in the human breast which insure the perpetuity of religion without the aid of the law.— *Madison.* [79]
