@@ -16,6 +16,18 @@ _files/
 # Backups
 backups/
 
+# Claude Code instructions
+CLAUDE.md
+
+# Generated reports
+by-author.md
+by-category.md
+by-date.md
+taxonomy.md
+
+# One-off scripts
+research_v3n10_parts.py
+
 # Misc
 .DS_Store
 from finereader/
