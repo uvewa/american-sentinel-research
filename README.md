@@ -15,15 +15,42 @@ A searchable digital archive of *The American Sentinel* (1886-1900), a Seventh-d
 - Categorized by principle, application, author, and date
 - Each article preserves the exact text of the original publication
 
-## Project Tools
+## Repository Structure
+
+### `articles-src/` — Transcribed Articles
+
+The primary project output: 2,933 faithfully transcribed markdown files organized by year and issue.
+
+```
+articles-src/
+├── 1886/          # 12 monthly issues, 138 articles (from IDML)
+├── 1887/          # 12 monthly issues (from IDML)
+├── 1888/          # 12 monthly issues, 114 articles (from IDML)
+├── 1889/          # 48 weekly issues, 520 articles (from IDML)
+├── 1890/          # 50 weekly issues, 485 articles (from IDML)
+├── 1891/          # 50 weekly issues, 571 articles (OCR from PDF scans)
+└── 1892/          # 50 weekly issues, 669 articles (OCR from PDF scans)
+```
+
+Each issue folder (e.g., `1891-01-01_v06n01/`) contains:
+- `00_masthead.md` — publication metadata (editors, volume, number)
+- `01_Article-Title_ATJ.md` ... — individual articles with YAML frontmatter
+- `uncertainties.md` — log of unclear readings and transcription decisions
+
+### Project Tools
 
 | File | Description |
 |------|-------------|
 | `build_site.py` | Builds the static research portal (HTML, catalog, search index) |
 | `build_catalog.py` | Scans transcribed article files and generates `catalog.json` |
 | `extract_idml.py` | Extracts articles from InDesign IDML files (used for 1886-1890) |
+| `add_attribution.py` | Classifies article attribution (explicit, reprint, editorial) |
+| `generate_index.py` | Generates browsable markdown indexes from the catalog |
+| `inspect_meta_stories.py` | IDML debugging tool for inspecting meta/content story pairing |
+| `server.py` | Local development server for testing |
 | `template.html` | Single-page application template for the research portal |
 | `catalog.json` | Article metadata catalog (2,577 entries) |
+| `CLAUDE.md` | Project specification: transcription rules, taxonomy, naming conventions |
 | `requirements.txt` | Python dependencies |
 
 ## Building the Site
