@@ -449,6 +449,48 @@
             border-radius: 2px;
         }
 
+        .search-highlight.current {
+            background: #f59e0b;
+            outline: 2px solid #d97706;
+        }
+
+        .highlight-nav {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.5rem 1rem;
+            margin-bottom: 1rem;
+            background: #fef9e7;
+            border: 1px solid #f9e79f;
+            border-radius: var(--radius-md);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.82rem;
+            color: var(--color-text-secondary);
+        }
+
+        .highlight-nav-info { flex: 1; }
+
+        .highlight-nav-btn {
+            background: none;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-sm);
+            padding: 0.2rem 0.6rem;
+            cursor: pointer;
+            font-size: 0.8rem;
+            color: var(--color-text-secondary);
+        }
+
+        .highlight-nav-btn:hover { background: var(--color-bg); }
+
+        .highlight-nav-close {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--color-text-muted);
+            font-size: 1rem;
+            padding: 0.1rem 0.3rem;
+        }
+
         .search-loading-indicator {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             font-size: 0.8rem;
@@ -1244,8 +1286,16 @@
             .pagination,
             .back-btn,
             .results-summary,
+            .highlight-nav,
             .site-header .back-link {
                 display: none !important;
+            }
+
+            .search-highlight {
+                background: none !important;
+                font-weight: inherit !important;
+                padding: 0 !important;
+                outline: none !important;
             }
 
             .site-header {
@@ -1440,6 +1490,13 @@
                         <div class="article-detail-tags" id="detail-tags"></div>
                     </div>
 
+                    <div class="highlight-nav" id="highlight-nav" style="display:none">
+                        <span class="highlight-nav-info" id="highlight-nav-info"></span>
+                        <button class="highlight-nav-btn" id="highlight-prev">&uarr; Prev</button>
+                        <button class="highlight-nav-btn" id="highlight-next">&darr; Next</button>
+                        <button class="highlight-nav-close" id="highlight-close" aria-label="Clear highlights">&times;</button>
+                    </div>
+
                     <div class="article-body" id="detail-body">
                         <div class="article-loading">
                             <div class="spinner"></div>
@@ -1541,6 +1598,10 @@
         var panelFilteredArticles = [];
         var currentArticleId = null;
 
+        // Highlight navigation state
+        var highlightMatches = [];
+        var currentHighlightIndex = -1;
+
         /* ============================================================
            DOM REFERENCES (cached after DOMContentLoaded)
            ============================================================ */
@@ -1577,6 +1638,13 @@
             dom.yearFrom = document.getElementById('year-from');
             dom.yearTo = document.getElementById('year-to');
             dom.dateRangeClear = document.getElementById('date-range-clear');
+
+            // Highlight navigation
+            dom.highlightNav = document.getElementById('highlight-nav');
+            dom.highlightNavInfo = document.getElementById('highlight-nav-info');
+            dom.highlightPrev = document.getElementById('highlight-prev');
+            dom.highlightNext = document.getElementById('highlight-next');
+            dom.highlightClose = document.getElementById('highlight-close');
 
             // Search panel
             dom.searchPanel = document.getElementById('search-panel');
@@ -2158,10 +2226,110 @@
         }
 
         /* ============================================================
+           ARTICLE BODY HIGHLIGHT + NAVIGATION
+           ============================================================ */
+        function highlightTermInBody(query) {
+            highlightMatches = [];
+            currentHighlightIndex = -1;
+            if (!query) return 0;
+
+            var lowerQuery = query.toLowerCase();
+            var walker = document.createTreeWalker(
+                dom.detailBody, NodeFilter.SHOW_TEXT, null, false
+            );
+
+            var textNodes = [];
+            while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+            for (var i = 0; i < textNodes.length; i++) {
+                var node = textNodes[i];
+                var text = node.textContent;
+                var lowerText = text.toLowerCase();
+                var idx = lowerText.indexOf(lowerQuery);
+                if (idx === -1) continue;
+
+                var parent = node.parentNode;
+                var frag = document.createDocumentFragment();
+                var lastIdx = 0;
+
+                while (idx !== -1) {
+                    if (idx > lastIdx) {
+                        frag.appendChild(document.createTextNode(text.substring(lastIdx, idx)));
+                    }
+                    var span = document.createElement('span');
+                    span.className = 'search-highlight';
+                    span.textContent = text.substring(idx, idx + query.length);
+                    frag.appendChild(span);
+                    highlightMatches.push(span);
+                    lastIdx = idx + query.length;
+                    idx = lowerText.indexOf(lowerQuery, lastIdx);
+                }
+
+                if (lastIdx < text.length) {
+                    frag.appendChild(document.createTextNode(text.substring(lastIdx)));
+                }
+                parent.replaceChild(frag, node);
+            }
+
+            return highlightMatches.length;
+        }
+
+        function showHighlightNav(count) {
+            if (count > 0) {
+                dom.highlightNav.style.display = 'flex';
+                dom.highlightNavInfo.textContent = 'Match 1 of ' + count;
+            } else {
+                dom.highlightNav.style.display = 'none';
+            }
+        }
+
+        function hideHighlightNav() {
+            dom.highlightNav.style.display = 'none';
+        }
+
+        function goToHighlight(index) {
+            if (highlightMatches.length === 0) return;
+            if (index < 0) index = highlightMatches.length - 1;
+            if (index >= highlightMatches.length) index = 0;
+
+            if (currentHighlightIndex >= 0 && currentHighlightIndex < highlightMatches.length) {
+                highlightMatches[currentHighlightIndex].classList.remove('current');
+            }
+
+            currentHighlightIndex = index;
+            highlightMatches[index].classList.add('current');
+            highlightMatches[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
+            dom.highlightNavInfo.textContent = 'Match ' + (index + 1) + ' of ' + highlightMatches.length;
+        }
+
+        function nextHighlight() {
+            goToHighlight(currentHighlightIndex + 1);
+        }
+
+        function prevHighlight() {
+            goToHighlight(currentHighlightIndex - 1);
+        }
+
+        function clearHighlights() {
+            for (var i = 0; i < highlightMatches.length; i++) {
+                var span = highlightMatches[i];
+                var parent = span.parentNode;
+                parent.replaceChild(document.createTextNode(span.textContent), span);
+                parent.normalize();
+            }
+            highlightMatches = [];
+            currentHighlightIndex = -1;
+            hideHighlightNav();
+        }
+
+        /* ============================================================
            RENDERING: ARTICLE DETAIL VIEW
            ============================================================ */
         function showArticleDetail(articleId) {
             currentArticleId = articleId;
+            highlightMatches = [];
+            currentHighlightIndex = -1;
+            hideHighlightNav();
 
             var article = articleById[articleId];
             if (!article) {
@@ -2246,6 +2414,11 @@
                 if (xhr.readyState !== 4) return;
                 if (xhr.status === 200) {
                     dom.detailBody.innerHTML = xhr.responseText;
+                    if (panelSearchQuery) {
+                        var matchCount = highlightTermInBody(panelSearchQuery);
+                        showHighlightNav(matchCount);
+                        if (matchCount > 0) goToHighlight(0);
+                    }
                 } else if (xhr.status === 404) {
                     dom.detailBody.innerHTML = '<div class="no-results">' +
                         '<h3>Article content not available</h3>' +
@@ -2764,6 +2937,11 @@
                 }
             });
             dom.sidebarOverlay.addEventListener('click', closeSidebar);
+
+            // Highlight navigation events
+            dom.highlightPrev.addEventListener('click', prevHighlight);
+            dom.highlightNext.addEventListener('click', nextHighlight);
+            dom.highlightClose.addEventListener('click', clearHighlights);
 
             // Search panel events
             dom.panelSearchInput.addEventListener('input', onPanelSearchInput);
