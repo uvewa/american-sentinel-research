@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+*.egg-info/
+
+# Build output
+research/
+
+# Archives
+*.zip
+
+# IDML source files (large binaries)
+_files/
+
+# Backups
+backups/
+
+# Misc
+.DS_Store
+from finereader/
