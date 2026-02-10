@@ -1058,6 +1058,56 @@
             border-bottom: 1px solid var(--color-border-light);
         }
 
+        .search-panel-modes {
+            display: flex;
+            gap: 0.35rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .search-mode-pill {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.7rem;
+            padding: 0.25rem 0.6rem;
+            border: 1px solid var(--color-border);
+            border-radius: 999px;
+            background: var(--color-bg);
+            color: var(--color-text-secondary);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+
+        .search-mode-pill.active {
+            background: var(--color-blue);
+            color: #ffffff;
+            border-color: var(--color-blue);
+        }
+
+        .search-mode-pill:hover:not(.active) {
+            background: var(--color-border-light);
+        }
+
+        .search-tips {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.72rem;
+            color: var(--color-text-muted);
+            margin-bottom: 0.6rem;
+        }
+
+        .search-tips summary { cursor: pointer; user-select: none; }
+
+        .search-tips ul {
+            margin-top: 0.35rem;
+            padding-left: 1.2rem;
+            line-height: 1.7;
+        }
+
+        .search-tips code {
+            background: var(--color-bg);
+            padding: 0.1rem 0.3rem;
+            border-radius: 3px;
+            font-size: 0.7rem;
+        }
+
         .search-panel-results {
             flex: 1;
             overflow-y: auto;
@@ -1532,6 +1582,22 @@
                         <button class="search-panel-clear" id="panel-search-clear" aria-label="Clear search">&times;</button>
                     </div>
 
+                    <div class="search-panel-modes" id="search-panel-modes">
+                        <button class="search-mode-pill active" data-mode="and">All Words</button>
+                        <button class="search-mode-pill" data-mode="phrase">Exact Phrase</button>
+                        <button class="search-mode-pill" data-mode="or">Any Word</button>
+                    </div>
+                    <details class="search-tips">
+                        <summary>Search tips</summary>
+                        <ul>
+                            <li>Use <code>"quotes"</code> for exact phrases</li>
+                            <li>Use <code>-word</code> to exclude a term</li>
+                            <li>Use <code>*</code> for wildcards: <code>legislat*</code></li>
+                            <li>Use <code>"word1 word2"~5</code> for proximity</li>
+                            <li>Prefix with <code>title:</code> or <code>author:</code></li>
+                        </ul>
+                    </details>
+
                     <div class="search-panel-count" id="panel-search-count" style="display:none"></div>
 
                     <div class="search-panel-results" id="panel-search-results">
@@ -1598,6 +1664,10 @@
         var panelFilteredArticles = [];
         var currentArticleId = null;
 
+        // Advanced search state
+        var currentSearchMode = 'and';   // 'and', 'phrase', 'or'
+        var panelMatchedTerms = [];
+
         // Highlight navigation state
         var highlightMatches = [];
         var currentHighlightIndex = -1;
@@ -1639,6 +1709,9 @@
             dom.yearTo = document.getElementById('year-to');
             dom.dateRangeClear = document.getElementById('date-range-clear');
 
+            // Search mode pills
+            dom.searchPanelModes = document.getElementById('search-panel-modes');
+
             // Highlight navigation
             dom.highlightNav = document.getElementById('highlight-nav');
             dom.highlightNavInfo = document.getElementById('highlight-nav-info');
@@ -1662,6 +1735,10 @@
         /* ============================================================
            UTILITY FUNCTIONS
            ============================================================ */
+        function escapeRegex(str) {
+            return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+
         function escapeHtml(str) {
             if (!str) return '';
             var div = document.createElement('div');
@@ -2057,38 +2134,76 @@
             return articles;
         }
 
-        function getSearchSnippet(articleId, query) {
-            if (!searchData || !searchData[articleId] || !query) return '';
+        function getSearchSnippet(articleId, matchedTerms) {
+            if (!searchData || !searchData[articleId] || !matchedTerms || matchedTerms.length === 0) return '';
             var text = searchData[articleId];
             var lowerText = text.toLowerCase();
-            var lowerQuery = query.toLowerCase();
-            var idx = lowerText.indexOf(lowerQuery);
-            if (idx === -1) return '';
 
-            // Extract window around the match
-            var snippetRadius = 75;
-            var start = Math.max(0, idx - snippetRadius);
-            var end = Math.min(text.length, idx + query.length + snippetRadius);
+            // Build regex patterns for finding and highlighting
+            var patterns = [];
+            for (var t = 0; t < matchedTerms.length; t++) {
+                var term = matchedTerms[t];
+                if (term.charAt(term.length - 1) === '*') {
+                    patterns.push(escapeRegex(term.slice(0, -1)) + '\\w*');
+                } else {
+                    patterns.push(escapeRegex(term));
+                }
+            }
+
+            // Find position of first match (for snippet centering)
+            var firstIdx = -1;
+            var secondIdx = -1;
+            for (var t = 0; t < matchedTerms.length; t++) {
+                var term = matchedTerms[t];
+                var idx;
+                if (term.charAt(term.length - 1) === '*') {
+                    var wRe = new RegExp('\\b' + escapeRegex(term.slice(0, -1)) + '\\w*', 'i');
+                    var wMatch = wRe.exec(lowerText);
+                    idx = wMatch ? wMatch.index : -1;
+                } else {
+                    idx = lowerText.indexOf(term.toLowerCase());
+                }
+                if (idx !== -1) {
+                    if (firstIdx === -1 || idx < firstIdx) {
+                        secondIdx = firstIdx;
+                        firstIdx = idx;
+                    } else if (secondIdx === -1 || idx < secondIdx) {
+                        secondIdx = idx;
+                    }
+                }
+            }
+            if (firstIdx === -1) return '';
+
+            // For multi-term, try to center between first two matches
+            var center = firstIdx;
+            var snippetRadius = matchedTerms.length > 1 ? 100 : 75;
+            if (secondIdx !== -1 && secondIdx - firstIdx < snippetRadius * 2) {
+                center = Math.floor((firstIdx + secondIdx) / 2);
+            }
+
+            var start = Math.max(0, center - snippetRadius);
+            var end = Math.min(text.length, center + snippetRadius);
 
             // Adjust to word boundaries
             if (start > 0) {
                 var spaceIdx = text.indexOf(' ', start);
-                if (spaceIdx !== -1 && spaceIdx < idx) start = spaceIdx + 1;
+                if (spaceIdx !== -1 && spaceIdx < center) start = spaceIdx + 1;
             }
             if (end < text.length) {
                 var spaceIdx2 = text.lastIndexOf(' ', end);
-                if (spaceIdx2 > idx + query.length) end = spaceIdx2;
+                if (spaceIdx2 > center) end = spaceIdx2;
             }
 
             var snippet = text.substring(start, end);
             var prefix = start > 0 ? '&hellip;' : '';
             var suffix = end < text.length ? '&hellip;' : '';
 
-            // Highlight matches in snippet
+            // Highlight all matched terms in snippet
             var escapedSnippet = escapeHtml(snippet);
-            var escapedQuery = escapeHtml(query);
-            var re = new RegExp('(' + escapedQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
-            escapedSnippet = escapedSnippet.replace(re, '<span class="search-highlight">$1</span>');
+            for (var p = 0; p < patterns.length; p++) {
+                var re = new RegExp('(' + patterns[p] + ')', 'gi');
+                escapedSnippet = escapedSnippet.replace(re, '<span class="search-highlight">$1</span>');
+            }
 
             return prefix + escapedSnippet + suffix;
         }
@@ -2226,14 +2341,307 @@
         }
 
         /* ============================================================
+           ADVANCED SEARCH: QUERY PARSER
+           ============================================================ */
+        function parseSearchQuery(queryString, defaultMode) {
+            var query = queryString.trim();
+            if (!query) return { mode: defaultMode || 'and', clauses: [] };
+
+            // If "phrase" mode, wrap the entire query as one phrase
+            if (defaultMode === 'phrase') {
+                return {
+                    mode: 'and',
+                    clauses: [{ type: 'phrase', raw: query.toLowerCase(), negate: false }]
+                };
+            }
+
+            // Detect explicit OR / AND operators (uppercase, word-bounded)
+            var mode = defaultMode || 'and';
+            var hasExplicitOr = /\bOR\b/.test(query);
+            var hasExplicitAnd = /\bAND\b/.test(query);
+            if (hasExplicitOr && !hasExplicitAnd) mode = 'or';
+
+            // Remove AND/OR/NOT operators for tokenizing (NOT handled per-token)
+            var cleaned = query.replace(/\bAND\b/g, ' ').replace(/\bOR\b/g, ' ');
+
+            var clauses = [];
+            var i = 0;
+            var chars = cleaned;
+            var len = chars.length;
+
+            while (i < len) {
+                // Skip whitespace
+                while (i < len && chars[i] === ' ') i++;
+                if (i >= len) break;
+
+                var negate = false;
+
+                // Check for NOT keyword
+                if (chars.substring(i, i + 4) === 'NOT ' && i + 4 < len) {
+                    negate = true;
+                    i += 4;
+                    while (i < len && chars[i] === ' ') i++;
+                }
+
+                // Check for - prefix (negation)
+                if (!negate && chars[i] === '-' && i + 1 < len && chars[i + 1] !== ' ') {
+                    negate = true;
+                    i++;
+                }
+
+                // Quoted phrase: "..." or "..."~N
+                if (chars[i] === '"') {
+                    i++; // skip opening quote
+                    var phraseEnd = chars.indexOf('"', i);
+                    if (phraseEnd === -1) phraseEnd = len;
+                    var phraseText = chars.substring(i, phraseEnd);
+                    i = phraseEnd + 1; // skip closing quote
+
+                    // Check for proximity: ~N
+                    if (i < len && chars[i] === '~') {
+                        i++; // skip ~
+                        var distStr = '';
+                        while (i < len && chars[i] >= '0' && chars[i] <= '9') {
+                            distStr += chars[i];
+                            i++;
+                        }
+                        var distance = parseInt(distStr, 10) || 5;
+                        var proxTerms = phraseText.toLowerCase().split(/\s+/).filter(function(t) { return t; });
+                        if (proxTerms.length >= 2) {
+                            clauses.push({ type: 'proximity', terms: proxTerms, distance: distance, raw: phraseText.toLowerCase(), negate: negate });
+                        }
+                    } else {
+                        // Regular phrase
+                        if (phraseText.trim()) {
+                            clauses.push({ type: 'phrase', raw: phraseText.toLowerCase(), negate: negate });
+                        }
+                    }
+                    continue;
+                }
+
+                // Regular token: read until next space
+                var tokenStart = i;
+                while (i < len && chars[i] !== ' ') i++;
+                var token = chars.substring(tokenStart, i);
+                if (!token) continue;
+
+                // Field prefix: title:word, author:word, body:word
+                var colonIdx = token.indexOf(':');
+                if (colonIdx > 0) {
+                    var fieldName = token.substring(0, colonIdx).toLowerCase();
+                    var fieldValue = token.substring(colonIdx + 1).toLowerCase();
+                    if ((fieldName === 'title' || fieldName === 'author' || fieldName === 'body') && fieldValue) {
+                        clauses.push({ type: 'field', field: fieldName, term: fieldValue, negate: negate });
+                        continue;
+                    }
+                }
+
+                // Wildcard: word*
+                if (token.indexOf('*') !== -1) {
+                    var prefix = token.replace(/\*/g, '').toLowerCase();
+                    if (prefix.length >= 3) {
+                        clauses.push({ type: 'wildcard', prefix: prefix, negate: negate });
+                    } else if (prefix) {
+                        // Too short for wildcard, treat as plain term
+                        clauses.push({ type: 'term', term: prefix, negate: negate });
+                    }
+                    continue;
+                }
+
+                // Plain term
+                clauses.push({ type: 'term', term: token.toLowerCase(), negate: negate });
+            }
+
+            return { mode: mode, clauses: clauses };
+        }
+
+        /* ============================================================
+           ADVANCED SEARCH: CLAUSE MATCHERS
+           ============================================================ */
+        var wildcardRegexCache = {};
+
+        function matchTerm(text, term) {
+            return text.indexOf(term) !== -1;
+        }
+
+        function matchPhrase(text, phrase) {
+            return text.indexOf(phrase) !== -1;
+        }
+
+        function matchWildcard(text, prefix) {
+            if (!wildcardRegexCache[prefix]) {
+                wildcardRegexCache[prefix] = new RegExp('\\b' + escapeRegex(prefix) + '\\w*', 'i');
+            }
+            return wildcardRegexCache[prefix].test(text);
+        }
+
+        function matchProximity(text, terms, distance) {
+            // Quick reject: all terms must exist
+            for (var t = 0; t < terms.length; t++) {
+                if (text.indexOf(terms[t]) === -1) return false;
+            }
+            // Split into words for position checking
+            var words = text.match(/\S+/g) || [];
+            // Find positions of each term
+            var positions = [];
+            for (var t = 0; t < terms.length; t++) {
+                var termPositions = [];
+                for (var w = 0; w < words.length; w++) {
+                    if (words[w].indexOf(terms[t]) !== -1) {
+                        termPositions.push(w);
+                    }
+                }
+                if (termPositions.length === 0) return false;
+                positions.push(termPositions);
+            }
+            // Check if all terms appear within distance of each other
+            // For simplicity, check pairwise from first term's positions
+            if (positions.length === 2) {
+                for (var a = 0; a < positions[0].length; a++) {
+                    for (var b = 0; b < positions[1].length; b++) {
+                        if (Math.abs(positions[0][a] - positions[1][b]) <= distance) return true;
+                    }
+                }
+                return false;
+            }
+            // For 3+ terms, check if any window of size distance contains all terms
+            for (var anchor = 0; anchor < positions[0].length; anchor++) {
+                var anchorPos = positions[0][anchor];
+                var allClose = true;
+                for (var t = 1; t < positions.length; t++) {
+                    var found = false;
+                    for (var p = 0; p < positions[t].length; p++) {
+                        if (Math.abs(positions[t][p] - anchorPos) <= distance) {
+                            found = true;
+                            break;
+                        }
+                    }
+                    if (!found) { allClose = false; break; }
+                }
+                if (allClose) return true;
+            }
+            return false;
+        }
+
+        function testClause(clause, titleText, authorText, metaText, bodyText) {
+            // Returns: { matched: boolean, fieldScore: number }
+            switch (clause.type) {
+                case 'term':
+                    if (matchTerm(titleText, clause.term)) return { matched: true, fieldScore: 3 };
+                    if (matchTerm(authorText, clause.term)) return { matched: true, fieldScore: 2 };
+                    if (matchTerm(metaText, clause.term)) return { matched: true, fieldScore: 2 };
+                    if (matchTerm(bodyText, clause.term)) return { matched: true, fieldScore: 1 };
+                    return { matched: false, fieldScore: 0 };
+
+                case 'phrase':
+                    if (matchPhrase(titleText, clause.raw)) return { matched: true, fieldScore: 3 };
+                    if (matchPhrase(authorText, clause.raw)) return { matched: true, fieldScore: 2 };
+                    if (matchPhrase(metaText, clause.raw)) return { matched: true, fieldScore: 2 };
+                    if (matchPhrase(bodyText, clause.raw)) return { matched: true, fieldScore: 1 };
+                    return { matched: false, fieldScore: 0 };
+
+                case 'wildcard':
+                    if (matchWildcard(titleText, clause.prefix)) return { matched: true, fieldScore: 3 };
+                    if (matchWildcard(authorText, clause.prefix)) return { matched: true, fieldScore: 2 };
+                    if (matchWildcard(metaText, clause.prefix)) return { matched: true, fieldScore: 2 };
+                    if (matchWildcard(bodyText, clause.prefix)) return { matched: true, fieldScore: 1 };
+                    return { matched: false, fieldScore: 0 };
+
+                case 'proximity':
+                    // Proximity only makes sense in body/all text
+                    var allText = titleText + ' ' + bodyText;
+                    if (matchProximity(allText, clause.terms, clause.distance)) return { matched: true, fieldScore: 1 };
+                    return { matched: false, fieldScore: 0 };
+
+                case 'field':
+                    var fieldText = clause.field === 'title' ? titleText :
+                                    clause.field === 'author' ? authorText : bodyText;
+                    if (matchTerm(fieldText, clause.term)) return { matched: true, fieldScore: clause.field === 'title' ? 3 : clause.field === 'author' ? 2 : 1 };
+                    return { matched: false, fieldScore: 0 };
+
+                default:
+                    return { matched: false, fieldScore: 0 };
+            }
+        }
+
+        function matchArticle(article, parsedQuery, bodyText) {
+            var titleText = (article.title || '').toLowerCase();
+            var authorText = (article.author || '').toLowerCase();
+            var metaText = ((article.principles || []).join(' ') + ' ' +
+                (article.applications || []).join(' ') + ' ' +
+                (article.keywords || []).join(' ')).toLowerCase();
+
+            var clauses = parsedQuery.clauses;
+            if (clauses.length === 0) return { matched: false, score: 0, matchedTerms: [] };
+
+            var score = 0;
+            var matchedTerms = [];
+            var positiveMatched = 0;
+            var positiveClauses = 0;
+
+            for (var i = 0; i < clauses.length; i++) {
+                var clause = clauses[i];
+                var result = testClause(clause, titleText, authorText, metaText, bodyText);
+
+                if (clause.negate) {
+                    // Negated clause: if it matches, the article is excluded
+                    if (result.matched) return { matched: false, score: 0, matchedTerms: [] };
+                } else {
+                    positiveClauses++;
+                    if (result.matched) {
+                        positiveMatched++;
+                        score += result.fieldScore;
+                        // Collect the term for highlighting
+                        var highlightTerm = clause.raw || clause.term || (clause.prefix ? clause.prefix + '*' : null);
+                        if (highlightTerm) matchedTerms.push(highlightTerm);
+                        // For proximity, add individual terms
+                        if (clause.type === 'proximity') {
+                            for (var t = 0; t < clause.terms.length; t++) {
+                                matchedTerms.push(clause.terms[t]);
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (positiveClauses === 0) {
+                // Only negation clauses — match everything not excluded
+                return { matched: true, score: 1, matchedTerms: [] };
+            }
+
+            var matched = false;
+            if (parsedQuery.mode === 'and') {
+                matched = (positiveMatched === positiveClauses);
+            } else {
+                // 'or' mode
+                matched = (positiveMatched > 0);
+                // Bonus for matching more terms in OR mode
+                score += positiveMatched - 1;
+            }
+
+            return { matched: matched, score: score, matchedTerms: matchedTerms };
+        }
+
+        /* ============================================================
            ARTICLE BODY HIGHLIGHT + NAVIGATION
            ============================================================ */
-        function highlightTermInBody(query) {
+        function highlightTermInBody(matchedTerms) {
             highlightMatches = [];
             currentHighlightIndex = -1;
-            if (!query) return 0;
+            if (!matchedTerms || matchedTerms.length === 0) return 0;
 
-            var lowerQuery = query.toLowerCase();
+            // Build combined regex from all terms
+            var patterns = [];
+            for (var t = 0; t < matchedTerms.length; t++) {
+                var term = matchedTerms[t];
+                if (term.charAt(term.length - 1) === '*') {
+                    patterns.push(escapeRegex(term.slice(0, -1)) + '\\w*');
+                } else {
+                    patterns.push(escapeRegex(term));
+                }
+            }
+            var combinedRegex = new RegExp('(' + patterns.join('|') + ')', 'gi');
+
             var walker = document.createTreeWalker(
                 dom.detailBody, NodeFilter.SHOW_TEXT, null, false
             );
@@ -2244,25 +2652,25 @@
             for (var i = 0; i < textNodes.length; i++) {
                 var node = textNodes[i];
                 var text = node.textContent;
-                var lowerText = text.toLowerCase();
-                var idx = lowerText.indexOf(lowerQuery);
-                if (idx === -1) continue;
+                combinedRegex.lastIndex = 0;
+                if (!combinedRegex.test(text)) continue;
 
                 var parent = node.parentNode;
                 var frag = document.createDocumentFragment();
                 var lastIdx = 0;
+                var match;
 
-                while (idx !== -1) {
-                    if (idx > lastIdx) {
-                        frag.appendChild(document.createTextNode(text.substring(lastIdx, idx)));
+                combinedRegex.lastIndex = 0;
+                while ((match = combinedRegex.exec(text)) !== null) {
+                    if (match.index > lastIdx) {
+                        frag.appendChild(document.createTextNode(text.substring(lastIdx, match.index)));
                     }
                     var span = document.createElement('span');
                     span.className = 'search-highlight';
-                    span.textContent = text.substring(idx, idx + query.length);
+                    span.textContent = match[0];
                     frag.appendChild(span);
                     highlightMatches.push(span);
-                    lastIdx = idx + query.length;
-                    idx = lowerText.indexOf(lowerQuery, lastIdx);
+                    lastIdx = match.index + match[0].length;
                 }
 
                 if (lastIdx < text.length) {
@@ -2414,8 +2822,8 @@
                 if (xhr.readyState !== 4) return;
                 if (xhr.status === 200) {
                     dom.detailBody.innerHTML = xhr.responseText;
-                    if (panelSearchQuery) {
-                        var matchCount = highlightTermInBody(panelSearchQuery);
+                    if (panelMatchedTerms.length > 0) {
+                        var matchCount = highlightTermInBody(panelMatchedTerms);
                         showHighlightNav(matchCount);
                         if (matchCount > 0) goToHighlight(0);
                     }
@@ -2788,6 +3196,7 @@
             dom.panelSearchClear.style.display = 'none';
             panelSearchQuery = '';
             panelFilteredArticles = [];
+            panelMatchedTerms = [];
             dom.panelSearchCount.style.display = 'none';
             dom.panelSearchResults.innerHTML = '';
             dom.panelSearchEmpty.style.display = 'block';
@@ -2809,42 +3218,20 @@
                 return;
             }
 
-            var query = panelSearchQuery.toLowerCase();
+            var parsed = parseSearchQuery(panelSearchQuery, currentSearchMode);
+            if (parsed.clauses.length === 0) {
+                clearPanelSearch();
+                return;
+            }
+
             var results = [];
 
             for (var i = 0; i < catalog.articles.length; i++) {
                 var a = catalog.articles[i];
-                var score = 0;
-
-                // Check title (high priority)
-                if ((a.title || '').toLowerCase().indexOf(query) !== -1) {
-                    score = 3;
-                }
-
-                // Check author
-                if (!score && (a.author || '').toLowerCase().indexOf(query) !== -1) {
-                    score = 2;
-                }
-
-                // Check metadata (principles, applications, keywords)
-                if (!score) {
-                    var meta = (a.principles || []).join(' ') + ' ' +
-                        (a.applications || []).join(' ') + ' ' +
-                        (a.keywords || []).join(' ');
-                    if (meta.toLowerCase().indexOf(query) !== -1) {
-                        score = 2;
-                    }
-                }
-
-                // Check full text body
-                if (!score && searchData && searchData[a.id]) {
-                    if (searchData[a.id].toLowerCase().indexOf(query) !== -1) {
-                        score = 1;
-                    }
-                }
-
-                if (score > 0) {
-                    results.push({ article: a, score: score });
+                var bodyText = (searchData && searchData[a.id] || '').toLowerCase();
+                var result = matchArticle(a, parsed, bodyText);
+                if (result.matched) {
+                    results.push({ article: a, score: result.score, matchedTerms: result.matchedTerms });
                 }
             }
 
@@ -2855,10 +3242,32 @@
             });
 
             panelFilteredArticles = results.map(function(r) { return r.article; });
-            renderPanelResults(panelFilteredArticles, panelSearchQuery);
+
+            // Collect unique matched terms for highlighting
+            panelMatchedTerms = [];
+            var seen = {};
+            for (var i = 0; i < parsed.clauses.length; i++) {
+                var c = parsed.clauses[i];
+                if (c.negate) continue;
+                var terms = [];
+                if (c.type === 'proximity') {
+                    terms = c.terms;
+                } else {
+                    var t = c.raw || c.term || (c.prefix ? c.prefix + '*' : null);
+                    if (t) terms = [t];
+                }
+                for (var j = 0; j < terms.length; j++) {
+                    if (!seen[terms[j]]) {
+                        seen[terms[j]] = true;
+                        panelMatchedTerms.push(terms[j]);
+                    }
+                }
+            }
+
+            renderPanelResults(panelFilteredArticles, panelMatchedTerms);
         }
 
-        function renderPanelResults(articles, query) {
+        function renderPanelResults(articles, matchedTerms) {
             dom.panelSearchEmpty.style.display = 'none';
 
             // Show count
@@ -2867,7 +3276,7 @@
 
             if (articles.length === 0) {
                 dom.panelSearchResults.innerHTML = '<div class="search-panel-empty"><p>No articles match "<strong>' +
-                    escapeHtml(query) + '</strong>"</p></div>';
+                    escapeHtml(panelSearchQuery) + '</strong>"</p></div>';
                 return;
             }
 
@@ -2882,7 +3291,7 @@
                 if (a.author) meta.push(escapeHtml(a.author));
                 if (a.date) meta.push(formatDate(a.date));
 
-                var snippet = getSearchSnippet(a.id, query);
+                var snippet = getSearchSnippet(a.id, matchedTerms);
                 var snippetHtml = snippet
                     ? '<div class="search-panel-card-snippet">' + snippet + '</div>'
                     : '';
@@ -2937,6 +3346,17 @@
                 }
             });
             dom.sidebarOverlay.addEventListener('click', closeSidebar);
+
+            // Search mode pill events
+            dom.searchPanelModes.addEventListener('click', function(e) {
+                var pill = e.target.closest('.search-mode-pill');
+                if (!pill) return;
+                currentSearchMode = pill.getAttribute('data-mode');
+                var pills = dom.searchPanelModes.querySelectorAll('.search-mode-pill');
+                for (var i = 0; i < pills.length; i++) pills[i].classList.remove('active');
+                pill.classList.add('active');
+                if (panelSearchQuery) executePanelSearch();
+            });
 
             // Highlight navigation events
             dom.highlightPrev.addEventListener('click', prevHighlight);
