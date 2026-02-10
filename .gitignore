@@ -16,21 +16,14 @@ _files/
 # Backups
 backups/
 
-# Claude Code instructions
-CLAUDE.md
-
-# Generated reports
+# Generated reports (regenerate with generate_index.py)
 by-author.md
 by-category.md
 by-date.md
 taxonomy.md
 
-# One-off / migration / debug scripts
+# One-off investigation scripts
 research_v3n10_parts.py
-add_attribution.py
-generate_index.py
-inspect_meta_stories.py
-server.py
 
 # Misc
 .DS_Store
