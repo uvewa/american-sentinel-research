@@ -195,7 +195,7 @@ def classify_story(paragraphs: list[Paragraph]) -> str:
     if 'Volume and Number' in styles:
         return 'meta'
     heading_styles = {'Heading 1', 'Heading 2', 'Heading 2 Subtitle'}
-    if styles & heading_styles and non_empty_count > 5:
+    if styles & heading_styles:
         return 'content'
     # Large stories with Normal text are likely content too
     if non_empty_count > 20:
@@ -282,48 +282,32 @@ def extract_issue_meta(paragraphs: list[Paragraph]) -> dict:
 
 
 def identify_issues(stories: list[tuple[str, str, list[Paragraph]]]) -> list[Issue]:
-    """Pair metadata and content stories into issues.
+    """Assign content stories to issues by document order.
 
-    Both meta and content stories appear in the same document order (reverse
-    chronological in the IDML). Sorting each group by index and pairing 1:1
-    gives the correct assignment regardless of distance between them.
+    Walk through all stories in document order. When a meta story (issue
+    declaration) is encountered, start a new issue. Any content story that
+    follows belongs to that issue until the next meta story appears.
     """
-    # Collect meta stories with indices
-    meta_list = []  # [(index, meta_dict)]
-    for i, (path, stype, paras) in enumerate(stories):
+    issues = []
+    current_issue = None
+
+    for path, stype, paras in stories:
         if stype == 'meta':
             meta = extract_issue_meta(paras)
             if 'volume' in meta and 'number' in meta:
-                meta_list.append((i, meta))
-
-    # Collect content stories with indices
-    content_list = []  # [(index, paragraphs)]
-    for i, (path, stype, paras) in enumerate(stories):
-        if stype == 'content':
-            content_list.append((i, paras))
-
-    # Sort both by document order (index)
-    meta_list.sort(key=lambda x: x[0])
-    content_list.sort(key=lambda x: x[0])
-
-    if len(meta_list) != len(content_list):
-        print(f'  Warning: {len(meta_list)} meta stories vs {len(content_list)} content stories')
-
-    # Pair 1:1 in document order
-    issues = []
-    for (mi, meta), (ci, paras) in zip(meta_list, content_list):
-        issue = Issue(
-            volume=meta['volume'],
-            number=meta['number'],
-            year=meta.get('year', 0),
-            month=meta.get('month', 0),
-            day=meta.get('day', 0),
-            date_str=meta.get('date_str', ''),
-            location=meta.get('location', ''),
-            motto=meta.get('motto', ''),
-        )
-        issue.articles = split_into_articles(paras)
-        issues.append(issue)
+                current_issue = Issue(
+                    volume=meta['volume'],
+                    number=meta['number'],
+                    year=meta.get('year', 0),
+                    month=meta.get('month', 0),
+                    day=meta.get('day', 0),
+                    date_str=meta.get('date_str', ''),
+                    location=meta.get('location', ''),
+                    motto=meta.get('motto', ''),
+                )
+                issues.append(current_issue)
+        elif stype == 'content' and current_issue is not None:
+            current_issue.articles.extend(split_into_articles(paras))
 
     issues.sort(key=lambda i: (i.volume, i.number))
 
