@@ -228,7 +228,8 @@ def extract_plain_text(md_body: str) -> str:
 # Static HTML template (adapted from server.py for static file serving)
 # ---------------------------------------------------------------------------
 
-STATIC_TEMPLATE = r'''<!DOCTYPE html>
+STATIC_TEMPLATE = r'''
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1316,6 +1317,38 @@ STATIC_TEMPLATE = r'''<!DOCTYPE html>
             background: var(--color-border-light);
         }
 
+        .search-fields {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.15rem 0.6rem;
+            margin-bottom: 0.6rem;
+            font-size: 0.72rem;
+            color: var(--color-text-secondary);
+        }
+
+        .search-fields-label {
+            font-weight: 600;
+            font-size: 0.68rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--color-text-muted);
+        }
+
+        .search-fields label {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .search-fields input[type="checkbox"] {
+            margin: 0;
+            accent-color: var(--color-blue);
+        }
+
         .search-tips {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             font-size: 0.72rem;
@@ -1827,6 +1860,14 @@ STATIC_TEMPLATE = r'''<!DOCTYPE html>
                             <li>Prefix with <code>title:</code> or <code>author:</code></li>
                         </ul>
                     </details>
+                    <div class="search-fields" id="search-fields">
+                        <span class="search-fields-label">Search in:</span>
+                        <label><input type="checkbox" value="title" checked> Title</label>
+                        <label><input type="checkbox" value="author" checked> Author</label>
+                        <label><input type="checkbox" value="keywords" checked> Keywords</label>
+                        <label><input type="checkbox" value="categories" checked> Categories</label>
+                        <label><input type="checkbox" value="body" checked> Body</label>
+                    </div>
 
                     <div class="search-panel-count" id="panel-search-count" style="display:none"></div>
 
@@ -1897,6 +1938,7 @@ STATIC_TEMPLATE = r'''<!DOCTYPE html>
         // Advanced search state
         var currentSearchMode = 'and';   // 'and', 'phrase', 'or'
         var panelMatchedTerms = [];
+        var searchFields = { title: true, author: true, keywords: true, categories: true, body: true };
 
         // Highlight navigation state
         var highlightMatches = [];
@@ -1939,8 +1981,9 @@ STATIC_TEMPLATE = r'''<!DOCTYPE html>
             dom.yearTo = document.getElementById('year-to');
             dom.dateRangeClear = document.getElementById('date-range-clear');
 
-            // Search mode pills
+            // Search mode pills and field filters
             dom.searchPanelModes = document.getElementById('search-panel-modes');
+            dom.searchFields = document.getElementById('search-fields');
 
             // Highlight navigation
             dom.highlightNav = document.getElementById('highlight-nav');
@@ -2678,8 +2721,11 @@ STATIC_TEMPLATE = r'''<!DOCTYPE html>
                     continue;
                 }
 
-                // Plain term
-                clauses.push({ type: 'term', term: token.toLowerCase(), negate: negate });
+                // Plain term — strip trailing punctuation (.,;:!?)
+                var cleanToken = token.toLowerCase().replace(/[.,;:!?]+$/, '');
+                if (cleanToken) {
+                    clauses.push({ type: 'term', term: cleanToken, negate: negate });
+                }
             }
 
             return { mode: mode, clauses: clauses };
@@ -2755,51 +2801,47 @@ STATIC_TEMPLATE = r'''<!DOCTYPE html>
 
         function testClause(clause, titleText, authorText, metaText, bodyText) {
             // Returns: { matched: boolean, fieldScore: number }
-            switch (clause.type) {
-                case 'term':
-                    if (matchTerm(titleText, clause.term)) return { matched: true, fieldScore: 3 };
-                    if (matchTerm(authorText, clause.term)) return { matched: true, fieldScore: 2 };
-                    if (matchTerm(metaText, clause.term)) return { matched: true, fieldScore: 2 };
-                    if (matchTerm(bodyText, clause.term)) return { matched: true, fieldScore: 1 };
-                    return { matched: false, fieldScore: 0 };
+            // metaText contains keywords + categories; split for field filtering
+            var sf = searchFields;
 
-                case 'phrase':
-                    if (matchPhrase(titleText, clause.raw)) return { matched: true, fieldScore: 3 };
-                    if (matchPhrase(authorText, clause.raw)) return { matched: true, fieldScore: 2 };
-                    if (matchPhrase(metaText, clause.raw)) return { matched: true, fieldScore: 2 };
-                    if (matchPhrase(bodyText, clause.raw)) return { matched: true, fieldScore: 1 };
-                    return { matched: false, fieldScore: 0 };
-
-                case 'wildcard':
-                    if (matchWildcard(titleText, clause.prefix)) return { matched: true, fieldScore: 3 };
-                    if (matchWildcard(authorText, clause.prefix)) return { matched: true, fieldScore: 2 };
-                    if (matchWildcard(metaText, clause.prefix)) return { matched: true, fieldScore: 2 };
-                    if (matchWildcard(bodyText, clause.prefix)) return { matched: true, fieldScore: 1 };
-                    return { matched: false, fieldScore: 0 };
-
-                case 'proximity':
-                    // Proximity only makes sense in body/all text
-                    var allText = titleText + ' ' + bodyText;
-                    if (matchProximity(allText, clause.terms, clause.distance)) return { matched: true, fieldScore: 1 };
-                    return { matched: false, fieldScore: 0 };
-
-                case 'field':
-                    var fieldText = clause.field === 'title' ? titleText :
-                                    clause.field === 'author' ? authorText : bodyText;
-                    if (matchTerm(fieldText, clause.term)) return { matched: true, fieldScore: clause.field === 'title' ? 3 : clause.field === 'author' ? 2 : 1 };
-                    return { matched: false, fieldScore: 0 };
-
-                default:
-                    return { matched: false, fieldScore: 0 };
+            // For explicit field: clauses, ignore the checkbox filters
+            if (clause.type === 'field') {
+                var fieldText = clause.field === 'title' ? titleText :
+                                clause.field === 'author' ? authorText : bodyText;
+                if (matchTerm(fieldText, clause.term)) return { matched: true, fieldScore: clause.field === 'title' ? 3 : clause.field === 'author' ? 2 : 1 };
+                return { matched: false, fieldScore: 0 };
             }
+
+            if (clause.type === 'proximity') {
+                var parts = [];
+                if (sf.title) parts.push(titleText);
+                if (sf.body) parts.push(bodyText);
+                var allText = parts.join(' ');
+                if (allText && matchProximity(allText, clause.terms, clause.distance)) return { matched: true, fieldScore: 1 };
+                return { matched: false, fieldScore: 0 };
+            }
+
+            // Generic matching for term, phrase, wildcard
+            var matchFn, matchArg;
+            if (clause.type === 'term') { matchFn = matchTerm; matchArg = clause.term; }
+            else if (clause.type === 'phrase') { matchFn = matchPhrase; matchArg = clause.raw; }
+            else if (clause.type === 'wildcard') { matchFn = matchWildcard; matchArg = clause.prefix; }
+            else return { matched: false, fieldScore: 0 };
+
+            if (sf.title && matchFn(titleText, matchArg)) return { matched: true, fieldScore: 3 };
+            if (sf.author && matchFn(authorText, matchArg)) return { matched: true, fieldScore: 2 };
+            if (metaText && matchFn(metaText, matchArg)) return { matched: true, fieldScore: 2 };
+            if (sf.body && matchFn(bodyText, matchArg)) return { matched: true, fieldScore: 1 };
+            return { matched: false, fieldScore: 0 };
         }
 
         function matchArticle(article, parsedQuery, bodyText) {
             var titleText = (article.title || '').toLowerCase();
             var authorText = (article.author || '').toLowerCase();
-            var metaText = ((article.principles || []).join(' ') + ' ' +
-                (article.applications || []).join(' ') + ' ' +
-                (article.keywords || []).join(' ')).toLowerCase();
+            var metaParts = [];
+            if (searchFields.keywords) metaParts.push((article.keywords || []).join(' '));
+            if (searchFields.categories) metaParts.push((article.principles || []).join(' ') + ' ' + (article.applications || []).join(' '));
+            var metaText = metaParts.join(' ').toLowerCase();
 
             var clauses = parsedQuery.clauses;
             if (clauses.length === 0) return { matched: false, score: 0, matchedTerms: [] };
@@ -3588,6 +3630,13 @@ STATIC_TEMPLATE = r'''<!DOCTYPE html>
                 if (panelSearchQuery) executePanelSearch();
             });
 
+            // Search field checkbox events
+            dom.searchFields.addEventListener('change', function(e) {
+                if (e.target.type !== 'checkbox') return;
+                searchFields[e.target.value] = e.target.checked;
+                if (panelSearchQuery) executePanelSearch();
+            });
+
             // Highlight navigation events
             dom.highlightPrev.addEventListener('click', prevHighlight);
             dom.highlightNext.addEventListener('click', nextHighlight);
@@ -3634,6 +3683,7 @@ STATIC_TEMPLATE = r'''<!DOCTYPE html>
     </script>
 </body>
 </html>
+
 '''
 
 
