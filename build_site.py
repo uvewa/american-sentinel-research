@@ -510,7 +510,7 @@ STATIC_TEMPLATE = r'''
         }
 
         .sub-list.open {
-            max-height: 600px;
+            max-height: 2000px;
         }
 
         .sub-list .sidebar-link {
@@ -2111,12 +2111,52 @@ STATIC_TEMPLATE = r'''
             xhr.send();
         }
 
+        var yearIssueIndex = {}; // { "1886": { "v01n01": { date, volume, issue, count }, ... }, ... }
+
+        var MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        var MONTH_LONG = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+        function formatIssueLabel(issueInfo) {
+            var d = issueInfo.date;
+            var monthIdx = parseInt(d.substring(5, 7), 10) - 1;
+            if (d.length > 7) {
+                // Weekly: "Jan 1"
+                var day = parseInt(d.substring(8, 10), 10);
+                return MONTH_SHORT[monthIdx] + ' ' + day;
+            }
+            // Monthly: "January"
+            return MONTH_LONG[monthIdx];
+        }
+
+        function formatIssueLabelFromDate(dateStr) {
+            var monthIdx = parseInt(dateStr.substring(5, 7), 10) - 1;
+            if (dateStr.length > 7) {
+                var day = parseInt(dateStr.substring(8, 10), 10);
+                return MONTH_SHORT[monthIdx] + ' ' + day + ', ' + dateStr.substring(0, 4);
+            }
+            return MONTH_LONG[monthIdx] + ' ' + dateStr.substring(0, 4);
+        }
+
         function onCatalogLoaded() {
             // Build index
             articleById = {};
             for (var i = 0; i < catalog.articles.length; i++) {
                 var a = catalog.articles[i];
                 articleById[a.id] = a;
+            }
+
+            // Build year → issues index
+            yearIssueIndex = {};
+            for (var i = 0; i < catalog.articles.length; i++) {
+                var a = catalog.articles[i];
+                if (!a.date) continue;
+                var year = a.date.substring(0, 4);
+                var key = 'v' + (a.volume < 10 ? '0' : '') + a.volume + 'n' + (a.issue < 10 ? '0' : '') + a.issue;
+                if (!yearIssueIndex[year]) yearIssueIndex[year] = {};
+                if (!yearIssueIndex[year][key]) {
+                    yearIssueIndex[year][key] = { date: a.date, volume: a.volume, issue: a.issue, count: 0 };
+                }
+                yearIssueIndex[year][key].count++;
             }
 
             // Set total count
@@ -2133,33 +2173,56 @@ STATIC_TEMPLATE = r'''
             dom.loadingState.style.display = 'none';
             dom.listView.style.display = 'block';
 
-            // Handle initial route
-            handleRoute();
+            // Check if initial route has a search query
+            var initHash = window.location.hash.replace(/^#\/?/, '');
+            var hasInitialSearch = initHash.indexOf('search') !== -1;
 
-            // Eagerly load full-text search data in background
-            loadSearchData(null);
+            if (hasInitialSearch) {
+                // Load search data first so full-text results appear immediately
+                loadSearchData(function() {
+                    handleRoute();
+                });
+            } else {
+                handleRoute();
+                // Eagerly load full-text search data in background;
+                // re-render if a search became active while loading
+                loadSearchData(function() {
+                    if (activeFilter.search) renderListView();
+                });
+            }
         }
 
         /* ============================================================
            SIDEBAR RENDERING
            ============================================================ */
         function renderYearsNav() {
-            var yearCounts = {};
-            for (var i = 0; i < catalog.articles.length; i++) {
-                var d = catalog.articles[i].date;
-                if (d) {
-                    var year = d.substring(0, 4);
-                    yearCounts[year] = (yearCounts[year] || 0) + 1;
-                }
-            }
-
-            var years = Object.keys(yearCounts).sort();
+            var years = Object.keys(yearIssueIndex).sort();
             var html = '';
             for (var j = 0; j < years.length; j++) {
                 var y = years[j];
-                html += '<li><a class="sidebar-link" data-route="year/' + y + '" role="button" tabindex="0">' +
-                    '<span class="label">' + y + '</span>' +
-                    '<span class="count">' + yearCounts[y] + '</span></a></li>';
+                var issues = yearIssueIndex[y];
+                var issueKeys = Object.keys(issues).sort();
+                var yearCount = 0;
+                for (var k = 0; k < issueKeys.length; k++) yearCount += issues[issueKeys[k]].count;
+
+                html += '<li>';
+                html += '<a class="sidebar-link" data-route="year/' + y + '" role="button" tabindex="0">';
+                html += '<span class="expand-icon" id="arrow-year-' + y + '">&#9654;</span>';
+                html += '<span class="label">' + y + '</span>';
+                html += '<span class="count">' + yearCount + '</span>';
+                html += '</a>';
+
+                html += '<ul class="sub-list" id="sub-year-' + y + '">';
+                for (var k = 0; k < issueKeys.length; k++) {
+                    var iss = issues[issueKeys[k]];
+                    var issueLabel = formatIssueLabel(iss);
+                    html += '<li><a class="sidebar-link" data-route="issue/' + iss.date + '" role="button" tabindex="0">';
+                    html += '<span class="label">' + issueLabel + '</span>';
+                    html += '<span class="count">' + iss.count + '</span>';
+                    html += '</a></li>';
+                }
+                html += '</ul>';
+                html += '</li>';
             }
             dom.yearsNav.innerHTML = html;
         }
@@ -2292,8 +2355,8 @@ STATIC_TEMPLATE = r'''
         }
 
         function expandPrincipleGroup(principle) {
-            var allSubs = document.querySelectorAll('.sub-list');
-            var allArrows = document.querySelectorAll('.expand-icon');
+            var allSubs = dom.principlesNav.querySelectorAll('.sub-list');
+            var allArrows = dom.principlesNav.querySelectorAll('.expand-icon');
             for (var i = 0; i < allSubs.length; i++) {
                 allSubs[i].classList.remove('open');
             }
@@ -2305,6 +2368,27 @@ STATIC_TEMPLATE = r'''
             var arrow = document.getElementById('arrow-' + cssEscape(principle));
             if (subList) subList.classList.add('open');
             if (arrow) arrow.classList.add('open');
+        }
+
+        function expandYearGroup(year) {
+            var allSubs = dom.yearsNav.querySelectorAll('.sub-list');
+            var allArrows = dom.yearsNav.querySelectorAll('.expand-icon');
+            for (var i = 0; i < allSubs.length; i++) {
+                allSubs[i].classList.remove('open');
+            }
+            for (var j = 0; j < allArrows.length; j++) {
+                allArrows[j].classList.remove('open');
+            }
+
+            var subList = document.getElementById('sub-year-' + year);
+            var arrow = document.getElementById('arrow-year-' + year);
+            if (subList) subList.classList.add('open');
+            if (arrow) arrow.classList.add('open');
+        }
+
+        function expandYearForIssue(issueDate) {
+            var year = issueDate.substring(0, 4);
+            expandYearGroup(year);
         }
 
         function expandPrincipleGroupForApplication(appName) {
@@ -2365,6 +2449,10 @@ STATIC_TEMPLATE = r'''
             } else if (activeFilter.type === 'author') {
                 articles = articles.filter(function(a) {
                     return a.author === activeFilter.value;
+                });
+            } else if (activeFilter.type === 'issue') {
+                articles = articles.filter(function(a) {
+                    return a.date === activeFilter.value;
                 });
             }
 
@@ -2519,9 +2607,11 @@ STATIC_TEMPLATE = r'''
                     'year': 'Year',
                     'principle': 'Principle',
                     'application': 'Application',
-                    'author': 'Author'
+                    'author': 'Author',
+                    'issue': 'Issue'
                 }[activeFilter.type] || activeFilter.type;
-                parts.push(typeLabel + ': <span class="active-filter">' + escapeHtml(activeFilter.value) + '</span>');
+                var displayValue = activeFilter.type === 'issue' ? formatIssueLabelFromDate(activeFilter.value) : activeFilter.value;
+                parts.push(typeLabel + ': <span class="active-filter">' + escapeHtml(displayValue) + '</span>');
             }
 
             if (activeFilter.yearFrom || activeFilter.yearTo) {
@@ -3169,7 +3259,7 @@ STATIC_TEMPLATE = r'''
                         filter.yearFrom = val;
                     } else if (key === 'yearTo') {
                         filter.yearTo = val;
-                    } else if (key === 'year' || key === 'principle' || key === 'application' || key === 'author') {
+                    } else if (key === 'year' || key === 'principle' || key === 'application' || key === 'author' || key === 'issue') {
                         filter.type = key;
                         filter.value = val;
                     }
@@ -3184,7 +3274,7 @@ STATIC_TEMPLATE = r'''
 
             if (routeType === 'search') {
                 filter.search = routeValue;
-            } else if (routeType === 'year' || routeType === 'principle' || routeType === 'application' || routeType === 'author') {
+            } else if (routeType === 'year' || routeType === 'principle' || routeType === 'application' || routeType === 'author' || routeType === 'issue') {
                 filter.type = routeType;
                 filter.value = routeValue;
             }
@@ -3223,6 +3313,10 @@ STATIC_TEMPLATE = r'''
                     expandPrincipleGroup(activeFilter.value);
                 } else if (activeFilter.type === 'application') {
                     expandPrincipleGroupForApplication(activeFilter.value);
+                } else if (activeFilter.type === 'year') {
+                    expandYearGroup(activeFilter.value);
+                } else if (activeFilter.type === 'issue') {
+                    expandYearForIssue(activeFilter.value);
                 }
             } else {
                 setActiveNav('');
