@@ -140,12 +140,18 @@ def build_catalog(content_dir: Path) -> dict[str, Any]:
         else:
             date_str = str(date) if date else None
 
+        # Editorial articles without an explicit author get a virtual author name
+        author = frontmatter.get('author')
+        author_short = frontmatter.get('author_short')
+        if not author and frontmatter.get('attribution') == 'editorial':
+            author = 'Editorial Notes'
+
         article = {
             'id': article_id,
             'path': str(rel_path),
             'title': title,
-            'author': frontmatter.get('author'),
-            'author_short': frontmatter.get('author_short'),
+            'author': author,
+            'author_short': author_short,
             'date': date_str,
             'publication': frontmatter.get('publication'),
             'volume': frontmatter.get('volume'),

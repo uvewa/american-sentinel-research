@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Extract articles from IDML files into individual markdown files.
+Extract issue text from IDML files.
 
 IDML files are ZIP archives containing XML (Adobe InDesign Markup Language).
 This script reads the text content from Stories/*.xml, identifies issue
-and article boundaries by paragraph styles, and outputs individual .md
-files with YAML frontmatter.
+boundaries from metadata stories, and outputs one markdown text file per
+issue. Agents then process each issue file into individual articles.
 
 Usage:
     python extract_idml.py <idml_file> [--output-dir PATH] [--dry-run]
@@ -46,57 +46,20 @@ class Paragraph:
     def is_empty(self) -> bool:
         return not self.plain_text.strip()
 
-    @property
-    def is_separator(self) -> bool:
-        text = self.plain_text.strip()
-        return (
-            self.style in ('Normal Center', 'Thoughtbreak')
-            and bool(re.match(r'^[_*\-=~]{3,}$', text))
-        )
-
-
-@dataclass
-class Article:
-    """An extracted article."""
-    title: str
-    paragraphs: list[Paragraph] = field(default_factory=list)
-    author: str = ''
-    author_short: str = ''
-    attribution: str = ''  # explicit | reprint | editorial
-    original_publication: str = ''  # for reprints only
-
 
 @dataclass
 class Issue:
     """An issue of the publication."""
     volume: int = 0
     number: int = 0
-    date_str: str = ''  # e.g., "January, 1886" or "January 1, 1889"
+    date_str: str = ''
     year: int = 0
     month: int = 0
     day: int = 0
     location: str = ''
     motto: str = ''
-    articles: list[Article] = field(default_factory=list)
+    paragraphs: list[Paragraph] = field(default_factory=list)
 
-
-# --- Known author initials ---
-
-KNOWN_AUTHORS = {
-    'A. T. J.': ('Alonzo T. Jones', 'ATJ'),
-    'E. J. W.': ('Ellet J. Waggoner', 'EJW'),
-    'C. P. B.': ('C. P. Bollman', 'CPB'),
-    'W. H. M.': ('W. H. McKee', 'WHM'),
-    'W. A. B.': ('W. A. Blakely', 'WAB'),
-    'W. N. G.': ('W. N. Glenn', 'WNG'),
-    'J. H. W.': ('James H. Waggoner', 'JHW'),
-    'G. I. B.': ('George I. Butler', 'GIB'),
-    'U. S.': ('Uriah Smith', 'US'),
-    'S. N. H.': ('Stephen N. Haskell', 'SNH'),
-}
-
-# Reprint source pattern: —*Source Name*.  (optionally followed by footnote ref)
-REPRINT_RE = re.compile(r'—\*([^*]+)\*\.?\s*(\[\d+\])?\s*$')
 
 MONTH_NAMES = {
     'january': 1, 'february': 2, 'march': 3, 'april': 4,
@@ -152,13 +115,11 @@ def parse_story(xml_content: str) -> list[Paragraph]:
 
                 for child in csr:
                     if child.tag == 'Content' and child.text:
-                        # Clean up InDesign special characters
                         text = child.text
                         text = text.replace('\ufeff', '')  # BOM
                         text = text.replace('\u2028', '\n')  # line separator
                         text = text.replace('\u2029', '\n')  # paragraph separator
-                        # Remove soft hyphens used for line-break hints
-                        text = text.replace('\u00ad', '')
+                        text = text.replace('\u00ad', '')  # soft hyphen
                         text = text.replace('\u200b', '')  # zero-width space
 
                         if text:
@@ -171,16 +132,12 @@ def parse_story(xml_content: str) -> list[Paragraph]:
                             ))
 
                     elif child.tag == 'Br':
-                        # Line break = end of this paragraph, start a new one
                         if current_runs:
                             paragraphs.append(Paragraph(style=style, runs=list(current_runs)))
                             current_runs = []
                         else:
                             paragraphs.append(Paragraph(style=style, runs=[]))
 
-            # End of ParagraphStyleRange — if runs remain, they belong to this paragraph
-            # But don't flush yet; they might continue in the next CSR of the same PSR
-            # Actually, end of PSR means new paragraph style starts
             if current_runs:
                 paragraphs.append(Paragraph(style=style, runs=list(current_runs)))
                 current_runs = []
@@ -197,7 +154,6 @@ def classify_story(paragraphs: list[Paragraph]) -> str:
     heading_styles = {'Heading 1', 'Heading 2', 'Heading 2 Subtitle'}
     if styles & heading_styles:
         return 'content'
-    # Large stories with Normal text are likely content too
     if non_empty_count > 20:
         return 'content'
     return 'other'
@@ -224,7 +180,7 @@ def extract_stories(idml_path: Path) -> list[tuple[str, str, list[Paragraph]]]:
     return stories
 
 
-# --- Issue & Article Identification ---
+# --- Issue Identification ---
 
 def parse_volume_number(text: str) -> tuple[int, int]:
     """Parse 'Volume 1 — Number 12' into (1, 12)."""
@@ -250,7 +206,6 @@ def parse_date(text: str) -> tuple[int, int, int]:
     if year_match:
         year = int(year_match.group(1))
 
-    # Try to extract day: "January 1, 1889" or "October 16, 1889"
     day_match = re.search(r'(\w+)\s+(\d{1,2}),?\s+\d{4}', text.strip())
     if day_match:
         day = int(day_match.group(2))
@@ -282,20 +237,20 @@ def extract_issue_meta(paragraphs: list[Paragraph]) -> dict:
 
 
 def identify_issues(stories: list[tuple[str, str, list[Paragraph]]]) -> list[Issue]:
-    """Assign content stories to issues by document order.
+    """Assign content stories to issues.
 
-    Walk through all stories in document order. When a meta story (issue
-    declaration) is encountered, start a new issue. Any content story that
-    follows belongs to that issue until the next meta story appears.
+    Collects meta stories (issue declarations) and content stories,
+    sorts each group, and pairs them 1:1 by position. Empty content
+    stories (like a bare "Contents" heading) are excluded from pairing.
     """
-    issues = []
-    current_issue = None
+    meta_list = []   # [(index, Issue)]
+    content_list = []  # [(index, paragraphs)]
 
-    for path, stype, paras in stories:
+    for i, (path, stype, paras) in enumerate(stories):
         if stype == 'meta':
             meta = extract_issue_meta(paras)
             if 'volume' in meta and 'number' in meta:
-                current_issue = Issue(
+                issue = Issue(
                     volume=meta['volume'],
                     number=meta['number'],
                     year=meta.get('year', 0),
@@ -305,21 +260,69 @@ def identify_issues(stories: list[tuple[str, str, list[Paragraph]]]) -> list[Iss
                     location=meta.get('location', ''),
                     motto=meta.get('motto', ''),
                 )
-                issues.append(current_issue)
-        elif stype == 'content' and current_issue is not None:
-            current_issue.articles.extend(split_into_articles(paras))
+                meta_list.append((i, issue))
+        elif stype == 'content':
+            # Keep all content — but separate truly empty from substantial
+            has_text = any(not p.is_empty for p in paras)
+            if has_text:
+                content_list.append((i, paras))
 
+    if not meta_list:
+        return []
+
+    # Sort meta by volume+number, content by document index
+    meta_list.sort(key=lambda x: (x[1].volume, x[1].number))
+    content_list.sort(key=lambda x: x[0])
+
+    # Separate substantial content (has non-heading text) from empty stubs
+    substantial = []
+    stubs = []
+    for ci, paras in content_list:
+        has_body = any(not p.is_empty and p.style not in
+                       ('Heading 1', 'Heading 2', 'Heading 2 Subtitle')
+                       for p in paras)
+        if has_body:
+            substantial.append((ci, paras))
+        else:
+            stubs.append((ci, paras))
+
+    if len(meta_list) == len(substantial):
+        # 1:1 pairing
+        for (mi, issue), (ci, paras) in zip(meta_list, substantial):
+            issue.paragraphs = paras
+    elif len(meta_list) == len(content_list):
+        # All content matches — pair directly
+        for (mi, issue), (ci, paras) in zip(meta_list, content_list):
+            issue.paragraphs = paras
+    else:
+        print(f'  Note: {len(meta_list)} meta vs {len(content_list)} content '
+              f'({len(substantial)} substantial) — using sequential walk')
+        all_events = []
+        for mi, issue in meta_list:
+            all_events.append((mi, 'meta', issue))
+        for ci, paras in content_list:
+            all_events.append((ci, 'content', paras))
+        all_events.sort(key=lambda x: x[0])
+
+        current_issue = None
+        for idx, etype, data in all_events:
+            if etype == 'meta':
+                current_issue = data
+            elif current_issue is not None:
+                current_issue.paragraphs.extend(data)
+
+    issues = [issue for _, issue in meta_list]
     issues.sort(key=lambda i: (i.volume, i.number))
 
-    # Merge issues with the same volume+number (e.g., Part 1 / Part 2 splits)
+    # Merge issues with the same volume+number
     merged = []
     for issue in issues:
         if merged and merged[-1].volume == issue.volume and merged[-1].number == issue.number:
-            merged[-1].articles.extend(issue.articles)
+            merged[-1].paragraphs.extend(issue.paragraphs)
         else:
             merged.append(issue)
 
-    # Fix year typos: if most issues share the same year, correct outliers
+    # Fix year typos
     if len(merged) > 2:
         from collections import Counter
         year_counts = Counter(iss.year for iss in merged if iss.year > 0)
@@ -334,131 +337,6 @@ def identify_issues(stories: list[tuple[str, str, list[Paragraph]]]) -> list[Iss
                     iss.year = dominant_year
 
     return merged
-
-
-def split_into_articles(paragraphs: list[Paragraph]) -> list[Article]:
-    """Split paragraphs into articles at Heading boundaries."""
-    articles = []
-    current_article = None
-
-    # Styles that indicate a new article
-    heading_styles = {'Heading 1', 'Heading 2', 'Heading 2 Subtitle'}
-
-    for para in paragraphs:
-        if para.style in heading_styles and not para.is_empty:
-            # Start a new article
-            if current_article:
-                finalize_article(current_article)
-                articles.append(current_article)
-
-            title = para.plain_text.strip()
-            # Remove surrounding quotes if present
-            if title.startswith('"') and title.endswith('"'):
-                title = title[1:-1]
-            elif title.startswith('\u201c') and title.endswith('\u201d'):
-                title = title[1:-1]
-
-            current_article = Article(title=title)
-
-        elif current_article is not None:
-            # Skip separators between articles
-            if para.is_separator:
-                continue
-            # Skip empty paragraphs at the start of an article
-            if not current_article.paragraphs and para.is_empty:
-                continue
-            current_article.paragraphs.append(para)
-
-        # If no article started yet, these are pre-article content (quotes, mottos)
-        # We skip those since they're part of the issue decoration
-
-    # Finalize last article
-    if current_article:
-        finalize_article(current_article)
-        articles.append(current_article)
-
-    return articles
-
-
-def finalize_article(article: Article):
-    """Detect author, attribution type, and clean up trailing empty paragraphs."""
-    # Remove trailing empty paragraphs
-    while article.paragraphs and article.paragraphs[-1].is_empty:
-        article.paragraphs.pop()
-
-    # Remove trailing separators
-    while article.paragraphs and article.paragraphs[-1].is_separator:
-        article.paragraphs.pop()
-
-    # Check last few paragraphs for author attribution
-    for i in range(min(3, len(article.paragraphs)), 0, -1):
-        para = article.paragraphs[-i]
-        text = para.plain_text.strip()
-
-        # Check if it's a known author initials pattern
-        if para.style in ('Reference Right', 'Reference Left', 'Reference Center', 'Author'):
-            article.author_short = text.rstrip('.')
-            if text in KNOWN_AUTHORS:
-                article.author, article.author_short = KNOWN_AUTHORS[text]
-            article.paragraphs = article.paragraphs[:-i]
-            break
-
-        # Check for initials-like patterns at end (e.g., "A. T. J." or "E. J. W.")
-        if len(text) < 30 and re.match(r'^[A-Z]\.\s*[A-Z]\.\s*[A-Z]\.?$', text):
-            if text in KNOWN_AUTHORS:
-                article.author, article.author_short = KNOWN_AUTHORS[text]
-            else:
-                initials = text.replace('.', '').replace(' ', '')
-                article.author_short = initials
-            article.paragraphs = article.paragraphs[:-i]
-            break
-
-        # Also check for author names as last line of Normal style
-        if para.style == 'Normal' and len(text) < 50 and not text.endswith('.'):
-            # Could be an author name - check if it looks like one
-            if re.match(r'^[A-Z][a-z]+(\s+[A-Z]\.?\s*)+[A-Za-z]+$', text):
-                article.author = text
-                article.paragraphs = article.paragraphs[:-i]
-                break
-
-    # Detect attribution type
-    _detect_attribution(article)
-
-
-def _detect_attribution(article: Article):
-    """Set attribution type based on author and body content."""
-    # 1. Explicit — author detected
-    if article.author or article.author_short:
-        article.attribution = 'explicit'
-        return
-
-    # 2. Check for reprint pattern on last non-empty paragraph
-    for para in reversed(article.paragraphs):
-        text = para.plain_text.strip()
-        if not text:
-            continue
-        m = REPRINT_RE.search(text)
-        if m:
-            # Edge case: if 3+ substantive paragraphs, it's editorial
-            substantive = sum(
-                1 for p in article.paragraphs
-                if p.plain_text.strip()
-                and not p.plain_text.strip().startswith('#')
-                and p.style not in ('Quotation', 'Quotation Noindent',
-                                    'Poem', 'Poem Noindent')
-                and len(p.plain_text.strip()) > 40
-            )
-            if substantive >= 3:
-                article.attribution = 'editorial'
-            else:
-                article.attribution = 'reprint'
-                article.original_publication = m.group(1).strip()
-        else:
-            article.attribution = 'editorial'
-        return
-
-    # 3. Fallback
-    article.attribution = 'editorial'
 
 
 # --- Markdown Formatting ---
@@ -491,14 +369,11 @@ def format_paragraph(para: Paragraph) -> str:
 
     style = para.style
 
-    if style in ('Heading 1',):
+    if style in ('Heading 1', 'Heading 2', 'Heading 2 Subtitle'):
         return f'# {text}'
-    elif style in ('Heading 2', 'Heading 2 Subtitle'):
-        return f'# {text}'  # Article titles are H1 in individual files
     elif style in ('Heading 3',):
         return f'## {text}'
     elif style.startswith('Quotation'):
-        # Split multi-line quotes
         lines = text.split('\n')
         return '\n'.join(f'> {line}' for line in lines)
     elif style in ('Poem', 'Poem Noindent'):
@@ -507,55 +382,27 @@ def format_paragraph(para: Paragraph) -> str:
         if re.match(r'^[_*\-=~]{3,}$', text):
             return '---'
         return text
-    elif style in ('SEPARATOR',):
-        return '---'
+    elif style in ('SEPARATOR', 'Thoughtbreak'):
+        if re.match(r'^[_*\-=~]{3,}$', text):
+            return '---'
+        return text
+    elif style in ('Reference Right', 'Reference Left', 'Reference Center', 'Author'):
+        return text
     else:
         return text
 
 
-def article_to_markdown(article: Article, issue: Issue) -> str:
-    """Convert an article to a complete markdown file with frontmatter."""
+def issue_to_markdown(issue: Issue) -> str:
+    """Convert an issue's full text to a single markdown file."""
     lines = []
 
-    # YAML frontmatter
-    lines.append('---')
-    lines.append(f'title: "{article.title}"')
-    if article.author:
-        lines.append(f'author: "{article.author}"')
-    if article.author_short:
-        lines.append(f'author_short: "{article.author_short}"')
-
-    # Date
-    if issue.year and issue.month and issue.day:
-        lines.append(f'date: {issue.year}-{issue.month:02d}-{issue.day:02d}')
-    elif issue.year and issue.month:
-        lines.append(f'date: {issue.year}-{issue.month:02d}-01')
-    elif issue.year:
-        lines.append(f'date: {issue.year}-01-01')
-
-    lines.append(f'publication: "American Sentinel"')
-    lines.append(f'volume: {issue.volume}')
-    lines.append(f'issue: {issue.number}')
-    if article.attribution:
-        lines.append(f'attribution: "{article.attribution}"')
-    if article.original_publication:
-        lines.append(f'original_publication: "{article.original_publication}"')
-    lines.append('---')
-    lines.append('')
-
-    # Article title
-    lines.append(f'# {article.title}')
-    lines.append('')
-
-    # Body
     prev_was_quote = False
-    for para in article.paragraphs:
+    for para in issue.paragraphs:
         formatted = format_paragraph(para)
         if not formatted:
             continue
 
         is_quote = formatted.startswith('>')
-        # Add blank line between paragraphs, but not between consecutive blockquotes
         if prev_was_quote and is_quote:
             lines.append(formatted)
         else:
@@ -564,76 +411,64 @@ def article_to_markdown(article: Article, issue: Issue) -> str:
 
         prev_was_quote = is_quote
 
-    # Author attribution at end
-    if article.author_short and not article.author:
-        lines.append(f'{article.author_short}')
-        lines.append('')
-    elif article.author:
-        lines.append(f'{article.author_short or article.author}')
-        lines.append('')
-
     return '\n'.join(lines)
 
 
-def slugify(text: str) -> str:
-    """Convert a title to a filename-safe slug."""
-    # Remove quotes and special chars
-    text = re.sub(r'["\'\u201c\u201d\u2018\u2019]', '', text)
-    # Replace spaces and special chars with hyphens
-    text = re.sub(r'[^a-zA-Z0-9]+', '-', text)
-    # Clean up
-    text = text.strip('-')
-    # Truncate to reasonable length
-    if len(text) > 60:
-        text = text[:60].rstrip('-')
-    return text
+def format_date(issue: Issue) -> str:
+    """Format issue date as YYYY-MM-DD."""
+    if issue.year and issue.month and issue.day:
+        return f'{issue.year}-{issue.month:02d}-{issue.day:02d}'
+    elif issue.year and issue.month:
+        return f'{issue.year}-{issue.month:02d}'
+    elif issue.year:
+        return f'{issue.year}'
+    return 'unknown'
 
 
-def write_issue_files(issue: Issue, output_dir: Path, dry_run: bool = False):
-    """Write all article files for an issue."""
-    # Build folder name
-    if issue.month and issue.day:
-        folder_name = f'{issue.year}-{issue.month:02d}-{issue.day:02d}_v{issue.volume:02d}n{issue.number:02d}'
-    elif issue.month:
-        folder_name = f'{issue.year}-{issue.month:02d}_v{issue.volume:02d}n{issue.number:02d}'
-    else:
-        folder_name = f'{issue.year}_v{issue.volume:02d}n{issue.number:02d}'
+def write_issue_dump(issue: Issue, output_dir: Path, dry_run: bool = False):
+    """Write a single text file for an issue."""
+    date = format_date(issue)
+    filename = f'v{issue.volume:02d}n{issue.number:02d}_{date}.md'
+    output_path = output_dir / filename
 
-    issue_dir = output_dir / str(issue.year) / folder_name
+    # Count non-empty paragraphs and headings for summary
+    non_empty = sum(1 for p in issue.paragraphs if not p.is_empty)
+    headings = [p.plain_text.strip() for p in issue.paragraphs
+                if p.style in ('Heading 1', 'Heading 2', 'Heading 2 Subtitle') and not p.is_empty]
 
     if dry_run:
-        print(f'\n  Issue: Volume {issue.volume}, Number {issue.number} ({issue.date_str})')
-        print(f'  Output: {issue_dir}')
-        print(f'  Articles: {len(issue.articles)}')
-        for i, article in enumerate(issue.articles, 1):
-            author_str = f' [{article.author_short or article.author}]' if (article.author_short or article.author) else ''
-            print(f'    {i:02d}. {article.title}{author_str}')
+        print(f'  v{issue.volume:02d}n{issue.number:02d} ({issue.date_str}): '
+              f'{non_empty} paragraphs, {len(headings)} headings → {filename}')
+        for h in headings:
+            print(f'    - {h}')
         return
 
-    issue_dir.mkdir(parents=True, exist_ok=True)
+    # Build header with issue metadata
+    header = []
+    header.append(f'ISSUE: Volume {issue.volume}, Number {issue.number}')
+    header.append(f'DATE: {date}')
+    header.append(f'DATE_STR: {issue.date_str}')
+    if issue.location:
+        header.append(f'LOCATION: {issue.location}')
+    if issue.motto:
+        header.append(f'MOTTO: {issue.motto}')
+    header.append('')
+    header.append('---')
+    header.append('')
 
-    # Write masthead
-    masthead_content = f'# The American Sentinel.\n\n'
-    masthead_content += f'VOLUME {issue.volume}. | {issue.location}, {issue.date_str.upper()} | NUMBER {issue.number}.\n'
-    (issue_dir / '00_masthead.md').write_text(masthead_content, encoding='utf-8')
+    body = issue_to_markdown(issue)
+    content = '\n'.join(header) + body
 
-    # Write articles
-    for i, article in enumerate(issue.articles, 1):
-        slug = slugify(article.title)
-        author_suffix = f'_{article.author_short}' if article.author_short else ''
-        filename = f'{i:02d}_{slug}{author_suffix}.md'
-
-        content = article_to_markdown(article, issue)
-        (issue_dir / filename).write_text(content, encoding='utf-8')
-
-    print(f'  Volume {issue.volume}, Number {issue.number}: {len(issue.articles)} articles -> {issue_dir}')
+    output_path.write_text(content, encoding='utf-8')
+    print(f'  v{issue.volume:02d}n{issue.number:02d}: {non_empty} paragraphs, '
+          f'{len(headings)} headings → {filename}')
 
 
 # --- Main ---
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Extract articles from IDML files into markdown'
+        description='Extract issue text from IDML files'
     )
     parser.add_argument(
         'idml_file',
@@ -643,8 +478,8 @@ def main():
     parser.add_argument(
         '--output-dir',
         type=Path,
-        default=Path.home() / 'Documents/PUBLICAR/APL/English/American Sentinel (Religious Freedom)/0. American Sentinel/2. Transcribed',
-        help='Output directory for transcribed files'
+        default=None,
+        help='Output directory for issue text files (default: /tmp/idml_issues/<year>)'
     )
     parser.add_argument(
         '--dry-run',
@@ -659,9 +494,6 @@ def main():
         sys.exit(1)
 
     print(f'Extracting from: {args.idml_file.name}')
-    print(f'Output to: {args.output_dir}')
-    if args.dry_run:
-        print('(DRY RUN - no files will be written)')
 
     # Extract all stories
     print('\nParsing IDML...')
@@ -675,14 +507,24 @@ def main():
     issues = identify_issues(stories)
     print(f'  Found {len(issues)} issues')
 
-    # Write output
-    print('\nExtracting articles:')
-    total_articles = 0
-    for issue in issues:
-        write_issue_files(issue, args.output_dir, dry_run=args.dry_run)
-        total_articles += len(issue.articles)
+    if not issues:
+        print('No issues found.')
+        sys.exit(1)
 
-    print(f'\nDone! {total_articles} articles from {len(issues)} issues.')
+    # Determine output directory
+    year = issues[0].year
+    output_dir = args.output_dir or Path(f'/tmp/idml_issues/{year}')
+
+    if not args.dry_run:
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+    print(f'\nOutput: {output_dir}')
+    print(f'Writing issue dumps:')
+
+    for issue in issues:
+        write_issue_dump(issue, output_dir, dry_run=args.dry_run)
+
+    print(f'\nDone! {len(issues)} issue files.')
 
 
 if __name__ == '__main__':

@@ -412,13 +412,14 @@ def process_issue(issue_num, dry_run=False):
         for i, art in enumerate(articles, 1):
             author_name, author_short, attribution, orig_pub = detect_author_from_text(art['text'])
             if art.get('explicit_author'):
-                author_name = art['explicit_author']
-                # Try to find initials
-                for sig, (fn, ini) in KNOWN_AUTHORS.items():
-                    if fn == author_name or fn.lower() == author_name.lower():
-                        author_short = ini
-                        break
-                attribution = 'explicit'
+                candidate = art['explicit_author']
+                if not re.search(r'\d', candidate) and ',' not in candidate:
+                    author_name = candidate
+                    for sig, (fn, ini) in KNOWN_AUTHORS.items():
+                        if fn == author_name or fn.lower() == author_name.lower():
+                            author_short = ini
+                            break
+                    attribution = 'explicit'
             suffix = f'_{author_short}' if author_short else ''
             fname = f'{i:02d}_{slugify(art["title"])}{suffix}.md'
             print(f"    {fname}")
@@ -439,18 +440,23 @@ def process_issue(issue_num, dry_run=False):
         # Detect author
         author_name, author_short, attribution, orig_pub = detect_author_from_text(art['text'])
 
-        # Override with explicit author from dump if present
+        # Override with explicit author from dump if present,
+        # but validate it's actually a person's name (not a dateline/location)
         if art.get('explicit_author'):
-            author_name = art['explicit_author']
-            for sig, (fn, ini) in KNOWN_AUTHORS.items():
-                if fn == author_name or fn.lower() == author_name.lower():
-                    author_short = ini
-                    break
-            else:
-                # Unknown author — use initials from name
-                parts = author_name.split()
-                author_short = ''.join(p[0] for p in parts if p[0].isupper())
-            attribution = 'explicit'
+            candidate = art['explicit_author']
+            # Reject if it contains digits (datelines like "Oakland, Dec. 26, 1889")
+            # or commas (locations like "New York, N. Y.")
+            if not re.search(r'\d', candidate) and ',' not in candidate:
+                author_name = candidate
+                for sig, (fn, ini) in KNOWN_AUTHORS.items():
+                    if fn == author_name or fn.lower() == author_name.lower():
+                        author_short = ini
+                        break
+                else:
+                    # Unknown author — use initials from name
+                    parts = author_name.split()
+                    author_short = ''.join(p[0] for p in parts if p[0].isupper())
+                attribution = 'explicit'
 
         # Build filename
         suffix = f'_{author_short}' if author_short else ''

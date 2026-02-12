@@ -2599,7 +2599,7 @@ STATIC_TEMPLATE = r'''
             // Search snippet for body-text matches
             var snippetHtml = '';
             if (currentSearchQuery && searchData) {
-                var snippet = getSearchSnippet(article.id, currentSearchQuery);
+                var snippet = getSearchSnippet(article.id, currentSearchQuery.trim().split(/\s+/));
                 if (snippet) {
                     snippetHtml = '<div class="article-card-snippet">' + snippet + '</div>';
                 }
