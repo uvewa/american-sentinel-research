@@ -2123,59 +2123,71 @@
             }
         }
 
-        function expandPrincipleGroup(principle) {
-            var subList = document.getElementById('sub-' + cssEscape(principle));
-            var arrow = document.getElementById('arrow-' + cssEscape(principle));
-            var isOpen = subList && subList.classList.contains('open');
-
+        // openPrincipleGroup: always opens the group (used by handleRoute, application nav)
+        function openPrincipleGroup(principle) {
             var allSubs = dom.principlesNav.querySelectorAll('.sub-list');
             var allArrows = dom.principlesNav.querySelectorAll('.expand-icon');
-            for (var i = 0; i < allSubs.length; i++) {
-                allSubs[i].classList.remove('open');
-            }
-            for (var j = 0; j < allArrows.length; j++) {
-                allArrows[j].classList.remove('open');
-            }
+            for (var i = 0; i < allSubs.length; i++) allSubs[i].classList.remove('open');
+            for (var j = 0; j < allArrows.length; j++) allArrows[j].classList.remove('open');
 
-            if (!isOpen) {
-                if (subList) subList.classList.add('open');
-                if (arrow) arrow.classList.add('open');
+            var subList = document.getElementById('sub-' + cssEscape(principle));
+            var arrow = document.getElementById('arrow-' + cssEscape(principle));
+            if (subList) subList.classList.add('open');
+            if (arrow) arrow.classList.add('open');
+        }
+
+        // togglePrincipleGroup: toggles open/closed (used only by same-route click handler)
+        function togglePrincipleGroup(principle) {
+            var subList = document.getElementById('sub-' + cssEscape(principle));
+            var isOpen = subList && subList.classList.contains('open');
+            if (isOpen) {
+                subList.classList.remove('open');
+                var arrow = document.getElementById('arrow-' + cssEscape(principle));
+                if (arrow) arrow.classList.remove('open');
+            } else {
+                openPrincipleGroup(principle);
             }
         }
 
-        function expandYearGroup(year) {
-            var subList = document.getElementById('sub-year-' + year);
-            var arrow = document.getElementById('arrow-year-' + year);
-            var isOpen = subList && subList.classList.contains('open');
-
+        // openYearGroup: always opens the group (used by handleRoute, issue nav)
+        function openYearGroup(year) {
             var allSubs = dom.yearsNav.querySelectorAll('.sub-list');
             var allArrows = dom.yearsNav.querySelectorAll('.expand-icon');
-            for (var i = 0; i < allSubs.length; i++) {
-                allSubs[i].classList.remove('open');
-            }
-            for (var j = 0; j < allArrows.length; j++) {
-                allArrows[j].classList.remove('open');
-            }
+            for (var i = 0; i < allSubs.length; i++) allSubs[i].classList.remove('open');
+            for (var j = 0; j < allArrows.length; j++) allArrows[j].classList.remove('open');
 
-            if (!isOpen) {
-                if (subList) subList.classList.add('open');
-                if (arrow) arrow.classList.add('open');
+            var subList = document.getElementById('sub-year-' + year);
+            var arrow = document.getElementById('arrow-year-' + year);
+            if (subList) subList.classList.add('open');
+            if (arrow) arrow.classList.add('open');
+        }
+
+        // toggleYearGroup: toggles open/closed (used only by same-route click handler)
+        function toggleYearGroup(year) {
+            var subList = document.getElementById('sub-year-' + year);
+            var isOpen = subList && subList.classList.contains('open');
+            if (isOpen) {
+                subList.classList.remove('open');
+                var arrow = document.getElementById('arrow-year-' + year);
+                if (arrow) arrow.classList.remove('open');
+            } else {
+                openYearGroup(year);
             }
         }
 
-        function expandYearForIssue(issueDate) {
+        function openYearForIssue(issueDate) {
             var year = issueDate.substring(0, 4);
-            expandYearGroup(year);
+            openYearGroup(year);
         }
 
-        function expandPrincipleGroupForApplication(appName) {
+        function openPrincipleGroupForApplication(appName) {
             var appsByPrinciple = catalog.taxonomy.applications || {};
             var principles = Object.keys(appsByPrinciple);
             for (var i = 0; i < principles.length; i++) {
                 var apps = appsByPrinciple[principles[i]];
                 for (var j = 0; j < apps.length; j++) {
                     if (apps[j] === appName) {
-                        expandPrincipleGroup(principles[i]);
+                        openPrincipleGroup(principles[i]);
                         return;
                     }
                 }
@@ -3087,13 +3099,13 @@
                 var route = activeFilter.type + '/' + encodeHashParam(activeFilter.value);
                 setActiveNav(route);
                 if (activeFilter.type === 'principle') {
-                    expandPrincipleGroup(activeFilter.value);
+                    openPrincipleGroup(activeFilter.value);
                 } else if (activeFilter.type === 'application') {
-                    expandPrincipleGroupForApplication(activeFilter.value);
+                    openPrincipleGroupForApplication(activeFilter.value);
                 } else if (activeFilter.type === 'year') {
-                    expandYearGroup(activeFilter.value);
+                    openYearGroup(activeFilter.value);
                 } else if (activeFilter.type === 'issue') {
-                    expandYearForIssue(activeFilter.value);
+                    openYearForIssue(activeFilter.value);
                 }
             } else {
                 setActiveNav('');
@@ -3233,6 +3245,18 @@
                         dom.yearTo.value = '';
                         updateSearchClearVisibility();
                         updateDateRangeClearVisibility();
+                    }
+
+                    // If clicking the same route, toggle expand/collapse directly
+                    // (hashchange won't fire when hash doesn't change)
+                    var currentHash = window.location.hash.replace(/^#\/?/, '');
+                    if (route === currentHash) {
+                        if (route.indexOf('year/') === 0) {
+                            toggleYearGroup(route.substring(5));
+                        } else if (route.indexOf('principle/') === 0) {
+                            togglePrincipleGroup(decodeHashParam(route.substring(10)));
+                        }
+                        return;
                     }
 
                     setHash(route);
