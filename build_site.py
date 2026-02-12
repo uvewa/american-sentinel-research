@@ -2355,6 +2355,10 @@ STATIC_TEMPLATE = r'''
         }
 
         function expandPrincipleGroup(principle) {
+            var subList = document.getElementById('sub-' + cssEscape(principle));
+            var arrow = document.getElementById('arrow-' + cssEscape(principle));
+            var isOpen = subList && subList.classList.contains('open');
+
             var allSubs = dom.principlesNav.querySelectorAll('.sub-list');
             var allArrows = dom.principlesNav.querySelectorAll('.expand-icon');
             for (var i = 0; i < allSubs.length; i++) {
@@ -2364,13 +2368,17 @@ STATIC_TEMPLATE = r'''
                 allArrows[j].classList.remove('open');
             }
 
-            var subList = document.getElementById('sub-' + cssEscape(principle));
-            var arrow = document.getElementById('arrow-' + cssEscape(principle));
-            if (subList) subList.classList.add('open');
-            if (arrow) arrow.classList.add('open');
+            if (!isOpen) {
+                if (subList) subList.classList.add('open');
+                if (arrow) arrow.classList.add('open');
+            }
         }
 
         function expandYearGroup(year) {
+            var subList = document.getElementById('sub-year-' + year);
+            var arrow = document.getElementById('arrow-year-' + year);
+            var isOpen = subList && subList.classList.contains('open');
+
             var allSubs = dom.yearsNav.querySelectorAll('.sub-list');
             var allArrows = dom.yearsNav.querySelectorAll('.expand-icon');
             for (var i = 0; i < allSubs.length; i++) {
@@ -2380,10 +2388,10 @@ STATIC_TEMPLATE = r'''
                 allArrows[j].classList.remove('open');
             }
 
-            var subList = document.getElementById('sub-year-' + year);
-            var arrow = document.getElementById('arrow-year-' + year);
-            if (subList) subList.classList.add('open');
-            if (arrow) arrow.classList.add('open');
+            if (!isOpen) {
+                if (subList) subList.classList.add('open');
+                if (arrow) arrow.classList.add('open');
+            }
         }
 
         function expandYearForIssue(issueDate) {
