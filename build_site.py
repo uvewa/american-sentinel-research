@@ -2471,11 +2471,11 @@ STATIC_TEMPLATE = r'''
             var prefix = start > 0 ? '&hellip;' : '';
             var suffix = end < text.length ? '&hellip;' : '';
 
-            // Highlight all matched terms in snippet
+            // Highlight all matched terms in snippet (single pass to avoid tag corruption)
             var escapedSnippet = escapeHtml(snippet);
-            for (var p = 0; p < patterns.length; p++) {
-                var re = new RegExp('(' + patterns[p] + ')', 'gi');
-                escapedSnippet = escapedSnippet.replace(re, '<span class="search-highlight">$1</span>');
+            if (patterns.length > 0) {
+                var combinedRe = new RegExp('(' + patterns.join('|') + ')', 'gi');
+                escapedSnippet = escapedSnippet.replace(combinedRe, '<span class="search-highlight">$1</span>');
             }
 
             return prefix + escapedSnippet + suffix;
