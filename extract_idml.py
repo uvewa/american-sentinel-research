@@ -70,20 +70,49 @@ MONTH_NAMES = {
 
 # --- IDML Parsing ---
 
-def get_story_order(idml_zip: zipfile.ZipFile) -> list[str]:
-    """Get story file paths in document order from designmap.xml."""
+def get_spread_order(idml_zip: zipfile.ZipFile) -> list[str]:
+    """Get spread file paths in document order from designmap.xml."""
     dm_content = idml_zip.read('designmap.xml').decode('utf-8')
     root = ET.fromstring(dm_content)
 
     ns = 'http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging'
-    story_paths = []
+    spread_paths = []
     for elem in root:
-        if elem.tag == f'{{{ns}}}Story':
+        if elem.tag == f'{{{ns}}}Spread':
             src = elem.get('src')
             if src:
-                story_paths.append(src)
+                spread_paths.append(src)
 
-    return story_paths
+    return spread_paths
+
+
+def get_story_order_from_spreads(idml_zip: zipfile.ZipFile) -> list[str]:
+    """Get story IDs in physical page order by walking Spreads.
+
+    Spreads represent physical pages in document order. Each Spread
+    contains TextFrames that reference Stories via ParentStory.
+    Walking Spreads in designmap order gives the correct physical
+    sequence of all content.
+    """
+    spread_paths = get_spread_order(idml_zip)
+    seen = set()
+    ordered_story_ids = []
+
+    for spread_path in spread_paths:
+        try:
+            spread_xml = idml_zip.read(spread_path).decode('utf-8')
+        except KeyError:
+            continue
+        sroot = ET.fromstring(spread_xml)
+        for elem in sroot.iter():
+            if 'TextFrame' in elem.tag:
+                story_id = elem.get('ParentStory')
+                if story_id and story_id not in seen:
+                    seen.add(story_id)
+                    ordered_story_ids.append(story_id)
+
+    # Convert story IDs to file paths
+    return [f'Stories/Story_{sid}.xml' for sid in ordered_story_ids]
 
 
 def parse_story(xml_content: str) -> list[Paragraph]:
@@ -160,11 +189,16 @@ def classify_story(paragraphs: list[Paragraph]) -> str:
 
 
 def extract_stories(idml_path: Path) -> list[tuple[str, str, list[Paragraph]]]:
-    """Extract all stories from IDML, returning (path, type, paragraphs) tuples."""
+    """Extract all stories from IDML in physical page order.
+
+    Uses Spread sequence from designmap.xml to determine the correct
+    order of stories. This is the ONLY reliable way to map content
+    to issues — never use story index or arbitrary pairing.
+    """
     stories = []
 
     with zipfile.ZipFile(idml_path, 'r') as z:
-        story_paths = get_story_order(z)
+        story_paths = get_story_order_from_spreads(z)
 
         for story_path in story_paths:
             if not story_path.startswith('Stories/'):
@@ -237,20 +271,23 @@ def extract_issue_meta(paragraphs: list[Paragraph]) -> dict:
 
 
 def identify_issues(stories: list[tuple[str, str, list[Paragraph]]]) -> list[Issue]:
-    """Assign content stories to issues.
+    """Assign content stories to issues using Spread-based sequential walk.
 
-    Collects meta stories (issue declarations) and content stories,
-    sorts each group, and pairs them 1:1 by position. Empty content
-    stories (like a bare "Contents" heading) are excluded from pairing.
+    Stories are already in physical page order (from Spread sequence).
+    Walk through them sequentially: when a meta story appears, it starts
+    a new issue. All subsequent content stories belong to that issue
+    until the next meta story.
+
+    This is the ONLY correct approach — never pair or sort independently.
     """
-    meta_list = []   # [(index, Issue)]
-    content_list = []  # [(index, paragraphs)]
+    current_issue = None
+    issues = []
 
-    for i, (path, stype, paras) in enumerate(stories):
+    for path, stype, paras in stories:
         if stype == 'meta':
             meta = extract_issue_meta(paras)
             if 'volume' in meta and 'number' in meta:
-                issue = Issue(
+                current_issue = Issue(
                     volume=meta['volume'],
                     number=meta['number'],
                     year=meta.get('year', 0),
@@ -260,61 +297,13 @@ def identify_issues(stories: list[tuple[str, str, list[Paragraph]]]) -> list[Iss
                     location=meta.get('location', ''),
                     motto=meta.get('motto', ''),
                 )
-                meta_list.append((i, issue))
-        elif stype == 'content':
-            # Keep all content — but separate truly empty from substantial
+                issues.append(current_issue)
+        elif stype == 'content' and current_issue is not None:
             has_text = any(not p.is_empty for p in paras)
             if has_text:
-                content_list.append((i, paras))
+                current_issue.paragraphs.extend(paras)
 
-    if not meta_list:
-        return []
-
-    # Sort meta by volume+number, content by document index
-    meta_list.sort(key=lambda x: (x[1].volume, x[1].number))
-    content_list.sort(key=lambda x: x[0])
-
-    # Separate substantial content (has non-heading text) from empty stubs
-    substantial = []
-    stubs = []
-    for ci, paras in content_list:
-        has_body = any(not p.is_empty and p.style not in
-                       ('Heading 1', 'Heading 2', 'Heading 2 Subtitle')
-                       for p in paras)
-        if has_body:
-            substantial.append((ci, paras))
-        else:
-            stubs.append((ci, paras))
-
-    if len(meta_list) == len(substantial):
-        # 1:1 pairing
-        for (mi, issue), (ci, paras) in zip(meta_list, substantial):
-            issue.paragraphs = paras
-    elif len(meta_list) == len(content_list):
-        # All content matches — pair directly
-        for (mi, issue), (ci, paras) in zip(meta_list, content_list):
-            issue.paragraphs = paras
-    else:
-        print(f'  Note: {len(meta_list)} meta vs {len(content_list)} content '
-              f'({len(substantial)} substantial) — using sequential walk')
-        all_events = []
-        for mi, issue in meta_list:
-            all_events.append((mi, 'meta', issue))
-        for ci, paras in content_list:
-            all_events.append((ci, 'content', paras))
-        all_events.sort(key=lambda x: x[0])
-
-        current_issue = None
-        for idx, etype, data in all_events:
-            if etype == 'meta':
-                current_issue = data
-            elif current_issue is not None:
-                current_issue.paragraphs.extend(data)
-
-    issues = [issue for _, issue in meta_list]
-    issues.sort(key=lambda i: (i.volume, i.number))
-
-    # Merge issues with the same volume+number
+    # Merge issues with the same volume+number (consecutive duplicates)
     merged = []
     for issue in issues:
         if merged and merged[-1].volume == issue.volume and merged[-1].number == issue.number:
@@ -322,7 +311,7 @@ def identify_issues(stories: list[tuple[str, str, list[Paragraph]]]) -> list[Iss
         else:
             merged.append(issue)
 
-    # Fix year typos
+    # Fix year typos (e.g., one issue has wrong year in metadata)
     if len(merged) > 2:
         from collections import Counter
         year_counts = Counter(iss.year for iss in merged if iss.year > 0)
