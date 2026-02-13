@@ -3388,6 +3388,14 @@ STATIC_TEMPLATE = r'''
         function onDateRangeChange() {
             activeFilter.yearFrom = dom.yearFrom.value;
             activeFilter.yearTo = dom.yearTo.value;
+            // Date range supersedes year/issue sidebar filter
+            if (activeFilter.yearFrom || activeFilter.yearTo) {
+                if (activeFilter.type === 'year' || activeFilter.type === 'issue') {
+                    activeFilter.type = null;
+                    activeFilter.value = null;
+                    setActiveNav('');
+                }
+            }
             updateDateRangeClearVisibility();
             updateHashFromFilter();
         }
