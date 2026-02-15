@@ -809,6 +809,74 @@ STATIC_TEMPLATE = r'''
             color: var(--color-error);
         }
 
+        /* Sort select */
+        .sort-select {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.8rem;
+            padding: 0.25rem 0.5rem;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-sm);
+            background: var(--color-card);
+            color: var(--color-text-secondary);
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+
+        .sort-select:focus {
+            outline: none;
+            border-color: var(--color-blue);
+        }
+
+        /* Active filter chips */
+        .filter-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            align-items: center;
+        }
+
+        .filter-chip {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-size: 0.78rem;
+            background: var(--color-blue-light);
+            color: var(--color-blue-hover);
+            padding: 0.2rem 0.55rem;
+            border-radius: 999px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .filter-chip-remove {
+            background: none;
+            border: none;
+            color: var(--color-blue-hover);
+            cursor: pointer;
+            font-size: 0.9rem;
+            line-height: 1;
+            padding: 0;
+            opacity: 0.6;
+            transition: opacity var(--transition-fast);
+        }
+
+        .filter-chip-remove:hover {
+            opacity: 1;
+        }
+
+        .filter-chips .clear-all-link {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.75rem;
+            color: var(--color-text-muted);
+            cursor: pointer;
+            margin-left: 0.25rem;
+        }
+
+        .filter-chips .clear-all-link:hover {
+            color: var(--color-error);
+        }
+
         /* ================================================================
            ARTICLE CARDS (LIST VIEW)
            ================================================================ */
@@ -1097,6 +1165,400 @@ STATIC_TEMPLATE = r'''
             font-variant: small-caps;
         }
 
+        /* Detail header layout */
+        .detail-header-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .detail-header-top h1 {
+            flex: 1;
+        }
+
+        .detail-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-shrink: 0;
+            margin-top: 0.25rem;
+        }
+
+        .detail-action-btn {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            background: var(--color-bg);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-sm);
+            padding: 0.35rem 0.7rem;
+            cursor: pointer;
+            color: var(--color-text-secondary);
+            transition: all var(--transition-fast);
+            white-space: nowrap;
+        }
+
+        .detail-action-btn:hover {
+            background: var(--color-border-light);
+            color: var(--color-text);
+        }
+
+        .detail-action-btn.saved {
+            color: #f59e0b;
+            border-color: #f59e0b;
+        }
+
+        /* Save star in list view cards */
+        .article-card-save {
+            position: absolute;
+            top: 0.75rem;
+            right: 0.75rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+            color: var(--color-text-muted);
+            padding: 0.15rem;
+            line-height: 1;
+            transition: color var(--transition-fast);
+            z-index: 2;
+        }
+
+        .article-card-save:hover {
+            color: #f59e0b;
+        }
+
+        .article-card-save.saved {
+            color: #f59e0b;
+        }
+
+        .article-card {
+            position: relative;
+        }
+
+        /* Citation modal */
+        .cite-modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.4);
+            z-index: 200;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cite-modal {
+            background: var(--color-card);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            padding: 1.5rem;
+            max-width: 560px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .cite-modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--color-navy);
+        }
+
+        .cite-modal-close {
+            background: none;
+            border: none;
+            font-size: 1.3rem;
+            cursor: pointer;
+            color: var(--color-text-muted);
+            padding: 0.15rem 0.35rem;
+            line-height: 1;
+        }
+
+        .cite-modal-close:hover {
+            color: var(--color-text);
+        }
+
+        .cite-format-label {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.72rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--color-text-muted);
+            margin-bottom: 0.35rem;
+        }
+
+        .cite-text {
+            font-size: 0.88rem;
+            line-height: 1.6;
+            background: var(--color-bg);
+            border: 1px solid var(--color-border-light);
+            border-radius: var(--radius-sm);
+            padding: 0.75rem 1rem;
+            margin-bottom: 0.6rem;
+            user-select: all;
+        }
+
+        .cite-text-mono {
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 0.78rem;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+
+        .cite-copy-btn {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            background: var(--color-blue);
+            color: #fff;
+            border: none;
+            border-radius: var(--radius-sm);
+            padding: 0.3rem 0.8rem;
+            cursor: pointer;
+            transition: background var(--transition-fast);
+            margin-bottom: 0.75rem;
+        }
+
+        .cite-copy-btn:hover {
+            background: var(--color-blue-hover);
+        }
+
+        .cite-bibtex-details {
+            margin-top: 0.25rem;
+        }
+
+        .cite-bibtex-details summary {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.78rem;
+            color: var(--color-text-secondary);
+            cursor: pointer;
+            user-select: none;
+            margin-bottom: 0.35rem;
+        }
+
+        /* Toast notification */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: var(--color-navy);
+            color: #fff;
+            padding: 0.6rem 1.25rem;
+            border-radius: var(--radius-md);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.85rem;
+            box-shadow: var(--shadow-lg);
+            z-index: 300;
+            opacity: 0;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            pointer-events: none;
+        }
+
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        /* Article navigation (prev/next) */
+        .article-nav {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .article-nav-btn {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            transition: background var(--transition-fast), border-color var(--transition-fast);
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .article-nav-btn:hover {
+            background: var(--color-bg);
+            border-color: var(--color-blue);
+            color: inherit;
+        }
+
+        .article-nav-btn.disabled {
+            opacity: 0.3;
+            pointer-events: none;
+        }
+
+        .article-nav-next {
+            text-align: right;
+        }
+
+        .article-nav-dir {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--color-blue);
+            margin-bottom: 0.2rem;
+        }
+
+        .article-nav-title {
+            font-size: 0.85rem;
+            color: var(--color-text-secondary);
+            line-height: 1.3;
+        }
+
+        /* Issue articles section */
+        .issue-articles-section {
+            margin-top: 1.5rem;
+            border: 1px solid var(--color-border-light);
+            border-radius: var(--radius-md);
+            background: var(--color-card);
+        }
+
+        .issue-articles-heading {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--color-text-secondary);
+            padding: 0.75rem 1rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .issue-articles-list {
+            list-style: none;
+            border-top: 1px solid var(--color-border-light);
+        }
+
+        .issue-articles-list li {
+            border-bottom: 1px solid var(--color-border-light);
+        }
+
+        .issue-articles-list li:last-child {
+            border-bottom: none;
+        }
+
+        .issue-articles-list a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            color: var(--color-text);
+            text-decoration: none;
+            transition: background var(--transition-fast);
+        }
+
+        .issue-articles-list a:hover {
+            background: var(--color-bg);
+            color: var(--color-text);
+        }
+
+        .issue-article-author {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.75rem;
+            color: var(--color-text-muted);
+            flex-shrink: 0;
+            margin-left: 0.75rem;
+        }
+
+        /* Related articles section */
+        .related-articles-section {
+            margin-top: 1.5rem;
+        }
+
+        .related-articles-heading {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--color-text-muted);
+            margin-bottom: 0.6rem;
+        }
+
+        .related-articles-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 0.6rem;
+        }
+
+        .related-article-card {
+            border: 1px solid var(--color-border-light);
+            border-radius: var(--radius-md);
+            padding: 0.75rem 1rem;
+            cursor: pointer;
+            transition: background var(--transition-fast), border-color var(--transition-fast);
+        }
+
+        .related-article-card:hover {
+            background: var(--color-bg);
+            border-color: var(--color-blue);
+        }
+
+        .related-article-title {
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: var(--color-navy);
+            line-height: 1.3;
+            margin-bottom: 0.2rem;
+        }
+
+        .related-article-meta {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.72rem;
+            color: var(--color-text-muted);
+            margin-bottom: 0.3rem;
+        }
+
+        .related-article-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.25rem;
+        }
+
+        .related-article-tags .tag {
+            font-size: 0.62rem;
+            padding: 0.1rem 0.4rem;
+        }
+
+        /* Issue TOC header */
+        .issue-toc-header {
+            background: var(--color-navy);
+            color: #fff;
+            padding: 1rem 1.5rem;
+            border-radius: var(--radius-md);
+            margin-bottom: 1rem;
+        }
+
+        .issue-toc-header h2 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            margin-bottom: 0.15rem;
+        }
+
+        .issue-toc-header .issue-toc-sub {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.8rem;
+            opacity: 0.75;
+        }
+
         /* Keywords section at bottom of article */
         .article-keywords {
             margin-top: 2rem;
@@ -1169,130 +1631,24 @@ STATIC_TEMPLATE = r'''
         }
 
         /* ================================================================
-           SEARCH PANEL (right column)
+           SEARCH OPTIONS (expandable below search bar)
            ================================================================ */
-        .search-panel {
-            width: 380px;
-            min-width: 380px;
-            background: var(--color-card);
-            border-left: 1px solid var(--color-border);
-            position: sticky;
-            top: 0;
-            height: 100vh;
-            overflow-y: auto;
-            -webkit-overflow-scrolling: touch;
-            z-index: 10;
-            display: flex;
-            flex-direction: column;
+        .search-options {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, opacity 0.2s ease;
+            opacity: 0;
         }
 
-        .search-panel-inner {
-            padding: 1.25rem;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
+        .search-options.visible {
+            max-height: 200px;
+            opacity: 1;
         }
 
-        .search-panel-header {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            font-size: 0.7rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--color-text-muted);
-            margin-bottom: 0.75rem;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .search-panel-close {
-            display: none;
-            background: none;
-            border: none;
-            color: var(--color-text-muted);
-            font-size: 1.2rem;
-            cursor: pointer;
-            padding: 0.15rem 0.35rem;
-            line-height: 1;
-            border-radius: var(--radius-sm);
-        }
-
-        .search-panel-close:hover {
-            color: var(--color-text);
-            background: var(--color-bg);
-        }
-
-        .search-panel-input-wrap {
-            position: relative;
-            margin-bottom: 0.75rem;
-        }
-
-        .search-panel-icon {
-            position: absolute;
-            left: 0.75rem;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--color-text-muted);
-            pointer-events: none;
-            font-size: 0.85rem;
-        }
-
-        .search-panel-input {
-            width: 100%;
-            padding: 0.6rem 2rem 0.6rem 2.25rem;
-            font-size: 0.875rem;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            border: 2px solid var(--color-border);
-            border-radius: var(--radius-md);
-            background: var(--color-bg);
-            color: var(--color-text);
-            transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
-            outline: none;
-        }
-
-        .search-panel-input:focus {
-            border-color: var(--color-blue);
-            box-shadow: 0 0 0 3px rgba(52,152,219,0.15);
-            background: var(--color-card);
-        }
-
-        .search-panel-input::placeholder {
-            color: var(--color-text-muted);
-        }
-
-        .search-panel-clear {
-            position: absolute;
-            right: 0.5rem;
-            top: 50%;
-            transform: translateY(-50%);
-            background: none;
-            border: none;
-            color: var(--color-text-muted);
-            cursor: pointer;
-            font-size: 1rem;
-            padding: 0.15rem;
-            line-height: 1;
-            display: none;
-        }
-
-        .search-panel-clear:hover {
-            color: var(--color-text);
-        }
-
-        .search-panel-count {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            font-size: 0.78rem;
-            color: var(--color-text-secondary);
-            margin-bottom: 0.6rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 1px solid var(--color-border-light);
-        }
-
-        .search-panel-modes {
+        .search-modes {
             display: flex;
             gap: 0.35rem;
-            margin-bottom: 0.6rem;
+            margin: 0.6rem 0;
         }
 
         .search-mode-pill {
@@ -1323,7 +1679,7 @@ STATIC_TEMPLATE = r'''
             flex-wrap: wrap;
             align-items: center;
             gap: 0.15rem 0.6rem;
-            margin-bottom: 0.6rem;
+            margin-bottom: 0.5rem;
             font-size: 0.72rem;
             color: var(--color-text-secondary);
         }
@@ -1353,7 +1709,7 @@ STATIC_TEMPLATE = r'''
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             font-size: 0.72rem;
             color: var(--color-text-muted);
-            margin-bottom: 0.6rem;
+            margin-bottom: 0.4rem;
         }
 
         .search-tips summary { cursor: pointer; user-select: none; }
@@ -1371,143 +1727,77 @@ STATIC_TEMPLATE = r'''
             font-size: 0.7rem;
         }
 
-        .search-panel-results {
-            flex: 1;
+        /* ================================================================
+           SPLIT VIEW (results list + article reading pane)
+           ================================================================ */
+        .main-content.split-view {
+            display: flex;
+            padding: 0;
+        }
+
+        .main-content.split-view #list-view {
+            width: 380px;
+            min-width: 380px;
+            border-right: 1px solid var(--color-border);
+            padding: 1.25rem;
+            position: sticky;
+            top: 0;
+            height: 100vh;
             overflow-y: auto;
-            margin: 0 -1.25rem;
-            padding: 0 1.25rem;
+            -webkit-overflow-scrolling: touch;
+            flex-shrink: 0;
         }
 
-        .search-panel-card {
-            padding: 0.65rem 0.75rem;
-            border-radius: var(--radius-sm);
-            cursor: pointer;
-            transition: background var(--transition-fast);
-            border-bottom: 1px solid var(--color-border-light);
+        .main-content.split-view .article-detail.active {
+            flex: 1;
+            min-width: 0;
+            padding: 2rem;
+            overflow-y: auto;
+            height: 100vh;
+            position: sticky;
+            top: 0;
         }
 
-        .search-panel-card:hover {
-            background: var(--color-bg);
-        }
-
-        .search-panel-card.active {
+        .article-card.active-reading {
             background: var(--color-blue-light);
             border-left: 3px solid var(--color-blue);
-            padding-left: calc(0.75rem - 3px);
+            transform: none;
+            box-shadow: var(--shadow-sm);
         }
 
-        .search-panel-card-title {
-            font-size: 0.875rem;
-            font-weight: 600;
-            color: var(--color-navy);
-            line-height: 1.3;
-            margin-bottom: 0.15rem;
-        }
-
-        .search-panel-card-meta {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            font-size: 0.72rem;
-            color: var(--color-text-muted);
-        }
-
-        .search-panel-card-snippet {
-            font-size: 0.78rem;
-            color: var(--color-text-secondary);
-            margin-top: 0.25rem;
-            line-height: 1.4;
-            font-style: italic;
-        }
-
-        .search-panel-empty {
-            text-align: center;
-            padding: 2.5rem 1rem;
-            color: var(--color-text-muted);
-        }
-
-        .search-panel-empty-icon {
-            font-size: 2rem;
-            margin-bottom: 0.75rem;
-            opacity: 0.4;
-        }
-
-        .search-panel-empty p {
-            font-size: 0.85rem;
-            line-height: 1.5;
-        }
-
-        .search-panel-empty .panel-article-count {
-            font-weight: 600;
-            color: var(--color-text-secondary);
-        }
-
-        /* Search toggle button for tablet/mobile */
-        .search-toggle-btn {
-            display: none;
-            background: none;
-            border: none;
-            color: #ffffff;
-            font-size: 1.25rem;
-            cursor: pointer;
-            padding: 0.25rem 0.5rem;
-            line-height: 1;
-            border-radius: var(--radius-sm);
-            transition: background var(--transition-fast);
-            margin-right: 0.5rem;
-        }
-
-        .search-toggle-btn:hover {
-            background: rgba(255,255,255,0.1);
-        }
-
-        /* Search panel overlay for tablet/mobile */
-        .search-panel-overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0,0,0,0.4);
-            z-index: 55;
+        .main-content.split-view .search-options.visible {
+            max-height: 0;
             opacity: 0;
-            transition: opacity var(--transition-normal);
         }
 
-        .search-panel-overlay.visible {
-            opacity: 1;
+        .main-content.split-view .article-body {
+            padding: 1.75rem;
         }
 
-        /* ================================================================
-           RESPONSIVE: SEARCH PANEL BREAKPOINT
-           ================================================================ */
-        @media (max-width: 1200px) {
-            .search-panel {
-                position: fixed;
-                top: 0;
-                right: 0;
-                height: 100vh;
-                z-index: 60;
-                transform: translateX(100%);
-                transition: transform var(--transition-normal);
-                box-shadow: none;
-            }
+        .main-content.split-view .article-card-tags {
+            display: none;
+        }
 
-            .search-panel.open {
-                transform: translateX(0);
-                box-shadow: var(--shadow-lg);
-            }
+        .main-content.split-view .article-card {
+            padding: 0.85rem 1rem;
+            margin-bottom: 0.5rem;
+        }
 
-            .search-panel-overlay {
-                display: block;
-            }
+        .main-content.split-view .article-card-title {
+            font-size: 0.95rem;
+        }
 
-            .search-toggle-btn {
-                display: block;
-            }
+        .main-content.split-view .article-card-meta {
+            font-size: 0.75rem;
+        }
 
-            .search-panel-close {
-                display: block;
-            }
+        .main-content.split-view .issue-toc-header {
+            padding: 0.75rem 1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .main-content.split-view .issue-toc-header h2 {
+            font-size: 0.95rem;
         }
 
         /* ================================================================
@@ -1524,14 +1814,31 @@ STATIC_TEMPLATE = r'''
         }
 
         /* ================================================================
+           RESPONSIVE: SPLIT VIEW COLLAPSE
+           ================================================================ */
+        @media (max-width: 900px) {
+            .main-content.split-view {
+                display: block;
+                padding: 1rem;
+            }
+
+            .main-content.split-view #list-view {
+                display: none !important;
+            }
+
+            .main-content.split-view .article-detail.active {
+                height: auto;
+                position: static;
+                overflow-y: visible;
+                padding: 0;
+            }
+        }
+
+        /* ================================================================
            RESPONSIVE: MOBILE
            ================================================================ */
         @media (max-width: 768px) {
             .hamburger-btn {
-                display: block;
-            }
-
-            .search-toggle-btn {
                 display: block;
             }
 
@@ -1553,11 +1860,6 @@ STATIC_TEMPLATE = r'''
 
             .sidebar-overlay {
                 display: block;
-            }
-
-            .search-panel {
-                width: 100%;
-                min-width: 100%;
             }
 
             .site-header h1 {
@@ -1583,6 +1885,10 @@ STATIC_TEMPLATE = r'''
             .article-card {
                 padding: 1rem 1.15rem;
             }
+
+            .detail-actions {
+                flex-wrap: wrap;
+            }
         }
 
         /* ================================================================
@@ -1592,9 +1898,6 @@ STATIC_TEMPLATE = r'''
             .sidebar,
             .sidebar-overlay,
             .hamburger-btn,
-            .search-toggle-btn,
-            .search-panel,
-            .search-panel-overlay,
             .search-wrapper,
             .pagination,
             .back-btn,
@@ -1609,6 +1912,18 @@ STATIC_TEMPLATE = r'''
                 font-weight: inherit !important;
                 padding: 0 !important;
                 outline: none !important;
+            }
+
+            .cite-modal-overlay,
+            .toast,
+            .article-nav,
+            .issue-articles-section,
+            .related-articles-section,
+            .detail-actions,
+            .sort-select,
+            #filter-chips-bar,
+            #saved-section {
+                display: none !important;
             }
 
             .site-header {
@@ -1638,6 +1953,16 @@ STATIC_TEMPLATE = r'''
                 box-shadow: none;
                 border: 1px solid #ccc;
                 break-inside: avoid;
+            }
+
+            .main-content.split-view #list-view {
+                display: none !important;
+            }
+
+            .main-content.split-view .article-detail.active {
+                height: auto;
+                position: static;
+                overflow-y: visible;
             }
         }
 
@@ -1688,10 +2013,7 @@ STATIC_TEMPLATE = r'''
                     <h1>American Sentinel Research Archive</h1>
                     <p class="subtitle">Historical writings on religious liberty and church-state separation, 1886&ndash;1900</p>
                 </div>
-                <div style="display:flex;align-items:center;">
-                    <button class="search-toggle-btn" id="search-toggle-btn" aria-label="Toggle search panel">&#128269;</button>
-                    <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
-                </div>
+                <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
             </div>
         </header>
 
@@ -1757,6 +2079,29 @@ STATIC_TEMPLATE = r'''
                         <div class="sidebar-heading">Authors</div>
                         <ul class="sidebar-list" id="authors-nav"></ul>
                     </div>
+
+                    <hr class="sidebar-divider">
+
+                    <!-- Article Type -->
+                    <div class="sidebar-section">
+                        <div class="sidebar-heading">Article Type</div>
+                        <ul class="sidebar-list" id="attribution-nav"></ul>
+                    </div>
+
+                    <hr class="sidebar-divider">
+
+                    <!-- Saved Articles -->
+                    <div class="sidebar-section" id="saved-section" style="display:none">
+                        <div class="sidebar-heading">Bookmarks</div>
+                        <ul class="sidebar-list">
+                            <li>
+                                <a class="sidebar-link" id="nav-saved" data-filter-saved="true" role="button" tabindex="0">
+                                    <span class="label">Saved Articles</span>
+                                    <span class="count" id="saved-count">0</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
 
@@ -1775,14 +2120,48 @@ STATIC_TEMPLATE = r'''
                         <input type="search"
                                class="search-input"
                                id="search-input"
-                               placeholder="Search articles by title, author, keyword&hellip;"
+                               placeholder="Search articles &mdash; use quotes, wildcards (*), proximity (~), field: prefixes&hellip;"
                                aria-label="Search articles">
                         <button class="search-clear" id="search-clear" aria-label="Clear search">&times;</button>
+                        <div class="search-options" id="search-options">
+                            <div class="search-modes" id="search-modes">
+                                <button class="search-mode-pill active" data-mode="and">All Words</button>
+                                <button class="search-mode-pill" data-mode="phrase">Exact Phrase</button>
+                                <button class="search-mode-pill" data-mode="or">Any Word</button>
+                            </div>
+                            <div class="search-fields" id="search-fields">
+                                <span class="search-fields-label">Search in:</span>
+                                <label><input type="checkbox" value="title" checked> Title</label>
+                                <label><input type="checkbox" value="author" checked> Author</label>
+                                <label><input type="checkbox" value="keywords" checked> Keywords</label>
+                                <label><input type="checkbox" value="categories" checked> Categories</label>
+                                <label><input type="checkbox" value="body" checked> Body</label>
+                            </div>
+                            <details class="search-tips">
+                                <summary>Search tips</summary>
+                                <ul>
+                                    <li>Use <code>"quotes"</code> for exact phrases</li>
+                                    <li>Use <code>-word</code> to exclude a term</li>
+                                    <li>Use <code>*</code> for wildcards: <code>legislat*</code></li>
+                                    <li>Use <code>"word1 word2"~5</code> for proximity</li>
+                                    <li>Prefix with <code>title:</code> or <code>author:</code></li>
+                                </ul>
+                            </details>
+                        </div>
                     </div>
 
                     <div class="search-loading-indicator" id="search-loading">Loading full-text search index&hellip;</div>
 
-                    <div class="results-summary" id="results-summary"></div>
+                    <div class="results-summary" id="results-summary">
+                        <span id="results-summary-text"></span>
+                        <select class="sort-select" id="sort-select" aria-label="Sort articles">
+                            <option value="date-desc">Date (newest first)</option>
+                            <option value="date-asc">Date (oldest first)</option>
+                            <option value="title-asc">Title (A&ndash;Z)</option>
+                            <option value="title-desc">Title (Z&ndash;A)</option>
+                        </select>
+                    </div>
+                    <div id="filter-chips-bar" style="display:none"></div>
 
                     <ul class="article-list" id="article-list" role="list"></ul>
 
@@ -1798,10 +2177,40 @@ STATIC_TEMPLATE = r'''
                     <button class="back-btn" id="detail-back-btn">&larr; Back to list</button>
 
                     <div class="article-detail-header">
-                        <h1 id="detail-title"></h1>
+                        <div class="detail-header-top">
+                            <h1 id="detail-title"></h1>
+                            <div class="detail-actions">
+                                <button class="detail-action-btn" id="save-btn" aria-label="Save article" title="Save article">&#9734;</button>
+                                <button class="detail-action-btn" id="cite-btn" aria-label="Cite this article" title="Cite">Cite</button>
+                                <button class="detail-action-btn" id="share-btn" aria-label="Share article" title="Share">Share</button>
+                                <button class="detail-action-btn" id="print-btn" aria-label="Print article" title="Print">Print</button>
+                                <button class="detail-action-btn" id="pdf-btn" aria-label="View original PDF scan" title="View Original Scan">PDF</button>
+                            </div>
+                        </div>
                         <div class="article-detail-meta" id="detail-meta"></div>
                         <div class="article-detail-tags" id="detail-tags"></div>
                     </div>
+
+                    <!-- Citation modal -->
+                    <div class="cite-modal-overlay" id="cite-modal-overlay" style="display:none">
+                        <div class="cite-modal" id="cite-modal">
+                            <div class="cite-modal-header">
+                                <span>Cite This Article</span>
+                                <button class="cite-modal-close" id="cite-modal-close" aria-label="Close">&times;</button>
+                            </div>
+                            <div class="cite-format-label">Chicago Manual of Style (17th ed.)</div>
+                            <div class="cite-text" id="cite-text-chicago"></div>
+                            <button class="cite-copy-btn" id="cite-copy-chicago">Copy</button>
+                            <details class="cite-bibtex-details">
+                                <summary>BibTeX</summary>
+                                <div class="cite-text cite-text-mono" id="cite-text-bibtex"></div>
+                                <button class="cite-copy-btn" id="cite-copy-bibtex">Copy</button>
+                            </details>
+                        </div>
+                    </div>
+
+                    <!-- Toast notification -->
+                    <div class="toast" id="toast"></div>
 
                     <div class="highlight-nav" id="highlight-nav" style="display:none">
                         <span class="highlight-nav-info" id="highlight-nav-info"></span>
@@ -1821,64 +2230,33 @@ STATIC_TEMPLATE = r'''
                         <div class="article-keywords-label">Keywords</div>
                         <div class="article-keywords-list" id="detail-keywords-list"></div>
                     </div>
+
+                    <!-- Next/Previous article navigation -->
+                    <div class="article-nav" id="article-nav" style="display:none">
+                        <a class="article-nav-btn article-nav-prev" id="nav-prev" role="button" tabindex="0">
+                            <span class="article-nav-dir">&larr; Previous</span>
+                            <span class="article-nav-title" id="nav-prev-title"></span>
+                        </a>
+                        <a class="article-nav-btn article-nav-next" id="nav-next" role="button" tabindex="0">
+                            <span class="article-nav-dir">Next &rarr;</span>
+                            <span class="article-nav-title" id="nav-next-title"></span>
+                        </a>
+                    </div>
+
+                    <!-- Other articles in this issue -->
+                    <details class="issue-articles-section" id="issue-articles-section" style="display:none">
+                        <summary class="issue-articles-heading">Other articles in this issue</summary>
+                        <ul class="issue-articles-list" id="issue-articles-list"></ul>
+                    </details>
+
+                    <!-- Related articles -->
+                    <div class="related-articles-section" id="related-articles-section" style="display:none">
+                        <div class="related-articles-heading">Related Articles</div>
+                        <ul class="related-articles-list" id="related-articles-list"></ul>
+                    </div>
                 </div>
             </main>
 
-            <!-- Search panel overlay for tablet/mobile -->
-            <div class="search-panel-overlay" id="search-panel-overlay"></div>
-
-            <!-- Search panel (right column) -->
-            <aside class="search-panel" id="search-panel" role="search" aria-label="Full-text search">
-                <div class="search-panel-inner">
-                    <div class="search-panel-header">
-                        <span>Search Articles</span>
-                        <button class="search-panel-close" id="search-panel-close" aria-label="Close search panel">&times;</button>
-                    </div>
-
-                    <div class="search-panel-input-wrap">
-                        <span class="search-panel-icon" aria-hidden="true">&#128269;</span>
-                        <input type="search"
-                               class="search-panel-input"
-                               id="panel-search-input"
-                               placeholder="Search full text&hellip;"
-                               aria-label="Search across all articles">
-                        <button class="search-panel-clear" id="panel-search-clear" aria-label="Clear search">&times;</button>
-                    </div>
-
-                    <div class="search-panel-modes" id="search-panel-modes">
-                        <button class="search-mode-pill active" data-mode="and">All Words</button>
-                        <button class="search-mode-pill" data-mode="phrase">Exact Phrase</button>
-                        <button class="search-mode-pill" data-mode="or">Any Word</button>
-                    </div>
-                    <details class="search-tips">
-                        <summary>Search tips</summary>
-                        <ul>
-                            <li>Use <code>"quotes"</code> for exact phrases</li>
-                            <li>Use <code>-word</code> to exclude a term</li>
-                            <li>Use <code>*</code> for wildcards: <code>legislat*</code></li>
-                            <li>Use <code>"word1 word2"~5</code> for proximity</li>
-                            <li>Prefix with <code>title:</code> or <code>author:</code></li>
-                        </ul>
-                    </details>
-                    <div class="search-fields" id="search-fields">
-                        <span class="search-fields-label">Search in:</span>
-                        <label><input type="checkbox" value="title" checked> Title</label>
-                        <label><input type="checkbox" value="author" checked> Author</label>
-                        <label><input type="checkbox" value="keywords" checked> Keywords</label>
-                        <label><input type="checkbox" value="categories" checked> Categories</label>
-                        <label><input type="checkbox" value="body" checked> Body</label>
-                    </div>
-
-                    <div class="search-panel-count" id="panel-search-count" style="display:none"></div>
-
-                    <div class="search-panel-results" id="panel-search-results">
-                        <div class="search-panel-empty" id="panel-search-empty">
-                            <div class="search-panel-empty-icon">&#128269;</div>
-                            <p>Search across <span class="panel-article-count" id="panel-article-count">&hellip;</span> articles by title, author, or full text.</p>
-                        </div>
-                    </div>
-                </div>
-            </aside>
         </div>
 
         <!-- Footer -->
@@ -1914,35 +2292,71 @@ STATIC_TEMPLATE = r'''
         var articleById = {};
 
         // Full-text search data (lazy-loaded)
-        var searchData = null;         // Map: article_id -> plain text
+        var searchData = null;
         var searchDataLoading = false;
         var searchDataLoaded = false;
 
-        // Active filter state (compound)
+        // Active filter state (multi-facet)
         var activeFilter = {
-            type: null,       // 'year', 'principle', 'application', 'author', or null
-            value: null,
-            search: '',       // search query text
-            yearFrom: '',     // date range
-            yearTo: ''
+            year: null,
+            issue: null,
+            principle: null,
+            application: null,
+            author: null,
+            attribution: null,
+            saved: false,
+            yearFrom: '',
+            yearTo: '',
+            search: '',
+            sort: 'date-desc'
         };
 
         // Current search query for snippet highlighting
         var currentSearchQuery = '';
-
-        // Search panel state (independent of sidebar filters)
-        var panelSearchQuery = '';
-        var panelFilteredArticles = [];
         var currentArticleId = null;
 
-        // Advanced search state
-        var currentSearchMode = 'and';   // 'and', 'phrase', 'or'
-        var panelMatchedTerms = [];
+        // Advanced search state (merged into main search)
+        var currentSearchMode = 'and';
+        var searchMatchedTerms = [];
+        var searchScores = {};
         var searchFields = { title: true, author: true, keywords: true, categories: true, body: true };
 
         // Highlight navigation state
         var highlightMatches = [];
         var currentHighlightIndex = -1;
+
+        // Saved articles (localStorage)
+        var savedArticles = {};
+        function loadSavedArticles() {
+            try {
+                var raw = localStorage.getItem('savedArticles');
+                if (raw) {
+                    var arr = JSON.parse(raw);
+                    savedArticles = {};
+                    for (var i = 0; i < arr.length; i++) savedArticles[arr[i]] = true;
+                }
+            } catch(e) { savedArticles = {}; }
+        }
+        function persistSavedArticles() {
+            try {
+                localStorage.setItem('savedArticles', JSON.stringify(Object.keys(savedArticles)));
+            } catch(e) {}
+        }
+        function toggleSaved(articleId) {
+            if (savedArticles[articleId]) {
+                delete savedArticles[articleId];
+            } else {
+                savedArticles[articleId] = true;
+            }
+            persistSavedArticles();
+            updateSavedCount();
+        }
+        function isSaved(articleId) { return !!savedArticles[articleId]; }
+        function updateSavedCount() {
+            var count = Object.keys(savedArticles).length;
+            if (dom.savedCount) dom.savedCount.textContent = count;
+            if (dom.savedSection) dom.savedSection.style.display = count > 0 ? 'block' : 'none';
+        }
 
         /* ============================================================
            DOM REFERENCES (cached after DOMContentLoaded)
@@ -1951,12 +2365,16 @@ STATIC_TEMPLATE = r'''
 
         function cacheDom() {
             dom.loadingState = document.getElementById('loading-state');
+            dom.mainContent = document.getElementById('main-content');
             dom.listView = document.getElementById('list-view');
             dom.articleDetail = document.getElementById('article-detail');
             dom.searchInput = document.getElementById('search-input');
             dom.searchClear = document.getElementById('search-clear');
             dom.searchLoading = document.getElementById('search-loading');
             dom.resultsSummary = document.getElementById('results-summary');
+            dom.resultsSummaryText = document.getElementById('results-summary-text');
+            dom.sortSelect = document.getElementById('sort-select');
+            dom.filterChipsBar = document.getElementById('filter-chips-bar');
             dom.articleList = document.getElementById('article-list');
             dom.pagination = document.getElementById('pagination');
             dom.prevBtn = document.getElementById('prev-btn');
@@ -1966,6 +2384,7 @@ STATIC_TEMPLATE = r'''
             dom.yearsNav = document.getElementById('years-nav');
             dom.principlesNav = document.getElementById('principles-nav');
             dom.authorsNav = document.getElementById('authors-nav');
+            dom.attributionNav = document.getElementById('attribution-nav');
             dom.detailTitle = document.getElementById('detail-title');
             dom.detailMeta = document.getElementById('detail-meta');
             dom.detailTags = document.getElementById('detail-tags');
@@ -1981,8 +2400,9 @@ STATIC_TEMPLATE = r'''
             dom.yearTo = document.getElementById('year-to');
             dom.dateRangeClear = document.getElementById('date-range-clear');
 
-            // Search mode pills and field filters
-            dom.searchPanelModes = document.getElementById('search-panel-modes');
+            // Search options
+            dom.searchOptions = document.getElementById('search-options');
+            dom.searchModes = document.getElementById('search-modes');
             dom.searchFields = document.getElementById('search-fields');
 
             // Highlight navigation
@@ -1992,17 +2412,33 @@ STATIC_TEMPLATE = r'''
             dom.highlightNext = document.getElementById('highlight-next');
             dom.highlightClose = document.getElementById('highlight-close');
 
-            // Search panel
-            dom.searchPanel = document.getElementById('search-panel');
-            dom.searchPanelOverlay = document.getElementById('search-panel-overlay');
-            dom.searchPanelClose = document.getElementById('search-panel-close');
-            dom.searchToggleBtn = document.getElementById('search-toggle-btn');
-            dom.panelSearchInput = document.getElementById('panel-search-input');
-            dom.panelSearchClear = document.getElementById('panel-search-clear');
-            dom.panelSearchCount = document.getElementById('panel-search-count');
-            dom.panelSearchResults = document.getElementById('panel-search-results');
-            dom.panelSearchEmpty = document.getElementById('panel-search-empty');
-            dom.panelArticleCount = document.getElementById('panel-article-count');
+            // Article detail extras
+            dom.articleNav = document.getElementById('article-nav');
+            dom.navPrev = document.getElementById('nav-prev');
+            dom.navNext = document.getElementById('nav-next');
+            dom.navPrevTitle = document.getElementById('nav-prev-title');
+            dom.navNextTitle = document.getElementById('nav-next-title');
+            dom.issueArticlesSection = document.getElementById('issue-articles-section');
+            dom.issueArticlesList = document.getElementById('issue-articles-list');
+            dom.relatedArticlesSection = document.getElementById('related-articles-section');
+            dom.relatedArticlesList = document.getElementById('related-articles-list');
+            dom.saveBtn = document.getElementById('save-btn');
+            dom.citeBtn = document.getElementById('cite-btn');
+            dom.shareBtn = document.getElementById('share-btn');
+            dom.printBtn = document.getElementById('print-btn');
+            dom.pdfBtn = document.getElementById('pdf-btn');
+            dom.citeModalOverlay = document.getElementById('cite-modal-overlay');
+            dom.citeModalClose = document.getElementById('cite-modal-close');
+            dom.citeTextChicago = document.getElementById('cite-text-chicago');
+            dom.citeTextBibtex = document.getElementById('cite-text-bibtex');
+            dom.citeCopyChicago = document.getElementById('cite-copy-chicago');
+            dom.citeCopyBibtex = document.getElementById('cite-copy-bibtex');
+            dom.toast = document.getElementById('toast');
+
+            // Saved articles
+            dom.savedSection = document.getElementById('saved-section');
+            dom.savedCount = document.getElementById('saved-count');
+            dom.navSaved = document.getElementById('nav-saved');
         }
 
         /* ============================================================
@@ -2161,13 +2597,17 @@ STATIC_TEMPLATE = r'''
 
             // Set total count
             dom.totalCount.textContent = catalog.article_count;
-            dom.panelArticleCount.textContent = catalog.article_count;
+
+            // Load saved articles from localStorage
+            loadSavedArticles();
+            updateSavedCount();
 
             // Build sidebar navigation
             renderYearsNav();
             renderDateRangeDropdowns();
             renderPrinciplesNav();
             renderAuthorsNav();
+            renderAttributionNav();
 
             // Hide loading, show list
             dom.loadingState.style.display = 'none';
@@ -2178,14 +2618,11 @@ STATIC_TEMPLATE = r'''
             var hasInitialSearch = initHash.indexOf('search') !== -1;
 
             if (hasInitialSearch) {
-                // Load search data first so full-text results appear immediately
                 loadSearchData(function() {
                     handleRoute();
                 });
             } else {
                 handleRoute();
-                // Eagerly load full-text search data in background;
-                // re-render if a search became active while loading
                 loadSearchData(function() {
                     if (activeFilter.search) renderListView();
                 });
@@ -2195,18 +2632,36 @@ STATIC_TEMPLATE = r'''
         /* ============================================================
            SIDEBAR RENDERING
            ============================================================ */
-        function renderYearsNav() {
+        function renderYearsNav(filteredSet) {
             var years = Object.keys(yearIssueIndex).sort();
             var html = '';
+
+            // If filteredSet provided, compute dynamic counts
+            var dynYearCounts = null;
+            var dynIssueCounts = null;
+            if (filteredSet) {
+                dynYearCounts = {};
+                dynIssueCounts = {};
+                for (var fi = 0; fi < filteredSet.length; fi++) {
+                    var fa = filteredSet[fi];
+                    if (!fa.date) continue;
+                    var fy = fa.date.substring(0, 4);
+                    dynYearCounts[fy] = (dynYearCounts[fy] || 0) + 1;
+                    dynIssueCounts[fa.date] = (dynIssueCounts[fa.date] || 0) + 1;
+                }
+            }
+
             for (var j = 0; j < years.length; j++) {
                 var y = years[j];
                 var issues = yearIssueIndex[y];
                 var issueKeys = Object.keys(issues).sort();
-                var yearCount = 0;
-                for (var k = 0; k < issueKeys.length; k++) yearCount += issues[issueKeys[k]].count;
+                var yearCount = dynYearCounts ? (dynYearCounts[y] || 0) : 0;
+                if (!dynYearCounts) {
+                    for (var k = 0; k < issueKeys.length; k++) yearCount += issues[issueKeys[k]].count;
+                }
 
                 html += '<li>';
-                html += '<a class="sidebar-link" data-route="year/' + y + '" role="button" tabindex="0">';
+                html += '<a class="sidebar-link" data-filter-year="' + y + '" role="button" tabindex="0">';
                 html += '<span class="expand-icon" id="arrow-year-' + y + '">&#9654;</span>';
                 html += '<span class="label">' + y + '</span>';
                 html += '<span class="count">' + yearCount + '</span>';
@@ -2216,9 +2671,10 @@ STATIC_TEMPLATE = r'''
                 for (var k = 0; k < issueKeys.length; k++) {
                     var iss = issues[issueKeys[k]];
                     var issueLabel = formatIssueLabel(iss);
-                    html += '<li><a class="sidebar-link" data-route="issue/' + iss.date + '" role="button" tabindex="0">';
+                    var issCount = dynIssueCounts ? (dynIssueCounts[iss.date] || 0) : iss.count;
+                    html += '<li><a class="sidebar-link" data-filter-issue="' + iss.date + '" role="button" tabindex="0">';
                     html += '<span class="label">' + issueLabel + '</span>';
-                    html += '<span class="count">' + iss.count + '</span>';
+                    html += '<span class="count">' + issCount + '</span>';
                     html += '</a></li>';
                 }
                 html += '</ul>';
@@ -2252,12 +2708,13 @@ STATIC_TEMPLATE = r'''
             dom.yearTo.innerHTML = toHtml;
         }
 
-        function renderPrinciplesNav() {
+        function renderPrinciplesNav(filteredSet) {
+            var articles = filteredSet || catalog.articles;
             var principleCounts = {};
             var appCounts = {};
 
-            for (var i = 0; i < catalog.articles.length; i++) {
-                var a = catalog.articles[i];
+            for (var i = 0; i < articles.length; i++) {
+                var a = articles[i];
                 var ps = a.principles || [];
                 for (var p = 0; p < ps.length; p++) {
                     principleCounts[ps[p]] = (principleCounts[ps[p]] || 0) + 1;
@@ -2275,12 +2732,12 @@ STATIC_TEMPLATE = r'''
             for (var pi = 0; pi < principles.length; pi++) {
                 var principle = principles[pi];
                 var count = principleCounts[principle] || 0;
-                if (count === 0) continue;
+                if (count === 0 && !filteredSet) continue;
 
                 var subApps = appsByPrinciple[principle] || [];
                 var activeApps = [];
                 for (var sa = 0; sa < subApps.length; sa++) {
-                    if (appCounts[subApps[sa]]) {
+                    if (appCounts[subApps[sa]] || filteredSet) {
                         activeApps.push(subApps[sa]);
                     }
                 }
@@ -2291,7 +2748,7 @@ STATIC_TEMPLATE = r'''
                     : '';
 
                 html += '<li>';
-                html += '<a class="sidebar-link" data-route="principle/' + encodeHashParam(principle) + '" role="button" tabindex="0">' +
+                html += '<a class="sidebar-link" data-filter-principle="' + escapeHtml(principle) + '" role="button" tabindex="0">' +
                     arrowHtml +
                     '<span class="label">' + escapeHtml(principle) + '</span>' +
                     '<span class="count">' + count + '</span></a>';
@@ -2300,9 +2757,10 @@ STATIC_TEMPLATE = r'''
                     html += '<ul class="sub-list" id="sub-' + cssEscape(principle) + '">';
                     for (var ai = 0; ai < activeApps.length; ai++) {
                         var app = activeApps[ai];
-                        html += '<li><a class="sidebar-link" data-route="application/' + encodeHashParam(app) + '" role="button" tabindex="0">' +
+                        var ac = appCounts[app] || 0;
+                        html += '<li><a class="sidebar-link" data-filter-application="' + escapeHtml(app) + '" role="button" tabindex="0">' +
                             '<span class="label">' + escapeHtml(app) + '</span>' +
-                            '<span class="count">' + (appCounts[app] || 0) + '</span></a></li>';
+                            '<span class="count">' + ac + '</span></a></li>';
                     }
                     html += '</ul>';
                 }
@@ -2312,10 +2770,11 @@ STATIC_TEMPLATE = r'''
             dom.principlesNav.innerHTML = html;
         }
 
-        function renderAuthorsNav() {
+        function renderAuthorsNav(filteredSet) {
+            var articles = filteredSet || catalog.articles;
             var authorCounts = {};
-            for (var i = 0; i < catalog.articles.length; i++) {
-                var author = catalog.articles[i].author || null;
+            for (var i = 0; i < articles.length; i++) {
+                var author = articles[i].author || null;
                 if (author) {
                     authorCounts[author] = (authorCounts[author] || 0) + 1;
                 }
@@ -2325,32 +2784,65 @@ STATIC_TEMPLATE = r'''
             var html = '';
             for (var j = 0; j < authors.length; j++) {
                 var a = authors[j];
-                html += '<li><a class="sidebar-link" data-route="author/' + encodeHashParam(a) + '" role="button" tabindex="0">' +
+                html += '<li><a class="sidebar-link" data-filter-author="' + escapeHtml(a) + '" role="button" tabindex="0">' +
                     '<span class="label">' + escapeHtml(a) + '</span>' +
                     '<span class="count">' + authorCounts[a] + '</span></a></li>';
             }
             dom.authorsNav.innerHTML = html;
         }
 
+        function renderAttributionNav(filteredSet) {
+            var articles = filteredSet || catalog.articles;
+            var counts = { editorial: 0, explicit: 0, reprint: 0 };
+            for (var i = 0; i < articles.length; i++) {
+                var attr = articles[i].attribution || '';
+                if (counts[attr] !== undefined) counts[attr]++;
+            }
+
+            var labels = { editorial: 'Editorial', explicit: 'Signed Articles', reprint: 'Reprints' };
+            var html = '';
+            var types = ['editorial', 'explicit', 'reprint'];
+            for (var t = 0; t < types.length; t++) {
+                html += '<li><a class="sidebar-link" data-filter-attribution="' + types[t] + '" role="button" tabindex="0">' +
+                    '<span class="label">' + labels[types[t]] + '</span>' +
+                    '<span class="count">' + counts[types[t]] + '</span></a></li>';
+            }
+            dom.attributionNav.innerHTML = html;
+        }
+
         /* ============================================================
            SIDEBAR INTERACTIONS
            ============================================================ */
-        function setActiveNav(route) {
+        function updateSidebarActive() {
             var links = document.querySelectorAll('.sidebar-link');
             for (var i = 0; i < links.length; i++) {
                 links[i].classList.remove('active');
             }
 
-            if (route === '' || route === undefined) {
+            var hasAny = activeFilter.year || activeFilter.issue || activeFilter.principle ||
+                         activeFilter.application || activeFilter.author || activeFilter.attribution ||
+                         activeFilter.saved || activeFilter.yearFrom || activeFilter.yearTo || activeFilter.search;
+
+            if (!hasAny) {
                 dom.navAll.classList.add('active');
                 return;
             }
 
-            for (var j = 0; j < links.length; j++) {
-                if (links[j].getAttribute('data-route') === route) {
-                    links[j].classList.add('active');
-                    break;
-                }
+            // Highlight active items per section
+            function activateLink(attr, val) {
+                if (!val) return;
+                var els = document.querySelectorAll('[' + attr + '="' + val.replace(/"/g, '\\"') + '"]');
+                for (var j = 0; j < els.length; j++) els[j].classList.add('active');
+            }
+
+            activateLink('data-filter-year', activeFilter.year);
+            activateLink('data-filter-issue', activeFilter.issue);
+            activateLink('data-filter-principle', activeFilter.principle);
+            activateLink('data-filter-application', activeFilter.application);
+            activateLink('data-filter-author', activeFilter.author);
+            activateLink('data-filter-attribution', activeFilter.attribution);
+            if (activeFilter.saved) {
+                dom.navSaved.classList.add('active');
             }
         }
 
@@ -2448,35 +2940,59 @@ STATIC_TEMPLATE = r'''
         }
 
         /* ============================================================
-           COMPOUND FILTERING
+           COMPOUND FILTERING (multi-facet)
            ============================================================ */
         function applyFilters() {
             var articles = catalog.articles;
 
-            // 1. Apply sidebar filter (type/value)
-            if (activeFilter.type === 'year') {
+            // 1. Saved articles filter
+            if (activeFilter.saved) {
+                articles = articles.filter(function(a) { return savedArticles[a.id]; });
+            }
+
+            // 2. Year filter
+            if (activeFilter.year) {
                 articles = articles.filter(function(a) {
-                    return a.date && a.date.substring(0, 4) === activeFilter.value;
-                });
-            } else if (activeFilter.type === 'principle') {
-                articles = articles.filter(function(a) {
-                    return (a.principles || []).indexOf(activeFilter.value) !== -1;
-                });
-            } else if (activeFilter.type === 'application') {
-                articles = articles.filter(function(a) {
-                    return (a.applications || []).indexOf(activeFilter.value) !== -1;
-                });
-            } else if (activeFilter.type === 'author') {
-                articles = articles.filter(function(a) {
-                    return a.author === activeFilter.value;
-                });
-            } else if (activeFilter.type === 'issue') {
-                articles = articles.filter(function(a) {
-                    return a.date === activeFilter.value;
+                    return a.date && a.date.substring(0, 4) === activeFilter.year;
                 });
             }
 
-            // 2. Apply date range
+            // 3. Issue filter (supersedes year)
+            if (activeFilter.issue) {
+                articles = articles.filter(function(a) {
+                    return a.date === activeFilter.issue;
+                });
+            }
+
+            // 4. Principle filter
+            if (activeFilter.principle) {
+                articles = articles.filter(function(a) {
+                    return (a.principles || []).indexOf(activeFilter.principle) !== -1;
+                });
+            }
+
+            // 5. Application filter
+            if (activeFilter.application) {
+                articles = articles.filter(function(a) {
+                    return (a.applications || []).indexOf(activeFilter.application) !== -1;
+                });
+            }
+
+            // 6. Author filter
+            if (activeFilter.author) {
+                articles = articles.filter(function(a) {
+                    return a.author === activeFilter.author;
+                });
+            }
+
+            // 7. Attribution filter
+            if (activeFilter.attribution) {
+                articles = articles.filter(function(a) {
+                    return a.attribution === activeFilter.attribution;
+                });
+            }
+
+            // 8. Date range
             if (activeFilter.yearFrom) {
                 articles = articles.filter(function(a) {
                     return a.date && a.date.substring(0, 4) >= activeFilter.yearFrom;
@@ -2488,31 +3004,83 @@ STATIC_TEMPLATE = r'''
                 });
             }
 
-            // 3. Apply search query (metadata + full-text)
+            // 9. Search query (advanced parsing + full-text)
             if (activeFilter.search) {
-                var query = activeFilter.search.toLowerCase();
-                currentSearchQuery = query;
-                articles = articles.filter(function(a) {
-                    // Check metadata first
-                    var searchable = (a.title || '') + ' ' +
-                        (a.author || '') + ' ' +
-                        (a.principles || []).join(' ') + ' ' +
-                        (a.applications || []).join(' ') + ' ' +
-                        (a.keywords || []).join(' ');
-                    if (searchable.toLowerCase().indexOf(query) !== -1) {
-                        return true;
+                var parsed = parseSearchQuery(activeFilter.search, currentSearchMode);
+                if (parsed.clauses.length > 0) {
+                    searchScores = {};
+                    searchMatchedTerms = [];
+                    // Collect matched terms from parsed clauses for highlighting
+                    var seenTerms = {};
+                    for (var ci = 0; ci < parsed.clauses.length; ci++) {
+                        var c = parsed.clauses[ci];
+                        if (c.negate) continue;
+                        var terms = [];
+                        if (c.type === 'proximity') {
+                            terms = c.terms;
+                        } else {
+                            var t = c.raw || c.term || (c.prefix ? c.prefix + '*' : null);
+                            if (t) terms = [t];
+                        }
+                        for (var ti = 0; ti < terms.length; ti++) {
+                            if (!seenTerms[terms[ti]]) {
+                                seenTerms[terms[ti]] = true;
+                                searchMatchedTerms.push(terms[ti]);
+                            }
+                        }
                     }
-                    // Check full-text body if loaded
-                    if (searchData && searchData[a.id]) {
-                        return searchData[a.id].toLowerCase().indexOf(query) !== -1;
-                    }
-                    return false;
-                });
+                    articles = articles.filter(function(a) {
+                        var bodyText = (searchData && searchData[a.id] || '').toLowerCase();
+                        var result = matchArticle(a, parsed, bodyText);
+                        if (result.matched) {
+                            searchScores[a.id] = result.score;
+                            return true;
+                        }
+                        return false;
+                    });
+                }
+                currentSearchQuery = activeFilter.search;
             } else {
                 currentSearchQuery = '';
+                searchScores = {};
+                searchMatchedTerms = [];
             }
 
             return articles;
+        }
+
+        function sortArticles(articles, sortKey) {
+            var sorted = articles.slice();
+            switch (sortKey) {
+                case 'relevance':
+                    sorted.sort(function(a, b) {
+                        var sa = searchScores[a.id] || 0;
+                        var sb = searchScores[b.id] || 0;
+                        if (sb !== sa) return sb - sa;
+                        return (b.date || '').localeCompare(a.date || '');
+                    });
+                    break;
+                case 'date-asc':
+                    sorted.sort(function(a, b) { return (a.date || '').localeCompare(b.date || ''); });
+                    break;
+                case 'title-asc':
+                    sorted.sort(function(a, b) { return (a.title || '').localeCompare(b.title || ''); });
+                    break;
+                case 'title-desc':
+                    sorted.sort(function(a, b) { return (b.title || '').localeCompare(a.title || ''); });
+                    break;
+                case 'date-desc':
+                default:
+                    sorted.sort(function(a, b) { return (b.date || '').localeCompare(a.date || ''); });
+                    break;
+            }
+            return sorted;
+        }
+
+        function hasActiveFilters() {
+            return activeFilter.year || activeFilter.issue || activeFilter.principle ||
+                   activeFilter.application || activeFilter.author || activeFilter.attribution ||
+                   activeFilter.saved || activeFilter.yearFrom || activeFilter.yearTo || activeFilter.search;
         }
 
         function getSearchSnippet(articleId, matchedTerms) {
@@ -2605,60 +3173,214 @@ STATIC_TEMPLATE = r'''
            ============================================================ */
         function renderListView() {
             var articles = applyFilters();
-            filteredArticles = articles;
+
+            // Sort articles
+            filteredArticles = sortArticles(articles, activeFilter.sort);
+
             currentPage = 0;
 
-            // Show/hide views
+            // Exit split view, show/hide views
+            dom.mainContent.classList.remove('split-view');
             dom.listView.style.display = 'block';
             dom.articleDetail.classList.remove('active');
 
+            // Update sort select (show/hide relevance option)
+            updateSortSelect();
+
             // Results summary
-            renderResultsSummary(articles.length);
+            renderResultsSummary(filteredArticles.length);
+
+            // Filter chips
+            renderFilterChips();
+
+            // Issue TOC header
+            renderIssueTocHeader();
 
             // Render the page
             renderPage();
+
+            // Update sidebar counts dynamically
+            updateSidebarCounts();
+        }
+
+        function updateSortSelect() {
+            var hasRelevance = dom.sortSelect.querySelector('option[value="relevance"]');
+            if (activeFilter.search) {
+                if (!hasRelevance) {
+                    var opt = document.createElement('option');
+                    opt.value = 'relevance';
+                    opt.textContent = 'Relevance';
+                    dom.sortSelect.appendChild(opt);
+                }
+            } else {
+                if (hasRelevance) {
+                    hasRelevance.remove();
+                    if (activeFilter.sort === 'relevance') {
+                        activeFilter.sort = 'date-desc';
+                        dom.sortSelect.value = 'date-desc';
+                    }
+                }
+            }
+            dom.sortSelect.value = activeFilter.sort;
         }
 
         function renderResultsSummary(count) {
-            var parts = [];
+            var hasFilters = hasActiveFilters();
 
-            if (activeFilter.type) {
-                var typeLabel = {
-                    'year': 'Year',
-                    'principle': 'Principle',
-                    'application': 'Application',
-                    'author': 'Author',
-                    'issue': 'Issue'
-                }[activeFilter.type] || activeFilter.type;
-                var displayValue = activeFilter.type === 'issue' ? formatIssueLabelFromDate(activeFilter.value) : activeFilter.value;
-                parts.push(typeLabel + ': <span class="active-filter">' + escapeHtml(displayValue) + '</span>');
+            if (hasFilters) {
+                dom.resultsSummaryText.innerHTML = count + ' article' + (count !== 1 ? 's' : '');
+            } else {
+                dom.resultsSummaryText.innerHTML = count + ' of ' + catalog.article_count + ' articles';
             }
+        }
 
+        function renderFilterChips() {
+            var chips = [];
+
+            if (activeFilter.saved) {
+                chips.push({ label: 'Saved Articles', key: 'saved' });
+            }
+            if (activeFilter.year) {
+                chips.push({ label: 'Year: ' + activeFilter.year, key: 'year' });
+            }
+            if (activeFilter.issue) {
+                chips.push({ label: 'Issue: ' + formatIssueLabelFromDate(activeFilter.issue), key: 'issue' });
+            }
+            if (activeFilter.principle) {
+                chips.push({ label: activeFilter.principle, key: 'principle' });
+            }
+            if (activeFilter.application) {
+                chips.push({ label: activeFilter.application, key: 'application' });
+            }
+            if (activeFilter.author) {
+                chips.push({ label: activeFilter.author, key: 'author' });
+            }
+            if (activeFilter.attribution) {
+                var attrLabels = { editorial: 'Editorial', explicit: 'Signed Articles', reprint: 'Reprints' };
+                chips.push({ label: attrLabels[activeFilter.attribution] || activeFilter.attribution, key: 'attribution' });
+            }
             if (activeFilter.yearFrom || activeFilter.yearTo) {
-                var rangeStr = (activeFilter.yearFrom || '...') + ' &ndash; ' + (activeFilter.yearTo || '...');
-                parts.push('Date: <span class="active-filter">' + rangeStr + '</span>');
+                var rangeStr = (activeFilter.yearFrom || '...') + ' \u2013 ' + (activeFilter.yearTo || '...');
+                chips.push({ label: 'Date: ' + rangeStr, key: 'dateRange' });
             }
-
             if (activeFilter.search) {
-                parts.push('Search: <span class="active-filter">' + escapeHtml(activeFilter.search) + '</span>');
+                chips.push({ label: '"' + activeFilter.search + '"', key: 'search' });
             }
 
-            var html = '<span>' + count + ' of ' + catalog.article_count + ' article' + (count !== catalog.article_count ? 's' : '') + '</span>';
-
-            if (parts.length > 0) {
-                html = '<span>' + count + ' article' + (count !== 1 ? 's' : '') + ' &mdash; ' +
-                    parts.join(' + ') +
-                    ' <a class="clear-filter" data-route="" role="button" tabindex="0">&times; Clear all</a></span>';
+            if (chips.length === 0) {
+                dom.filterChipsBar.style.display = 'none';
+                return;
             }
 
-            dom.resultsSummary.innerHTML = html;
+            var html = '<div class="filter-chips">';
+            for (var i = 0; i < chips.length; i++) {
+                html += '<span class="filter-chip">' + escapeHtml(chips[i].label) +
+                    ' <button class="filter-chip-remove" data-remove-filter="' + chips[i].key + '" aria-label="Remove">&times;</button></span>';
+            }
+            if (chips.length > 1) {
+                html += '<a class="clear-all-link" data-clear-all="true" role="button" tabindex="0">Clear all</a>';
+            }
+            html += '</div>';
+            dom.filterChipsBar.innerHTML = html;
+            dom.filterChipsBar.style.display = 'block';
+        }
+
+        function removeFilter(key) {
+            if (key === 'year') { activeFilter.year = null; }
+            else if (key === 'issue') { activeFilter.issue = null; }
+            else if (key === 'principle') { activeFilter.principle = null; }
+            else if (key === 'application') { activeFilter.application = null; }
+            else if (key === 'author') { activeFilter.author = null; }
+            else if (key === 'attribution') { activeFilter.attribution = null; }
+            else if (key === 'saved') { activeFilter.saved = false; }
+            else if (key === 'dateRange') {
+                activeFilter.yearFrom = '';
+                activeFilter.yearTo = '';
+                dom.yearFrom.value = '';
+                dom.yearTo.value = '';
+                updateDateRangeClearVisibility();
+            }
+            else if (key === 'search') {
+                activeFilter.search = '';
+                dom.searchInput.value = '';
+                updateSearchClearVisibility();
+            }
+            updateHashFromFilter();
+        }
+
+        function clearAllFilters() {
+            activeFilter.year = null;
+            activeFilter.issue = null;
+            activeFilter.principle = null;
+            activeFilter.application = null;
+            activeFilter.author = null;
+            activeFilter.attribution = null;
+            activeFilter.saved = false;
+            activeFilter.yearFrom = '';
+            activeFilter.yearTo = '';
+            activeFilter.search = '';
+            dom.searchInput.value = '';
+            dom.yearFrom.value = '';
+            dom.yearTo.value = '';
+            updateSearchClearVisibility();
+            updateDateRangeClearVisibility();
+            updateHashFromFilter();
+        }
+
+        function updateSidebarCounts() {
+            // Compute counts for other facets based on current filter state
+            // This gives researchers cross-dimensional insight
+            if (!hasActiveFilters()) return; // No need — static counts already rendered
+
+            // We need the filtered set for counting, but excluding each dimension's own filter
+            // For simplicity, use the current filtered set
+            var filtered = filteredArticles;
+            renderYearsNav(filtered);
+            renderPrinciplesNav(filtered);
+            renderAuthorsNav(filtered);
+            renderAttributionNav(filtered);
+
+            // Re-apply expand states and active highlighting
+            if (activeFilter.year) openYearGroup(activeFilter.year);
+            if (activeFilter.issue) openYearForIssue(activeFilter.issue);
+            if (activeFilter.principle) openPrincipleGroup(activeFilter.principle);
+            if (activeFilter.application) openPrincipleGroupForApplication(activeFilter.application);
+            updateSidebarActive();
+        }
+
+        function renderIssueTocHeader() {
+            var existing = document.getElementById('issue-toc-header');
+            if (existing) existing.remove();
+
+            if (!activeFilter.issue) return;
+
+            // Find an article in this issue to get vol/num info
+            var sample = null;
+            for (var i = 0; i < catalog.articles.length; i++) {
+                if (catalog.articles[i].date === activeFilter.issue) {
+                    sample = catalog.articles[i];
+                    break;
+                }
+            }
+            if (!sample) return;
+
+            var header = document.createElement('div');
+            header.className = 'issue-toc-header';
+            header.id = 'issue-toc-header';
+            header.innerHTML = '<h2>American Sentinel</h2>' +
+                '<div class="issue-toc-sub">Volume ' + sample.volume + ', Number ' + sample.issue +
+                ' &mdash; ' + formatDate(activeFilter.issue) + '</div>';
+
+            dom.articleList.parentNode.insertBefore(header, dom.articleList);
         }
 
         function renderPage() {
             var articles = filteredArticles;
-            var totalPages = Math.ceil(articles.length / PAGE_SIZE);
-            var start = currentPage * PAGE_SIZE;
-            var end = Math.min(start + PAGE_SIZE, articles.length);
+            // No pagination when viewing a single issue
+            var effectivePageSize = activeFilter.issue ? articles.length : PAGE_SIZE;
+            var totalPages = Math.ceil(articles.length / effectivePageSize) || 1;
+            var start = currentPage * effectivePageSize;
+            var end = Math.min(start + effectivePageSize, articles.length);
             var pageArticles = articles.slice(start, end);
 
             if (articles.length === 0) {
@@ -2706,16 +3428,19 @@ STATIC_TEMPLATE = r'''
                 tags += '<span class="tag tag-application">' + escapeHtml(applications[ap]) + '</span>';
             }
 
-            // Search snippet for body-text matches
             var snippetHtml = '';
-            if (currentSearchQuery && searchData) {
-                var snippet = getSearchSnippet(article.id, currentSearchQuery.trim().split(/\s+/));
+            if (currentSearchQuery && searchData && searchMatchedTerms.length > 0) {
+                var snippet = getSearchSnippet(article.id, searchMatchedTerms);
                 if (snippet) {
                     snippetHtml = '<div class="article-card-snippet">' + snippet + '</div>';
                 }
             }
 
+            var starClass = isSaved(article.id) ? ' saved' : '';
+            var starChar = isSaved(article.id) ? '&#9733;' : '&#9734;';
+
             return '<li class="article-card" data-article-id="' + escapeHtml(article.id) + '" role="button" tabindex="0">' +
+                '<button class="article-card-save' + starClass + '" data-save-article="' + escapeHtml(article.id) + '" aria-label="Save" title="Save article">' + starChar + '</button>' +
                 '<div class="article-card-title">' + escapeHtml(article.title) + '</div>' +
                 '<div class="article-card-meta">' + meta.join('<span class="sep">&bull;</span>') + '</div>' +
                 '<div class="article-card-tags">' + tags + '</div>' +
@@ -3115,6 +3840,19 @@ STATIC_TEMPLATE = r'''
         /* ============================================================
            RENDERING: ARTICLE DETAIL VIEW
            ============================================================ */
+        function highlightActiveCard(articleId) {
+            var cards = dom.articleList.querySelectorAll('.article-card');
+            for (var i = 0; i < cards.length; i++) {
+                var cardId = cards[i].getAttribute('data-article-id');
+                if (cardId === articleId) {
+                    cards[i].classList.add('active-reading');
+                    cards[i].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+                } else {
+                    cards[i].classList.remove('active-reading');
+                }
+            }
+        }
+
         function showArticleDetail(articleId) {
             currentArticleId = articleId;
             highlightMatches = [];
@@ -3125,14 +3863,21 @@ STATIC_TEMPLATE = r'''
             if (!article) {
                 dom.detailBody.innerHTML = '<div class="no-results"><h3>Article not found</h3>' +
                     '<p>The requested article could not be located in the catalog.</p></div>';
+                dom.mainContent.classList.remove('split-view');
                 dom.listView.style.display = 'none';
                 dom.articleDetail.classList.add('active');
-                updatePanelActiveCard();
+                dom.articleNav.style.display = 'none';
+                dom.issueArticlesSection.style.display = 'none';
+                dom.relatedArticlesSection.style.display = 'none';
                 return;
             }
 
             // Set header info
             dom.detailTitle.textContent = article.title || 'Untitled';
+
+            // Save button state
+            dom.saveBtn.innerHTML = isSaved(articleId) ? '&#9733;' : '&#9734;';
+            dom.saveBtn.className = 'detail-action-btn' + (isSaved(articleId) ? ' saved' : '');
 
             // Meta line
             var metaParts = [];
@@ -3179,21 +3924,319 @@ STATIC_TEMPLATE = r'''
                 dom.detailKeywords.style.display = 'none';
             }
 
-            // Show detail, hide list
-            dom.listView.style.display = 'none';
-            dom.articleDetail.classList.add('active');
+            // Show detail - split view or full-width depending on filter state
+            var useSplitView = hasActiveFilters() && window.innerWidth > 900;
+            if (useSplitView) {
+                dom.mainContent.classList.add('split-view');
+                dom.listView.style.display = 'block';
+                dom.articleDetail.classList.add('active');
+                highlightActiveCard(articleId);
+            } else {
+                dom.mainContent.classList.remove('split-view');
+                dom.listView.style.display = 'none';
+                dom.articleDetail.classList.add('active');
+            }
 
             // Show loading in body
             dom.detailBody.innerHTML = '<div class="article-loading"><div class="spinner"></div><p>Loading article&hellip;</p></div>';
 
+            // Prev/Next article navigation (within same issue)
+            renderArticleNav(article);
+
+            // Other articles in this issue
+            renderIssueArticles(article);
+
+            // Related articles
+            renderRelatedArticles(article);
+
             // Fetch article HTML
             fetchArticleContent(articleId);
 
-            // Update panel active highlight
-            updatePanelActiveCard();
+            // Scroll to top (in split view, scroll the article pane; otherwise window)
+            if (dom.mainContent.classList.contains('split-view')) {
+                dom.articleDetail.scrollTop = 0;
+            } else {
+                window.scrollTo(0, 0);
+            }
+        }
 
-            // Scroll to top
-            window.scrollTo(0, 0);
+        /* ============================================================
+           ARTICLE NAVIGATION (prev/next within issue)
+           ============================================================ */
+        function getIssueArticles(article) {
+            var issueArticles = [];
+            for (var i = 0; i < catalog.articles.length; i++) {
+                var a = catalog.articles[i];
+                if (a.volume === article.volume && a.issue === article.issue && a.date === article.date) {
+                    issueArticles.push(a);
+                }
+            }
+            // Sort by id (which contains article number)
+            issueArticles.sort(function(a, b) { return a.id.localeCompare(b.id); });
+            return issueArticles;
+        }
+
+        function renderArticleNav(article) {
+            var issueArticles = getIssueArticles(article);
+            var idx = -1;
+            for (var i = 0; i < issueArticles.length; i++) {
+                if (issueArticles[i].id === article.id) { idx = i; break; }
+            }
+
+            if (issueArticles.length <= 1) {
+                dom.articleNav.style.display = 'none';
+                return;
+            }
+
+            dom.articleNav.style.display = 'flex';
+
+            if (idx > 0) {
+                var prev = issueArticles[idx - 1];
+                dom.navPrev.setAttribute('data-nav-article', prev.id);
+                dom.navPrev.classList.remove('disabled');
+                dom.navPrevTitle.textContent = prev.title || 'Untitled';
+            } else {
+                dom.navPrev.removeAttribute('data-nav-article');
+                dom.navPrev.classList.add('disabled');
+                dom.navPrevTitle.textContent = '';
+            }
+
+            if (idx < issueArticles.length - 1) {
+                var next = issueArticles[idx + 1];
+                dom.navNext.setAttribute('data-nav-article', next.id);
+                dom.navNext.classList.remove('disabled');
+                dom.navNextTitle.textContent = next.title || 'Untitled';
+            } else {
+                dom.navNext.removeAttribute('data-nav-article');
+                dom.navNext.classList.add('disabled');
+                dom.navNextTitle.textContent = '';
+            }
+        }
+
+        function renderIssueArticles(article) {
+            var issueArticles = getIssueArticles(article);
+            var others = issueArticles.filter(function(a) { return a.id !== article.id; });
+
+            if (others.length === 0) {
+                dom.issueArticlesSection.style.display = 'none';
+                return;
+            }
+
+            dom.issueArticlesSection.style.display = 'block';
+            dom.issueArticlesSection.removeAttribute('open');
+
+            var html = '';
+            for (var i = 0; i < others.length; i++) {
+                var a = others[i];
+                var authorStr = a.author ? escapeHtml(a.author) :
+                    (a.attribution === 'reprint' && a.original_publication ? 'from ' + escapeHtml(a.original_publication) :
+                    (a.attribution === 'editorial' ? 'Editorial' : ''));
+                html += '<li><a data-issue-article="' + escapeHtml(a.id) + '" role="button" tabindex="0">' +
+                    '<span>' + escapeHtml(a.title || 'Untitled') + '</span>' +
+                    (authorStr ? '<span class="issue-article-author">' + authorStr + '</span>' : '') +
+                    '</a></li>';
+            }
+            dom.issueArticlesList.innerHTML = html;
+        }
+
+        /* ============================================================
+           RELATED ARTICLES
+           ============================================================ */
+        function findRelatedArticles(article, limit) {
+            limit = limit || 5;
+            var scores = [];
+
+            for (var i = 0; i < catalog.articles.length; i++) {
+                var a = catalog.articles[i];
+                // Exclude self and same-issue articles
+                if (a.id === article.id) continue;
+                if (a.volume === article.volume && a.issue === article.issue && a.date === article.date) continue;
+
+                var score = 0;
+                var aPrinciples = a.principles || [];
+                var aApps = a.applications || [];
+                var aKeywords = a.keywords || [];
+                var srcPrinciples = article.principles || [];
+                var srcApps = article.applications || [];
+                var srcKeywords = article.keywords || [];
+
+                for (var p = 0; p < srcPrinciples.length; p++) {
+                    if (aPrinciples.indexOf(srcPrinciples[p]) !== -1) score += 3;
+                }
+                for (var ap = 0; ap < srcApps.length; ap++) {
+                    if (aApps.indexOf(srcApps[ap]) !== -1) score += 2;
+                }
+                for (var k = 0; k < srcKeywords.length; k++) {
+                    if (aKeywords.indexOf(srcKeywords[k]) !== -1) score += 1;
+                }
+                if (article.author && a.author === article.author) score += 1;
+
+                if (score > 0) {
+                    scores.push({ article: a, score: score });
+                }
+            }
+
+            scores.sort(function(a, b) {
+                if (b.score !== a.score) return b.score - a.score;
+                return (b.article.date || '').localeCompare(a.article.date || '');
+            });
+
+            return scores.slice(0, limit).map(function(s) { return s.article; });
+        }
+
+        function renderRelatedArticles(article) {
+            var related = findRelatedArticles(article, 5);
+
+            if (related.length === 0) {
+                dom.relatedArticlesSection.style.display = 'none';
+                return;
+            }
+
+            dom.relatedArticlesSection.style.display = 'block';
+
+            var srcPrinciples = article.principles || [];
+            var srcApps = article.applications || [];
+
+            var html = '';
+            for (var i = 0; i < related.length; i++) {
+                var a = related[i];
+                var meta = [];
+                if (a.author) meta.push(escapeHtml(a.author));
+                if (a.date) meta.push(formatDate(a.date));
+
+                // Show matching tags
+                var tags = '';
+                var aPrinciples = a.principles || [];
+                for (var p = 0; p < aPrinciples.length; p++) {
+                    if (srcPrinciples.indexOf(aPrinciples[p]) !== -1) {
+                        tags += '<span class="tag tag-principle">' + escapeHtml(aPrinciples[p]) + '</span>';
+                    }
+                }
+                var aApps = a.applications || [];
+                for (var ap = 0; ap < aApps.length && tags.split('tag').length < 5; ap++) {
+                    if (srcApps.indexOf(aApps[ap]) !== -1) {
+                        tags += '<span class="tag tag-application">' + escapeHtml(aApps[ap]) + '</span>';
+                    }
+                }
+
+                html += '<li class="related-article-card" data-related-article="' + escapeHtml(a.id) + '" role="button" tabindex="0">' +
+                    '<div class="related-article-title">' + escapeHtml(a.title || 'Untitled') + '</div>' +
+                    '<div class="related-article-meta">' + meta.join(' &bull; ') + '</div>' +
+                    (tags ? '<div class="related-article-tags">' + tags + '</div>' : '') +
+                    '</li>';
+            }
+            dom.relatedArticlesList.innerHTML = html;
+        }
+
+        /* ============================================================
+           CITATION
+           ============================================================ */
+        function formatCitation(article) {
+            var author = article.author || '';
+            var title = article.title || '';
+            var pub = article.publication || 'American Sentinel';
+            var vol = article.volume || '';
+            var iss = article.issue || '';
+            var dateStr = article.date ? formatDate(article.date) : '';
+            var origPub = article.original_publication || '';
+
+            var chicago = '';
+            if (article.attribution === 'reprint' && origPub) {
+                chicago = '\u201C' + title + '.\u201D Originally published in ' + origPub + '. Reprinted in ' +
+                    pub + ' ' + vol + ', no. ' + iss + ' (' + dateStr + ').';
+            } else if (article.attribution === 'editorial' || !author) {
+                chicago = '\u201C' + title + '.\u201D ' + pub + ' ' + vol + ', no. ' + iss + ' (' + dateStr + ').';
+            } else {
+                // Split author name for Chicago: "Last, First Middle"
+                var nameParts = author.split(' ');
+                var chicagoAuthor = author;
+                if (nameParts.length >= 2) {
+                    chicagoAuthor = nameParts[nameParts.length - 1] + ', ' + nameParts.slice(0, -1).join(' ');
+                }
+                chicago = chicagoAuthor + '. \u201C' + title + '.\u201D ' + pub + ' ' + vol + ', no. ' + iss + ' (' + dateStr + ').';
+            }
+
+            // BibTeX
+            var bibtexKey = (article.author_short || 'anon') + (article.date ? article.date.substring(0, 4) : '') +
+                (title.split(' ')[0] || '').toLowerCase().replace(/[^a-z]/g, '');
+            var bibtex = '@article{' + bibtexKey + ',\n' +
+                '  title   = {' + title + '},\n' +
+                (author ? '  author  = {' + author + '},\n' : '') +
+                '  journal = {' + pub + '},\n' +
+                '  volume  = {' + vol + '},\n' +
+                '  number  = {' + iss + '},\n' +
+                '  year    = {' + (article.date ? article.date.substring(0, 4) : '') + '},\n' +
+                (origPub ? '  note    = {Reprinted from ' + origPub + '},\n' : '') +
+                '}';
+
+            return { chicago: chicago, bibtex: bibtex };
+        }
+
+        function showCiteModal() {
+            if (!currentArticleId) return;
+            var article = articleById[currentArticleId];
+            if (!article) return;
+
+            var citation = formatCitation(article);
+            dom.citeTextChicago.textContent = citation.chicago;
+            dom.citeTextBibtex.textContent = citation.bibtex;
+            dom.citeModalOverlay.style.display = 'flex';
+        }
+
+        function closeCiteModal() {
+            dom.citeModalOverlay.style.display = 'none';
+        }
+
+        function showToast(message) {
+            dom.toast.textContent = message;
+            dom.toast.classList.add('show');
+            setTimeout(function() {
+                dom.toast.classList.remove('show');
+            }, 2000);
+        }
+
+        function copyToClipboard(text) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(function() {
+                    showToast('Citation copied!');
+                });
+            } else {
+                // Fallback
+                var ta = document.createElement('textarea');
+                ta.value = text;
+                ta.style.position = 'fixed';
+                ta.style.left = '-9999px';
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                document.body.removeChild(ta);
+                showToast('Citation copied!');
+            }
+        }
+
+        /* ============================================================
+           EXPORT SAVED ARTICLES
+           ============================================================ */
+        function exportSavedCitations() {
+            var ids = Object.keys(savedArticles);
+            if (ids.length === 0) return;
+
+            var lines = [];
+            for (var i = 0; i < ids.length; i++) {
+                var a = articleById[ids[i]];
+                if (a) {
+                    var c = formatCitation(a);
+                    lines.push(c.chicago);
+                }
+            }
+
+            var blob = new Blob([lines.join('\n\n')], { type: 'text/plain' });
+            var url = URL.createObjectURL(blob);
+            var link = document.createElement('a');
+            link.href = url;
+            link.download = 'saved-articles-citations.txt';
+            link.click();
+            URL.revokeObjectURL(url);
         }
 
         function fetchArticleContent(articleId) {
@@ -3204,8 +4247,8 @@ STATIC_TEMPLATE = r'''
                 if (xhr.readyState !== 4) return;
                 if (xhr.status === 200) {
                     dom.detailBody.innerHTML = xhr.responseText;
-                    if (panelMatchedTerms.length > 0) {
-                        var matchCount = highlightTermInBody(panelMatchedTerms);
+                    if (searchMatchedTerms.length > 0) {
+                        var matchCount = highlightTermInBody(searchMatchedTerms);
                         showHighlightNav(matchCount);
                         if (matchCount > 0) goToHighlight(0);
                     }
@@ -3231,26 +4274,30 @@ STATIC_TEMPLATE = r'''
            ============================================================ */
         function buildHash() {
             var parts = [];
-            if (activeFilter.type && activeFilter.value) {
-                parts.push(activeFilter.type + '=' + encodeHashParam(activeFilter.value));
-            }
-            if (activeFilter.yearFrom) {
-                parts.push('yearFrom=' + activeFilter.yearFrom);
-            }
-            if (activeFilter.yearTo) {
-                parts.push('yearTo=' + activeFilter.yearTo);
-            }
-            if (activeFilter.search) {
-                parts.push('search=' + encodeHashParam(activeFilter.search));
-            }
+            if (activeFilter.year) parts.push('year=' + encodeHashParam(activeFilter.year));
+            if (activeFilter.issue) parts.push('issue=' + encodeHashParam(activeFilter.issue));
+            if (activeFilter.principle) parts.push('principle=' + encodeHashParam(activeFilter.principle));
+            if (activeFilter.application) parts.push('application=' + encodeHashParam(activeFilter.application));
+            if (activeFilter.author) parts.push('author=' + encodeHashParam(activeFilter.author));
+            if (activeFilter.attribution) parts.push('attribution=' + encodeHashParam(activeFilter.attribution));
+            if (activeFilter.saved) parts.push('saved=1');
+            if (activeFilter.yearFrom) parts.push('yearFrom=' + activeFilter.yearFrom);
+            if (activeFilter.yearTo) parts.push('yearTo=' + activeFilter.yearTo);
+            if (activeFilter.search) parts.push('search=' + encodeHashParam(activeFilter.search));
+            if (activeFilter.search && currentSearchMode !== 'and') parts.push('mode=' + currentSearchMode);
+            if (activeFilter.sort && activeFilter.sort !== 'date-desc') parts.push('sort=' + activeFilter.sort);
+
             if (parts.length === 0) return '';
 
-            // Use simple format for single legacy-style filters (backward compat)
-            if (parts.length === 1 && !activeFilter.yearFrom && !activeFilter.yearTo) {
-                if (activeFilter.type && !activeFilter.search) {
-                    return activeFilter.type + '/' + encodeHashParam(activeFilter.value);
+            // Backward-compatible simple format for single legacy filters
+            if (parts.length === 1) {
+                var facets = ['year','issue','principle','application','author'];
+                for (var f = 0; f < facets.length; f++) {
+                    if (activeFilter[facets[f]] && !activeFilter.search) {
+                        return facets[f] + '/' + encodeHashParam(activeFilter[facets[f]]);
+                    }
                 }
-                if (activeFilter.search && !activeFilter.type) {
+                if (activeFilter.search && !activeFilter.year && !activeFilter.principle && !activeFilter.author) {
                     return 'search/' + encodeHashParam(activeFilter.search);
                 }
             }
@@ -3259,7 +4306,11 @@ STATIC_TEMPLATE = r'''
         }
 
         function parseHash(hash) {
-            var filter = { type: null, value: null, search: '', yearFrom: '', yearTo: '' };
+            var filter = {
+                year: null, issue: null, principle: null, application: null,
+                author: null, attribution: null, saved: false,
+                yearFrom: '', yearTo: '', search: '', sort: 'date-desc', mode: 'and'
+            };
 
             if (!hash || hash === '') return filter;
 
@@ -3273,16 +4324,18 @@ STATIC_TEMPLATE = r'''
                     var key = pairs[i].substring(0, eqIdx);
                     var val = decodeHashParam(pairs[i].substring(eqIdx + 1));
 
-                    if (key === 'search') {
-                        filter.search = val;
-                    } else if (key === 'yearFrom') {
-                        filter.yearFrom = val;
-                    } else if (key === 'yearTo') {
-                        filter.yearTo = val;
-                    } else if (key === 'year' || key === 'principle' || key === 'application' || key === 'author' || key === 'issue') {
-                        filter.type = key;
-                        filter.value = val;
-                    }
+                    if (key === 'search') filter.search = val;
+                    else if (key === 'mode') filter.mode = val;
+                    else if (key === 'yearFrom') filter.yearFrom = val;
+                    else if (key === 'yearTo') filter.yearTo = val;
+                    else if (key === 'sort') filter.sort = val;
+                    else if (key === 'saved') filter.saved = val === '1';
+                    else if (key === 'year') filter.year = val;
+                    else if (key === 'issue') filter.issue = val;
+                    else if (key === 'principle') filter.principle = val;
+                    else if (key === 'application') filter.application = val;
+                    else if (key === 'author') filter.author = val;
+                    else if (key === 'attribution') filter.attribution = val;
                 }
                 return filter;
             }
@@ -3295,10 +4348,8 @@ STATIC_TEMPLATE = r'''
             if (routeType === 'search') {
                 filter.search = routeValue;
             } else if (routeType === 'year' || routeType === 'principle' || routeType === 'application' || routeType === 'author' || routeType === 'issue') {
-                filter.type = routeType;
-                filter.value = routeValue;
+                filter[routeType] = routeValue;
             }
-            // 'article' is handled separately before parseHash is called
 
             return filter;
         }
@@ -3315,41 +4366,50 @@ STATIC_TEMPLATE = r'''
 
             // No longer viewing a specific article
             currentArticleId = null;
-            updatePanelActiveCard();
 
             // Parse filter state from hash
             var parsed = parseHash(hash);
-            activeFilter.type = parsed.type;
-            activeFilter.value = parsed.value;
+            activeFilter.year = parsed.year;
+            activeFilter.issue = parsed.issue;
+            activeFilter.principle = parsed.principle;
+            activeFilter.application = parsed.application;
+            activeFilter.author = parsed.author;
+            activeFilter.attribution = parsed.attribution;
+            activeFilter.saved = parsed.saved;
             activeFilter.search = parsed.search;
             activeFilter.yearFrom = parsed.yearFrom;
             activeFilter.yearTo = parsed.yearTo;
+            activeFilter.sort = parsed.sort || 'date-desc';
+
+            // Apply search mode from URL
+            if (parsed.mode && (parsed.mode === 'and' || parsed.mode === 'phrase' || parsed.mode === 'or')) {
+                currentSearchMode = parsed.mode;
+            } else {
+                currentSearchMode = 'and';
+            }
+            updateSearchModePills();
 
             // Update sidebar active state
-            if (activeFilter.type && activeFilter.value) {
-                var route = activeFilter.type + '/' + encodeHashParam(activeFilter.value);
-                setActiveNav(route);
-                if (activeFilter.type === 'principle') {
-                    openPrincipleGroup(activeFilter.value);
-                } else if (activeFilter.type === 'application') {
-                    openPrincipleGroupForApplication(activeFilter.value);
-                } else if (activeFilter.type === 'year') {
-                    openYearGroup(activeFilter.value);
-                } else if (activeFilter.type === 'issue') {
-                    openYearForIssue(activeFilter.value);
-                }
-            } else {
-                setActiveNav('');
-            }
+            updateSidebarActive();
+
+            // Open relevant groups
+            if (activeFilter.year) openYearGroup(activeFilter.year);
+            if (activeFilter.issue) openYearForIssue(activeFilter.issue);
+            if (activeFilter.principle) openPrincipleGroup(activeFilter.principle);
+            if (activeFilter.application) openPrincipleGroupForApplication(activeFilter.application);
 
             // Update search input
             dom.searchInput.value = activeFilter.search || '';
             updateSearchClearVisibility();
+            updateSearchOptionsVisibility();
 
             // Update date range dropdowns
             dom.yearFrom.value = activeFilter.yearFrom || '';
             dom.yearTo.value = activeFilter.yearTo || '';
             updateDateRangeClearVisibility();
+
+            // Update sort select
+            dom.sortSelect.value = activeFilter.sort;
 
             // Render
             renderListView();
@@ -3363,11 +4423,22 @@ STATIC_TEMPLATE = r'''
         function onSearchInput() {
             var query = dom.searchInput.value.trim();
             updateSearchClearVisibility();
+            updateSearchOptionsVisibility();
 
             clearTimeout(searchDebounceTimer);
             searchDebounceTimer = setTimeout(function() {
                 activeFilter.search = query;
-                updateHashFromFilter();
+                // Auto-switch to relevance sort when starting a search
+                if (query && activeFilter.sort !== 'relevance') {
+                    activeFilter.sort = 'relevance';
+                }
+                if (query && !searchDataLoaded) {
+                    loadSearchData(function() {
+                        updateHashFromFilter();
+                    });
+                } else {
+                    updateHashFromFilter();
+                }
             }, 250);
         }
 
@@ -3375,10 +4446,33 @@ STATIC_TEMPLATE = r'''
             dom.searchClear.style.display = dom.searchInput.value.length > 0 ? 'block' : 'none';
         }
 
+        function updateSearchOptionsVisibility() {
+            var hasValue = dom.searchInput.value.length > 0;
+            if (hasValue) {
+                dom.searchOptions.classList.add('visible');
+            } else if (document.activeElement !== dom.searchInput) {
+                dom.searchOptions.classList.remove('visible');
+            }
+        }
+
+        function updateSearchModePills() {
+            var pills = dom.searchModes.querySelectorAll('.search-mode-pill');
+            for (var i = 0; i < pills.length; i++) {
+                if (pills[i].getAttribute('data-mode') === currentSearchMode) {
+                    pills[i].classList.add('active');
+                } else {
+                    pills[i].classList.remove('active');
+                }
+            }
+        }
+
         function clearSearch() {
             dom.searchInput.value = '';
             updateSearchClearVisibility();
+            dom.searchOptions.classList.remove('visible');
             activeFilter.search = '';
+            currentSearchMode = 'and';
+            updateSearchModePills();
             updateHashFromFilter();
         }
 
@@ -3388,13 +4482,10 @@ STATIC_TEMPLATE = r'''
         function onDateRangeChange() {
             activeFilter.yearFrom = dom.yearFrom.value;
             activeFilter.yearTo = dom.yearTo.value;
-            // Date range supersedes year/issue sidebar filter
+            // Date range supersedes year/issue filter
             if (activeFilter.yearFrom || activeFilter.yearTo) {
-                if (activeFilter.type === 'year' || activeFilter.type === 'issue') {
-                    activeFilter.type = null;
-                    activeFilter.value = null;
-                    setActiveNav('');
-                }
+                activeFilter.year = null;
+                activeFilter.issue = null;
             }
             updateDateRangeClearVisibility();
             updateHashFromFilter();
@@ -3454,51 +4545,169 @@ STATIC_TEMPLATE = r'''
             var target = e.target;
 
             while (target && target !== document.body) {
-                // Search panel result card click
-                var panelId = target.getAttribute('data-panel-article-id');
-                if (panelId) {
+                // Save article button (in card list or detail)
+                var saveId = target.getAttribute('data-save-article');
+                if (saveId) {
                     e.preventDefault();
-                    setHash('article/' + encodeHashParam(panelId));
-                    // Close panel on mobile/tablet (overlay mode)
-                    if (window.innerWidth <= 1200) {
-                        closeSearchPanel();
+                    e.stopPropagation();
+                    toggleSaved(saveId);
+                    // Update button appearance
+                    if (isSaved(saveId)) {
+                        target.classList.add('saved');
+                        target.innerHTML = '&#9733;';
+                    } else {
+                        target.classList.remove('saved');
+                        target.innerHTML = '&#9734;';
                     }
+                    // If viewing saved filter, re-render
+                    if (activeFilter.saved) renderListView();
                     return;
                 }
 
+                // Filter chip remove
+                var removeKey = target.getAttribute('data-remove-filter');
+                if (removeKey) {
+                    e.preventDefault();
+                    removeFilter(removeKey);
+                    return;
+                }
+
+                // Clear all filters
+                if (target.getAttribute('data-clear-all') === 'true') {
+                    e.preventDefault();
+                    clearAllFilters();
+                    return;
+                }
+
+                // Multi-facet sidebar filter clicks
+                var filterYear = target.getAttribute('data-filter-year');
+                if (filterYear !== null) {
+                    e.preventDefault();
+                    closeSidebar();
+                    if (activeFilter.year === filterYear) {
+                        toggleYearGroup(filterYear);
+                        return;
+                    }
+                    activeFilter.year = filterYear;
+                    activeFilter.issue = null; // issue is within year
+                    updateHashFromFilter();
+                    return;
+                }
+
+                var filterIssue = target.getAttribute('data-filter-issue');
+                if (filterIssue !== null) {
+                    e.preventDefault();
+                    closeSidebar();
+                    activeFilter.issue = filterIssue;
+                    activeFilter.year = null; // issue supersedes year
+                    updateHashFromFilter();
+                    return;
+                }
+
+                var filterPrinciple = target.getAttribute('data-filter-principle');
+                if (filterPrinciple !== null) {
+                    e.preventDefault();
+                    closeSidebar();
+                    if (activeFilter.principle === filterPrinciple) {
+                        togglePrincipleGroup(filterPrinciple);
+                        return;
+                    }
+                    activeFilter.principle = filterPrinciple;
+                    updateHashFromFilter();
+                    return;
+                }
+
+                var filterApp = target.getAttribute('data-filter-application');
+                if (filterApp !== null) {
+                    e.preventDefault();
+                    closeSidebar();
+                    activeFilter.application = filterApp;
+                    updateHashFromFilter();
+                    return;
+                }
+
+                var filterAuthor = target.getAttribute('data-filter-author');
+                if (filterAuthor !== null) {
+                    e.preventDefault();
+                    closeSidebar();
+                    activeFilter.author = filterAuthor;
+                    updateHashFromFilter();
+                    return;
+                }
+
+                var filterAttribution = target.getAttribute('data-filter-attribution');
+                if (filterAttribution !== null) {
+                    e.preventDefault();
+                    closeSidebar();
+                    activeFilter.attribution = filterAttribution;
+                    updateHashFromFilter();
+                    return;
+                }
+
+                var filterSaved = target.getAttribute('data-filter-saved');
+                if (filterSaved !== null) {
+                    e.preventDefault();
+                    closeSidebar();
+                    activeFilter.saved = !activeFilter.saved;
+                    updateHashFromFilter();
+                    return;
+                }
+
+                // Legacy data-route (for "All Articles", keyword tags, etc.)
                 var route = target.getAttribute('data-route');
                 if (route !== null) {
                     e.preventDefault();
                     closeSidebar();
 
-                    // When clicking a sidebar filter, reset other filter state but keep date range
                     if (route === '') {
-                        // Clear all
-                        activeFilter.type = null;
-                        activeFilter.value = null;
-                        activeFilter.search = '';
-                        activeFilter.yearFrom = '';
-                        activeFilter.yearTo = '';
-                        dom.searchInput.value = '';
-                        dom.yearFrom.value = '';
-                        dom.yearTo.value = '';
-                        updateSearchClearVisibility();
-                        updateDateRangeClearVisibility();
+                        clearAllFilters();
+                        return;
                     }
 
-                    // If clicking the same route, toggle expand/collapse directly
-                    // (hashchange won't fire when hash doesn't change)
-                    var currentHash = window.location.hash.replace(/^#\/?/, '');
-                    if (route === currentHash) {
-                        if (route.indexOf('year/') === 0) {
-                            toggleYearGroup(route.substring(5));
-                        } else if (route.indexOf('principle/') === 0) {
-                            togglePrincipleGroup(decodeHashParam(route.substring(10)));
-                        }
+                    // Handle tag clicks from article detail
+                    if (route.indexOf('principle/') === 0) {
+                        activeFilter.principle = decodeHashParam(route.substring(10));
+                        updateHashFromFilter();
+                        return;
+                    }
+                    if (route.indexOf('application/') === 0) {
+                        activeFilter.application = decodeHashParam(route.substring(12));
+                        updateHashFromFilter();
+                        return;
+                    }
+                    if (route.indexOf('search/') === 0) {
+                        activeFilter.search = decodeHashParam(route.substring(7));
+                        dom.searchInput.value = activeFilter.search;
+                        updateSearchClearVisibility();
+                        updateHashFromFilter();
                         return;
                     }
 
                     setHash(route);
+                    return;
+                }
+
+                // Article nav (prev/next)
+                var navArticle = target.getAttribute('data-nav-article');
+                if (navArticle) {
+                    e.preventDefault();
+                    setHash('article/' + encodeHashParam(navArticle));
+                    return;
+                }
+
+                // Issue article link
+                var issueLink = target.getAttribute('data-issue-article');
+                if (issueLink) {
+                    e.preventDefault();
+                    setHash('article/' + encodeHashParam(issueLink));
+                    return;
+                }
+
+                // Related article card
+                var relatedId = target.getAttribute('data-related-article');
+                if (relatedId) {
+                    e.preventDefault();
+                    setHash('article/' + encodeHashParam(relatedId));
                     return;
                 }
 
@@ -3525,17 +4734,21 @@ STATIC_TEMPLATE = r'''
         function handleDelegatedKeydown(e) {
             if (e.key === 'Enter' || e.key === ' ') {
                 var target = e.target;
-                var route = target.getAttribute('data-route');
-                if (route !== null) {
+                // Check for any filter or navigation attributes
+                if (target.getAttribute('data-filter-year') !== null ||
+                    target.getAttribute('data-filter-issue') !== null ||
+                    target.getAttribute('data-filter-principle') !== null ||
+                    target.getAttribute('data-filter-application') !== null ||
+                    target.getAttribute('data-filter-author') !== null ||
+                    target.getAttribute('data-filter-attribution') !== null ||
+                    target.getAttribute('data-filter-saved') !== null ||
+                    target.getAttribute('data-route') !== null ||
+                    target.getAttribute('data-article-id') !== null ||
+                    target.getAttribute('data-nav-article') !== null ||
+                    target.getAttribute('data-issue-article') !== null ||
+                    target.getAttribute('data-related-article') !== null) {
                     e.preventDefault();
-                    closeSidebar();
-                    setHash(route);
-                    return;
-                }
-                var articleId = target.getAttribute('data-article-id');
-                if (articleId) {
-                    e.preventDefault();
-                    setHash('article/' + encodeHashParam(articleId));
+                    target.click();
                     return;
                 }
             }
@@ -3562,171 +4775,53 @@ STATIC_TEMPLATE = r'''
         }
 
         /* ============================================================
-           SEARCH PANEL
+           SHARE & PRINT
            ============================================================ */
-        var panelDebounceTimer = null;
-
-        function openSearchPanel() {
-            dom.searchPanel.classList.add('open');
-            dom.searchPanelOverlay.style.display = 'block';
-            dom.searchPanelOverlay.offsetHeight; // force reflow
-            dom.searchPanelOverlay.classList.add('visible');
-            document.body.style.overflow = 'hidden';
-            dom.panelSearchInput.focus();
-        }
-
-        function closeSearchPanel() {
-            dom.searchPanel.classList.remove('open');
-            dom.searchPanelOverlay.classList.remove('visible');
-            document.body.style.overflow = '';
-            setTimeout(function() {
-                if (!dom.searchPanelOverlay.classList.contains('visible')) {
-                    dom.searchPanelOverlay.style.display = 'none';
-                }
-            }, 300);
-        }
-
-        function onPanelSearchInput() {
-            var query = dom.panelSearchInput.value.trim();
-            dom.panelSearchClear.style.display = query.length > 0 ? 'block' : 'none';
-
-            clearTimeout(panelDebounceTimer);
-            panelDebounceTimer = setTimeout(function() {
-                panelSearchQuery = query;
-                executePanelSearch();
-            }, 250);
-        }
-
-        function clearPanelSearch() {
-            dom.panelSearchInput.value = '';
-            dom.panelSearchClear.style.display = 'none';
-            panelSearchQuery = '';
-            panelFilteredArticles = [];
-            panelMatchedTerms = [];
-            dom.panelSearchCount.style.display = 'none';
-            dom.panelSearchResults.innerHTML = '';
-            dom.panelSearchEmpty.style.display = 'block';
-            dom.panelSearchResults.appendChild(dom.panelSearchEmpty);
-        }
-
-        function executePanelSearch() {
-            if (!panelSearchQuery) {
-                clearPanelSearch();
-                dom.panelSearchInput.focus();
-                return;
+        function shareArticle() {
+            var url = window.location.href;
+            if (navigator.share) {
+                var article = currentArticleId ? articleById[currentArticleId] : null;
+                navigator.share({
+                    title: article ? article.title : 'American Sentinel Research Archive',
+                    url: url
+                }).catch(function() {});
+            } else {
+                copyLinkToClipboard(url);
             }
+        }
 
-            // If search data not loaded yet, load it first then re-run
-            if (!searchDataLoaded) {
-                loadSearchData(function() {
-                    executePanelSearch();
+        function copyLinkToClipboard(url) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(url).then(function() {
+                    showToast('Link copied!');
                 });
-                return;
+            } else {
+                var ta = document.createElement('textarea');
+                ta.value = url;
+                ta.style.position = 'fixed';
+                ta.style.left = '-9999px';
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                document.body.removeChild(ta);
+                showToast('Link copied!');
             }
-
-            var parsed = parseSearchQuery(panelSearchQuery, currentSearchMode);
-            if (parsed.clauses.length === 0) {
-                clearPanelSearch();
-                return;
-            }
-
-            var results = [];
-
-            for (var i = 0; i < catalog.articles.length; i++) {
-                var a = catalog.articles[i];
-                var bodyText = (searchData && searchData[a.id] || '').toLowerCase();
-                var result = matchArticle(a, parsed, bodyText);
-                if (result.matched) {
-                    results.push({ article: a, score: result.score, matchedTerms: result.matchedTerms });
-                }
-            }
-
-            // Sort by score desc, then date desc
-            results.sort(function(a, b) {
-                if (b.score !== a.score) return b.score - a.score;
-                return (b.article.date || '').localeCompare(a.article.date || '');
-            });
-
-            panelFilteredArticles = results.map(function(r) { return r.article; });
-
-            // Collect unique matched terms for highlighting
-            panelMatchedTerms = [];
-            var seen = {};
-            for (var i = 0; i < parsed.clauses.length; i++) {
-                var c = parsed.clauses[i];
-                if (c.negate) continue;
-                var terms = [];
-                if (c.type === 'proximity') {
-                    terms = c.terms;
-                } else {
-                    var t = c.raw || c.term || (c.prefix ? c.prefix + '*' : null);
-                    if (t) terms = [t];
-                }
-                for (var j = 0; j < terms.length; j++) {
-                    if (!seen[terms[j]]) {
-                        seen[terms[j]] = true;
-                        panelMatchedTerms.push(terms[j]);
-                    }
-                }
-            }
-
-            renderPanelResults(panelFilteredArticles, panelMatchedTerms);
         }
 
-        function renderPanelResults(articles, matchedTerms) {
-            dom.panelSearchEmpty.style.display = 'none';
-
-            // Show count
-            dom.panelSearchCount.style.display = 'block';
-            dom.panelSearchCount.textContent = articles.length + ' result' + (articles.length !== 1 ? 's' : '');
-
-            if (articles.length === 0) {
-                dom.panelSearchResults.innerHTML = '<div class="search-panel-empty"><p>No articles match "<strong>' +
-                    escapeHtml(panelSearchQuery) + '</strong>"</p></div>';
-                return;
-            }
-
-            // Render compact cards (cap at 100 for performance)
-            var limit = Math.min(articles.length, 100);
-            var html = '';
-            for (var i = 0; i < limit; i++) {
-                var a = articles[i];
-                var isActive = (a.id === currentArticleId) ? ' active' : '';
-
-                var meta = [];
-                if (a.author) meta.push(escapeHtml(a.author));
-                if (a.date) meta.push(formatDate(a.date));
-
-                var snippet = getSearchSnippet(a.id, matchedTerms);
-                var snippetHtml = snippet
-                    ? '<div class="search-panel-card-snippet">' + snippet + '</div>'
-                    : '';
-
-                html += '<div class="search-panel-card' + isActive + '" data-panel-article-id="' + escapeHtml(a.id) + '">' +
-                    '<div class="search-panel-card-title">' + escapeHtml(a.title) + '</div>' +
-                    '<div class="search-panel-card-meta">' + meta.join(' &bull; ') + '</div>' +
-                    snippetHtml +
-                    '</div>';
-            }
-
-            if (articles.length > limit) {
-                html += '<div style="text-align:center;padding:0.75rem;font-size:0.8rem;color:var(--color-text-muted);">' +
-                    (articles.length - limit) + ' more results&hellip;</div>';
-            }
-
-            dom.panelSearchResults.innerHTML = html;
+        function printArticle() {
+            window.print();
         }
 
-        function updatePanelActiveCard() {
-            var cards = dom.panelSearchResults.querySelectorAll('.search-panel-card');
-            for (var i = 0; i < cards.length; i++) {
-                var cardId = cards[i].getAttribute('data-panel-article-id');
-                if (cardId === currentArticleId) {
-                    cards[i].classList.add('active');
-                } else {
-                    cards[i].classList.remove('active');
-                }
-            }
+        function viewOriginalPdf() {
+            if (!currentArticleId) return;
+            var article = articleById[currentArticleId];
+            if (!article || !article.date || !article.volume || !article.issue) return;
+            var year = article.date.substring(0, 4);
+            var vol = String(article.volume).padStart(2, '0');
+            var num = String(article.issue).padStart(2, '0');
+            var filename = 'American Sentinel (' + article.date + ') Volume ' + vol + ', Number ' + num + '.pdf';
+            var url = '/files/american-sentinel-pdf-issues/' + year + '/' + encodeURIComponent(filename);
+            window.open(url, '_blank');
         }
 
         /* ============================================================
@@ -3753,22 +4848,43 @@ STATIC_TEMPLATE = r'''
             });
             dom.sidebarOverlay.addEventListener('click', closeSidebar);
 
+            // Sort select
+            dom.sortSelect.addEventListener('change', function() {
+                activeFilter.sort = dom.sortSelect.value;
+                updateHashFromFilter();
+            });
+
             // Search mode pill events
-            dom.searchPanelModes.addEventListener('click', function(e) {
+            dom.searchModes.addEventListener('click', function(e) {
                 var pill = e.target.closest('.search-mode-pill');
                 if (!pill) return;
                 currentSearchMode = pill.getAttribute('data-mode');
-                var pills = dom.searchPanelModes.querySelectorAll('.search-mode-pill');
+                var pills = dom.searchModes.querySelectorAll('.search-mode-pill');
                 for (var i = 0; i < pills.length; i++) pills[i].classList.remove('active');
                 pill.classList.add('active');
-                if (panelSearchQuery) executePanelSearch();
+                if (activeFilter.search) updateHashFromFilter();
             });
 
             // Search field checkbox events
             dom.searchFields.addEventListener('change', function(e) {
                 if (e.target.type !== 'checkbox') return;
                 searchFields[e.target.value] = e.target.checked;
-                if (panelSearchQuery) executePanelSearch();
+                if (activeFilter.search) updateHashFromFilter();
+            });
+
+            // Search input focus/blur for showing options
+            dom.searchInput.addEventListener('focus', function() {
+                if (dom.searchInput.value.length > 0) {
+                    dom.searchOptions.classList.add('visible');
+                }
+            });
+            dom.searchInput.addEventListener('blur', function() {
+                // Delay to allow clicks on options
+                setTimeout(function() {
+                    if (dom.searchInput.value.length === 0) {
+                        dom.searchOptions.classList.remove('visible');
+                    }
+                }, 200);
             });
 
             // Highlight navigation events
@@ -3776,22 +4892,43 @@ STATIC_TEMPLATE = r'''
             dom.highlightNext.addEventListener('click', nextHighlight);
             dom.highlightClose.addEventListener('click', clearHighlights);
 
-            // Search panel events
-            dom.panelSearchInput.addEventListener('input', onPanelSearchInput);
-            dom.panelSearchClear.addEventListener('click', clearPanelSearch);
-            dom.searchToggleBtn.addEventListener('click', function() {
-                if (dom.searchPanel.classList.contains('open')) {
-                    closeSearchPanel();
-                } else {
-                    openSearchPanel();
-                }
+            // Share, Print & PDF
+            dom.shareBtn.addEventListener('click', shareArticle);
+            dom.printBtn.addEventListener('click', printArticle);
+            dom.pdfBtn.addEventListener('click', viewOriginalPdf);
+
+            // Citation modal events
+            dom.citeBtn.addEventListener('click', showCiteModal);
+            dom.citeModalClose.addEventListener('click', closeCiteModal);
+            dom.citeModalOverlay.addEventListener('click', function(e) {
+                if (e.target === dom.citeModalOverlay) closeCiteModal();
             });
-            dom.searchPanelClose.addEventListener('click', closeSearchPanel);
-            dom.searchPanelOverlay.addEventListener('click', closeSearchPanel);
+            dom.citeCopyChicago.addEventListener('click', function() {
+                copyToClipboard(dom.citeTextChicago.textContent);
+            });
+            dom.citeCopyBibtex.addEventListener('click', function() {
+                copyToClipboard(dom.citeTextBibtex.textContent);
+            });
+
+            // Save button in detail view
+            dom.saveBtn.addEventListener('click', function() {
+                if (!currentArticleId) return;
+                toggleSaved(currentArticleId);
+                dom.saveBtn.innerHTML = isSaved(currentArticleId) ? '&#9733;' : '&#9734;';
+                dom.saveBtn.className = 'detail-action-btn' + (isSaved(currentArticleId) ? ' saved' : '');
+            });
 
             // Global delegated click/keydown
             document.addEventListener('click', handleDelegatedClick);
             document.addEventListener('keydown', handleDelegatedKeydown);
+
+            // Window resize: exit split view on narrow screens
+            window.addEventListener('resize', function() {
+                if (dom.mainContent.classList.contains('split-view') && window.innerWidth <= 900) {
+                    dom.mainContent.classList.remove('split-view');
+                    dom.listView.style.display = 'none';
+                }
+            });
 
             // Hash change for back/forward
             window.addEventListener('hashchange', function() {
