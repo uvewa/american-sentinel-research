@@ -1,5 +1,5 @@
 ---
-title: "Rights in Washington"
+title: "Rights in Washington."
 date: 1889-08-21
 publication: "American Sentinel"
 volume: 4
@@ -11,16 +11,15 @@ principles:
   - "Religious Liberty"
 
 applications:
+  - "First Amendment Protections"
   - "Freedom of Conscience"
-  - "First Amendment"
+  - "Separation of Church and State"
 
 keywords:
   - Washington State
-  - Constitutional Convention
   - Bill of Rights
+  - Constitutional convention
 ---
-
-# Rights in Washington.
 
 The following are the sections of the Bill of Rights of the new State of Washington, which have a bearing on religious liberty. The article is now under discussion in the Constitutional convention and we will note whatever changes there may be if any.
 
@@ -44,4 +43,4 @@ Sec. 11.—Absolute freedom of conscience in all matters of religious sentiment,
 
 Sec. 30.—The provisions of this Constitution are mandatory, unless by express words they are declared to be otherwise.
 
-Upon the principle that the intention of the lawgiver is the law, we know that rights will be secure under this Constitution; because we personally know that every member of the committee is indeed in favor of “absolute freedom of conscience in all matters of religious sentiment, belief, and worship.” And if these sections shall be adopted as they are, and carried out in the spirit in which they are framed, the State of Washington will be the best in the Union.
+Upon the principle that the intention of the lawgiver is the law, we know that rights will be secure under this Constitution; because we personally know that every member of the committee is indeed in favor of "absolute freedom of conscience in all matters of religious sentiment, belief, and worship." And if these sections shall be adopted as they are, and carried out in the spirit in which they are framed, the State of Washington will be the best in the Union.

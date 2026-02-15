@@ -1,3 +1,7 @@
-# The American Sentinel.
+**Volume 3, Number 3**
+**March, 1888**
+**OAKLAND, CALIFORNIA**
 
-VOLUME 3. | OAKLAND, CALIFORNIA, MARCH, 1888 | NUMBER 3.
+**MOTTO:** "Corrupted freemen are the worst of slaves."
+
+**EDITORS:** E. J. Waggoner, Alonzo T. Jones

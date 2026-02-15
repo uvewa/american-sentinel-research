@@ -1,0 +1,29 @@
+AMERICAN Sentinel
+
+"IF ANY MAN HEAR MY WORDS, AND BELIEVE NOT, I JUDGE HIM NOT: FOR I CAME NOT TO JUDGE THE WORLD, BUT TO SAVE THE WORLD."
+
+Vol. 11, No. 28.
+
+NEW YORK, JUNE 18, 1896.
+
+Price, Three Cents.
+
+# American Sentinel,
+
+PUBLISHED WEEKLY BY THE
+
+# PACIFIC PRESS PUBLISHING COMPANY,
+
+29 BOND STREET, NEW YORK CITY
+
+FOR THE
+
+# International Religious Liberty Association,
+
+President, ALLEN MOON. - - Vice-President, A. T. JONES.
+
+Secretary, - A. F. BALLENGER.
+
+EDITOR, - - C. P. BOLLMAN.
+
+ASST. EDITOR, - - L. A. SMITH.

@@ -1,0 +1,20 @@
+# American Sentinel.
+
+PUBLISHED WEEKLY BY THE
+
+PACIFIC PRESS PUBLISHING COMPANY.
+
+No. 43 Bond Street, New York.
+
+Entered at the New York Post-Office.
+
+ALONZO T. JONES,
+CALVIN P. BOLLMAN,
+A. F. BALLENGER,
+EDITORS.
+
+VOLUME 10.
+
+NEW YORK, APRIL 4, 1895.
+
+NUMBER 14.

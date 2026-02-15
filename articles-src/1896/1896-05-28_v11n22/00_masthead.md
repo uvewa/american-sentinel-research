@@ -1,0 +1,15 @@
+AMERICAN SENTINEL
+
+Vol. 11, No. 22.
+NEW YORK, MAY 28, 1896.
+Price, Three Cents.
+
+American Sentinel.
+
+PUBLISHED WEEKLY BY THE
+
+PACIFIC PRESS PUBLISHING COMPANY.
+
+No. 59 BOND STREET, NEW YORK.
+
+Entered at the New York Post-Office.

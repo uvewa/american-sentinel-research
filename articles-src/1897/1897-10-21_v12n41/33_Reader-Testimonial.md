@@ -1,0 +1,1 @@
+Mr. Hans Peterson, of Iroquois, S. D., in remitting for his subscription, writes: "I can say that the SENTINEL is getting better all the time. I have been a reader of it during a good share of its existence, but now it seems to me to be far better than in its beginning. That is good—that is as it should be. Let the warning trumpet sound loud and clear."

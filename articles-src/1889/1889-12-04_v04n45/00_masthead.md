@@ -1,3 +1,4 @@
-# The American Sentinel.
-
-VOLUME 4. | OAKLAND, CALIFORNIA, DECEMBER 4, 1889 | NUMBER 45.
+ISSUE: Volume 4, Number 45
+DATE: December 4, 1889
+LOCATION: OAKLAND, CALIFORNIA
+MOTTO: "Equal and exact justice to all men whatever state or persuasion, religious or political." — Thomas Jefferson.

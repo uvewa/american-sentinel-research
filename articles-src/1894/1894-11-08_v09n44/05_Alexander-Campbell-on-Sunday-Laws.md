@@ -1,0 +1,52 @@
+---
+title: "Alexander Campbell on Sunday Laws"
+date: 1894-11-08
+publication: "American Sentinel"
+volume: 9
+issue: 44
+attribution: "reprint"
+original_publication: "Washington (Pa.) Reporter"
+
+principles:
+  - "Religious Liberty"
+  - "Church and State"
+  - "Limits of Civil Authority"
+  - "The Sabbath Question"
+
+applications:
+  - "Sunday Legislation"
+  - "Enforced Religious Observance"
+  - "Religious vs Civil Law"
+
+keywords:
+  - Alexander Campbell
+  - West Middletown Moral Society
+  - Pennsylvania Sunday law of 1794
+  - National Reform Association
+  - United Presbyterians
+  - Rev. Wylie
+---
+
+[In 1820 there was organized in West Middletown, Washington Co., Pa., a society, called the West Middletown Moral Society. The principal object of the society was to enforce the Pennsylvania Sunday law of 1794, which is still on the statute books of the State. This Moral Society was organized by the United Presbyterianists, the same people who, later in 1863, organized the National Reform Association. Alexander Campbell, the founder of the Christian or Disciple Church, ably opposed the society in a series of articles published in the Reporter, of Washington, county seat of Washington County. His articles were signed "Candidus." A United Presbyterian minister, by the name of Wylie, attempted to defend the society, and signed himself "Timothy." The discussion continued from April 17, 1820, the date of Mr. Campbell's first article, to February 22, 1823, during which time almost every phase of the compulsory Sunday law question was treated. As a result the Moral Society perished, not to appear again until 1863 when it was revived by the same denomination under the name, National Reform Association. Every word of Mr. Campbell's invincible logic and withering denunciation is applicable to the association, resuscitated under the name, National Reform Association, and kindred organizations, such as the American Sabbath Union, the Pennsylvania Sabbath Association, etc.]
+
+In the first paragraph of Timothy, No. 1, you will find these words: "It then becomes the imperious duty of every friend of order and law to do his utmost to carry the provisions of the law into effect." Such, sir, is the specious and imposing garb under which T. presents his strictures upon my numbers. From these words it is to be inferred that T. is a friend of order and law, and that I am not. Either inference is, however, destitute of proof. But perhaps this phrase, so pretty, is only now and then used by T. to decorate a sentence otherwise languid, or to round off a period otherwise dissonant. Good order and good laws are excellent things, and let his right hand lose its cunning who opposeth either. But this is not the first time that good words have been misapplied or that "good words and fair speeches have deceived the hearts of the simple." In good old Scotland, it is "good order and law" for the majority to appoint certain fast days in the year, and in all large cities any man, whether Turk, Jew or atheist, who should open his store or transact any worldly business on such fast days, is liable to pay ten shillings and sixpence sterling for every such offense. In the native land of Columbus, a few months since, it was "good order and law" for one great "moral association" to commit to the dungeon of torture, every man that whispered anything against the divine right of Ferdinand the Pious or against the infallibility of his holiness, the pope. And in the State, once the land of good old William Penn, "it is good order and law," to stop a man upon the State road and either send him to prison or fine him for travelling on the first day of the week. Now, he that opposeth, by word or deed, any of the above "good order and law," in any of the aforesaid countries, is an enemy to good order and law, just like me; and he that defends the Inquisition in Spain, the establishment in Scotland, and the moral association in Pennsylvania, is a friend of good order and law, just like Mr. Timothy.
+
+After Mr. T. has ruminated very copiously on these words,—"That hundreds of men commit more sin by being compelled to refrain from the daily vocations of life on the Sabbath, than on any other day of the week," he is constrained to admit the fact. But to palliate this evil arising from compulsory religious obedience (pardon the expression) he reasons (if I should so apply the term) in a strain somewhat new.
+
+His words are: "This is brought about by the effect which the execution of the law has upon the offender in stirring up and exasperating his evil passions. Hence Mr. C. says that the law is evil; Paul, who we think was a much better reasoner than Mr. C., draws a very different conclusion in a parallel case. 'For sin taking occasion by the commandment,' etc." As the reasoning and not the style is the subject of investigation, I pass over its inaccuracy and remark that the cases are not parallel. The law Paul alluded to was a law regulating the mind. "Thou shalt not covet." But the law T. espouses is, Thou shalt take four dollars from thy neighbor who does not pay the same regard to one day that you pay. I would suppose that few men of Mr. T.'s opportunities would call the law of '94, and "Thou shalt not covet" parallel laws; for the laws must be parallel before the cases can be parallel. Paul, I think, was a better reasoner than even Mr. T. "If," continues he, "the law in question provokes the evil passions of bad men, we should think it an argument in its favor."
+
+Let us adopt Mr. T.'s plan of testing arguments, and apply it to the last observation. If such bad men as Volney and Voltaire dislike the Inquisition, it was, according to Mr. T., an argument in its favor!! But what, if the law alluded to, provokes the benevolence of good men? What, then, Mr. T.? Some of the most enlightened States have rejected bills to enact such laws, from a conviction that they would be anti-rational, anti-constitutional, and tyrannical. But they are all bad men, who oppose this law, and inasmuch as this law is parallel to the tenth commandment of the Decalogue, it tests the passions of men; consequently, Timothy, who delights in it after the inward man, is a good, very good man, a saint; and Candidus, who dislikes it, is a vile sinner!
+
+In the hard job of palliating this evil tendency of the law, Mr. T. asks the question: "Does the law command the waggoner to get drunk and swear, while it forbids him to drive his wagon?" Handsome come-off—I ask, does the law command him to do anything? Is not its import, do nothing? and according to the old logic, "He that is commanded to do nothing is commanded to sin." But what finishes the climax of Mr. T.'s criticism in this place is, that he compares the law of 1794 to laws imposing duties upon certain kinds of goods, which give occasion to false entries, smuggling, perjury, etc. "And," says he, "if this objection of C.'s was acted upon, it would put an end to legislation." In no part of Mr. T.'s numbers does he swagger more than in this place. Perhaps this was designed to conceal the sophistry. Let us analyze it.
+
+In the first place, false entries, smuggling, and perjury, are not necessary, but accidental consequences attendant on the execution of revenue laws. Revenue laws may be executed a thousand times, and not any of these consequences ensue. But the law imposing a mock regard for, or compelling men to cease from their servile labor on the Sabbath, necessarily, is productive of evil; for it can not be executed in any one instance, but it must provoke the evil passions of bad men, it must increase the quantum of their guilt, while it can only change the quality of it. In a word, it can not be executed in any one instance, but more sin must be committed than if there was no such law.
+
+In the second place, there is no analogy betwixt the law of '94 and revenue laws. The latter are constitutional, the former, as I have before proved, is unconstitutional. Mr. T., in arguing from things as analogical, which are not analogical, either intentionally or unintentionally, acts the sophist.
+
+In the third place, by reasoning from laws regulating civil society in their temporal concerns, to the laws of God, respecting his peculiar worship, T. places the obedience rendered to the law of '94, on the same footing with the obedience rendered to the revenue laws, and therefore considers it purely civil; thus the violation of the law of '94 is the same as the violation of any other civil statute, and to be treated as such. And the law of God respecting his own worship, is converted into a law of the State, and the religious obedience which it requires, is converted into civil obedience and like to the obedience yielded to revenue laws!!!
+
+To illustrate and enforce the three preceding items: Suppose that the law of Pennsylvania enjoined every unbaptized person eighteen years old to be baptized (and it has as good a right to do so as to pass a law concerning the Sabbath) on the penalty of four dollars. Again, the administration sins against God, in having violated a commission from heaven, under the appearance of obeying a civil statute. And in the last place, the ordinance of sacred worship is converted into a civil institute, and the obedience it receives is regulated by civil law as revenue of the State!
+
+The last sentence of Timothy, No. 1, is a "rara avis in terris." He says, "It is better for the community that the sacred aspect of the Sabbath be preserved, and that there should be some public and national proof that we are not an heathen people." What a glorious proof that we are not an heathen people! . . . Extraordinary proof that we are not an heathen people, that acts of devotion are to be prescribed and enforced by penal statutes!! Tell it not in Burmah, publish it not in the vales of Hindostan,—that the only public and national proof of our Christianity is the mock and forced observance of one day in seven,—lest the sons and daughters of the heathen triumph! lest they that offer themselves willing sacrifices to pagan idols rejoice!!
+
+Those who cheerfully observe the first day to the Lord are, in so far as the law of '94 prevails, confounded with those whose obedience is constrained and subjected to the suspicion that perhaps their obedience is involuntary, which is to me another misfortune attendant on the promise of the system of compulsion.—Candidus (Alexander Campbell), in Washington (Pa.) Reporter, April 16, 1821.

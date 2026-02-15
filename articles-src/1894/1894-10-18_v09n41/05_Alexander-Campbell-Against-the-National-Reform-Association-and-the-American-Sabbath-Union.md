@@ -1,0 +1,45 @@
+---
+title: "Alexander Campbell Against the National Reform Association and the American Sabbath Union"
+date: 1894-10-18
+publication: "American Sentinel"
+volume: 9
+issue: 41
+attribution: "reprint"
+original_publication: "Washington Reporter"
+
+principles:
+  - "Religious Liberty"
+  - "Church and State"
+  - "Limits of Civil Authority"
+
+applications:
+  - "Separation of Church and State"
+  - "Sunday Legislation"
+  - "Proper Role of Government"
+  - "Civil vs Religious Law"
+
+keywords:
+  - Alexander Campbell
+  - West Middletown Moral Society
+  - National Reform Association
+  - American Sabbath Union
+  - United Presbyterians
+  - Pennsylvania Sunday law
+  - Wylie
+---
+
+(In 1820 there was organized in West Middletown, Washington Co., Pa., a society, called the West Middletown Moral Society. The principal object of the society was to enforce the Pennsylvania Sunday law of 1794, which is still on the statute books of the State. This Moral Society was organized by the United Presbyterians, the same people who, later in 1863, organized the National Reform Association. Alexander Campbell, the founder of the Christian or Disciple Church, ably opposed the society in a series of articles published in the Reporter, of Washington, county seat of Washington County. His articles were signed "Candidus." A United Presbyterian minister, by the name of Wylie, attempted to defend the society, and signed himself "Timothy." The discussion continued from April 17, 1820, the date of Mr. Campbell's first article, to February 22, 1822, during which time almost every phase of the compulsory Sunday law question was treated. As a result the Moral Society perished, not to appear again until 1863 when it was revived by the same denomination under the name, National Reform Association. Every word of Mr. Campbell's invincible logic and withering denunciation is applicable to the association, resuscitated under the name, National Reform Association, and kindred organizations, such as the American Sabbath Union, the Pennsylvania Sabbath Association, etc.)
+
+"WASHINGTON REPORTER, Washington Pa.
+
+"Sir: I saw in your paper the 22nd ult. a statement signed 'the committee,' which in consequence of the vulgarity and blackguardism of its style; the hardihood, shamelessness, and falsity of its assertions, the well-known acrimony and superciliousness of its author and its total want of reason, argument, and proof; I cannot condescend to notice. It affects me, as the barking of a car affects a gallant horse, it will cause me to quicken my pace, and with more spirit to prosecute my undertaking. At the same time I would have you know that when a gentleman appears to dispute the subject, I shall pay due respect to everything he has to say. I remember the proverb of a king which I once learned, 'Answer not a fool according to his folly lest thou be like him.' This, sir, I wish ever to regard.
+
+"In my last, I proposed the method I wish to pursue in handling the subject. I commenced the first part of my argument, by observing, that the moral societies were antichristian—I shall now for the sake of argument suppose that the members of them were all Christians; and that they were associated for the express purpose of supressing vice and immorality, by civil pains. I shall further suppose that they are about to inflict civil pains on some men of the world who are convicted of the crimes of drunkenness, Sabbath-breaking, and profane swearing—in this case then I say they are positively prohibited both by the letter and spirit of Christianity from exercising judgment and inflicting punishment upon them. The apostle in the fifth chapter of his first epistle to the Corinthians when he forbids Christians to associate with, or to retain, immoral professors in the church (some of which he specifies as fornicators, drunkards, railers, etc.); in regard of such characters out of the church he peremptorily and by the strongest figure of speech prohibits any interference—in the words, v. 12, 13: 'What have I [as a Christian or an apostle] to do to judge them also that are without? Do not ye judge them that are within? But them that are without God judge's.' No precept was ever more definite, more authoritative, or more perspicuous than this.
+
+"It is, however, no more than following the example of the Founder of Christianity, who, when solicited to divide an inheritance, or to use his authority between two brothers who acknowledged him a Master in settling a quarrel about an inheritance, replied, 'Man, who made me a judge, or a divider over you?' He confessed before a Roman governor that 'his kingdom was not of this world.' Consequently his servants, as such, have no right to interfere with men of the world in anything pertaining to God and conscience. Let the men of the world alone, let them stand by their own master and judge—'follow peace with all men,' and take heed to yourselves and those who profess to be under your guardian care; and then your mild, peaceable, upright example will do more to reform the world than fines and imprisonment—walk wisely towards them that are without, such is the spirit and tendency of Christianity. What a contrast! Constables, fines, imprisonment to make men wiser and better! But I shall place the above supposition in another point of view. I shall suppose a society of Christians assemble for the above purposes, and that they have before them a number of professed Christians convicted of the aforementioned crimes—what then is the course to be pursued in relation to them? Does Christianity allow, or authorize them to call in the civil law or civil power to punish them? Yes, says the Romanist; but the Protestant says, No. The Protestant asks what are the means commanded to be used towards offenders in the Christian Church; the Catholic replies excommunication, bulls, racks, gibbets, fire, and every species of cruelty, so they said in former times: perhaps they are wiser since the re-establishment of the courts and Constitution. But the Protestant replies,—admonition, and exclusion, or excommunication. The heretic and immoral professors are treated alike—hear Paul—'A man that is an heretic after the first and second admonition reject.' With respect to the immoral his words are equally plain and conclusive, 'Put away from among yourselves that wicked person.' After the heretic and the immoral are excluded from the church, they are, to Christians, ecclesiastically dead. They have no power or jurisdiction over them. The words of their Master are, 'If he will not hear the church, let him be to thee as an heathen man and a publican.' But, says the moralists, let us fleece him after he is ecclesiastically dead, let us send after him, devour his substance! Let us raise him from the ecclesiastical grave, and plunder his sepulchre. And who knows but he may be brought to life again! If their proceedings have any meaning, if they are not deliberate robbery, such is the meaning of them.
+
+"I hope, sir, there are many members of these associations who are led in unawares, but their leaders are crafty and designing men.
+
+"No people more richly deserve the ordeal of criticism, the keenness of reproof, and the fullness of exposure of these would be heads of the Inquisition.
+
+"Of these things which I have spoken, this is the substance: If the moral societies are heterogeneous, if they claim jurisdiction over things civil, moral, and religious they are antichristian—if they are all Christians they are prohibited from the exercise of any power over them that are not members of the churches by the express law of Christ. And if they were even a Christian church, and the offenders professed Christians, it is antiscriptural for them to punish them by any civil pains. In a word, I affirm that the Bible will justify them equally in burning a man or stoning him to death, as it will in exacting money off him for his sins. Yea, I will go further and say that it is more scriptural to stone to man to death for sinning against God than it is to take four dollars or four cents from him on the same account. The former has been done in Old Testament times; but the latter was never done in the days of the Bible. But in New Testament times we read of but one instance of stoning a man to death for the good of his soul; this was the martyr Stephen. And in if we read of but one society of covenanters—this society bound itself by a solemn league and oath that they would neither eat nor drink until they had killed Paul. I will finish the first part of my subject in my next."

@@ -1,3 +1,0 @@
-# The American Sentinel.
-
-VOLUME 5. | OAKLAND, CALIFORNIA, DECEMBER 4, 1890 | NUMBER 48.

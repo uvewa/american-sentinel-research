@@ -1,3 +1,8 @@
-# The American Sentinel.
+# American Sentinel
 
-VOLUME 4. | OAKLAND, CALIFORNIA, FEBRUARY 27, 1889 | NUMBER 6.
+- **Volume:** 4
+- **Number:** 6
+- **Date:** February 27, 1889
+- **Location:** Oakland, California
+- **Motto:** "Equal and exact justice to all men whatever state or persuasion, religious or political." — Thomas Jefferson.
+- **Editors:** Alonzo T. Jones, C. P. Bollman

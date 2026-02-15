@@ -1,0 +1,30 @@
+---
+title: "Graysville Indictments"
+date: 1895-02-07
+publication: "American Sentinel"
+volume: 10
+issue: 6
+attribution: "editorial"
+
+principles:
+  - "Persecution"
+  - "Religious Liberty"
+  - "The Sabbath Question"
+
+applications:
+  - "Legal Persecution"
+  - "Sunday Legislation"
+  - "Freedom of Conscience"
+
+keywords:
+  - Graysville
+  - Tennessee
+  - Rhea County
+  - Seventh-day Adventists
+  - Sunday work
+  - indictments
+---
+
+# Graysville Indictments
+
+WE ARE INFORMED THAT WARRANTS WILL SOON BE ISSUED UPON THE TWENTY INDICTMENTS FOUND AGAINST SEVENTH-DAY ADVENTISTS AT GRAYSVILLE, TENN., FOR SUNDAY WORK, AND THAT PROBABLY THE CASES WILL BE CALLED FOR TRIAL AT THE MARCH TERM OF THE CIRCUIT COURT OF RHEA COUNTY. IT HAS BEEN SUGGESTED HOWEVER THAT THESE CASES CAN BE COMPROMISED BY THE ADVENTISTS PAYING A PART OF THE COSTS. BUT AS ADVENTISTS, LIKE BAPTISTS OF OLD, CHOOSE TO SUFFER IMPRISONMENT RATHER THAN COMPROMISE THE PRINCIPLE AT STAKE, WE MAY EXPECT TO SEE THE STATE AUTHORITIES SURRENDER, OR ENTER UPON THE WORK OF IMPRISONING A WHOLE CHURCH OF PEACEABLE, INDUSTRIOUS CHRISTIANS.

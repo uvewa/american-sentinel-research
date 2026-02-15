@@ -1,31 +1,42 @@
 ---
-title: "Church and State."
-date: 1887-10-01
+title: "Church and State"
+date: 1887-10
 publication: "American Sentinel"
 volume: 2
 issue: 10
 attribution: "reprint"
+original_publication: "Christian at Work"
 
 principles:
   - "Church and State"
 
 applications:
-  - "Separation Principle"
+  - "Separation of Church and State"
   - "Religious Institutions and Civil Power"
+  - "Protestant-Catholic Alliance"
 
 keywords:
-  - Rev. J. A. Scott Jr.
-  - Christian at Work
+  - Gospel
+  - Politics
+  - Negro Baptist Preachers
   - Anglican Church
-  - Roman Catholic Church
+  - Episcopal Church
+  - Stuarts
+  - Revolutionary War
+  - Mormons
+  - Prohibition
+  - Knights of Labor
+  - Romish Church
+  - Ireland
+  - Home Rule
+  - Bismarck
 ---
-
 
 # Church and State.
 
 The whole mission of the church of God is to preach the gospel. Its career lies within the kingdoms of earth, but it is not of them. When the policy of the nations is such as to give the church free scope in its work, the church does not become an appendage to the State, but rather uses this liberty to preach the gospel. When her work is opposed, and she is persecuted by the world, she may petition or remonstrate against being hampered in her mission. But whether this avail or not, she must go onward faithfully in her great work.
 
-The work of the State (whatever form it assumes) is to supervise the life of citizens, and to legislate and enforce those things which are necessary for upholding right and punishing crime. They are both ordained of God. The two must never be confounded. Our Master said, “Render therefore unto Cesar the things which are Cesar’s; and unto God the things which are God’s.”
+The work of the State (whatever form it assumes) is to supervise the life of citizens, and to legislate and enforce those things which are necessary for upholding right and punishing crime. They are both ordained of God. The two must never be confounded. Our Master said, "Render therefore unto Cesar the things which are Cesar's; and unto God the things which are God's."
 
 And yet the church does shed down upon the arena of civil life a benediction. It by grace qualifies its members to be honest, sober- minded citizens, and sends them forth as such. But she can have nothing to do with politics. She can have no relation of mutual support established between herself and the State.
 
@@ -39,7 +50,7 @@ But chiefly the Romish Church has sold herself to the governments of earth. It i
 
 1. Such a policy is, so far as it is pursued, betrayal of the gospel. There is but one work that God has imposed on the church. There is but one Master that is tolerated. There is but one motive controlling all service.
 
-2. If à church is zealous of worldly honor it must lose in spiritual power. Grand edifices, parade of wealth, political power, the suffrage of the influential, may appeal to the people of earth, but the church that seeks these things and boasts of them is turned away from God’s service, and is become shorn of spiritual power. It can no longer do its great work singly.
+2. If à church is zealous of worldly honor it must lose in spiritual power. Grand edifices, parade of wealth, political power, the suffrage of the influential, may appeal to the people of earth, but the church that seeks these things and boasts of them is turned away from God's service, and is become shorn of spiritual power. It can no longer do its great work singly.
 
 3. The world honors in word, and fawns upon, the church that it uses. But in its secret heart it despises such a church. Note how politicians treat politely and deferentially the negro preachers, and yet when their backs are turned sneer at them for their venality. Note how the secular press respectfully and gravely records the Romish parades and ceremonies, and yet read between the lines the contempt felt for Romanism as a spiritual religion.
 

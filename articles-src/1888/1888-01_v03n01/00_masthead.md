@@ -1,3 +1,0 @@
-# The American Sentinel.
-
-VOLUME 3. | OAKLAND, CALIFORNIA, JANUARY, 1888 | NUMBER 1.

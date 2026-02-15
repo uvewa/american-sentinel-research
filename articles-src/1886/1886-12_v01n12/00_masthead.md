@@ -1,3 +1,0 @@
-# The American Sentinel.
-
-VOLUME 1. | OAKLAND, CALIFORNIA, DECEMBER, 1886 | NUMBER 12.

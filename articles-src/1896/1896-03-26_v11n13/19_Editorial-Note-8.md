@@ -1,0 +1,25 @@
+---
+title: "Editorial Note: Bishop Keene Requests Amendment"
+date: 1896-03-26
+publication: "American Sentinel"
+volume: 11
+issue: 13
+attribution: "editorial"
+
+principles:
+  - "The Sabbath Question"
+  - "Church and State"
+
+applications:
+  - "Sunday Legislation"
+  - "Protestant-Catholic Alliance"
+
+keywords:
+  - Archbishop J. J. Keene
+  - Roman Catholic
+  - District of Columbia Sunday bill
+  - National Bureau of Reformers
+  - Christian Statesman
+---
+
+THE NATIONAL BUREAU OF REFORMERS IS AUTHORITY FOR THE ANNOUNCEMENT THAT, AT THE SUGGESTION OF ARCHBISHOP J. J. KEENE, RECTOR OF THE ROMAN CATHOLIC UNIVERSITY OF WASHINGTON, D. C., A CHANGE HAS BEEN ASKED FOR IN THE SUNDAY BILL FOR THE DISTRICT OF COLUMBIA, NOW BEFORE CONGRESS. THIS BILL, WHICH WE PRINTED MARCH 12, PROHIBITS "ENTERTAINMENTS FOR WHICH ADMITTANCE FEES ARE CHARGED." BISHOP KEENE DESIRES THE INSERTION OF THE WORD "SEcular" before entertainments. THIS IS PRESUMABLY THAT THE BILL MAY NOT CUT OFF ANY OF THE REVENUES OF THE ROMAN CATHOLIC CHURCH, WHICH MIGHT OTHERWISE BE THE CASE. "MORE FRIENDS WILL BE LOST THAN GAINED BY THIS CHANGE IN THE BILL," SAYS THE CHRISTIAN STATESMAN.

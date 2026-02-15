@@ -1,0 +1,72 @@
+---
+title: "A Misleading Petition—Which One Is It?"
+author: "Ellet J. Waggoner"
+author_short: "EJW"
+date: 1889-06-12
+publication: "American Sentinel"
+volume: 4
+issue: 20
+attribution: "explicit"
+
+principles:
+  - "Church and State"
+  - "Religious Liberty"
+  - "The Sabbath Question"
+
+applications:
+  - "Sunday Legislation"
+  - "Separation of Church and State"
+  - "State Establishment of Religion"
+  - "Enforced Religious Observance"
+
+keywords:
+  - Joseph Cook
+  - Our Day
+  - Wilbur F. Crafts
+  - Sunday-law petition
+  - counter-petition
+  - Seventh-day Adventists
+  - American Sabbath Union
+  - Blair bill
+  - Mrs. Bateham
+  - Woman's Christian Temperance Union
+  - Col. Elliott F. Shepard
+  - Cardinal Gibbons
+  - Lutheran Observer
+  - Dr. Conrad
+  - Mail and Express
+---
+
+In the February number of *Our Day,* the magazine edited by Joseph Cook, in an editorial notice of the presentation of the Sunday-law petition to Congress, we find the following:—
+
+> "The Seventh-day Adventists, whose chief aim in life seems to be to break down the American Sabbath, are circulating a misleading counter-petition, which gives the impression that it is the religious observance of the Sabbath which the great petition asks Congress to promote, whereas nothing is asked beyond protection of Sunday rest and public worship in the domain of the National Government, as has been afforded in nearly all the States from the beginning to citizens in the domain of State governments."
+
+About the same time Mr. Crafts published a circular letter in which he said:—
+
+> "Prompt action on the petition is the more important from the fact that the enemies of the Sunday- Rest law, a curious combination of Saturdarians, saloonists, and a few papers, are becoming very active in the circulation of misrepresentations and misleading counter-petitions, the latter so worded as to give the false impression that we are asking for a law to promote the religious observance of the Sabbath, whereas our petition seeks only protection for Sunday rest and worship."
+
+Since so much is said about this counterpetition, it may be well to publish it, that all the readers of the American Sentinel may know what it does ask for. The petition reads as follows:—
+
+> *"To the Honorable, the Senate of the United States—*
+
+> "We, the undersigned, adult residents of the United States, 21 years of age or more, hereby respectfully, but earnestly, petition your Honorable Body not to pass any bill in regard to the observance of the Sabbath, or Lord's day, or any other religious or ecclesiastical institution or rite; nor to favor in any way the adoption of any resolution for the amendment of the National Constitution that would in any way tend, either directly or indirectly, to give preference to the principles of any religion or of any religious body above another, or that will in any way sanction legislation upon the subject of religion; but that the total separation between religion and State, assured by the National Constitution as it now is, may forever remain as our fathers established it."
+
+Now we can compare the statements with the petition. Mr. Cook and Mr. Crafts say that this counter-petition is misleading, in that it gives the false impression that the Sunday-law people are asking for the promotion or protection of the religious observance of Sunday. But the most careful reader of the counter-petition will fail to find in it any reference whatever to the American Sunday Union, or to a petition for a Sunday law, or to the Blair bill, or to anything whatever that has been done. It simply asks that Congress shall not pass a bill in regard to the observance of the Sabbath, or in regard to any other religious institution; nor to favor any amendment that would tend to give preference to any religion, or to any religious body, above another, but to keep Church and State entirely separate, as they were designed to be by the fathers of our country. In short, the sum of the petition is that Congress will not interfere in religious controversies, and in matters purely religious. Our Sunday-law friends claim that this is just what they want; they claim that they do not want religious legislation; they claim that they want Church and State kept entirely separate. Now if they are sincere in their protestations, why do they object so strongly to this counter-petition? Indeed, if they mean what they say when they deny the charge that they are laboring for a union of Church and State, and are so bitterly opposed to civil interference in matters purely religious, they ought to sign the petition. Indeed, they should be intensely anxious to sign it. If their protestations are of any value, then this so-called counter-petition is not a counter-petition at all, but is exactly in harmony with their petition and their line of work, and they ought to adopt it. But they do not indorse it; they most bitterly denounce it. Then what shall we conclude? We can form no other conclusion than that they are not sincere when they say that they do not desire a union of Church and State; when they say that what their petition calls for is not religious legislation. It is the wounded bird that flutters. The hatred which they manifest to this petition, and their evident chagrin at the large number of signatures of the best people that have been secured for it, show that the petition strikes directly against their work. They show that the counter-petition asks Congress not to do the very thing that their petition desires it to do. And what is that? It asks them not to legislate upon the subject of religion, and not to do anything that tends to Church and State union. By opposing [154] the petition which asks that this be not done, they show that they want it done. In no other way could they so clearly show the real object of the Sunday-law petition, and the spirit of the Sunday-law movement, than by the bitter opposition which they make to this counter-petition. Their action in the matter stamps their movement as a movement to secure a union of Church and State, and nothing else.
+
+Now we will have a little direct testimony concerning the matter of the religious observance of Sunday, which both Mr. Cook and Mr. Crafts say they do not desire. We will quote once more a few statements which will show clearly just what they do want. We have given them many times, but we shall doubtless be compelled to repeat them many more times, for the Sunday people persist in telling the people generally another thing from what they talk among themselves. First, we repeat the statement made by Mrs. Bateham in her speech at the Washington Convention last summer. Referring to the petitions that hung around the assembly room, she said:—
+
+> "As I look about this church to-night, I cannot help thinking of the fourteen million people that this meeting represents, all of whom are praying to have the holy day observed. They are praying that the Government will pass a law that will compel the people to observe the first day of the week; and people in every State of the Union are distributing circulars to secure signatures to that effect."
+
+This statement is taken from the report in the *Lutheran Observer* of December 21, 1888, whose editor, Dr. Conrad, was one of the speakers at the convention, and is one of the officers of the American Sunday Union. Nothing that we could say could more directly contradict the statement made by Mr. Cook and Mr. Crafts than does this statement by Mrs. Bateham. They say that their petition does not ask for the religious observance of the day, but she says that the petitioners pray to have the holy day observed. Of course, we know that there were not fourteen million petitioners, and that the day is not holy; but her statement intimates that those who signed the petition intelligently did so with the understanding that it was a request to have the day observed as though it were holy. It is true that the petition itself does not say anything about religious observance; but Mrs. Bateham says that those who sign the petition thereby pray that the Government will pass a law to compel the people to observe the first day of the week. And the fact that she calls it a holy day shows that they sign the petition with the understanding that it is to secure the compulsory observance of Sunday as a holy day. Therefore, if Mr. Cook and Mr. Crafts are so righteously indignant because their petition has been, as they say, misrepresented and made to appear as though it called for the religious observance of Sunday, they should turn their guns upon Mrs. Bateham. Not an enemy to the Sunday-law petition or the Sunday-law movement has said a single thing beyond what Mrs. Bateham herself has said.
+
+Again, in the report above referred to in the *Lutheran Observer,* we find the following statement made by Dr. Crafts. He said, "The bill which has been introduced makes Sunday the ideal Sabbath of the Puritan, which day shall only be occupied by worship." That bill was introduced by Senator Blair in response to the petition which has been referred to, which was gotten up by the Woman's Christian Temperance Union. Yet Mr. Crafts says that they do not want anything like religious legislation, and that they don't petition to have Sunday observed religiously.
+
+Again, Mr. Crafts said in his address before the general assembly of the Knights of Labor, reported in the *Journal of United Labor,* November 29, 1888, that "the weekly day of rest has never been secured in any land, except on the basis of religious obligation. Take the religion out and you take the rest out."
+
+Col. Elliott F. Shepard is president of the American Sunday Union. The New York *Mail and Express* of January 25, 1889, gives in full his address before the convention upon his election as president of the Union. In that address, he spoke of the petition as follows:—
+
+> "We have already been told that there are upon this petition for a National Sunday-Rest law some six millions of Protestants, and some seven millions of Romanists. The Romanists are supposed to be represented by that one signature—of Cardinal Gibbons— which was obtained with much less trouble than the greater part of the Protestants in our country. We have some six millions already on the petition, so that we have a basis to work upon; but there are still fifty-two millions of Protestants whom we must interest in this movement. We must go on; we must bring them to sign the petition for the Sabbath. We are very glad to welcome as a coadjutor the Roman Catholic Church in any branch of Christianity, or in any form of benevolent work in which it will consent to join us; but we must not forget the greater number of the population outside of that church, and we are bound to prosecute this work until we lay its binding truths of divine authority before the whole people, and bring them all into the valley of decision. Choose this day whom ye will serve; if the Lord be God, serve him; and if the world be God, serve that. You have to say yes or no—whether you will stand by the decalogue, whether you will stand by the Lord God Almighty, or whether you will turn your back upon him. The work, therefore, of this society has just begun. We do not put this work on mere human reasoning—for all that can be overthrown by human reason. We rest it directly and only on the divine commandment."
+
+Now this shows that their petition is the one that is misleading. It shows that they expect to gain a great deal more than appears on the face of their petition; it shows that they have worded their petition just so as to secure the greatest number of signatures to it. They are multiplying signatures by every means, both fair and foul—principally foul—counting in its favor thousands of people who never heard of it, as well as other thousands who have heard of it, but who know really nothing as to its real design; and then they intend to wheel these petitioners into line, as favoring their construction of the petition, and demanding a law to compel people to observe Sunday as a holy day.
+
+We might give other quotations from the leaders in the Sunday movement, but these are sufficient. We are not dealing in conjectures, but we give the statements as they appear in black and white, upon the authority of the leaders of the Sunday-law workers themselves. If anything in our language seems to be harsh, we leave it to the candid reader to decide if it is not just. We make no scruple in charging bad faith upon the leaders in this Sunday-law movement, because we condemn them only out of their own mouths; but in so doing we wish to make no reflections upon these men as individuals. We have no doubt that personally they are very pleasant men, and that under almost any other circumstance they would reason logically and act fairly. We attribute their course, not to any inherent wickedness in themselves but to the force of circumstances. They have committed themselves to the securing of an iniquitous law, and such a law can be secured only by iniquitous methods. Religious legislation by civil Governments has always been marked by fraud and a disregard for the rights of dissenters; and when these men give themselves to such unrighteous work they can do no other than what they are doing. We pity them, and hope that some of them, at least, may see the error of their way and turn from it.E. J. W.

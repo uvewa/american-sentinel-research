@@ -1,0 +1,62 @@
+---
+title: "May the State Rightfully Prohibit Polygamy?"
+author: "Frank William Howe"
+author_short: "FWH"
+date: 1890-10-23
+publication: "American Sentinel"
+volume: 5
+issue: 42
+attribution: "explicit"
+
+principles:
+  - "Limits of Civil Authority"
+  - "Religious Liberty"
+  - "Constitutional Principles"
+
+applications:
+  - "Proper Role of Government"
+  - "Religious vs Civil Law"
+  - "Freedom of Conscience"
+  - "Rights of Conscience"
+  - "Equal Protection"
+
+keywords:
+  - polygamy
+  - marriage
+  - civil institution
+  - natural rights
+  - inalienable rights
+  - University of Michigan
+---
+
+THERE are many people who oppose polygamy on what are commonly called moral grounds, but who are quite uncertain just how to frame their objection so as to justify the Government in suppressing it. They are conscientiously opposed to it, and yet cannot quite satisfy those same consciences that the State has an indisputable right to prohibit the institution. In other words, they are assured that polygamy is morally wrong, but feel unable to point out the exact basis on which the civil power may rightfully prevent or rectify this wrong. As it was in the days of slavery, so is it in these latter days in respect to the general uncertainty of opinion as to the right of Government to correct acknowledged and widely-extended evils. And as in those days the time came when men were obliged to take a positive stand, so the time now is when every intelligent man and woman should have clear-cut opinions upon this question.
+
+Some have already taken their position, and would seek to defend governmental interference with polygamy on the ground that the institution is disgraceful, and opposed to the spirit of progress and civilization. Others, more radical, would justify the State in prohibiting it on the specific ground that it is an absolute moral wrong.
+
+It may be freely granted that the objections of both of these classes appear to be direct and natural; but it is not so apparent that these objections are sufficiently strong in those characteristics which properly give it jurisdiction, to justify the Government in interfering with polygamy. The first objection is itself objectionable for the reason that it is too vague and irrelevant; the same theory would require the State to prohibit the use of tobacco on the ground that it also is a relapse into barbarism. There is no such thing as a spirit of progress of sufficient legal proportions to justify Government in interfering with what are held to be the private rights of conscience. The sooner men disabuse themselves of this idea, the fewer will be the evils arising from too much government.
+
+The same objection, in general, applies to the position of the second class of objectors to polygamy; though their argument deserves a more specific refutation.
+
+That a certain practice is absolutely wrong morally, is not an adequate reason why civil government should prohibit it. The prohibition must be made for other reasons, if the State maintains individual personal rights.
+
+Civil government can know no moral right or wrong; it takes cognizance of only civility and incivility, since it cannot look into the inner secret motives of an individual. This view is strongly opposed by a large number of people who would be pleased to see the Government made [333] sponsor for the moral and religious training of the individual; but that is only an additional reason why all patriotic citizens should be intelligent upon such questions as the subject of this paper. An act may be morally wrong, a sin, and yet be civilly permissible or it may be morally right, and yet civilly wrong and a crime. Any thinking person can readily suggest to himself numerous examples of each class of acts, or of the same act as being determined in each of these classes under differing circumstances. The sole distinction lies in those elements which characterize, or do not characterize, the act as a proper subject of governmental control. The State cannot know the individual motives to an action,—except as they may possibly be indicated by other acts—and hence it cannot judge of the absolute morality of a particular act or system of practice, nor pass prohibitive enactments based upon such judgments. The State is constrained by the impossibility of determining real moral conduct, and by the very spirit of free government. The originative principles of our republican system are expressed in assertions of these inalienable rights of the individual to be free from civil dictation in certain clearly defined particulars; and our Constitution specially and emphatically prohibits the Government from touching him in any of those relations which properly exist between man and his Creator, exclusively. No apology can be offered for reiterating and defending these principles were it not so popular, in many circles of society, to give at least a tacit acceptance to the growing theocratic and paternal idea in Government. The subject should be timely to every citizen who has not yet scrutinized his opinion upon it.
+
+But it cannot be concealed that polygamy is an institution which our Nation would gladly be rid of. Indeed, we are placed already—by the suppressive policy of the Government—under the logical necessity of offering a valid defense of our present national enactments against it. The ground of mere expediency is insufficient and unjustifiable. Is there, then, a highway along which the State may proceed, with honor to itself and justice to all its subjects, in sweeping this evil from our land? May the State rightfully prohibit polygamy? It is believed that there are consistent and just reasons why it should and must do so, and that the following paragraphs answer the question affirmatively.
+
+Marriage is a civil institution. It is divine only in the sense that it was instituted by the Creator, and is the expression of his will concerning the relation of man and woman as parents. It has this significance to all who believe in the obligation to obey the will of God as indicated in revelation, regardless of any constraint or liberty which the State may allow. But all do not recognize divine obligation, and it is the province of the State to compel men to be *civil* who will not voluntarily be moral. It is in this consideration that marriage is a *purely civil* institution, for the State cannot touch it in its divine relations. No interference or regulation can properly come to it from Government except through the channel of a strictly secular policy.
+
+This civil control must be wholly in the line of protection to the rights of the individual and of the State. In this matter, as in all others, the State cannot go into the realm of morals unless the moral act of an offender constitutes a crime, by infringing the *civil* rights of others. Even then, to be more accurate, the State does not overstep its own limits of rightful authority, but the criminal himself brings his act within the domain of proper civil jurisdiction. With these principles constantly recognized, the exact civil status of marriage can be unmistakably ascertained.
+
+The rights of marriage are natural and inalienable; and the individual cannot be deprived of them by another, nor by the Government, except as punishment for crime. The individual may not choose to assume these rights, or the despotic power of society, of parents, or of the State, may invade them; but when once acquired they cannot be destroyed, or surrendered, so that they no longer exist as rights.
+
+But polygamy, as practiced in our country, does interfere with these rights of the wife. The woman who must share the marriage relation with several other wives of the same husband certainly is not protected in her rights to the same degree that he is. *Polygyny* thrives only in conditions that assume the inferiority of women, and ought not to be tolerated for a moment in a government founded upon the equal rights of mankind. Our Government does guarantee this equality of rights to all its law-abiding subjects, and ought, therefore, to impose the same marital restrictions upon man as upon woman; and upon a man in one district of its domain the same restrictions that it imposes upon all other men in all other districts. It is a disgrace to the basic principles of our Government—rather, it is a cowardly abandonment of them—that the State did not long ago recognize its duty to suppress polygamy.
+
+But it may be asked, May the Government rightfully interfere in a community in which all the parties have voluntarily accepted the polygamous relation; where each wife freely consents to surrender the major part of her rights? To this it should be answered that the State cannot recognize any such surrender. To every citizen- the State guarantees personal liberty in all things which do not infringe the equal rights of others. Personal liberty means freedom of choice in the pursuit of happiness. A man might voluntarily attempt to sell himself into irredeemable slavery, but if the deed should be accomplished, his freedom again to choose liberty would be gone; so the State sanctions no such surrender of the natural rights of the individual. That they are, indeed, incapable of being surrendered, is expressed in the fact that they are inalienable rights. The same protective principle which punishes the murderer also restrains the suicide. The Government can permit no violation of natural rights, whether the danger comes from inward consent or outward compulsion. Indeed, in the case of polygamy, a first wife might readily be forced to give a *legal* consent to the subsequent marriage of her husband with others. In justice to all, the State must prohibit relations which can exist only with violence to human rights.
+
+But again, it may be questioned, ought the civil power to interfere with a practice which is held as a religious right or duty? In the light of preceding principles, the answer should be direct and positive. Government *cannot know* the inner motive of an act, be it religious or otherwise; and certainly it cannot allow an *avowedly *conscientious motive to justify an act infringing others' rights, without throwing down all restraint to license of every description. Even if it were possible for human government to discriminate infallibly between hypocrisy and genuineness, it could execute no law based upon this faculty except by favoring one class of individuals above all others, and *for religious reasons.* This is not only contrary to the genius of our Constitution, but would result in the speedy annihilation of all just government. The only safe principle, both for the State and for the individual, is that which gives the civil authority jurisdiction over every act which constitutes a civil offense to the rights of all. The rights of conscience are never violated by a government which *confines *its operations strictly within this distinctly bounded sphere.
+
+The State long ago very properly assumed the regulation of monogamous marriage, insisting that it shall not be temporary, but permanent; both to preserve to each the individual rights of the parties entering into it, and to place upon them the responsibility of supporting their offspring. Any other course would inevitably impose upon the State the care of numerous minor subjects whose parentage would necessarily remain in legal uncertainty. The result would be the same if polygamy—which actually includes *polyandry* as well as polygyny—were legalized in our country. This were a consummation devoutly to be deprecated by all moral men; and all should unite in opposing the least introduction to its possibility, on the purely *civil* ground that it would impose upon the whole people burdens which parents alone should bear.
+
+So it may be clearly seen that, in every [334] phase, this disgraceful institution is more than a menace to the perpetuation of rightful civil authority. The ground of objection to it is as broad and solid as our Constitution. Our present national policy toward polygamy ought to be a source of gratification to every lover of government which conserves the inalienable rights of man.FRANK WILLIAM HOWE.
+
+> *University of Michigan*.

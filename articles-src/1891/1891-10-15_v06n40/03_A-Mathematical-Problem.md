@@ -5,7 +5,7 @@ publication: "American Sentinel"
 volume: 6
 issue: 40
 attribution: "explicit"
-author: "A. O. Tatz"
+author: "A. O. Tait"
 author_short: "AOT"
 
 principles:

@@ -1,3 +1,8 @@
-# The American Sentinel.
+# American Sentinel
 
-VOLUME 4. | OAKLAND, CALIFORNIA, APRIL 24, 1889 | NUMBER 14.
+**Volume 4, Number 14**
+**April 24, 1889**
+
+OAKLAND, CALIFORNIA
+
+*"Equal and exact justice to all men whatever state or persuasion, religious or political." — Thomas Jefferson.*

@@ -1,0 +1,76 @@
+---
+title: "Natural Result of Rigid Sunday Laws"
+date: 1887-04
+publication: "American Sentinel"
+volume: 2
+issue: 4
+attribution: "editorial"
+
+principles:
+  - "Religious Liberty"
+  - "Persecution"
+  - "The Sabbath Question"
+
+applications:
+  - "Sunday Legislation"
+  - "Legal Persecution"
+  - "Freedom of Conscience"
+  - "Minority Religious Rights"
+
+keywords:
+  - Hon. Robert H. Crockett
+  - Arkansas Senate
+  - Arkansas Sunday law
+  - Seventh-day Adventists
+  - Seventh-day Baptists
+  - Richard M. Johnson
+---
+
+Last month in an article on the "Ethics of Sunday Legislation," we showed that, since Sunday is an institution of the church, the enactment of laws enforcing its observance is the first step toward a union of Church and State, and that the enforcement of such laws can be nothing else but persecution for conscience' sake. We promised to give in this number of the Sentinel a demonstration of these propositions by actual facts. We can fulfill our promise no better than by reprinting the following from the speech of the Hon. Robert H. Crockett in the Arkansas Senate, in behalf of a bill which he had introduced for the granting of immunity from the penalties of the Sunday law to those who observe the seventh day. The facts therein stated, coming as they do from a disinterested party, except as he is interested in liberty and justice, and in the good name of his adopted State, must have much weight on this question. Mr. Crockett's sense of the outrages perpetrated in Arkansas was so vivid that he overlooked the fact that similar ones had been perpetrated in Tennessee. But the arraignment against legislation which allows religious bigots to wreak their spite on those whose only offense is that they are in the minority, is sufficiently strong, even though he did not mention a tithe of the persecutions. Following is the speech:—
+
+Sir, I take shame to myself as a member of the General Assembly of 1885, which repealed the act of religious protection which this bill is intended to restore. It was hasty and ill- advised legislation, and like all such, has been only productive of oppressive persecution upon many of our best citizens, and of shame to the fair fame of our young and glorious State. Wrong in conception, it has proven infamous in execution, and under it, such ill deeds and foul oppressions have been perpetrated upon an inoffensive class of free American citizens in Arkansas, for conscience' sake, as should mantle the cheek of every lover of his State and country with indignant shame.
+
+For nearly a half century the laws of our State, constitutional and statutory, were in accord with our national Constitution, in guaranteeing to every citizen the right to worship God in the manner prescribed by his own conscience, and that alone. The noble patriots who framed our nation's fundamental law, with the wisdom taught by the history of disastrous results in other nations from joining Church and State, and fully alive to so great a danger to our republican institutions and their perpetuity, so wisely constructed that safeguard of our American liberties that for forty years after its ratification there was no effort to interfere with its grand principle of equal protection to all, in the full enjoyment and exercise of their religious convictions. Then petitions began to pour in from the New England States upon the United States senate "to prevent the carrying and delivery of the mails upon Sunday"—which [29] they declared was set aside by "divine authority as a day to be kept holy."
+
+The petitions were referred to the committee on postal matters and the report was made by Hon. Richard M. Johnson, one of the fathers of the Democratic party. I quote the following from that report, which was adopted unanimously and "committee discharged:"—
+
+> "Among all the religious persecutions with which almost every page of modern history is stained, no victim ever suffered but for violation of what government denominated the law of God. To prevent a similar train of evils in this country, the Constitution has withheld the power of defining the divine law. It is a right reserved to each citizen. And while he respects the rights of others he cannot be held amenable to any human tribunal for his conclusions. . . . The obligation of the Government is the same on both these classes; [those who keep Saturday and those who keep Sunday] and the committee can discover no principle on which the claims of one should be more respected than those of the other; unless it be admitted that the consciences of the minority are less sacred than those of the majority."
+
+Listen to that last sentence—but again I quote:—
+
+> "What other nations call religious toleration we call religious rights. They are not exercised in virtue of governmental indulence, but as rights, of which Government cannot deprive any of its citizens, however small. Despotic power may invade these rights, but justice still confirms them. And again:—
+
+> "Let the national Legislature once perform an act which involves the decision of a religious controversy, and it will have passed its legitimate bounds. The precedent will then be established, and the foundation laid for the usurpation of the divine prerogative in this country which has been the desolating scourge to the fairest portions of the Old World. Our Constitution recognizes no other power than that of persuasion, for enforcing religious observances."
+Sir, it was my privilege during the last two years to travel through our Northwestern States in the interest of immigration. I delivered public lectures upon the material resources of Arkansas, and the inducements held out by her to those who desired homes in a new State. I told them of her cloudless skies and tropical climes, and bird songs as sweet as vesper chimes. I told them of her mountains and valleys, of her forests of valuable timber, her thousands of miles of navigable waters, her gushing springs, her broad, flower-decked and grass-carpeted prairies, sleeping in the golden sunshine of unsettled solitude. I told them, sir, of the rich stores of mineral wealth sleeping in the sunless depths of her bosom. I told them of our God-inspired liquor laws, of our "pistol laws," of our exemption laws, and oh, sir! God forgive me the lie—I told them that our Constitution and laws protected all men equally in the enjoyment and exercise of their religious convictions. I told them that the sectional feeling engendered by the war was a thing of the past, and that her citizens, through me, cordially invited them to come and share this glorious land with us and aid us to develop it.
+
+Many came and settled up our wild lands and prairies, and where but a few years ago was heard in the stillness of the night the howl of the wolf, the scream of the panther, and the wail of the wildcat, these people for whom I am pleading, came and settled, and behold the change. Instead of the savage sounds incident to the wilderness, now is heard the tap, tap, tap, of the mechanic's hammer, the rattle and roar of the railroad, the busy hum of industry, and softer, sweeter far than all these is heard the music of the church bells as they ring in silvery chimes across the prairies and valleys and are echoed back from the hill-sides throughout the borders of our whole State.
+
+SUNDAY OBSERVANCE UNSCRIPTURAL.
+
+These people are, many of them, Seventhday Adventists and Seventh-day Baptists. They are people who religiously and conscientiously keep Saturday, the seventh-day, as the Sabbath, in accordance with the fourth commandment. They find no authority in the Scripture for keeping Sunday, the first day of the week, nor can anyone else. All commentators agree that Saturday is and was the scriptural Sabbath, and that the keeping of Sunday, the first day of the week, as the Sabbath, is of human origin, and not by divine injunction. The Catholic writers and all theologians agree in this.
+
+These people understand the decalogue to be as binding upon them as fully to-day as when handed down amid the thunders of Sinai. They do not feel at liberty to abstain from their usual avocations, because they read the commandment,' "Six days shalt thou labor," as mandatory, and they believe that they have no more right to abstain from labor on the first day of the week than they have to neglect the observance of Saturday as their Sabbath. They agree with their Christian brethren of other denominations in al) essential points of doctrine, the one great difference being upon the day to be kept as the Sabbath. They follow no avocations tending to demoralize the community in which they live. They came among us expecting the same protection in the exercise of their religious faith, as is accorded to them in all the states of Europe, in South Africa, Australia, the Sandwich Islands, and every State in the Union except, alas! that I should say it, Arkansas! Sir, under the existing law there have been in Arkansas within the last two years three times as many cases of persecution for conscience' sake, as there have been in all the other States combined since the adoption of our national Constitution.
+
+PERSECUTION FOR CONSCIENCE' SAKE.
+
+Let me, sir, illustrate the operation of the present law by one or two examples. A Mr. Swearigen came from a northern State and settled a farm in—County. His farm was four miles from town, and far away from any house of religious worship. He was a member of the Seventh-day Adventist Church, and, after having sacredly observed the Sabbath of his people (Saturday) by abstaining from all secular work, he and his son, a lad of seventeen, on the first day of the week, went quietly about their usual avocations. They disturbed no one—interfered with the rights of no one. But they were observed, and reported to the grand jury—indicted, arrested, tried, convicted, fined— and, having no money to pay the fine, these moral, Christian citizens of Arkansas were dragged to the county jail and imprisoned like felons for twenty-five days—and for what? For daring in this so- called land of liberty, in the year of our Lord 1887, to worship God.
+
+Was this the end of the story? Alas, no, sir! They were turned out; and the old man's only horse, his sole reliance to make bread for his children, was levied on to pay the fine and costs, amounting to $38. The horse sold at auction for $27. A few days afterward the sheriff came again and demanded $36, $11 balance due on fine and costs, and $25 for board for himself and son while in jail. And when the poor old man— a Christian, mind you—told him with tears that he had no money, he promptly levied on his only cow, but was persuaded to accept bond, and the amount was paid by contributions from his friends of the same faith. Sir, my heart swells to bursting with indignation as I repeat to you the infamous story.
+
+ANOTHER INSTANCE.
+
+Another, and I am done. Sir, I beg you and these senators to believe that these are neither fancy nor exaggerated sketches. Five years ago a young man, newly married, came to	County, from Ohio. He and his wife were Seventh-day Baptists. The young girl had left father and mother, brothers and sisters, and all the dear friends of her childhood to follow her young husband to Arkansas—to them the land of promise. The light of love sparkled in her bright, young eyes. The roses of health were upon her cheeks, and her silver laugh was sweet music, of which her young husband never wearied. They purchased a little farm, and soon, by tireless industry and frugal thrift, their home blossomed like a rose in the wilderness. After awhile a fair young babe came to them to brighten the sunshine, and sweeten the bird songs. They were happy in each other's affection and their love for the little one. For them "all things worked together for good;" for, in their humble, trusting way, they worshiped God and loved their fellow-men.
+
+Two years ago the law under which their prosperity and happiness had had its growth was repealed! Accursed be the day which brought such a foul blot upon our State's fair fame! A change, sudden, cold, and blasting as an arctic storm came over their lives and pitilessly withered all their bright flowers of hope. Under this repeal, persecution lifted its ugly, venomous head. The hero of my sad story was observed by an envious, jealous neighbor, quietly working, as he believed God had commanded him, on Sunday. He was reported to that inquisitorial relic of barbarism, the grand jury—indicted, tried, convicted, and thrown into jail because his conscience would not let him pay the fine.
+
+Week after week dragged its slow length along. Day after day the young wife, with baby in her arms, watched at the gate for his coming, and like Tennyson's Marianna—
+
+"She only said: My life is dreary— He cometh not,' she said.
+
+She said: 'I am aweary—aweary—
+
+I would that I were dead.' "
+
+Then baby sickened and died—the light in [30] the young wife's eyes faded out in tears—her silvery laugh changed to low, wailing sobs. Pale-faced Misery snatched the roses from her cheeks and planted in their stead her own pallid hue. Sir, how can I go on? At length the cruel law was appeased, and this inoffensive citizen (except that he had loved God and sought to obey him) was released from prison and dragged his weary feet to the happy home he had left a few short weeks before. He met his neighbors at the gate bearing a coffin. Me asked no questions, his heart told him all, No, not all! He knew not—he could never know—of her lonely hours, of her bitter tears, of the weary watching and waiting, of the appeals to God, that God for whom she had suffered so much, for help in the hour of her extremity, of baby's sickness and death. He could not know of these. But he went with them to the quiet country burial-place and saw beside the open grave a little mound with dirt freshly heaped upon it, and then he knew that God had taken both his heart's idols and he was left alone. His grief was too deep for tears. With staring eyes he saw them lower the body of his young wife into the grave. He heard the clods rattle upon the coffin, and it seemed as if they were falling upon his heart. The work was done and they left him with his dead, and then he threw himself down between the graves with an arm across each little mound, and the tears came in torrents and kept his heart from breaking. And then he sobbed his broken farewell to his darlings and left Arkansas forever. Left it, sir, as hundreds of others are preparing to leave if this General Assembly fails to restore to them the protection of their rights under the Constitution, national and State.
+
+On next Monday, at Malvern, six as honest, good, and virtuous citizens as live in Arkansas are to be tried as criminals for daring to worship God in accordance with the dictates of their own consciences; for exercising a right which this Government, under the Constitution, has no power to abridge. Sir, I plead, in the name of justice, in the name of our republican institutions, in the name of these inoffensive, God-fearing, God-serving people, our fellow-citizens, and last, sir, in the name of Arkansas, I plead that this bill may pass, and this one foul blot be wiped from the escutcheon of our glorious commonwealth.

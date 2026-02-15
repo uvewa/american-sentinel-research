@@ -1,0 +1,50 @@
+---
+title: "The Effect of Sunday Laws"
+author: "J. O. C."
+author_short: "JOC"
+date: 1897-12-23
+publication: "American Sentinel"
+volume: 12
+issue: 50
+attribution: "explicit"
+
+principles:
+  - "The Sabbath Question"
+  - "Church and State"
+  - "Limits of Civil Authority"
+
+applications:
+  - "Sunday Legislation"
+  - "Religious vs Civil Law"
+  - "Legislating Morality"
+
+keywords: []
+---
+
+The underlying sentiment and germ of Sunday laws, is a settled wish to prevent irreligious people from desecrating what is supposed to be holy time, and so help them to be, at least, outwardly religious through the observance of a religious rest. It seems singular, however, that those engaging in this sort of thing do not, or say they do not, see in it what so many who are watching the movement say is in it,—the union of the church with the state. But from what standpoint does the state undertake to make and enforce Sunday laws? If it does so because Sunday observance is a church ordinance, is that not a union of the two forces? Again, if Sunday-keeping is regarded as a divine ordinance, and on this ground the state thinks to punish offenders, does it not in this step into the place of, and assume the prerogative of, Him who spoke the divine law, and who also said: "Vengeance is mine; I will repay, saith the Lord"? Rom. 12:19.
+
+But why should any government undertake to do this, when it would not think of punishing a subject who, while living within its boundaries, refused to bow to the mandates of another civil power, even though it be a contiguous one? Should the United States attempt to administer the penalty of a Canadian law upon an American citizen, or even upon a Canadian subject resident upon American soil, such a howl of indignation would be heard throughout the country as would call a halt upon such work. Such a protest would be entirely proper, too, on the ground that the nation had used unwarranted authority in coercing its citizens to obey the dictates of a foreign power, with which they were not in sympathy, and consequently did not care to follow.
+
+The Sabbath is a divine institution, the requirement of a divine law, which emanated from, and is therefore the requirement of, an entirely distinct government from all earthly ones—even a heavenly. Whoever sympathizes with that government, and reveres its laws, will not need to be coerced into obedience of them, but will follow their directions from his love of them, and will be the better for such adherence. But if one does not wish to walk in the ways they point out, yet fully lives out the laws of civil citizenship, why should the civil government, under which he lives so justly, punish him for not also carrying out the laws of a moral government, which is entirely outside of civil jurisdiction?
+
+To avoid the logical conclusions of these premises, the plea is usually entered that in attempting to enforce Sunday laws no thought is entertained of assuming God's prerogatives, but that the state simply borrows a precept from God's law, and incorporates it, as a civil enactment, into its own code. Those who oppose this course reply that such a thing is impossible, because the moral law, as handed down from God, has in it that element of its Author's life which forbids its becoming a part of any civil code. The transgression of a moral precept is sin, because it is opposition to the righteousness of that which represents the life and will of its infinite and eternal Author. The violation of civil law is termed crime, simply because it is contrary to the expressed will of men, framed into law to meet exigencies of a temporal nature. In other words, God's law points out what sin always was, and always must be, without the least variation, because of its very nature of contrariness to God, while civil law defines crime to be that which is contrary to man's rights in society, as determined by the demands of the time and of human wisdom. The two may be identical, but not necessarily so, from the fact that crime is a purely outward act, while sin is of the heart, and may not appear to men. In other words, crime is an outward expression of sin which lurks in the mind. So, then, while crime, the outward act, may be detected and checked by civil law, the seat of crime—the heart itself—cannot be reached by civil jurisdiction.
+
+The refusal of a person to rest from physical labor on a stated day cannot, however, properly come within the precincts of civil legislation, because while the act is an outward one, it does no visible injury to another, nor deprives him of any right he may have to honor the day. But in case God requires such rest, it would be sin to disobey on the ground alone that to do so would dishonor Him who asks it.
+
+But when the civil power attempts to regulate the observance of a weekly rest-day, it becomes guilty of inconsistency, because that which it counts wrong in one person regarding the use to be made of the day, it upholds in another. For instance: one person will be permitted regularly to sell drugs, tobacco, and the like for profit, on the ground of their being necessary to daily use, while the sale of other things just as essential to comfort and happiness is strictly forbidden. Now, if it is no civil offense for one to sell certain things for profit on Sunday, how can the law, if it be alike just to all, punish others for selling other things on that day for the same purpose? Then, too, if morals are involved, what right has a civil law to make such discriminations?
+
+If it be denied that morals are involved, but that these laws are simple police regulations, then on what basis is one prohibited from doing on one day that which he is freely permitted to do on all other days? If the law counts certain acts misdemeanors when done on one certain day of the week, why does it not count them the same when done on other days? The fact that this discrimination is made is evidence that the promoters of Sunday laws seek to punish for the desecration or non-observance of the day's rest, rather than for the infraction of any civil obligation.
+
+Then, again, inconsistency is seen in such laws from the fact that they do not remain steadfast, like the Sabbath law of Jehovah, but vary in their requirements and penalties according to the times. This is well illustrated by the various revisions of the English law on this point.
+
+In 1675, during the reign of Charles II, Parliament passed a law "for the better observation and keeping holy the Lord's day, commonly called Sunday." Section 2 of that law provided that "no drover, horse courser, wagoner, butcher, or any of their servants shall travel, or come into his or their inn or lodging upon the Lord's day, or any part thereof, upon pain that each and every offender shall forfeit twenty shillings for every such offense, and that no person or persons shall use, employ or travel upon the Lord's day with any boat, wherry, lighter, or barge, except it be upon extraordinary occa, sions, to be allowed by some of the peace of the city, borough, or town corporate, where the act shall be committed, upon pain that every person so offending, shall forfeit and lose the sum of five shillings for every such offense."
+
+This was indeed a strange law,—just such, however, as might be expected from human legislators who attempt to transform a moral precept into a civil one. It will be noticed that those who traveled by land, such as drovers, etc., if applying for lodging at any public house on Sunday, were to be heavily fined, since that was evidence that they had been traveling on that day. But those who might travel all day by boat were let off with only a nominal fine. But further, if one of these tourists by water, in some way, could wheedle the magistrate into granting him a permit for the journey, then no offense was committed, and, in the eyes of the law, the sanctity of the day was preserved. Evidently, Sunday-breaking in those days was considered a sort of venial sin, the absolution of which might be purchased beforehand by magisterial indulgence.
+
+Later Parliaments, however, modified this law by repealing that part which made it a misdemeanor to travel by boat on Sunday, without relieving the drover and others who must journey by land. This was presumably because the members of the Parliament, some of whom lived along the banks of the Thames, desired to use that day in visiting their families. At any rate, the law was changed to suit the demand of the times and the men who composed the law-making power of the nation.
+
+In 1871, another Parliament enacted that "no prosecution, or other proceeding shall be instituted against any person or the property of any person for any offense committed by him under the Act of the 29th year of the reign of King Charles II, chapter seven, entitled an Act for the better observation of the Lord's day, commonly called Sunday," etc. This was just what ought to have been done by any such religious law, and would have been right, had the legislators stopped with its repeal. But Section 4 of the act itself said: "This Act shall continue in force until the first day of September, one thousand, eight hundred and seventy-two, and no longer."
+
+This limitation of the act was proof of the folly of human legislation concerning religious duties. The suspended law stood on the premise of making men more careful in religious duties. Had it this power, by what right did the Parliament of 1871 annul it for a year? It may be said that the people did not then need the law to help them observe the sacredness of the day. Surely, then, why have it come in force again at the expiration of a year? Certain circumstances conspired to make it suitable to suspend the operation of the law for a year, showing that the law was never necessary to make men better, because that was not in the power of law, and is not now, nor ever can be. The only thing that Sunday laws can do, outside of harrassing those who do not care to observe them, is to show to what lengths the intolerance of men will lead them, in dealing with the consciences of others.
+
+J. O. C.

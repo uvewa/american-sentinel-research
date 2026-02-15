@@ -1,0 +1,42 @@
+---
+title: "Editor Shepard and the Baptist Clergymen."
+author: "Ellet J. Waggoner"
+author_short: "EJW"
+date: 1889-07-03
+publication: "American Sentinel"
+volume: 4
+issue: 23
+attribution: "explicit"
+principles:
+  - "The Sabbath Question"
+  - "Church and State"
+applications:
+  - "Sunday Legislation"
+  - "Sabbath Observance and Enforcement"
+keywords:
+  - Elliott F. Shepard
+  - American Sabbath Union
+  - Baptist Ministerial Association
+  - Philadelphia
+  - fourth commandment
+  - National Sunday Convention
+  - Seventh-day Baptists
+  - Seventh-day Adventists
+  - man of sin
+---
+
+On the 22d of April, Mr. Shepard, editor of the New York *Mail and Express,* and president of the American Sabbath Union, addressed the Baptist Ministerial Association of Philadelphia upon the subject of "The Observance of the Sabbath." The Philadelphia *Bulletin* of that date gives a brief notice of his address, from which we clip the following:—
+
+> "He spoke without notes, and began by saying that it was owing to his Baptist grandmother that he was not known as Jack Shepard, and that when he goes to the city of brotherly love he always remembers that his mother is a Quaker; and continuing said it would be affectation to think that he could say anything new to an assembly of Baptist clergymen. The blessing in the book of Genesis is not for a seventh day but for the Sabbath. We should take the spirit of the commandment, and take one-seventh part of time and devote it to God. As the majority of Christians have taken the first day of the week it is better that we too should observe it."
+
+It would indeed seem to be affectation for Mr. Shepard to think he could instruct an assembly of Baptist clergymen. On first thought we should call it presumption, or great self-conceit; but inasmuch as the Baptist clergymen listened quietly to his instruction, doubtless they thought it profitable. Whether it was presumption or not, it is certainly strange that an editor of a secular newspaper should be able to instruct a party of Baptist clergymen in theology. It either speaks a great deal for the editor or very little for the clergymen.
+
+When we read his statement that the blessing in the book of Genesis is not for the seventh day, but for the Sabbath, we are fully assured that even if he could not say anything new to the assembly of Baptist clergymen, he could say something that was not true. Doubtless Mr. Shepard has read in the book of Genesis the account of the blessing to which he referred. If he had, then he must have known that what he said was not true. We will quote it: "And God blessed the seventh day, and sanctified it; because that in it he had rested from all his work which God created and made." Gen. 2:3. Mr. Shepard says that the blessing was not for the seventh day. The Scripture says that the blessing was for the seventh day. Moreover, the pronouns in the verse refer to the definite day, the seventh day, the day in which God rested. By no possible construction could it be made to appear that this blessing is for the Sabbath institution and not for a definite day. The preceding verse says that God rested on the seventh day from all his work which he had made. Now the day was not the Sabbath until God had rested, because Sabbath means rest. It was his resting on that day that made it a Sabbath. It was his blessing it and his hallowing it that made it the holy Sabbath. But it was the seventh day in which he rested; and he blessed it—the seventh day—and sanctified it— the seventh day—because that in it he had rested. Will Mr. Shepard say that God did not rest on the seventh day, but only on the Sabbath? He cannot without denying the plainest declaration of Scripture; but the statement that God rested on the seventh day is no plainer than the statement that he blessed that day.
+
+Mr. Shepard says that we should take the spirit of the commandment, and take one-seventh part of time and devote it to God. Now it is susceptible of the clearest proof that the spirit of the commandment, as well as the letter, has no reference to simply one-seventh part of time, but to a definite seventh day. But we will let that pass, and take Mr. Shepard's version of the commandment, namely, that it requires one-seventh part of time, leaving the specific day to the choice of the individual. In a speech made by Mr. Shepard at the National Sunday Convention, last December, he implied that they intended to re-enact the fourth commandment. In speeches since that time, and in articles, he and other leaders in the Sunday-law movement have claimed that they wanted the law in harmony with the fourth commandment. Now if he really believes that the spirit of the commandment requires simply one-seventh part of man's time, and does not specify the particular day, why does he labor so zealously for a law to compel people to keep one particular day of the week—the first day? Does he not by his own statement convict himself of laboring for something that is contrary to the Bible?—He certainly does. He claims that he wants this Government to be Christian, to be in harmony with the Bible; and yet he is laboring to have it pass laws which are directly contrary to what he himself says the Bible teaches. We should be glad to see how he can absolve himself from the charge of gross inconsistency.
+
+Seventh-day Baptists and Seventh-day Adventists claim that the fourth commandment is very definite, and that by it the Lord requires the observance of the seventh day of the week, and no other. Mr. Shepard and many of his under-shepherds deny this. They cannot make the claim for Sunday that seventh-day people do for Saturday, because they well know that the fourth commandment makes no reference whatever to the first day of the week. In order, however, to make it appear that they comply with the fourth commandment, they adopt the theory that it calls [178] for the observance of simply a seventh part of time; but they ought to be able to see that such a theory does not help them any as against seventh-day observers. Saturday is one-seventh part of time just as much as Sunday is. Therefore, if they propose to legislate in harmony with the fourth commandment, and they say that that commandment requires simply the observance of a seventh part of time, without specifying which day, they stultify themselves whenever they attempt to enforce their definite Sunday law upon seventh-day people.
+
+We have a stronger charge yet to bring against them. Out of their own mouth we will convict them of doing the very thing which the apostle Paul charges upon the "man of sin" in 2 Thess. 2:4. They say that God has not specified the exact day that is to be observed, but that he simply requires an indefinite seventh part of time, and they propose to go beyond him and require all men to observe the same time, and they specify the first day of the week. Now if they believe the theory which they put forth concerning the commandment, then they are exalting themselves above God. They say that God left the commandment indefinite. Now if that is so he must have had a reason for it. What reason have they to say that his reason is not a good one? What right have they to attempt an improvement upon his commandment? They must stand convicted of the grossest presumption. We would advise them not to meddle with the affairs of God, but to leave his commandment as he left it.
+
+> "As the majority of Christians have taken the first day of the week, it is better that we all should observe it," says Mr. Shepard. Who are the "we" to whom he refers? He cannot include all creation in that word. He was speaking to a company who already observe the first day of the week. Of course if they think it is better for them to observe the first day, they are at perfect liberty to do so. But that does not prove anything in regard to those who do not think it is better to observe the first day of the week. His theory of the fourth commandment leaves everyone to choose his own time, only so he is sure to take a seventh; and his statement that it is better to observe the first day because the majority of Christians observe that day, shows that he does not pretend to have any authority for the observance of Sunday other than custom; and yet he proposes to force others to follow his custom, for which he acknowledges that he has no authority. What more than this is needed to show that this Sundaylaw movement has its origin in selfish bigotry and the spirit of Papal assumption?E. J. W.

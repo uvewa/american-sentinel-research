@@ -1,0 +1,53 @@
+---
+title: "Rome's New Policy"
+author: "C. F. Wilcox"
+author_short: "CFW"
+date: 1894-07-12
+publication: "American Sentinel"
+volume: 9
+issue: 28
+attribution: "explicit"
+
+principles:
+  - "Church and State"
+  - "Persecution"
+
+applications:
+  - "State Establishment of Religion"
+  - "Sunday Legislation"
+  - "Historical Parallels"
+
+keywords:
+  - Father Nugent
+  - Catholic Church
+  - papacy
+  - Sunday Sabbath
+  - Des Moines
+  - Decretals
+---
+
+FATHER NUGENT, a Des Moines priest, in courting Protestant favor and adoration for the Catholic Church, has a word to say about the law of God. He says: "If she is against the law of God you ought to know it and oppose her on moral grounds."
+
+Who shall tell us whether she is against the law of God or not? In Dan. 7:25 we find a power described that would "think to change times and laws;" and it is further declared that "they shall be given into his hand." He could "think" to change the law, but it remained just the same, for his work did not change it at all. Self-deceived and deceiving others he would flatter himself that he had changed the immutable law of Jehovah. For a time fixed, and permitted by God, he would stand thus before the universe. But he finally stands forth in his true character.
+
+Paul also tells of a "son of perdition; who opposeth and exalteth himself above all that is called God, or that is worshiped; so that he as God sitteth in the temple of God, showing himself that he is God." He shows himself to be God, for no other being sees or thinks that he is God, till after he claims it, and then he is worshiped as God. And again, against this same power God gives the most fearful warning in these words: "If any man worship the beast and his image, and receive his mark in his forehead, or in his hand, the same shall drink of the wine of the wrath of God, which is poured without mixture into the cup of his indignation; and he shall be tormented with fire and brimstone in the presence of the holy angels, and in the presence of the Lamb."
+
+But before we go farther, let us consider the claim of the Catholic Church which she makes for herself, that justifies us in saying that these scriptures apply to her and her work. In the Decretals, esteemed as the highest ecclesiastical law in the Roman Church, it is said of the pope: "He can pronounce sentence and judgment in contradiction to the right of nations, to the law of God and man." How then does she regard the law of God? At her pleasure she can contradict and change the law of God, so she says. And she also says she has done it. God says in his law, "The seventh day is the Sabbath of the Lord thy God." In the "Catholic Catechism of the Christian Religion" we find these words: "The Church . . . has substituted Sunday for Saturday; so now we sanctify the first, not the seventh day." And she delares this to be the special badge and sign of her power and authority, it is the "mark of the beast." But Daniel said this attempt to alter the law of God would be given into her hands for a set time: so Protestants ought to look into this question and morally oppose her in this usurpation, yes, self-exaltation, setting herself above all that is called God, or that is worshiped.
+
+Father Nugent's sentence next to the one just noticed, is in regard to their attitude toward the State. He says: "If she is against the State you ought to know it and oppose her on civil grounds." Alas! the State is now standing on Catholic principles, hence she is not against the State, for the State is under her, even in civil things, and she controls about everything in her own chosen way. But is this after the order of our forefathers? Did they design that the State should be ruled by ecclesiastical power? Did they design that the Church should dictate to the State in things civil? No indeed. Eternal separation was the only thing they had in mind. The complete success of each depended upon this very condition of things. A Church and State union had ruined every nation of the past, and they designed to try a new order of things. We have enjoyed a century's marvelous growth and prosperity; but now, through the action of professed Protestantism, the whole order of events is turned backward to the Dark Ages for ruin, for Church and State are now united. This union of Church and State makes an image to the papal power.
+
+Protestantism is so divided against itself that it cannot hold anything against the solid body of the Roman Church, and hence Rome stands squarely in the lead, and she knows it too. Already she has boldly challenged the whole body of Protestantism to give their reason for protesting against the Church and her decrees, and yet accepting the Sunday Sabbath with no other basis whatsoever than the authority of the Catholic Church; the church against which Protestantism is professedly protesting. And so confident is she that they will not lift up their voice and give a reason for their position that she says, "Their policy now is to 'lay low,' and they are sure to adopt it." Professed Protestantism is sure to cease protesting, too, for it well knows that if in the greater matter there is an agreement with Rome, it can ill afford to disagree in matters of no moment.
+
+But to cap the whole matter, this Des Moines priest alleges that the Catholic Church is on trial, and too, that her trial is paralleled in Christ's experience before Pilate. He wants her tried "according to the law of evidence as laid down by Greenleaf and other reliable authors." Why not take the laws of evidence laid down by Daniel, Paul, Moses, Isaiah, John, and other writers of the Bible? Are they not reliable? Do they not state laws of evidence even superior to Greenleaf and all other "reliable authors"?
+
+Let each Protestant answer this question for himself. "We must all appear before the judgment seat of Christ," and it is important that we try all things now by that rule, or else we shall be found wanting. "Judge not according to the appearance, but judge righteous judgment." This can only be done by following another Bible rule, which says, "To the law and to the testimony." God's law and his testimony through the prophets of all time are the only evidence that man can take with safety; hence, look not to the smooth words and gentle conduct of any church or body of men, for their words may be "smoother than butter," but have war hidden behind them: their words may be "softer than oil," and still they may be "drawn swords."
+
+Is it true that the Catholic Church is the martyr church? Listen to these words: "There is a striking resemblance between the trial of the church in Des Moines and the trial of Christ in Pilate's hall. . . . It was apparent from the start that, guilt or no guilt, Christ had to be convicted, and he was." Are Protestants acquainted with the history of the church that wants us to think her so misjudged? Do the centuries declare her innocent of the blood of martyred millions? Is hers a history of spotless white? Has there been no guile in her mouth? Does she revere the Word of God as did the One with whom she would compare herself to win sympathy? Let the history to which she herself refers, give answer, and let all the world listen attentively. Let the sleeping saints who have given up their lives for the testimony of Jesus give response; and again, let all the world listen attentively.
+
+Protestants, Beware! Beware!! There is poison in the cup that Rome offers you. Rest assured that when Rome defends free speech, it is not the free speech of our forefathers. When she exalts intelligence and speaks in behalf of education, it is not of that sort that makes Protestant martyrs who will die for their faith. And when she is willing that her enemies shall utter all the hard truths they can about her, rest assured that it is because she can win more from other quarters by thus meekly submitting; only, however, to change her cloak when it shall be policy for her to do so. When she talks so honestly about "if" she is against the law of God, turn to the law and see what it says; then turn and see what the church says about her authority and right to change any and every law of God or man, and judge then between the two.
+
+When she says "if" she is against the State, where she and the State are agreed, then know that the State has turned away from the Constitution of the United States at least; and know also, that it is not a State after the order approved of God. God's plan for Church and State is that they be entirely separate and distinct, yet each free and perfect in its own sphere. Be sure also, when Rome invites you to investigate her system of religion, and decide by human wisdom of its worth, and you do so, that then you are sure to be snared and taken in the net spread for your feet.
+
+With malice toward none I write these words. With good will toward all, I say, Beware of the PRINCIPLES of Rome! Honesty will never save any one; but, if acted upon, will lead all true hearts out from the Catholic Church, and from the fallen churches of Protestantism, to join hands with the remnant church who "keep the commandments of God and the faith of Jesus." All these will be spared when the seven last plagues fall upon the shelterless heads of the despisers of God's holy law, and especially those who have rejected his holy day, the seventh day, the Sabbath of the Lord, the "sign" and "seal" of his authority and power, both in creation and in redemption. There are honest souls in the Catholic Church, and in every other denomination and body of people, and the Word of God is to them at this time: "Come out of her, my people, that ye be not partakers of her sins, and that ye receive not of her plagues." Accept principles laid down in God's holy word and law, and have no controversy with men, deal with principle only. In the words of Christ we say, "Beware of men." And especially are we to fear those who will so far yield every principle of justice and truth that they cannot see the dangers threatening every individual of this nation, and of the world, from the principles of the papacy, when at the same time they profess to be Protestants themselves. Fear greatly those men who mold public opinion through their editorial columns, and who yet say that, "The people, . . . both Protestants, Catholic, and those neither Protestant nor Catholic are to be congratulated in refusing to be stirred up," by warnings against the inroads upon our freedom and rights by designing men who would take away all that is dear to us through the blood-bought victories of our forefathers, and bequeathed to us as a sacred legacy.
+
+C. F. WILCOX.

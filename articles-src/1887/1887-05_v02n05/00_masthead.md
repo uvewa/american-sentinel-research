@@ -1,3 +1,5 @@
-# The American Sentinel.
+**Volume 2, Number 5**
+**May, 1887**
+**Oakland, California**
 
-VOLUME 2. | OAKLAND, CALIFORNIA, MAY, 1887 | NUMBER 5.
+**Motto:** "Corrupted freemen are the worst of slaves."

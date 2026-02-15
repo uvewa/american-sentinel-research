@@ -1,3 +1,13 @@
-# The American Sentinel.
-
-VOLUME 4. | OAKLAND, CALIFORNIA, JULY 17, 1889 | NUMBER 25.
+---
+title: "Masthead"
+date: 1889-07-17
+publication: "American Sentinel"
+volume: 4
+issue: 25
+location: "Oakland, California"
+motto: "Equal and exact justice to all men whatever state or persuasion, religious or political."
+motto_attribution: "Thomas Jefferson"
+editors:
+  - "Alonzo T. Jones"
+  - "C. P. Bollman"
+---

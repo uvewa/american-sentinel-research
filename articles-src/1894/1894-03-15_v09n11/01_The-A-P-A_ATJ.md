@@ -1,0 +1,64 @@
+---
+title: "The A. P. A."
+author: "Alonzo T. Jones"
+author_short: "ATJ"
+date: 1894-03-15
+publication: "American Sentinel"
+volume: 9
+issue: 11
+attribution: "explicit"
+
+principles:
+  - "Church and State"
+  - "Constitutional Principles"
+
+applications:
+  - "Separation of Church and State"
+  - "State Establishment of Religion"
+  - "Proper Role of Government"
+  - "First Amendment Protections"
+  - "Founding Fathers' Intent"
+
+keywords:
+  - A. P. A.
+  - American Protective Association
+  - Catholic Bureau of Missions
+  - Senator Vilas
+  - Jefferson
+  - Madison
+  - Jesuit Thomas Sherman
+---
+
+It is perhaps expected by the readers of the AMERICAN SENTINEL that, in discussing opposition to the papacy in the United States, we should say something in regard to the A. P. A.
+
+THIS WE ARE NOT UNWILLING TO DO, BOTH ON OUR OWN PART, AND BECAUSE THE A. P. A. HAS ATTRACTED A GOOD DEAL OF ATTENTION FOR SOME TIME, AND IS NOW BEING CONDEMNED AND DENOUNCED WITHOUT MEASURE BY PROMINENT POLITICIANS, BY PROMINENT NEWSPAPERS, AND BY THE CATHOLIC CHURCH.
+
+TO BE CONDEMNED BY THE PAPACY IS IN ITSELF AN EVIDENCE OF MERIT. AND AS THE A. P. A. IS UNQUALIFIEDLY CONDEMNED AND DENOUNCED BY THE PAPACY AND HER "Protestant" APOLOGISTS IN THE UNITED STATES, THIS IN ITSELF IS A STRONG SUGGESTION THAT THERE IS AT THE VERY LEAST SOMETHING ABOUT THE A. P. A. THAT IS COMMENDABLE.
+
+WHAT, THEN, IS THE A. P. A.? AND WHAT IS IT FOR? LET IT BE UNDERSTOOD, HOWEVER, THAT WE ARE NOT QUALIFIED TO SPEAK OFFICIALLY, NOR IN ANY OTHER WAY, AS A REPRESENTATIVE OF THE A. P. A., NOR AS IN ANY WAY CONNECTED WITH IT, BUT ONLY AS AN OBSERVER. AS AN OBSERVER THOUGH, AS ONE WHO HAS STUDIED THIS SUBJECT FOR A LONGER TIME THAN THE A. P. A. HAS BEEN IN EXISTENCE, IF WE MISTAKE NOT, AND AS ONE WHO HAS STUDIED EVERY PHASE OF THE SUBJECT THAT HAS YET APPEARED, AND SOME PHASES WHICH HAVE NOT YET APPEARED—AS SUCH AN OBSERVER WE MAY BE ALLOWED TO EXPRESS OURSELVES.
+
+THE INITIALS "A. P. A." SIGNIFY "AMERICAN PROTECTIVE ASSOCIATION." AS WE UNDERSTAND IT, THE OBJECT OF THIS ASSOCIATION IS CHIEFY, AND IN BRIEF, TO PROTECT THE AMERICAN GOVERNMENT AND PEOPLE FROM THE DOMINATION OF THE PAPACY, BY OPPOSING EVERY KIND OF UNION OF CHURCH AND STATE. IT IS THEREFORE NECESSARILY OPPOSED TO THE ENCROACHMENTS OF THE PAPACY UPON THE GOVERNMENT THROUGH ANY OF HER POLITICAL SCHEMING OR AGGRESSION. THAT THERE IS ABUNDANT ROOM AND GREAT NEED OF SOMETHING OF THIS KIND BEING DONE IS EVIDENT TO EVERY PERSON WHO HAS WATCHED, IN ANY SORT OF FAIR-MINDED WAY, THE COURSE OF PUBLIC OR GOVERNMENTAL AFFAIRS FOR THE PAST TWENTY YEARS OR ANY PART THEREOF, OR WHO WILL SO WATCH AFFAIRS NOW. THIS THE REGULAR READERS OF THE AMERICAN SENTINEL KNOW FULL WELL; BECAUSE ALL THAT THE SENTINEL HAS EVER EXISTED FOR IS TO POINT OUT THESE VERY EVILS AND DANGERS. AND NOW THERE ARE SO MANY OF THEM AND THEY MULTIPLY SO FAST WE CAN HARDLY DESCRIBE THEM ALL AS THEY PASS.
+
+THAT SUCH WORK IS PROPER ACCORDING TO EVERY PRINCIPLE OF THE GOVERNMENT AND CONSTITUTION OF THE UNITED STATES, IS PLAIN TO EVERY PERSON WHO KNOWS THE A B C OF THESE PRINCIPLES OR OF THE HISTORY OF THE MAKING OF THE CONSTITUTION AND GOVERNMENT OF THE UNITED STATES. THE GOVERNMENT OF THE UNITED STATES WAS ESTABLISHED UPON THE PRINCIPLES OF THE TOTAL SEPARATION OF THE GOVERNMENT FROM ANY CHURCH OR RELIGION AND SPECIFICALLY THE CHRISTIAN RELIGION: AND THIS FOR THE EXPRESS PURPOSE OF ESCAPING ANY ESTABLISHMENT OF THE CATHOLIC CHURCH OR RELIGION. JEFFERSON AND MADISON, AND THEIR FELLOW-WORKERS FOR CIVIL AND RELIGIOUS LIBERTY, DECLARED THAT "TO JUDGE THE OURSELVES AND TO SUGAGE IN THE EXERCISE OF RELIGION AGREEDLY TO THE DICTATES OF OUR OWN CONSCIENCE, IS AN INALIENABLE RIGHT, WHICH, UPON THE PRINCIPLES ON WHICH THE GOSPEL WAS FIRST PROPAGATED, AND THE REFORMATION FROM POPPERY CARRIED ON, CAN NEVER BE TRANSFERRED TO ANOTHER." THEY SAID THAT "IT IS IMPOSSIBLE FOR THE MAGISTRATE TO ADJUDGE THE RIGHT OF PREFERENCE AMONG THE VARIOUS SECTS THAT PROFESS THE CHRISTIAN FAITH, WITHOUT ERECTING A CLAIM TO INFALIBILITY, WHICH WOULD LEAD US BACK TO THE CHURCH OF ROME." THEY OPPOSED ALL GOVERNMENTAL FAVORS TO "THE CHRISTIAN RELIGION," BECAUSE, AS THEY SAID, "DISTANT AS IT MAY BE IN ITS PRESENT FORM, FROM THE INQUISITION, IT DIFFERS FROM IT ONLY IN DEGREE. THE ONE IS THE FIRST STEP, THE OTHER IS THE LAST, IN THE CARNEY OF INTOLETRANCE." THUS SPOKE THE HEROES AND PATRIOTS WHO ESTABLISHED ON THIS CONTINENT THE SEPARATION OF RELIGION AND THE STATE AS A GOVERNMENTAL PRINCIPLE, AND WHO MADE THE GOVERNMENT OF THE UNITED STATES WITH THE PRINCIPLES DECLARED IN ITS CONSTITUTION. AND THEY DID IT, AS THEY REPEATEDLY DECLARED, THAT THE PEOPLE OF THE UNITED STATES MIGHT NOT BE LED BACK TO ROME, TO POPERY, AND TO THE INQUISITION.
+
+AND THE MAINTENANCE OF THESE PRINCIPLES TO-DAY FOR THE SAME PURPOSE FOR WHICH THEY WERE ESTABLISHED IS AS PROPER AND AS HONORABLE AS WAS THE ESTABLISHMENT OF THOSE PRINCIPLES IN THE BEGINNING. IT IS AS PROPER AND AS HONORABLE FOR MEN TO-DAY TO MAINTAIN THESE PRINCIPLES AS IT WAS FOR JEFFERSON AND MADISON TO ADVOCATE THEM, AND SECURE THEIR ESTABLISHMENT AS THE PRINCIPLES OF THE GOVERNMENT, WHEN THE GOVERNMENT WAS MADE. SO FAR, THEREFORE, AS THE OBJECT OF THE A. P. A. IS CONCERNED, IT IS PRECISELY THE OBJECT WHICH THE MAKERS OF THE GOVERNMENT HAD IN VIEW WHEN THEY PROHIBITED ANY CONNECTION OF THE GOVERNMENT WITH ANY RELIGION. IN THE OBJECT ANNOUNCED THE A. P. A. ARE IN THE COMPANY OF JEFFERSON, MADISON, AND THEIR FELLOW-WORKERS IN "THE TIMES OF '76." THIS, AS TO THEIR OBJECT, WE SAY. SOME OF THEIR METHODS MAY BE WRONG. BUT EVEN THOUGH SOME OF THEIR METHODS BE WRONG; OR EVEN THOUGH ALL THEIR METHODS BE WRONG, THAT CANNOT PROVE THE OBJECT WROUGH. WHATEVER THE METHODS, THE OBJECT IS AS CERTAINLY RIGHT AS THAT THE PRINCIPLES OF THE UNITED STATES GOVERNMENT, AS FOUNDED BY OUR FATHERS, ARE RIGHT.
+
+OF THE POLITICAL METHODS OF THE A. P. A. WE KNOW NOTHING PERSONALLY. WE HAVE SEEN STATEMENTS BY CATHOLIC PAPERS AND THEIR PARTISANS OF WHAT THESE METHODS ARE. BUT IF WE UNDERSTAND RIGHTLY, THE METHODS OF THE A. P. A. ARE REALLY KNOWN TO ONLY THE MEMBERS. AND SO, NOT KNOWING FOR OURSELVES THESE METHODS, AND NOT BEING WILLING TO TAKE OUR INFORMATION FROM THE AROMED ENEMIES OF THE ORDER, WE ARE PREPARED TO EXAMINE, WITH PERFECT IMPARTIALITY, WHATEVER THOSE METHODS MAY BE SUPPOSED TO BE. BY THE REPORT OF THE CASE IN THE TOLEDO COURT, IT APPEARS THAT THE A. P. A.'S OF THAT CITY, AT LEAST, ARE ARMING. WE GAVE OUR VIEW OF THIS MATTER LAST WEEK, THAT IT IS CLEARLY WRONG. IT IS ONLY FOLLOWING THE METHODS OF THE PAPACY, AND IT CANNOT WIN IN OPPOSITION TO THE PAPACY. IF THIS BE TRUE OF THE A. P. A.'S THROUGH
+
+out the country, then they are all wrong in this particular, and should change their course at once in this matter.
+
+If it be true that the A. P. A. proposes to accomplish its object by disfranchising or curtailing the political or civil rights of Catholics, that method is certainly wrong. If, however, the A. P. A. proposes to accomplish its object by recognizing the political and civil rights of Catholics equally with all others, while at the same time insisting that every citizen and every candidate for office shall faithfully maintain the fundamental principles of the Government, and the plain provisions and intent of the Constitution, then this is certainly right. If the A. P. A. proposes to accomplish its right object by the application of a religious test in any case, that method is wrong. If the A. P. A. proposes to accomplish its proper object by the test of the fundamental principles of the Government and the provisions of the Constitution *in every case*, then that method is *certainly right*. If the A. P. A. should apply even the test of the Constitution and the fundamental principles of the Government *only to Catholics*, this method would be wrong. If the A. P. A. applies this proper test to professed Protestants and all others alike, then this is certainly right. If the A. P. A. opposes only Catholic aggression and encroachments upon the Government, this is not enough. To be right it must oppose "Protestant" aggression and encroachment as well, and also every other that infringes to a hairbreadth the fundamental principles, or the Constitution, of the Government. If the A. P. A. opposes only religious interference with the public school, this is not enough. To be right and to further its avowed objects the A. P. A. must oppose every shadow and every vestige of Sunday legislation, whether by Congress or State legislatures; it must oppose all Government chaplancies whether national or State; it must oppose all assumption on the part of the President of the United States or the governor of any State of the prerogative of proclaiming religious exercises on any day; it must oppose all appropriations of public money to any churches or religious orders for any purpose whatever; it must oppose this joint resolution, which is now before Congress, to add a religious amendment to the national Constitution; it must oppose the assumption, on the part of the judiciary, whether State or national, of insinuating religious matters into their decisions and imposing them upon the people as the law—all this must the A. P. A. do if it will make good its avowed object of protecting the American Government and people from the domination of the papacy, and prevent the union of Church and State. It may be that the A. P. A. is doing all this: We sincerely hope so. It may be also that the A. P. A. is doing all this in the right way and accomplishing the good and proper object of its organization by *right methods* in all things. This also we sincerely hope it is doing; for, as the object of the A. P. A. is certainly right, we sincerely desire to see all its methods right also, so that it can win. And, indeed, we want it to be right, whether it wins or not.
+
+HON. W. F. VILAS, United States Senator from Wisconsin, in a letter to the *Catholic Citizen* of Milwaukee, condemning and denouncing the A. P. A., says:—
+
+He contends accuse the Catholic Church of aggression. When they point out an act which crosses the line of separation [of Church and State] they may call for its repulsion. But the false charge as the basis of a crusade ought to deceive no man.—Copied in *Catholic Mirror*, January 20, 1894.
+
+It is perfectly easy to point out an act of aggression of the Catholic Church which crosses the line. In 1885, the first year of Mr. Cleveland's first administration, while Mr. Vilas himself was a member of Mr. Cleveland's cabinet, the Catholic Church established "The Catholic Bureau of Missions" in Washington, D. C., as stated by Senator Dawes in the Senate July 24, 1890, "for the express purpose of pushing [Catholic] Indian schools on the Government" for support. She succeeded and has been drawing public money ever since for her church work among the Indians, and in the fiscal year ending June 30, 1895, she received $565,935 of public money for this purpose. And ever since Harrison's first year there have been calls "for its repulsion." President Harrison tried to repel it, but was forced to confess to the nation that he "found it impossible to do that." Did Senator Vilas vote for this appropriation for 1894, and will he vote for its renewal for 1895? or is he doing his duty, under his senatorial oath, to repel it?
+
+But it is said, the A. P. A. is a secret organization. This is a queer cry to raise by anybody who knows anything of the papacy. The papacy is the most secret organization that was ever on the earth. And for people who apologize for the papacy to make against other organizations the charge of "secrecy" is entirely characteristic of the spirit of that crafty institution. Senator Vilas remarks on this point, against the A. P. A., thus:—
+
+When a secret organization can make dangerous headway in political affairs among us, it will be time, not for your [Catholics'] special alarm, but for terror to us all.
+
+This, in view of Jesuit Thomas Sherman's late piece of manuscript that slipped out, and in view of the general dangerous headway in political affairs of that mistress of secrecy, the papacy, is worthy of a medal for innocence. We are not apologizing for the secrecy of the A. P. A., that is an affair of the own—we are only calling attention to the precious innocence displayed in this sentence of Senator Vilas'. We may be allowed to remark, however, that neither the A. P. A. nor any other organization nor person, can cope with the papacy by secret methods. The papacy being perfect mistress of every method and element of secrecy, there can be no plan of secrecy devised in opposition to her, that can win. She can undermine them all. The Scripture declares that "craft shall prosper" in her hand, and every one is at a disadvantage who attempts to oppose her by crafty or secret methods.
+
+A. T. J.

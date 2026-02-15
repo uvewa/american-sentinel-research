@@ -1,0 +1,24 @@
+---
+title: "Temporal Sword and Church"
+date: 1890-11-13
+publication: "American Sentinel"
+volume: 5
+issue: 45
+attribution: "reprint"
+original_publication: "Waddington"
+
+principles:
+  - "Church and State"
+  - "Persecution"
+
+applications:
+  - "Historical Parallels"
+  - "Religious Institutions and Civil Power"
+
+keywords:
+  - Waddington
+  - temporal sword
+  - Church corruption
+---
+
+THE same cause which restrained the vigor, polluted the character of the Church; for, being unable immediately to repress its own spiritual weapons, the violent animosities of its ministers, and impatient of the gradual influence of time and reason, in a dark and disastrous moment it had recourse to that temporal sword which was not intended for its service, and which it has never yet employed without disgrace or without impunity.—*Waddington.* [361]

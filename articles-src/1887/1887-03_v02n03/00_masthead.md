@@ -1,3 +1,5 @@
-# The American Sentinel.
-
-VOLUME 2. | OAKLAND, CALIFORNIA, MARCH, 1887 | NUMBER 3.
+ISSUE: Volume 2, Number 3
+DATE: 1887-03
+DATE_STR: March, 1887
+LOCATION: OAKLAND, CALIFORNIA
+MOTTO: "Corrupted freemen are the worst of slaves."

@@ -1,0 +1,21 @@
+# American Sentinel.
+
+PUBLISHED WEEKLY BY THE
+
+PACIFIC PRESS PUBLISHING COMPANY.
+
+No. 43 BOND STREET, NEW YORK.
+
+Entered at the New York Post-Office.
+
+ALONZO T. JONES,
+CALVIN P. BOLLMAN,
+LEON A. SMITH,
+
+EDITORS.
+
+Vol. 10. No. 48.
+
+NEW YORK, DECEMBER 5, 1895.
+
+Price, 3 cents.

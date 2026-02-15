@@ -1,0 +1,41 @@
+---
+title: "More Persecution in Tennessee"
+date: 1895-03-14
+publication: "American Sentinel"
+volume: 10
+issue: 11
+attribution: "editorial"
+
+principles:
+  - "Persecution"
+  - "The Sabbath Question"
+
+applications:
+  - "Legal Persecution"
+  - "Sunday Legislation"
+  - "Fines and Imprisonment"
+
+keywords:
+  - Dayton Tennessee
+  - Prof. G. W. Colcord
+  - Prof. I. C. Colcord
+  - Graysville Academy
+  - nuisance law
+  - Revelation 12:17
+---
+
+## More Persecution in Tennessee.
+
+ONE OF OUR EDITORS, WHO IS IN ATTENDANCE AT THE TRIALS OF THE SEVENTH-DAY Adventists at Dayton, Tenn., WHO WERE CHARGED WITH MAINTAINING A MUIANCE by LABORING ON SUNDAY, TELEGRAPHS THAT THERE WERE TEN DEFENDANTS FOUND QUITLY ON SEVENTEEN SEPARATE CHARGES, AND FINED TWO DOLLARS AND FIFTY CENTS AND COSTS ON EACH OF THE SEVENTEEN CHARGES.
+
+WE HAVE NOT YET LEARNED THE NAMES OF THESE TEN VICTIMS OF THE SUNDAY-LAW CRUSADE, BUT FROM PREVIOUS CORRESPONDENCE WE ARE ABLE TO STATE THAT ONE OF THEM IS PROF. G. W. COLOORD, PRESIDENT OF THE GRAYSVILLE ACADEMY, A SEVENTH-DAY Adventist institution. Prof. Colcord is also an ordained minister of the denomination. It is quite likely that a large proportion of the seventeen convictions are against him, as he was charged with six offenses.
+
+THE TELEGRAM STATES THAT THE JUDGE SUSPENDED THE FINES, BUT THAT THE COSTS MUST BE PAID BY THE CONVICTED PARTIES, OR THEY WILL BE COMMITTED TO JAIL.
+
+THE TELEGRAM FURTHER STATES THAT THREE LOCAL LAWYERS VOLUNTEERED TO PLEAD THE CASES GRATIS; ALSO THAT THE DEFENDANTS HAVE ASKED FOR A NEW TRIAL AND AN ARREST OF JUDGMENT.
+
+THIS IS THE LARGEST NUMBER OF SEVENTH-DAY Adventists CONVICTED AT ONE TIME, AND DOES NOT BEAR OUT THE PREDICTION OF SOME THAT THESE PERSECTIONS WERE ONLY SURFACE AGITATIONS ON THE ON-FLOWING TIDE OF LIBERTY AND WOULD SOON SUBSIDE. TENNESSEE HAS BEEN AT THIS PERSECUTING BUSINESS A LONG TIME, AND NOW, INSTEAD OF SHOWING SIGNS OF IMPROVING, IS STEADILY GROWING MORE INTOLERANT; AND THE EXAMPLE IS BEING FOLLOWED BY OTHER STATES AT HOME AND ABROAD. VERIFY, THE SCRIPTURE IS TRUE WHICH SAYS, "AND THE DRAGON ["THAT OLD SERPENT CALLED THE DEVIL AND SATAN"] WAS WROTH WITH THE WOMAN [THE CHURCH], AND WENT TO MAKE WAR WITH THE ROMMAN [THE LAST CHURCH OR THE CHURCH IN THE LAST DAYS] OF HER SEED, WHICH KEEP THE COMMANDMENTS OF GOD, AND HAVE THE TESTIMONY OF JESUS CHRIST." Rev. 12:17.
+
+WE WILL FURNISH OUR READERS A FULL ACCOUNT OF THE TRIALS IN OUR NEXT ISSUE.
+
+LATER:—Another telegram received just before going to press announces that the ten convicted parties, which include Eld. G. W. Colcord and his nephew, Prof. I. C. Colcord, have been refused a new trial and are now locked in the county jail at Dayton, Tenn., and, in consequence, the Graysville Academy is closed. And this is in America in the year eighteen hundred and ninety-five!
