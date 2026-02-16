@@ -1,0 +1,22 @@
+---
+title: "Editorial Notes: Imperialism and Corruption"
+date: 1898-09-01
+publication: "American Sentinel"
+volume: 13
+issue: 34
+attribution: "editorial"
+
+principles:
+  - "Limits of Civil Authority"
+
+applications:
+  - "Proper Role of Government"
+
+keywords:
+  - imperialism
+  - corruption
+  - remote province
+  - governor
+---
+
+THE TOUBLE IS WITH THE SYSTEM OF IMPERIALISM WHICH THE COUNTRY HAS INAUGURATED, NOT THAT THE GOVERNMENT DOES NOT MEAN TO GOVERN FAIRLY AND WELL THE NEW TRANS-MARINE TERRITORY, BUT THAT THE TEMPTATIONS TO CORRUPTION IN GOVERNMENT WHICH A REMOTE PROVINCE PRESENTS, ARE TOO GREAT TO BE LONG WITHSTOOD BY THOSE WHO WILL GET THE APPOINTMENT TO THE OFFICE OF GOVERNOR. THE WORDS "THERE'S MONEY IN IT," TELL THE STORY OF POLITICAL INTRIGUE AND CORRUPTION FOR ANY MATTER TO WHICH THEY APPLY.

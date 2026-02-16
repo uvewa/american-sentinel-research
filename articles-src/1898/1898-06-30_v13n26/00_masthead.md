@@ -1,0 +1,9 @@
+"IF ANY MAN HEAR MY WORDS, AND BELIEVE NOT, I JUDGE HIM NOT."—Jesus Christ.
+
+---
+
+**VOLUME 13.**
+
+**NEW YORK, JUNE 30, 1898.**
+
+**NUMBER 26.**
