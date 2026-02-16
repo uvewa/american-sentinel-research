@@ -37,7 +37,7 @@ At the late Conference of the Evangelical Alliance, Bishop A. C. Coxe, of New Yo
 
 "'1. The alien seeking to be naturalized must make oath two years beforehand of his *bona-fide* intention to become a citizen of the United States, and to *renounce forever all allegiance and fidelity to any foreign prince, potentate, State, or sovereignty;* in particular that to which he has been subject.
 
-"' 2. When he applies for naturalization after the two years thus provided for, he must prove that he has resided in the United States live years at least; that during that time he has behaved as a man of good moral character, attached to the principles of the Constitution, and well disposed to the good order and happiness of the same.
+"' 2. When he applies for naturalization after the two years thus provided for, he must prove that he has resided in the United States five years at least; that during that time he has behaved as a man of good moral character, attached to the principles of the Constitution, and well disposed to the good order and happiness of the same.
 
 "' 3. If he has borne any hereditary title, or been of any of the orders of nobility in the kingdom or State from which he came, he shall in addition to the above requisites make an express renunciation of his title or order of nobility.
 

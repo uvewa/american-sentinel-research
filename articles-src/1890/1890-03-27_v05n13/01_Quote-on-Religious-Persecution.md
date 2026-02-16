@@ -19,4 +19,4 @@ keywords:
   - law of God
 ---
 
-> "AMONG all the religious persecutions with which almost every page of modern history is stained, no victim ever suffered except for the violation of what Govern ment denominated the law of God."
+> "AMONG all the religious persecutions with which almost every page of modern history is stained, no victim ever suffered except for the violation of what Government denominated the law of God."

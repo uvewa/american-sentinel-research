@@ -17,4 +17,4 @@ keywords:
   - Washington Sunday-law Convention
 ---
 
-The warlike notes are not sung by Rev. M A. Gault only. At the Washington Sunday-law Convention, Rev. T. A. Fernley exclaimed, "While there is breath in our bodies, and a drop of blood in our veins, we will never give up the Sabbath [Sunday]." And these are the professed leaders of the followers of Him who teaches all his disciples to be meek and lowly.
+The warlike notes are not sung by Rev. M. A. Gault only. At the Washington Sunday-law Convention, Rev. T. A. Fernley exclaimed, "While there is breath in our bodies, and a drop of blood in our veins, we will never give up the Sabbath [Sunday]." And these are the professed leaders of the followers of Him who teaches all his disciples to be meek and lowly.

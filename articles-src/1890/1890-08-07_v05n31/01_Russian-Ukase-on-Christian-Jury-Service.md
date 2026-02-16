@@ -23,4 +23,4 @@ keywords:
   - jury service
 ---
 
-IT is stated that, according to a recent ukase of the Czar, no person who is not of the Christian faith will be allowed to serve on a jury, unless by the special approval of the Minister of the Interior, and of the Minister of Justice. Of course to be a Christian in Russia, means being a member of the Greek Church; what it would mean in this country, should the National Reformers be successful, remains to be seen; probably membership in any of the so- called orthodox churches would fill the bill.
+IT is stated that, according to a recent ukase of the Czar, no person who is not of the Christian faith will be allowed to serve on a jury, unless by the special approval of the Minister of the Interior, and of the Minister of Justice. Of course to be a Christian in Russia, means being a member of the Greek Church; what it would mean in this country, should the National Reformers be successful, remains to be seen; probably membership in any of the so-called orthodox churches would fill the bill.

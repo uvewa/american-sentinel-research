@@ -39,4 +39,6 @@ It was Mr. Butler's conclusion that the laws of the State would uphold the Depar
 
 > We may consider it as settled that religion is not to be taught in the public schools. The American people will not trust the State to teach religion.
 
-Although these unexpected differences of opinion threw something of a damper upon the enthusiasm of the meeting, still the business committee reported favorably a series of resolutions, which were adopted, in which it was declared that the State and religion were inseparable, and that the practical truths of religion should be inculcated in the public school system. A committee of from one to three from each Protestant denomination in the State was appointed to carry on the work, and further the interests of "moral instruction in the public schools." W. H. M.
+Although these unexpected differences of opinion threw something of a damper upon the enthusiasm of the meeting, still the business committee reported favorably a series of resolutions, which were adopted, in which it was declared that the State and religion were inseparable, and that the practical truths of religion should be inculcated in the public school system. A committee of from one to three from each Protestant denomination in the State was appointed to carry on the work, and further the interests of "moral instruction in the public schools."
+
+W. H. M.

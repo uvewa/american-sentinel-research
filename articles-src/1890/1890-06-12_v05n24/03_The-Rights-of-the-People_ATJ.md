@@ -44,7 +44,7 @@ It is true that force is the only power at the command of a civil government. Bu
 
 Every person in the United States has the natural right to rest, and to worship, and to be religious, and to speak English; and many of them have the political right to vote. Every person has the right to exercise those rights. And every person has an equal right *not* to exercise those rights. [186]
 
-Another instance of this same spirit of despotic invasion of the rights of the people, is shown in the act of Congress empowering the Census Bureau to carry on such a political inquisition as to compel the people of the United State to answer such questions as the following:—
+Another instance of this same spirit of despotic invasion of the rights of the people, is shown in the act of Congress empowering the Census Bureau to carry on such a political inquisition as to compel the people of the United States to answer such questions as the following:—
 
 > 22. Whether [he or she is] suffering from acute or chronic diseases, with the name of disease and length of time afflicted.
 
@@ -52,7 +52,7 @@ Another instance of this same spirit of despotic invasion of the rights of the p
 > 24. Whether a prisoner, convict, homeless child, pauper.
 > 25 and 26. Is the home you live in hired? or is it owned by the head or by a member of the family?
 > 27. If owned by head or member of family, is the house free from mortgage encumbrance?
-> 28. If the head of the family is a farmer, is the farm Which he cultivates hired? or is it owned by him or by a member of his family?
+> 28. If the head of the family is a farmer, is the farm which he cultivates hired? or is it owned by him or by a member of his family?
 > 29. If owned by head or member of family, is the farm free from mortgage encumbrance?
 > 30. If the home or farm is not owned by head or member of family and mortgaged, give the post office address of owner.
 When Congress, and legislatures, and governors, and lawyers, advocate the compulsory speaking of English, and compulsory education, and compulsory voting, and the compulsory telling of every personal defect and every private disease, it is not so much to be wondered at that preachers should advocate compulsory religion. When Congress voluntarily sets on foot a political inquisition it is not to be greatly wondered at that the political preachers and churches should petition the same body to establish a religious inquisition also.

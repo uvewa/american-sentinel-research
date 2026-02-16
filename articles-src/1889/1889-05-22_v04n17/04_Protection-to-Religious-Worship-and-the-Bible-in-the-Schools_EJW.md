@@ -38,8 +38,8 @@ Some time ago we received from a friend in the East some questions concerning Su
 
 > "Your position is no civil Sabbath laws. Such a position, carried out with our present influx of foreign element, will soon reduce our present Christian Sabbath to the level of the Continental Sabbath—a day of excursions, picnics, beer gardens, revelries, and, if desired, make a day of din or confusion right when the majority desire to engage in worship. You cry out against coercion on one side but lose sight of protection on the other. Here are what you would regard as two evils, and one or the other of them must be chosen; hence, would it not be better to have a Sunday law? Is not a village or neighborhood with a Sunday law where things are kept quiet better than one where everything runs riot on Sunday?"
 
-> "2. The position of the Sentinel is no Bible in the schools if objected to by Catholics. Many of our textbooks have the name of God in referring to him as Creator, etc. Suppose some atheist objects, shall his objection be sustained? Some 'fogy' objects to grammar* *being taught because he don't believe in it; shall his objection be sustained?
-> "Does not the matter of finances, building schoolhouses, and *selection of text-books tie with the majority? *—It certainly does. Then if they choose to select the best of all books for a school reader have they not power to do so, even if it does not suit the majority?
+> "2. The position of the Sentinel is no Bible in the schools if objected to by Catholics. Many of our textbooks have the name of God in referring to him as Creator, etc. Suppose some atheist objects, shall his objection be sustained? Some 'fogy' objects to grammar being taught because he don't believe in it; shall his objection be sustained?
+> "Does not the matter of finances, building schoolhouses, and *selection of text-books lie with the majority?*—It certainly does. Then if they choose to select the best of all books for a school reader have they not power to do so, even if it does not suit the majority?
 
 The first question has been answered many times, but we will answer it again more in detail. The answer is very simple. The whole point is protection to religious worship on Sunday. This is the great plea that is made in favor of Sunday laws. People must be protected in their right to worship. We say so too; but there is no necessity for Sunday laws in order to secure this undisturbed worship. To show that this is so, we will make some extracts from the penal codes of a few of the States. Section 302 of the penal code of California reads as follows:—
 
@@ -56,7 +56,7 @@ Following is the reading of the penal code of New York on this subject:—
 > "Section 274. *Disturbing religious meetings.* A person who willfully disturbs, interrupts, or disquiets any assemblage of people met for religious worship, by any of the acts enumerated in the next section, is guilty of a misdemeanor.
 
 > "Sec. 275. *Definition of the offense.* The following acts, or any of them, constitute disturbance of a religious meeting:—
-> "1 Uttering any profane discourse, committing any rude or indecent act, or making any unnecessary noise, either within the place where such meeting is held, or so near it as to disturb the order and solemnity of the meeting.
+> "1. Uttering any profane discourse, committing any rude or indecent act, or making any unnecessary noise, either within the place where such meeting is held, or so near it as to disturb the order and solemnity of the meeting.
 > "2. Engaging in, or promoting, within two miles of the place where a religious meeting is held, any racing of animals or gaming of any description.
 > "3. Obstructing in any manner, without authority of law, within the like disturbance, free passage along a highway to the place of such meeting."
 

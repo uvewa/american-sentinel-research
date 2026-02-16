@@ -18,4 +18,4 @@ keywords:
   - Inter-Ocean
 ---
 
-Some of the Chicago ministers, like the Third party Prohibitionists, have set out to regulate things by law, and will make the conversion by gospel means a second-rate matter.—*Inter-Ocean. *[15-16]
+Some of the Chicago ministers, like the Third party Prohibitionists, have set out to regulate things by law, and will make the conversion by gospel means a second-rate matter.—*Inter-Ocean.*

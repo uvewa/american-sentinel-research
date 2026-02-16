@@ -15,4 +15,4 @@ keywords:
   - Christian Sunday
 ---
 
-Our watchful and vigorous contempory, the *American Sentinel,* of Oakland, is making a val- liant war against the fanatics who are attempting to chain us to a national or Christian Sunday. Although the movement is led by a false Shepard [Col. Elliott F.], and although the whole thing is false, all libertyloving people should remember that falsehoods often prevail when not checked by truth.—*Jewish Times and Observer.*
+Our watchful and vigorous contemporary, the *American Sentinel,* of Oakland, is making a valiant war against the fanatics who are attempting to chain us to a national or Christian Sunday. Although the movement is led by a false Shepard [Col. Elliott F.], and although the whole thing is false, all liberty-loving people should remember that falsehoods often prevail when not checked by truth.—*Jewish Times and Observer.*

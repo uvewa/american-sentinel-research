@@ -18,4 +18,4 @@ keywords:
   - liberty of conscience
 ---
 
-> "The early settlers came from Europe to seek freedom for themselves, and then inconsistently denied it to others, for fear of losing the monopoly."— *Schaff. *[86]
+> "The early settlers came from Europe to seek freedom for themselves, and then inconsistently denied it to others, for fear of losing the monopoly."—*Schaff.*

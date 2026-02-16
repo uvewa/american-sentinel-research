@@ -52,7 +52,7 @@ This being the petition upon which the pending Sunday legislation was framed it 
 
 Therefore being opposed both to Sunday laws and to deception, we are doubly opposed to "this petition for a civil rest day."
 
-> *Second.* The above petition, you will observe, makes no reference to the original Blair Sundayrest bill, which may be what you wished to oppose. If so, do you object also to the new Blair Sunday-rest bill of the present Congress?
+> *Second.* The above petition, you will observe, makes no reference to the original Blair Sunday-rest bill, which may be what you wished to oppose. If so, do you object also to the new Blair Sunday-rest bill of the present Congress?
 
 ANSWER: Yes, we do "observe" it. And, yes we *do* "object also to the new Blair Sunday-rest bill of the present Congress," and to every other Sunday-rest bill that ever has been or that ever may be framed.
 
@@ -66,9 +66,9 @@ ANSWER: The same answer, in effect, as to question three.
 
 > *Fifth.* Do you object to making permanent by law, the reductions of Sunday work recently made by many railroad corporations, and completing these reforms by removing what railroad presidents declare to be the chief obstacle to complete suspension of Sunday trains, namely, competition, by stopping all Sunday work in interstate commerce that is not work of necessity or mercy?
 
-ANSWER: Yes, (1) for the same reason as given in answer to questions three and four; and (2) because we are opposed to the Government's establishing a monoply in Sunday observance by "removing competition" or by any other means.
+ANSWER: Yes, (1) for the same reason as given in answer to questions three and four; and (2) because we are opposed to the Government's establishing a monopoly in Sunday observance by "removing competition" or by any other means.
 
-> *Sixth.* Do you object to giving a rest day to the people of the District of Columbia, whose Commissioners have recently said that it has no valid Sunday law, not even enough to stop servile labor on that day: which is, therefore, to be classified with France and California as the only parts of the civilized world having no Sunday law? Do you object to the enactment by Congress of as good a Sundayrest law for the Capital as can be found in the statutes of any State, in accordance with the desire of the Commissioners, approved by the President?
+> *Sixth.* Do you object to giving a rest day to the people of the District of Columbia, whose Commissioners have recently said that it has no valid Sunday law, not even enough to stop servile labor on that day: which is, therefore, to be classified with France and California as the only parts of the civilized world having no Sunday law? Do you object to the enactment by Congress of as good a Sunday-rest law for the Capital as can be found in the statutes of any State, in accordance with the desire of the Commissioners, approved by the President?
 
 ANSWER: Yes to the first question, because the people of the District of Columbia have a rest day, and they observe it so well that the American Sabbath Union himself says that of all the cities in the United States, in Washington city there is the best Sunday observance. The District of Columbia is appropriately "classified" with California, because, by the same authority we know that in California without Sunday laws there is better observance of Sunday than in states which have [84] Sunday laws, and better observance of it than there was in the same State when it had Sunday laws. And neither the District of Columbia nor California need any laws to "give" them that which they already have.
 

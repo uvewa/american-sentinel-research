@@ -18,7 +18,7 @@ keywords:
   - National Reform Association
 ---
 
-Says Rev. C. E. Walker in the *Christian Nation'.—*
+Says Rev. C. E. Walker in the *Christian Nation:—*
 
 > "As a nation we have suffered judgments, and will suffer yet more, far more, unless the people return to God as directed *by the National Reform Association"*
 

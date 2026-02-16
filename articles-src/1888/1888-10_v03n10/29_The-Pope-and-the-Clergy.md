@@ -52,9 +52,9 @@ The Chicago clergymen "removed all obscurity and avowed the purpose distinctly a
 
 Has the leopard changed his spots? [78]
 
-Let the reader note that this bold resolution, so sweeping in its claim of authority, was adopted by a council of twenty-five Protestant clergymen of different denominatiens, assembled in Chicago in 1854. . . .
+Let the reader note that this bold resolution, so sweeping in its claim of authority, was adopted by a council of twenty-five Protestant clergymen of different denominations, assembled in Chicago in 1854. . . .
 
-Pius IX. had then been nearly eight years on his pontifical throne, reared upon the ruins of the throne of the Cesars. That proud, shrewd, and power-grasping old monk must have been pleased at what he also considered a daring invasion of his prerogatives, when he read this resolution of the Chicago clergymen. And their sincerity in the reality of their "divine appointment" was revealed to the astonished old man, in the sending of this resolution to the Senate of the United States. . . .
+Pius IX. had then been nearly eight years on his pontifical throne, reared upon the ruins of the throne of the Cæsars. That proud, shrewd, and power-grasping old monk must have been pleased at what he also considered a daring invasion of his prerogatives, when he read this resolution of the Chicago clergymen. And their sincerity in the reality of their "divine appointment" was revealed to the astonished old man, in the sending of this resolution to the Senate of the United States. . . .
 
 Cardinal Manning boldly asserted in the name of the Pope: "I am the sole, last, supreme judge of what is right and wrong." Not much bolder than the resolution of the Chicago "divines."
 

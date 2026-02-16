@@ -31,7 +31,7 @@ Upon which the New York *Voice,* the leading Prohibitionist paper of this countr
 
 > "Such accusations are childish. The utterances of the party in its platform in any way bearing on this subject are:—
 > "1. 'Acknowledging Almighty God as the source of all power in Government; ' and,
-> "2. 'Declaring for the preservation and defense of the Sabbath as a civil institution, without oppressing any who religiously observe the same on any other than the first day of the week?
+> "2. 'Declaring for the preservation and defense of the Sabbath as a civil institution, without oppressing any who religiously observe the same on any other than the first day of the week.'
 > "The first can be subscribed to by any person who believes that there is a God, and the second by any person who has ordinary common sense. We never heard of a prominent Prohibitionist who favored the union of Church and State."
 
 And in reply we say this: Take the last statement first. The *Voice* says it has "never heard of a prominent Prohibitionist who favored the union of Church and State." Now Mr. Sam Small is a prominent Prohibitionist; one of the most prominent of Prohibitionists, in fact. He was secretary of the National Prohibition Convention of 1888, and he publicly declared this in Kansas City, in January of that year:—

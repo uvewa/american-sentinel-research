@@ -24,7 +24,7 @@ keywords:
   - Rome Michigan
   - Sunday-Rest bill
   - Religious Amendment
-  - Mayor John R. Glascock
+  - Mayor John B. Glascock
 ---
 
 J. J. Dean, M. D., of Florida, says:—
@@ -33,7 +33,7 @@ J. J. Dean, M. D., of Florida, says:—
 
 A banker in Nebraska writes:—
 
-> "Inclosed find draft, etc.; commence my subscription with the first weekly number issued. I am very much pleased with the Sentinel, and believe that its mission is a grand one. I believe quite a number of subscribers could be obtained here. About 400 signatures were obtained to the remonstrance against the Blair bills.
+> "Inclosed find draft, etc.; commence my subscription with the first weekly number issued. I am very much pleased with the Sentinel, and believe that its mission is a grand one. I believe quite a number of subscribers could be obtained here. About 400 signatures were obtained to the remonstrances against the Blair bills.
 
 > "The town has been somewhat stirred over the agitation of the Sunday-Rest bill, and the Religious Amendment to the Constitution. Yours for the defense of American liberty.
 
@@ -51,4 +51,4 @@ The following are expressions of opinion from attorneys at law in various States
 > "I am opposed to any union of Church and State."
 > "I am decidedly opposed to any instruction in Christianity in our free public-school system."
 
-Mayor John R. Glascock, of this city, in speaking of the Blair bills, says that they are "an infringement upon the personal liberty of the people. Church and State should be kept as far apart as possible. Let our schools teach knowledge and not religion." [113]
+Mayor John B. Glascock, of this city, in speaking of the Blair bills, says that they are "an infringement upon the personal liberty of the people. Church and State should be kept as far apart as possible. Let our schools teach knowledge and not religion." [113]

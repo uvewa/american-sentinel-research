@@ -19,9 +19,9 @@ keywords:
   - Wendell Phillips
 ---
 
-The *-Christian Nation* puts the whole thing in a nut-shell, when it says:—
+The *Christian Nation* puts the whole thing in a nut-shell, when it says:—
 
-> "There seems to us to be a feeling throughout the rank and filo of our workers for National Reform something like this: Secure the respect of men for our cause first, and then work as much as possible without losing that respect."
+> "There seems to us to be a feeling throughout the rank and file of our workers for National Reform something like this: Secure the respect of men for our cause first, and then work as much as possible without losing that respect."
 
 It would be impossible to make a clearer or better analysis of the methods of National Reform. The *Nation* calls upon them to get down from their "loftiness," but we are quite sure that they will not do it. Their movement is essentially of this world, and is dependent solely upon worldly influences, worldly methods, and the political preferences of men ambitious of worldly power; therefore, the first and last consideration *must* be to secure the respect of men. For the National Reform workers to get down from such "loftiness" would be the certain destruction of their cause.
 

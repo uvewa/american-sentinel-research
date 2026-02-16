@@ -37,9 +37,9 @@ And for this historical fact, stated in the mildest language possible, this text
 
 *Resolved,* By Camp 22 of the Patriotic Order Sons of America, of Leadville, Colorado, that we *do most earnestly protest* against this arbitrary ecclesiastical interference with the literature of the free schools of our land.
 
-At this rate it is but reasonable to expect the next scene in the drama will be the expulsion of "Fronde's History of England" as a text-book in our common schools, because the author states the truth respecting the bloody persecution of the Roman Catholics by the Church of England at the time of the execution of Mary Stuart by the rapacious Protestant, Queen Elizabeth.
+At this rate it is but reasonable to expect the next scene in the drama will be the expulsion of "Froude's History of England" as a text-book in our common schools, because the author states the truth respecting the bloody persecution of the Roman Catholics by the Church of England at the time of the execution of Mary Stuart by the rapacious Protestant, Queen Elizabeth.
 
-Or, through the influence of some religions fanatic, some standard History of the United States will be discarded from use in our public schools, because the author records the abuses and prejudices of the early Puritans in their bitter persecutions of other denominations in New England; and in condemning to death poor old innocent women supposed to be possessed of witchcraft.
+Or, through the influence of some religious fanatic, some standard History of the United States will be discarded from use in our public schools, because the author records the abuses and prejudices of the early Puritans in their bitter persecutions of other denominations in New England; and in condemning to death poor old innocent women supposed to be possessed of witchcraft.
 
 In passing this resolution of censure it is with no malice to the Catholic Church; but we would raise our voice equally strong against the interference of any Protestant Church in the dictation of the literature of the free schools of our common country.
 

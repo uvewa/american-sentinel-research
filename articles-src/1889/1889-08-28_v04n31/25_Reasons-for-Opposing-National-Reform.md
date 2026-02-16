@@ -36,7 +36,7 @@ The *Telegraph,* of Dubuque, Iowa, gives in its issue of May 3, 1889, the follow
 
 6. All the reforms which the association regard as necessary, can be accomplished without resorting to the dangerous measures which they propose.
 
-7. The government affords every protection to all classes for the propagation of their religious views, and with this encouragement, with the good wishes of even nou-church members, with theological schools constantly graduating preachers, the clergy should be able to create a moral public sentiment, without endangering the public school system, and menacing evil to all that every patriot holds dear.
+7. The government affords every protection to all classes for the propagation of their religious views, and with this encouragement, with the good wishes of even non-church members, with theological schools constantly graduating preachers, the clergy should be able to create a moral public sentiment, without endangering the public school system, and menacing evil to all that every patriot holds dear.
 
 The *Telegraph* concludes its article thus:—
 

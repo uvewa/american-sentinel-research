@@ -21,7 +21,7 @@ keywords:
 
 The St. Louis *Observer* says:—
 
-> "Christ's kingdom is not of this world. The church is not a police board, nor Cesar's lieutenant, but a Saviour of lost sinners. Its simple, sole, glorious mission is to bring sinners to Jesus by preaching the gospel to them with the Holy Ghost sent down from Heaven."
+> "Christ's kingdom is not of this world. The church is not a police board, nor Cæsar's lieutenant, but a Saviour of lost sinners. Its simple, sole, glorious mission is to bring sinners to Jesus by preaching the gospel to them with the Holy Ghost sent down from Heaven."
 
 And commenting upon this the Cedar County (Neb.) *Nonpareil* remarks:—
 

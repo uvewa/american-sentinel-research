@@ -46,7 +46,7 @@ When the words "liberty" and "rights" were used in early times, American statesm
 
 The paragraph, respecting religion, in the Declaration of Rights as originally reported from the committee, read, after the word "violence," "all men should enjoy the fullest toleration in the exercise of religion;" and, consequently, on account of the term "toleration" objection was made. The Convention of Virginia held the same position (and that is the American position) as that expressed in a report adopted by the United States Senate, January 19 1829, from which the following is an extract:—
 
-> What other nations call religious toleration, we call *religious rights.* They are not exercised in virtue of governmental indulgence; *but as rights; *of which Government cannot deprive any portion of of citizens, *however small.* Despotic power may invade those rights, but justice still confirms them.
+> What other nations call religious toleration, we call *religious rights.* They are not exercised in virtue of governmental indulgence; *but as rights; *of which Government cannot deprive any portion of citizens, *however small.* Despotic power may invade those rights, but justice still confirms them.
 
 Of Madison, who was a member of this Convention, history says:—
 

@@ -34,7 +34,7 @@ I do not approve of Senator Blair's bill, nor his views; but I never knew of any
 
 I have not only received, but read with much interest, the matter sent me. It meets my views exactly. No meddling with the Constitution. It is as it should be, as the fathers left it; and to him or them who would change it to favor any sect or society, I say "hands off!" I like the tone of the SENTINEL. It is engaged in a good work.
 
-We can assure you, that the members of this firm are each fully in accord with the sentiments of the SENTINEL, SO far as its advocacy of perfect religious liberty and absolute independence of Church and State is concerned.
+We can assure you, that the members of this firm are each fully in accord with the sentiments of the SENTINEL, so far as its advocacy of perfect religious liberty and absolute independence of Church and State is concerned.
 
 I like the tone and sentiments of the SENTINEL and Association, inasmuch as I am for religious liberty pure and simple as guaranteed by the Constitution.—
 

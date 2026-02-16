@@ -19,7 +19,7 @@ keywords:
   - R. C. Porter
   - D. S. Donnell
   - W. D. Gray
-  - B. F. Boiler
+  - B. F. Boller
   - J. A. Morrow
   - T. H. Tatlow
   - Declaration of Independence
@@ -57,13 +57,13 @@ Rev. W. D. Gray, secretary of the convention, then said: "Mr. Chairman, I move y
 
 *The Chairman*—"We have not adopted any set rules for our government."
 
-*B. F. Boiler*—"It don't signify that this is lost by simply tabling it; it can be taken from the table at any time of the convention. And it cannot be left out of the record of the proceedings without a vote of the convention."
+*B. F. Boller*—"It don't signify that this is lost by simply tabling it; it can be taken from the table at any time of the convention. And it cannot be left out of the record of the proceedings without a vote of the convention."
 
-*Mr. Stephens*—"My remark before was misunderstood by Mr. Boiler. Is it customary to record any paper to show that such a paper was presented by such a party, and tabled; the paper, of course, kept on file?"
+*Mr. Stephens*—"My remark before was misunderstood by Mr. Boller. Is it customary to record any paper to show that such a paper was presented by such a party, and tabled; the paper, of course, kept on file?"
 
 *The Chairman*—"Well, that was what I was getting at; and it is the decision of the chair that this paper, as it is written, shall be a part of the records of the convention, and that this paper was offered by Brother Porter, and was laid on the table."
 
-*Bev. J. A. Morrow*—"I do not think it would be discourtesy to ask the privilege to return this paper to the parties. It is certainly known to them that this movement is directly, positively, and explicitly in opposition to the whole thing. And I would move you that we return it to the parties."
+*Rev. J. A. Morrow*—"I do not think it would be discourtesy to ask the privilege to return this paper to the parties. It is certainly known to them that this movement is directly, positively, and explicitly in opposition to the whole thing. And I would move you that we return it to the parties."
 
 *The Chairman*—"And that the paper be not made a part of the record of the convention?"
 
@@ -71,7 +71,7 @@ Rev. W. D. Gray, secretary of the convention, then said: "Mr. Chairman, I move y
 
 *Elder Porter*— "I would like to ask this question. I do not know as I get the idea of the gentleman correctly, in making the motion to return this paper. Does he mean to say that he is opposed to the expression of equality of rights and the principles of the Christian religion as set forth in this resolution? Is that the idea of the gentleman in making the motion?"
 
-*Bev. T. H. Tatlow*—"I think, Mr. Chairman, there is a confusion of ideas, and that there is a mistake on the part of Brother Porter in presenting this. The Sabbath was made for man; so is civil government made for man—"
+*Rev. T. H. Tatlow*—"I think, Mr. Chairman, there is a confusion of ideas, and that there is a mistake on the part of Brother Porter in presenting this. The Sabbath was made for man; so is civil government made for man—"
 
 *W*. *D. Gray*—"I rise to a point of order."
 

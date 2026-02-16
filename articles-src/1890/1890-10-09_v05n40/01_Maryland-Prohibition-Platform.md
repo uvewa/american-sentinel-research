@@ -23,6 +23,6 @@ keywords:
 
 THE Maryland State Prohibition platform has the following as one of its planks:—
 
-> We approve our Sabbath laws and their enforce" ment, which secures to the people one day's rest in seven.
+> We approve our Sabbath laws and their enforcement, which secures to the people one day's rest in seven.
 
 This the New York *Voice* calls an almost model platform. But that political platform which approves of Maryland Sabbath laws is as far from model, as the darkest laws of the Dark Ages are from the Constitution of the United States.—*Signs of the Times.*

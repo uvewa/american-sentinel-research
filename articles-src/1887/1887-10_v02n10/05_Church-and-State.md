@@ -50,8 +50,8 @@ But chiefly the Romish Church has sold herself to the governments of earth. It i
 
 1. Such a policy is, so far as it is pursued, betrayal of the gospel. There is but one work that God has imposed on the church. There is but one Master that is tolerated. There is but one motive controlling all service.
 
-2. If à church is zealous of worldly honor it must lose in spiritual power. Grand edifices, parade of wealth, political power, the suffrage of the influential, may appeal to the people of earth, but the church that seeks these things and boasts of them is turned away from God's service, and is become shorn of spiritual power. It can no longer do its great work singly.
+2. If a church is zealous of worldly honor it must lose in spiritual power. Grand edifices, parade of wealth, political power, the suffrage of the influential, may appeal to the people of earth, but the church that seeks these things and boasts of them is turned away from God's service, and is become shorn of spiritual power. It can no longer do its great work singly.
 
 3. The world honors in word, and fawns upon, the church that it uses. But in its secret heart it despises such a church. Note how politicians treat politely and deferentially the negro preachers, and yet when their backs are turned sneer at them for their venality. Note how the secular press respectfully and gravely records the Romish parades and ceremonies, and yet read between the lines the contempt felt for Romanism as a spiritual religion.
 
-From all which we gather the injunction that the church keep itself unspotted from the world, rejecting its bribes, refusing its yoke.—*Rev, J. A. Scott, Jr., in Christian at Work.*
+From all which we gather the injunction that the church keep itself unspotted from the world, rejecting its bribes, refusing its yoke.—*Rev. J. A. Scott, Jr., in Christian at Work.*

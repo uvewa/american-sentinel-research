@@ -26,6 +26,6 @@ Miss MARY F. LATHROP, of the Non- Partisan Woman's Christian Temperance Union, i
 
 When she had read this, Miss Lathrop lowered her voice and quietly remarked:—
 
-You laugh, my friends, but it is no laughing matter. If connection with political parties inculcates such feelings as this, where Christian love, forbearance and peace and good will should exist, is n't it high time we got away from politics?
+You laugh, my friends, but it is no laughing matter. If connection with political parties inculcates such feelings as this, where Christian love, forbearance and peace and good will should exist, isn't it high time we got away from politics?
 
 So say we. All honor to the womanly women, who have cut loose from a leadership that is characterized by mannishness in women, and womanishness in men.

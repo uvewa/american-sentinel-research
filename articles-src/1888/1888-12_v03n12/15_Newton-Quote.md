@@ -16,4 +16,4 @@ keywords:
   - Newton
 ---
 
-My principal method for defeating heresy is by establishing truth. Ono proposes to fill a bushel with tares: now if I can fill it first with wheat, I shall defy his attempts.—*Newton. *[95]
+My principal method for defeating heresy is by establishing truth. One proposes to fill a bushel with tares; now if I can fill it first with wheat, I shall defy his attempts.—*Newton. *[95]

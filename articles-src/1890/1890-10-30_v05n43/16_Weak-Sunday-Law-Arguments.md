@@ -23,7 +23,7 @@ keywords:
   - seventh day
 ---
 
-THAT "drowning men catch at straws," is exemplified in the case of the Sundaylaw advocates. In the hearing before the Senate Committee on the Sunday Rest bill, Rev. T. P. Stevenson, D.D., said:—
+THAT "drowning men catch at straws," is exemplified in the case of the Sunday-law advocates. In the hearing before the Senate Committee on the Sunday Rest bill, Rev. T. P. Stevenson, D.D., said:—
 
 > The law of the Sabbath is binding on nations and governments as well as on individual men. This obligation is recognized through our whole history by the general cessation of business in our courts and legislatures, and in all other parts of the Government on the first day of the week.
 

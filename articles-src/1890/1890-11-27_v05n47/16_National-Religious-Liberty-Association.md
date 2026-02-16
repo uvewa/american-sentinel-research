@@ -35,4 +35,4 @@ keywords:
 > We also believe it to be our duty to use every lawful and honorable means to prevent religious legislation by the civil government; that we and our fellow-citizens may enjoy the inestimable blessings of both religious and civil liberty.
 C. ELDREDGE, *President.*
 
-W. H. MCKEE, *Secretary.*
+W. H. McKEE, *Secretary.*

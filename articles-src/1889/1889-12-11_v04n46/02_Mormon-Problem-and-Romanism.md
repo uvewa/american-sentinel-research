@@ -27,4 +27,4 @@ The San Francisco *Chronicle* thinks that the suggestion of Editor Shepard, of N
 
 "The Saints would at once flock in from adjacent Territories till they would outnumber and outvote the Gentiles. . . . It is far better to deal with Mormonism in the present fashion than to put political power into the hands of men who recognize their church and its mandates as superior to the law of the government."
 
-That which the *Chronicle* says is, we suppose, all true. Adherents of such a system as Mormonism cannot be loyal to any government other than their own hierarchy; but this is just as true of Romanism as or Mormonism.
+That which the *Chronicle* says is, we suppose, all true. Adherents of such a system as Mormonism cannot be loyal to any government other than their own hierarchy; but this is just as true of Romanism as of Mormonism.

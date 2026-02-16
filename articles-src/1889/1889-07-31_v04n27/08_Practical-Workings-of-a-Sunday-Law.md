@@ -45,6 +45,6 @@ But is this all their zeal leads them to do? No, no; this seventh-day-keeping ch
 
 If the Reverend Doctor Brooks were here, he could not complain that the preachers do not "speak out." They are speaking out, and proposing that as many as do not worship as they do shall be killed. Rev. W. J. Coleman, who spoke at Lakeside, Ohio, in August, 1887, could find the army that he called for who are "ready to pour out treasure and blood" for the cause he was advocating. They are also ready to pour out the blood of innocent Christians, in order to compel people who observe the seventh day to keep Sunday.
 
-The minister above referred to, whose assasination was attempted, had mildly but in a very plain and convincing manner, set before the people of the community the inconsistent and unkind manner in which they had proceeded. He also showed that their course was un-American and Papistic. They replied with the rifle and shotgun.
+The minister above referred to, whose assassination was attempted, had mildly but in a very plain and convincing manner, set before the people of the community the inconsistent and unkind manner in which they had proceeded. He also showed that their course was un-American and Papistic. They replied with the rifle and shotgun.
 
 We do not believe that National Reformers will approve of their course, but the speeches they make are, many of them, calculated to incite to just such deeds of violence. National Reformers should counsel moderation for the credit of their cause, if for nothing else.— *Wm. Covert, in Signs of the Times.*

@@ -21,7 +21,7 @@ keywords:
   - National Reform
 ---
 
-At the anniversary dinner of the Catholic Club, in Philadelphia, Cardinal Gibbons, Archbishop Corrigan, and Archbishop Ryan were present and made speeches. Among other things, Archbishop Ryan told of the meeting between a Protestant and the Pope, and how well pleased the two men were with each other, and said: "So, many Protestants who have met the Pope, while not religiously Catholic, are personally Papists. He then continued:—
+At the anniversary dinner of the Catholic Club, in Philadelphia, Cardinal Gibbons, Archbishop Corrigan, and Archbishop Ryan were present and made speeches. Among other things, Archbishop Ryan told of the meeting between a Protestant and the Pope, and how well pleased the two men were with each other, and said: "So many Protestants who have met the Pope, while not religiously Catholic, are personally Papists. He then continued:—
 
 > "On the great dogmas we are all united. We have a common love for religion. In an age when society is threatened with grave dangers it is well that men who love Christianity and Christian civilization should unite. I was glad to find when I came to Philadelphia that most of the public men were Christians, and I see no reason why on the great questions we may not agree."
 

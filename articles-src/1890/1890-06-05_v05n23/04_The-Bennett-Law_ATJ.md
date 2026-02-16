@@ -91,4 +91,6 @@ And just now, even in this present month, that most excellent ruler, that father
 
 The opponents of the Bennett law in Wisconsin and its counterpart in Illinois are. in the right. It is the same old contest of justice against despotic power, of private rights against public wrongs, of the freedom of the individual against the despotism of the State. They are in the right, and we wish them unbounded success.
 
-Will the people of these two splendid States come back to the place of enlightenment and American civilization? Will they redeem themselves from the reproach of Russian and Turkish despotism? We earnestly hope they will.A. T. J.
+Will the people of these two splendid States come back to the place of enlightenment and American civilization? Will they redeem themselves from the reproach of Russian and Turkish despotism? We earnestly hope they will.
+
+A. T. J.

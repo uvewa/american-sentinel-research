@@ -36,4 +36,6 @@ No partiality is admissible. Wealth, numbers, physical perfection and social pro
 
 In recognition of the inherent and indefeasible right of every citizen to be protected in the independent exercise and free expression of his religious convictions, our Constitution wisely withholds from Congress the power to legislate upon religious subjects, and only restrains the liberty of the individual when he seeks to invade the rights of others. The success of the Blair measures involves the subversion of these principles and the removal of the constitutional barrier that now protects the weak from oppression by the strong.
 
-The full text of these proposed measures should be published broadcast and all the avenues of intelligent expression opened wide for their full and free discussion. *—Ira D. Blanchard, in Polk County (Minn.) Journal. *[32]
+The full text of these proposed measures should be published broadcast and all the avenues of intelligent expression opened wide for their full and free discussion.
+
+*—Ira D. Blanchard, in Polk County (Minn.) Journal.*

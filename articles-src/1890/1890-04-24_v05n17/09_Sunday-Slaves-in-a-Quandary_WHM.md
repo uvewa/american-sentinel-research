@@ -22,7 +22,7 @@ keywords:
   - Breckinridge
 ---
 
-THE local Sunday bill for the District of Columbia now before Congress, and referred to the District Committe of the House, is entitled, "A bill to prevent persons from being forced to labor on Sunday." If this is a consistent title, then the different sections of Chapter 36, on Crimes and Offenses, in the Revised Statutes of the District of Columbia, should have been variously entitled:—
+THE local Sunday bill for the District of Columbia now before Congress, and referred to the District Committee of the House, is entitled, "A bill to prevent persons from being forced to labor on Sunday." If this is a consistent title, then the different sections of Chapter 36, on Crimes and Offenses, in the Revised Statutes of the District of Columbia, should have been variously entitled:—
 
 An act to prevent persons from being forced to commit manslaughter, or assault with intent to kill, etc.
 

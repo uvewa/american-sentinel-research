@@ -32,7 +32,7 @@ keywords:
 
 A NOTABLE effort to secure the passage of an ordinance closing saloons on Sunday has been defeated by our City Council. The Judiciary Committee have reported against its passage, with but one dissenting voice. The measure was the pet scheme of Rev. N. R. Johnston, the Pacific Coast apostle of National Reform, and it was supported by the Woman's Christian Temperance Union and several ministers, who have labored zealously to palm it off as a temperance measure. But the more they talked about it, the more it became evident that it was designed to further the Sunday-sacredness dogma rather than temperance reform.
 
-Mr. Camron, of the council, was very outspoken against the passage of all such ordinances, and his remarks called out Mr. Johnston, who took the councilman to task through the columns of the *Morn ing Times.* Replying to the remark, "The liquor men have a right to do business, and we have given it to them," Mr. Johnston says:—
+Mr. Camron, of the council, was very outspoken against the passage of all such ordinances, and his remarks called out Mr. Johnston, who took the councilman to task through the columns of the *Morning Times.* Replying to the remark, "The liquor men have a right to do business, and we have given it to them," Mr. Johnston says:—
 
 > But who gave the saloonists the right to sell strong drink to common drinkers? The divine Lawgiver from whom alone rights are derived, did not. He is a kind, as well as a just Ruler.
 

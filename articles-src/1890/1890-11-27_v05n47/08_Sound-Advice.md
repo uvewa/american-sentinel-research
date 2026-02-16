@@ -21,7 +21,7 @@ keywords:
   - Sunday closing laws
 ---
 
-IT seems that out in Oregon some barbers have sent up a petition to the Legislature, asking it to compel them to close their shop on Sunday; and upon this the *Free- thought,* of San Francisco, pointedly comments as follows:—
+IT seems that out in Oregon some barbers have sent up a petition to the Legislature, asking it to compel them to close their shop on Sunday; and upon this the *Freethought,* of San Francisco, pointedly comments as follows:—
 
 The barbers of Oregon ought to have more sense than they display in the petition for Sunday-closing laws which they are circulating. Some of them desire to close their shops on Sunday, as they have a perfect right to do, and for that reason they ask that those who do not share their wish shall be forced to coincide with them. Here is the petition to the Legislature, circulated for signatures in Portland, East Portland, Albina, and Astoria, and which is to be presented all over the State:—
 

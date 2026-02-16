@@ -19,4 +19,4 @@ keywords:
   - religious preference
 ---
 
-*The spirit of republican institutions casts out and rejects as an extraneous and foreign and ruinous element in its civilization, any preference by law to one set of religious opinions, to one system of religious teachings, over another.*
+> *The spirit of republican institutions casts out and rejects as an extraneous and foreign and ruinous element in its civilization, any preference by law to one set of religious opinions, to one system of religious teachings, over another.*

@@ -22,7 +22,7 @@ keywords:
   - Mr. Duncan
 ---
 
-REV. NATHANIEL W. CONKLING, D.D., writes a letter to the New York *Observer*,* *descriptive of Alaska and some of its people, in which speaking of the Metlakahtla Indians, he says:—
+REV. NATHANIEL W. CONKLING, D.D., writes a letter to the New York *Observer,* descriptive of Alaska and some of its people, in which speaking of the Metlakahtla Indians, he says:—
 
 > These so-called Indians are Christianized. Mr. Duncan acts in the belief that to educate them without Christianizing them is to give them a bane rather than a blessing. All information goes to show that they are consistent Christians. In this Sabbathless country, every Metlakahtla Indian who makes a contract to work in mines, canneries, or forest, insists on the distinct agreement that he does no work on Sundays.
 

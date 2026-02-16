@@ -28,4 +28,4 @@ When the case was brought to trial, the Court and prosecuting attorney ignored t
 
 The policeman *thought* that they were playing on a line with the extension of Seventeenth street; the Judge therefore held that they were playing in the streets, and imposed a fine of five dollars.
 
-Such things as 'these are sufficient evidence that wherever the authorities are infected with National Reform doctrines, religious regulations will be enforced, even outside of the law. What then will be the condition of affairs when all the religious legislation asked for has been secured?
+Such things as these are sufficient evidence that wherever the authorities are infected with National Reform doctrines, religious regulations will be enforced, even outside of the law. What then will be the condition of affairs when all the religious legislation asked for has been secured?

@@ -25,7 +25,7 @@ keywords:
   - fourth commandment
 ---
 
-THE following is from the "piece" which Mr. Crafts is reciting to audiences in various parts of the country, from Mame to California:—
+THE following is from the "piece" which Mr. Crafts is reciting to audiences in various parts of the country, from Maine to California:—
 
 > The right arm of the American Sabbath Union is the promotion of the religious Sabbath; its left arm the preservation of the civil Sabbath. These two things—the Christian Sabbath on the one hand, and the American Sabbath on the other hand—are as distinct as my two arms, that resemble and cooperate, and yet not the same. This distinction is itself an answer to most of the objections to Sunday laws, which rest chiefly on the false assumption that Sunday laws are enforcements of a duty to God.
 

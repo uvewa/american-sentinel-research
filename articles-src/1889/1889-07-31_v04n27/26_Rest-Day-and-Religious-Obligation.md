@@ -20,7 +20,7 @@ keywords:
 
 When the field secretary of the American Sabbath Union was before the General Assembly of the Knights of Labor last November, with the petition for a National Sunday law, the question was asked:—
 
-> "Could not this weekly rest-day be secured without reference to religion by having the workmen of of each establishment scheduled in regular order for one day of rest per week, whichever was most convenient, not all resting on any one day?"
+> "Could not this weekly rest-day be secured without reference to religion by having the workmen of each establishment scheduled in regular order for one day of rest per week, whichever was most convenient, not all resting on any one day?"
 
 The answer was:—
 

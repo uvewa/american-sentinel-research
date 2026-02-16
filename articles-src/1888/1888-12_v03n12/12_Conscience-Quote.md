@@ -17,4 +17,4 @@ keywords:
   - conscience
 ---
 
-Conscience is not given to a man to instruct him in the right, but its mission is to prompt him to choose the right instead of the wrong when ho is instructed as to the right. Conscience tells a man that he ought to do right, but conscience does not tell a man what is right. *—Christian Advocate.*
+Conscience is not given to a man to instruct him in the right, but its mission is to prompt him to choose the right instead of the wrong when he is instructed as to the right. Conscience tells a man that he ought to do right, but conscience does not tell a man what is right. *—Christian Advocate.*

@@ -28,7 +28,7 @@ December 29th, Mr. Crafts, of the American Sabbath Union, delivered an address a
 
 Upon this Mr. Crafts remarks:—
 
-> This does not mean that the millenium is to be built in a day. This is only a proposal of courtship, and the parties thus far have approached each other shyly.
+> This does not mean that the millennium is to be built in a day. This is only a proposal of courtship, and the parties thus far have approached each other shyly.
 
 When courtship has gotten so far along as the proposal, marriage is not far off, especially where the parties are so coy as is this species of Protestantism. And when this marriage between Protestantism and Catholicism is accomplished, what will become of the Protestant portion of the union? What kind of Protestantism is that, anyhow, which so willingly, or rather anxiously, carries on a courtship with Roman Catholics to the extent of receiving a proposal of marriage? Yes, that marriage is coming, and like every other great feature of Catholicism, it is contrary to nature—one woman marrying another. And the fruit of it will be, as pictured in the Scripture, a hideous, nondescript monster. Let there be raised up in this land a Protestantism that will assert itself not only against Roman Catholicism as such, but also against this degenerate Protestantism that has forgotten its place and its mission in the world.
 

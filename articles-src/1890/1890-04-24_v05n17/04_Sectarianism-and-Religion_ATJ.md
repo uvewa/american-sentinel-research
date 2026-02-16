@@ -35,6 +35,8 @@ Upon the decision of this question rests all the merit of any teaching on the qu
 
 The sum of it all therefore is, that it is impossible to define any positive decided statement of religious belief without sectarianism; but as all these people with one voice deny the right of the State to teach sectarianism, the logic of the whole thing is that they, in that, deny what ought to be denied by every soul—the right, or even the ability of the State to give religious instruction to any extent whatever. The inculcation of religious views and moral ideas belongs to the Church only, and must be accomplished by moral suasion, by spiritual influences and spiritual power. It never can be done by State authority sustained by physical force, the only power at the command of the State.
 
-Such a wide-spread demand by that which professes to be the popular religion of the country, that the State shall assume the place and functions of the instructor in religion and morals, is an open confession that those who make the profession have forgotton the true relation and foundation of religion and morals, as well as the proper means and power by which alone, these can be made effective in education.
+Such a wide-spread demand by that which professes to be the popular religion of the country, that the State shall assume the place and functions of the instructor in religion and morals, is an open confession that those who make the profession have forgotten the true relation and foundation of religion and morals, as well as the proper means and power by which alone, these can be made effective in education.
 
-The professed representatives of God and religion in this country need to find out who God really is, and what genuine religion really is.A. T. J.
+The professed representatives of God and religion in this country need to find out who God really is, and what genuine religion really is.
+
+A. T. J.

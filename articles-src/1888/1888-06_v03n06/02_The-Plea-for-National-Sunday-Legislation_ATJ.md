@@ -57,7 +57,7 @@ Secondly, a distinction between railroad men and cattle appears in this, that ra
 
 Thirdly, an important distinction between railroad men and cattle appears in this, Doctor, that railroad men are not killed and eaten as cattle are. You see, Doctor, cattle are eaten by the public. Therefore you will see, perhaps, that if the cattle be diseased, the public will be eating disease, and the public health will be endangered. Therefore an inter-State commerce bill to protect the health of cattle is a necessity to protect the public health. Now, Doctor, if the American public was killing and eating railroad men as it is cattle, then it would be the most proper thing to "add another" inter-State commerce bill to protect the health of railroad men. But, Doctor, we are happy to inform you that the American public does not do that thing yet. Therefore there is no necessity whatever for any inter-State commerce bill to protect the health of railroad men—by declaring a quarantine on all Sunday trains.
 
-Next the Doctor discusses Sunday mails, and it is in this that there appears the "true inwardness" of his whole Sunday-law argument, [42] and, in fact, of the whole Sunday-law movement. He says:—
+Next the Doctor discusses Sunday mails, and it is in this that there appears the "true inwardness" of his whole Sunday-law argument, and, in fact, of the whole Sunday-law movement. He says:—
 
 > "The law allows the local postmaster, if he chooses (and some of them do choose), to open the mails at the very hour of church, and to make the post-office the competitor of  the churches."
 
@@ -69,7 +69,7 @@ That is to say, the Sunday train is a competitor of the churches; therefore it m
 
 This is further shown by the fact that although Doctor Crafts repeatedly stated that this Sunday legislation is to protect the public health, he declared that:—
 
-> "A National Sabbath Committee, *representing the religious organizations* of the Nation, will be necessary to secure clear convictions on the subject among Christians, and also the enactment and enforcement of wholesome Sunday! laws. . . . This National Sabbath Committee should be appointed by the churches."
+> "A National Sabbath Committee, *representing the religious organizations* of the Nation, will be necessary to secure clear convictions on the subject among Christians, and also the enactment and enforcement of wholesome Sunday laws. . . . This National Sabbath Committee should be appointed by the churches."
 
 Now if this legislation is in the interest of the public health, why is it that the National Committee must be appointed by the *churches *instead of by *the public?* And why should this National Committee represent the *religious organizations* instead of the *public?* If all this legislation is in the interests of the public health, then why must the National Committee be chosen by the churches from the religious organizations, instead of by the *public, *from the *Boards of Public Health* of the different States? Ah! the truth is that the interests of the public health do not enter into the question at all. The whole thing is in the interest of the churches, and in behalf of the religious organizations; and the public health is nothing but a hypocritical plea swung in to hide the real motive. But they can't hide it all.
 

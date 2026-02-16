@@ -33,7 +33,7 @@ This answer though plain was, it seems, misunderstood by those to whom it was se
 
 > The Baptist Pastors' State Conference declined the invitation in a resolution, unanimously adopted by a rising vote, in which the secular view of the functions of civil government was vigorously set forth. . . . It is plain that in some way the Baptists misunderstood the object of the Conference, for the Presbyterian Synod of New York and the General Assembly would never have taken a position in this matter inconsistent with the Presbyterian form of Government (Chap. I., sec. 1.), or with repeated utterances of both of those bodies protesting against any union of Church and State, and they are in accord [389] with the Committee which called the Conference.
 
-To this, a Baptist pastor makes reply as follows, in the *Examiner* of November 20
+To this, a Baptist pastor makes reply as follows, in the *Examiner* of November 20:—
 
 As a member of the Committee which presented the resolutions, I wish to say that the Committee thoroughly understood the position of our Presbyterian brethren, as set forth by Dr. Payson, and that, after reading his letter in the *Examiner*, still wish our resolutions to be interpreted literally.
 

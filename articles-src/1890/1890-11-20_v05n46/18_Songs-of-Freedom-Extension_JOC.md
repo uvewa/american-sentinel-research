@@ -20,4 +20,6 @@ keywords:
   - deadline extension
 ---
 
-IN the recent call for poems designed for use in "Songs of Freedom," the time was limited to November 10; but as circumstances render the publication of the book impossible before the latter part of January, the time is extended to December 10, before which date all competing poems must be received.J. O. CORLISS.
+IN the recent call for poems designed for use in "Songs of Freedom," the time was limited to November 10; but as circumstances render the publication of the book impossible before the latter part of January, the time is extended to December 10, before which date all competing poems must be received.
+
+J. O. CORLISS.

@@ -57,6 +57,8 @@ But again, it may be questioned, ought the civil power to interfere with a pract
 
 The State long ago very properly assumed the regulation of monogamous marriage, insisting that it shall not be temporary, but permanent; both to preserve to each the individual rights of the parties entering into it, and to place upon them the responsibility of supporting their offspring. Any other course would inevitably impose upon the State the care of numerous minor subjects whose parentage would necessarily remain in legal uncertainty. The result would be the same if polygamy—which actually includes *polyandry* as well as polygyny—were legalized in our country. This were a consummation devoutly to be deprecated by all moral men; and all should unite in opposing the least introduction to its possibility, on the purely *civil* ground that it would impose upon the whole people burdens which parents alone should bear.
 
-So it may be clearly seen that, in every [334] phase, this disgraceful institution is more than a menace to the perpetuation of rightful civil authority. The ground of objection to it is as broad and solid as our Constitution. Our present national policy toward polygamy ought to be a source of gratification to every lover of government which conserves the inalienable rights of man.FRANK WILLIAM HOWE.
+So it may be clearly seen that, in every [334] phase, this disgraceful institution is more than a menace to the perpetuation of rightful civil authority. The ground of objection to it is as broad and solid as our Constitution. Our present national policy toward polygamy ought to be a source of gratification to every lover of government which conserves the inalienable rights of man.
+
+FRANK WILLIAM HOWE.
 
 > *University of Michigan*.

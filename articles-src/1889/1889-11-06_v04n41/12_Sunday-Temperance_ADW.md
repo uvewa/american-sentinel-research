@@ -32,4 +32,6 @@ The above is a fair sample of the moral perception of the men who are working to
 
 This statement by Secretary Foster shows, what has often been shown in the Sentinel, namely, that Sunday laws are not passed in the interests of temperance. It shows that they wish to shut up the saloon on Sunday, not because it is bad in itself, but for the same reason that they wish to prohibit the playing of base-ball, the circulating of newspapers, and the running of trains, viz., because they involve "common labor."
 
-The only thing that makes the saloon bad on Sunday is the fact that it involves "common labor." And, as common labor is all right on the other days of the week, it follows that the saloon must be all right too, according to their reasoning. If these people were statesmen, to say nothing of being temperance men, they would make crime to consist, not in the time, but in the character, of the act. As it is, they show that they know nothing either of Christianity or of statesmanship.A. Delos Westcott.
+The only thing that makes the saloon bad on Sunday is the fact that it involves "common labor." And, as common labor is all right on the other days of the week, it follows that the saloon must be all right too, according to their reasoning. If these people were statesmen, to say nothing of being temperance men, they would make crime to consist, not in the time, but in the character, of the act. As it is, they show that they know nothing either of Christianity or of statesmanship.
+
+A. Delos Westcott.

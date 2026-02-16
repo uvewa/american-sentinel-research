@@ -21,7 +21,7 @@ keywords:
   - Memphis Tennessee
 ---
 
-The Southern Baptist Convention, recently in session at Memphis, Tenn,, adopted the following resolution:—
+The Southern Baptist Convention, recently in session at Memphis, Tenn., adopted the following resolution:—
 
 > *"Resolved,* That we fully sympathize with the American Sabbath Union in laboring to secure such national legislation as will allow to all employes of the National Government one day in seven as a day of rest, and request our brethren to promote its work so far as may be practicable."
 

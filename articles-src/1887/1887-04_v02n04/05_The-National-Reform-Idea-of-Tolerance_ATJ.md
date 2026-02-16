@@ -27,7 +27,7 @@ keywords:
   - Seventh-day Baptists
 ---
 
-In several numbers of the Sentinel reference has been made to the speech made by Rev. Jonathan Edwards, D. D., in the New York National Reform Convention, but that speech is so fully representative of the principles of National Reform, that we feel justiffied in giving it a more extended notice than we have yet done. There are two or three points in it which we wish here to notice. Said the Doctor:—
+In several numbers of the Sentinel reference has been made to the speech made by Rev. Jonathan Edwards, D. D., in the New York National Reform Convention, but that speech is so fully representative of the principles of National Reform, that we feel justified in giving it a more extended notice than we have yet done. There are two or three points in it which we wish here to notice. Said the Doctor:—
 
 > "We want State and religion—and we are going to have it. It shall be that so far as the affairs of State require religion, it shall be revealed religion, the religion of Jesus Christ. The Christian oath and Christian morality shall have in this land 'an undeniable legal basis.' We use the word religion in its proper sense, as meaning a man's personal relation of faith and obedience to God."
 
@@ -37,11 +37,11 @@ Well indeed might Mr. Edwards say, as he does:—
 
 > "We are warned that to engraft this doctrine upon the Constitution will be found oppressive; that it will infringe the rights of conscience; and we are told that there are atheists, deists, Jews, and Seventh-day Baptists, who would be sufferers under it."
 
-Whether he be atheist, deist, Jew, Seventhday Baptist, or what not, every man who has a particle of respect for personal right, freedom of thought, or liberty of conscience, *must be* a sufferer under it. And we cannot avoid the impression, that when these men set forth such abominable doctrine, it must be that the loudest warning comes from their own hearts and consciences, unless, indeed, by the constant assertion of such outrageous principles, they have deadened their consciences.
+Whether he be atheist, deist, Jew, Seventh-day Baptist, or what not, every man who has a particle of respect for personal right, freedom of thought, or liberty of conscience, *must be* a sufferer under it. And we cannot avoid the impression, that when these men set forth such abominable doctrine, it must be that the loudest warning comes from their own hearts and consciences, unless, indeed, by the constant assertion of such outrageous principles, they have deadened their consciences.
 
 But what reply does Mr. Edwards make to this warning? This:—
 
-> "The parties whose conscience we are charged with troubling, taken altogether, are but few in number. This determines nothing as to who is right, but the fact remains, and is worthy of note, that taken altogether, they amount to but a small fraction of our citizenship. They are not even as many as those among us who do not speak the English language. And then, further, they are almost wholly of foreign importation, and that of comparatively recent date, so that they did not share in the first settlement of this coun try; they did not brave the hardships, they did not profess the principles which have made that first settlement memorable. . . . They breathed no protests; they suffered no martyrdom."
+> "The parties whose conscience we are charged with troubling, taken altogether, are but few in number. This determines nothing as to who is right, but the fact remains, and is worthy of note, that taken altogether, they amount to but a small fraction of our citizenship. They are not even as many as those among us who do not speak the English language. And then, further, they are almost wholly of foreign importation, and that of comparatively recent date, so that they did not share in the first settlement of this country; they did not brave the hardships; they did not profess the principles which have made that first settlement memorable. . . . They breathed no protests; they suffered no martyrdom."
 
 His reply to the "warning" is as atrocious as is the doctrine that gives rise to the warning. He replies to an objection by reasserting the doctrine, and adding to it a deliberate insult.
 
@@ -61,7 +61,7 @@ So then, bear in mind, fellow-citizens, that to "differ with the mass of Christi
 
 > "What are the rights of the atheist? I would tolerate him as I would tolerate a poor lunatic. ... So long as he does not rave, so long as he is not dangerous, I would tolerate him."
 
-How blessedly tolerant a National Reform *régime* would be! If you differ with it on a single point, you shall be tolerated as is a [28] lunatic; that is, kept under surveillance, so long as, like a craven, you allow yourself to be cowed into silence. But as soon as you begin to speak your sentiments, then you are "dangerous." then you are "raving," and the gentle National Reform rulers will have such a tender regard for you that they will supply you with bars and doors securely fastened.
+How blessedly tolerant a National Reform *régime* would be! If you differ with it on a single point, you shall be tolerated as is a [28] lunatic; that is, kept under surveillance, so long as, like a craven, you allow yourself to be cowed into silence. But as soon as you begin to speak your sentiments, then you are "dangerous," then you are "raving," and the gentle National Reform rulers will have such a tender regard for you that they will supply you with bars and doors securely fastened.
 
 But Mr. Edwards proceeds:—
 
@@ -91,6 +91,6 @@ That is to say, They were enacted by the Lord of Heaven and earth, and if they h
 
 How much higher does arrogance need to exalt itself before it becomes dangerous? These men assume the authority to reckon and denounce as "atheists" all who oppose National Reform, and plainly assert that under the power which the "Reformers" would wield, all such "atheists" shall be relegated to the place and condition of the lunatic and the conspirator. But as though that were a small thing to do, they boldly usurp the place of the Most High, and consequentially inform us that in certain portions of the word of God what has not been abrogated *they* will have re-enacted.
 
-Can it be possible that in all this land there is anybody who sees no danger in clothing with civil power such an association of men? Could anything be more intolerant than that which they deliberately propose to do? And yet all this is only the expression of their idea of *tolerance!* We wish they would convey to us some idea of what in their estimation would be *intol**erance.*
+Can it be possible that in all this land there is anybody who sees no danger in clothing with civil power such an association of men? Could anything be more intolerant than that which they deliberately propose to do? And yet all this is only the expression of their idea of *tolerance!* We wish they would convey to us some idea of what in their estimation would be *intolerance.*
 
 It is high time that all understand that National Reform is a standing menace to human liberty; and that the success of National Reform will be the utter destruction of human liberty in free America. A. T. J.

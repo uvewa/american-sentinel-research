@@ -22,7 +22,7 @@ keywords:
   - religious liberty
 ---
 
-Referring to the expressed willingness of the Roman Catholics to "come together with nonCatholics and shape civil legislation for public good," and to "seek an alliance with non-Catholics for proper Sunday observance," the *Times* of this city says: "It is a splendid omen for society at large that such good policy exists." And again: "It is a sign of the times worthy of note, this position of so powerful a religious body. Christians are now more nearly hand in hand in this matter than they have ever been before."
+**REFERRING** to the expressed willingness of the Roman Catholics to "come together with non-Catholics and shape civil legislation for public good," and to "seek an alliance with non-Catholics for proper Sunday observance," the *Times* of this city says: "It is a splendid omen for society at large that such good policy exists." And again: "It is a sign of the times worthy of note, this position of so powerful a religious body. Christians are now more nearly hand in hand in this matter than they have ever been before."
 
 Indeed, "it is a sign of the times worthy of note," a most significant sign, but one which forebodes, not good, but evil to our free institutions. We fully believe with the Senate Committee of 1828, that "extensive religious combinations to effect a political object are always dangerous."
 

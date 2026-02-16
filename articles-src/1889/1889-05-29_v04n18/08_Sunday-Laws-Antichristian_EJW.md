@@ -29,7 +29,7 @@ keywords:
   - Woman's Christian Temperance Union
 ---
 
-The *Pearl of Days* (New York *Mail and Express')* of February 8 contained an article entitled, "The Sabbath and the Individual," by Rev. George S. Mott, D. D., the vice-president of the American Sabbath Union for New Jersey, from which we quote the following reasons why Sunday laws and their penalties must be made universal:—
+The *Pearl of Days* (New York *Mail and Express)* of February 8 contained an article entitled, "The Sabbath and the Individual," by Rev. George S. Mott, D. D., the vice-president of the American Sabbath Union for New Jersey, from which we quote the following reasons why Sunday laws and their penalties must be made universal:—
 
 > "The person who keeps the law must not be put out and disadvantaged thereby, and this would be the case were there no penalties for breaking Sabbath laws. The merchant who closes his store might find that his neighbor who keeps open on Sunday was drawing away a trade which belongs to him. Now we must not permit the Sunday-keeping merchant to be the loser because he regards the law, and so must it be with all kinds of labor. Let public sentiment in favor of Sunday law die away, and try to popularize in this country the Sunday of France, and the American will not be protected in his day of rest. Thus he would be compelled to work on that day or lose his situation. No public conscience or statutes will be on his side."
 

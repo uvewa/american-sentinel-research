@@ -23,7 +23,7 @@ keywords:
   - Sunday laws
 ---
 
-# The Evils of Enforced Sunday- Keeping.
+# The Evils of Enforced Sunday-Keeping.
 
 The Washington (Iowa) *Press* of May 8 has an editorial article on the Sunday question from which we quote a single paragraph, not because we fully agree with the sentiment, but for the sake of comment. After referring to the order discontinuing the Sunday freight trains on the New York Central Railroad, the *Press* says:—
 

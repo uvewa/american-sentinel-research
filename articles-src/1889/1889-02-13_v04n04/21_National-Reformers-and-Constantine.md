@@ -20,7 +20,7 @@ keywords:
   - fourth of July
 ---
 
-The National Reformers have a great deal to say about American institutions, the American Sunday, etc.; but the. fact is, the movement is wholly un-American. In a speech the other day, the editor of *Free Thought* made the following point, which we think is exceedingly well taken:—
+The National Reformers have a great deal to say about American institutions, the American Sunday, etc.; but the fact is, the movement is wholly un-American. In a speech the other day, the editor of *Free Thought* made the following point, which we think is exceedingly well taken:—
 
 > "Constantine, the Roman Emperor, who lived over three hundred years after Christ, first instituted the observance of Sunday as the sacred day—the Sabbath; and we of the nineteenth century are compelled to adjourn the celebration of our national anniversary, the fourth of July, when it comes upon a Sunday, in recognition of Constantine's Sabbath; and every time we do so, our flag is trailed in the dust before the Roman emperor. We want our rights respected."
 

@@ -18,4 +18,4 @@ keywords:
   - Christian Statesman
 ---
 
-In his Lenten letter of March, 1873, Bishop Gilmour (Catholic) said: "Nationalities must be subordinate to religion." ' The Rev. J. W. Foster said in the *Statesman,* March, 1884, "The State and its sphere exist for the sake of, and to serve the interests of, the church." Who knows but that Mr. Foster learned his National Reform principles from Bishop Gilmour?
+In his Lenten letter of March, 1873, Bishop Gilmour (Catholic) said: "Nationalities must be subordinate to religion." The Rev. J. W. Foster said in the *Statesman,* March, 1884, "The State and its sphere exist for the sake of, and to serve the interests of, the church." Who knows but that Mr. Foster learned his National Reform principles from Bishop Gilmour?

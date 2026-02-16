@@ -26,7 +26,7 @@ keywords:
 
 The *Moral and Scientific Companion,* published at Florence, Arizona, prints the following items of "Religious Ideas of the Nineteenth Century." They are well stated, but they are not peculiar to the nineteenth century, but date from the days of Constantine. We wish to caution our readers, however, against imagining that the American Sentinel subscribes to any of these ideas. We repudiate them entirely. They are championed in this country only by the National Reform Association and the American Sabbath Union:—
 
-> "Aman may keep the Sabbath by merely being idle!
+> "A man may keep the Sabbath by merely being idle!
 
 > "A man (irrespective of his belief) can keep the day holy if forced by law to remain idle!
 > "A man, even though an infidel, keeps the Sabbath holy when forced to rest, not on the seventh day, but on Sunday, the day after the Sabbath of the Bible!

@@ -1,5 +1,5 @@
 ---
-title: "Mr, Crafts and Sunday Laws."
+title: "Mr. Crafts and Sunday Laws."
 author: "C. P. Bollman"
 author_short: "CPB"
 date: 1889-07-24

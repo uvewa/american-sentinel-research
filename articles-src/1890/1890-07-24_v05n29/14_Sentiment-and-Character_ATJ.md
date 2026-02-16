@@ -35,4 +35,6 @@ The Puritan Parliament tried the same thing in England, and with the same result
 
 These examples teach the important truth that, law without character to sustain it is of no value. And with this belongs the other equally important truth that the only legitimate and proper work of the Church is *not* the making of laws, but the building up of sound and symmetrical character.
 
-Let the churches of the United States learn this lesson and practice it, and they will do far better than they can do by all the efforts that they can ever make to secure the enactment of Sunday laws or any other.A. T. J.
+Let the churches of the United States learn this lesson and practice it, and they will do far better than they can do by all the efforts that they can ever make to secure the enactment of Sunday laws or any other.
+
+A. T. J.

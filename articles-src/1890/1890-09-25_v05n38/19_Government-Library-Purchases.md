@@ -19,4 +19,4 @@ keywords:
   - Roman Catholic
 ---
 
-THE statement comes from Winnipeg, that a serious charge has been brought against Lieutenant - Governor Royal, of Northwest Territory, who has been purchasing books for the Government library, and who confined his purchases to Roman Catholic works, only.
+THE statement comes from Winnipeg, that a serious charge has been brought against Lieutenant-Governor Royal, of Northwest Territory, who has been purchasing books for the Government library, and who confined his purchases to Roman Catholic works, only.

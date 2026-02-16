@@ -21,7 +21,7 @@ keywords:
 
 # Sunday-Law Arguments.
 
-Liberty of rest for each demands a law of rest for all." This is a favorite proposition among Sunday-law advocates. They tell us it is impossible for a part of the people to keep Sunday properly while the rest are pursuing their regular avocations, or indulging in pleasures and amusements.
+"Liberty of rest for each demands a law of rest for all." This is a favorite proposition among Sunday-law advocates. They tell us it is impossible for a part of the people to keep Sunday properly while the rest are pursuing their regular avocations, or indulging in pleasures and amusements.
 
 That is to say, the Almighty has fixed things in such a way that it is impossible for one person to be a true Christian unless everybody else will be a Christian at the same time. [6] And, as there has never been a time when all the people were Christians, and never will be in this world, therefore it is certain that there never were, and never will be, any Christians, and hence nobody can be saved.
 

@@ -22,7 +22,7 @@ keywords:
   - declaration of principles
 ---
 
-# NATlONAL RELIGIOUS LIBERTY ASSOCIATION.
+# NATIONAL RELIGIOUS LIBERTY ASSOCIATION.
 
 ## Declaration Of Principles.
 

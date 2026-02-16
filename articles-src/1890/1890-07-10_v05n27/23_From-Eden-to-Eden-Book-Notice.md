@@ -24,4 +24,4 @@ The object of this book is to assist to just such a study as is here indicated, 
 
 Though embracing only 264 pages, this work covers "the entire period of the world's history and the consummation of the plan of redemption, yet the important truths which enter into this plan are so connected in their presentation, that the thoughtful reader cannot fail to see the relation of each to the others, and to realize the necessity of each as a part of the whole—brevity being rather a help in this direction than otherwise."
 
-This book is sold only by subscription. For prices and terms to agents, address the publishers, Pacific Press, Oakland, Cal., or 48 Bond Street, New York. [217]
+This book is sold only by subscription. For prices and terms to agents, address the publishers, Pacific Press, Oakland, Cal., or 43 Bond Street, New York.

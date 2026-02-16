@@ -15,4 +15,4 @@ keywords:
   - Dr. Schaff
 ---
 
-Secular power has proved a Satanic gift to the church, and ecclesiestical power has proved an engine of tyranny in the hands of the State. *—Dr, Schaff, in Church and State in the U, S., p. 11.*
+Secular power has proved a Satanic gift to the church, and ecclesiastical power has proved an engine of tyranny in the hands of the State. *—Dr. Schaff, in Church and State in the U. S., p. 11.*

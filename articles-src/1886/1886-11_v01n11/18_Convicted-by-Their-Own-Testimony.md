@@ -22,7 +22,7 @@ keywords:
   - Pittsburg Convention
 ---
 
-In the Pittsburg Nation al Reform Convention, President Brunot said: "No State can rightly attempt to compel the consciences of its citizens with a particular religion, and, as we believe, no particular religion can rightly attempt to use the State to compel men's consciences to its belief."
+In the Pittsburg National Reform Convention, President Brunot said: "No State can rightly attempt to compel the consciences of its citizens with a particular religion, and, as we believe, no particular religion can rightly attempt to use the State to compel men's consciences to its belief."
 
 Then we should like to know what Mr. Brunot means by acting as the head of a movement that has in view no other aim than that of compelling men's consciences with a particular religion, namely, the Christian religion? Or does the gentleman mean to convey the impression that Christianity is not a particular religion? For it is the sheerest and most absurd sophistry to say that men's acts may be compelled with a particular religion without compelling the conscience; because when in conformity with a particular religion, men who do not believe it at all are compelled to act as though they believed it; this is nothing else than to compel the conscience.
 

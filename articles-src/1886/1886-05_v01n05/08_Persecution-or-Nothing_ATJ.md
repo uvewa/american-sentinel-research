@@ -27,7 +27,7 @@ keywords:
   - disfranchisement
 ---
 
-The National Reform Party has by resolution affirmed, and even re-affirmed, that their work does not tend in the least degree to a union of Church and State; that it docs not threaten the liberty of any people, but that, on the contrary, it will furnish the strongest safeguard to the liberties, both civil and religious, of all citizens; but their actions contradict their words. And not only so, their words contradict themselves. This can be clearly seen by any one who will read the publications of the National Reform Association. The fact of the matter is, that under their National Reformed Constitution there would be no real liberty at all, either civil or religious. The *Christian Statesman *says:—
+The National Reform Party has by resolution affirmed, and even re-affirmed, that their work does not tend in the least degree to a union of Church and State; that it does not threaten the liberty of any people, but that, on the contrary, it will furnish the strongest safeguard to the liberties, both civil and religious, of all citizens; but their actions contradict their words. And not only so, their words contradict themselves. This can be clearly seen by any one who will read the publications of the National Reform Association. The fact of the matter is, that under their National Reformed Constitution there would be no real liberty at all, either civil or religious. The *Christian Statesman *says:—
 
 > "Enforce upon all that come among us, the laws of Christian morality."
 

@@ -39,7 +39,7 @@ But it is not the office of civil Government to declare that a man shall worship
 
 We have little hope, if any, that we shall succeed in causing the amendmentists to recognize the difference between morality and religion—between those things which civil Government may and may not enforce or regulate. It is not to the interest of their cause to do justice to their readers in laying down the true principles of Government. As a specimen of their method of treating these subjects, we copy the following from the *Statesman* of April 1, 1886:—
 
-> "Our Government docs not trespass on liberty of conscience when it provides that the moral law of which Christ is the author shall decide all questions in our national life."
+> "Our Government does not trespass on liberty of conscience when it provides that the moral law of which Christ is the author shall decide all questions in our national life."
 
 Who can tell what they mean by the above? To what moral law do they refer? Is it to be found in the Old or the New Testament? There is a moral law in the Old Testament, namely, the ten commandments, but in that there is not one *Christian *feature. The Jew accepts it heartily; if it were adopted as the Constitution of our Government, it would shut out neither the Jew nor the Mohammedan. That would not make us a "Christian nation." And we confidently repeat our affirmation that the gospel of Christ does not originate one jot of morality. There is not a particle of morality in the New Testament which it does not derive from the Old. The gospel is purely and only a remedial system—not at all a moral system.
 

@@ -26,7 +26,7 @@ His address was written when it was delivered in the Convention, and it has sinc
 
 > The infidel cry, "Down with the Sabbath," like the bounding kangaroo springing from his lair, has fastened itself upon an unsuspecting people, and with unyielding pertinacity and without any evidence of satiety continues to draw its life blood.
 
-That the reader may see how perfectly exact is Mr Stacy's figure we quote:—
+That the reader may see how perfectly exact is Mr. Stacy's figure we quote:—
 
 > The kangaroos are all vegetable feeders, browsing on grass and various kinds of herbage, the smaller species also eating roots. They are naturally timid, inoffensive creatures, but the larger ones when hard pressed will turn and defend themselves.— *Encyclopedia Britannica.*
 

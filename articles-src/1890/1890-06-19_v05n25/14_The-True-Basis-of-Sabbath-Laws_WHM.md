@@ -23,7 +23,7 @@ keywords:
   - Christianity
 ---
 
-IN an editorial on the "True Basis of Sabbath Laws," in its issue of May 29, the *Christian Statesman* 'unintentionally draws a comparison which does indeed show conclusively the true basis of civil laws for the observance of Sunday, as it existed in the mind of the writer. The article says:—
+IN an editorial on the "True Basis of Sabbath Laws," in its issue of May 29, the *Christian Statesman* unintentionally draws a comparison which does indeed show conclusively the true basis of civil laws for the observance of Sunday, as it existed in the mind of the writer. The article says:—
 
 > The principle of Judaism would make the seventh day of the week our civil Sabbath. The principle of Mohammedanism would make the sixth day our civil day of rest. But our law has no such connection with Judaism or Mohammedanism. It has a connection however with Christianity.
 

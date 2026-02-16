@@ -35,7 +35,7 @@ A National Convention of the Amendmentists was held in Pittsburg in 1869. In the
 
 > "The National Association, which has been formed for the purpose of securing such an Amendment to the National Constitution as will remedy this great defect, indicate that this is a Christian nation, and place all Christian laws, institutions, and usages in our Government on an undeniable legal basis in the fundamental law of the nation, invites," etc.
 
-In the Cincinnati Convention in 1872, Dr. T. P. Stevenson, editor of the *Christian States man,* and Recording Secretary of the National Association, delivered an address on "The Legal Effect and Practical Value of the Proposed Amendment," in which he attempted to guard the expression of the above "call" as follows:—
+In the Cincinnati Convention in 1872, Dr. T. P. Stevenson, editor of the *Christian Statesman,* and Recording Secretary of the National Association, delivered an address on "The Legal Effect and Practical Value of the Proposed Amendment," in which he attempted to guard the expression of the above "call" as follows:—
 
 > "It will furnish a legal basis for all Christian laws, institutions, and usages in our Government. . . . It is all Christian laws, institutions, and usages *in our Government. *We do not propose to find a basis for the laws and institutions of the church, of Christian families, or of the closet, in the National Constitution; but for that great body of laws, institutions, and usages, *in our Government,* which are of Christian origin."
 
@@ -59,7 +59,7 @@ But, we inquire, what effect did the inquiry have on the National Reformers? It 
 
 We might safely challenge them to show that there are any "Christian features" in our Government—anything that is peculiar to Christianity. But the point we wish to notice now is, that this platform does not really express their designs. In the Pittsburg Convention Dr. Stevenson gave an address on "The Ends We Seek," before President Brunot took the chair and announced what they "propose" to do. Dr. S. said:— [52]
 
-> "Through the immense largesses it receives from corrupt politicians, the Roman Catholic Church is, practically, the established church of the city of New York. These favors are granted under the guise of a seeming friendliness to religion. We propose to put the substance for the shadow, to drive out the counterfeit by the completer substitution of the true."
+> "Through the immense largesses it receives from corrupt politicians, the Roman Catholic Church is, practically, the established church of the city of New York. These favors are granted under the guise of a seeming friendliness to religion. We propose to put the substance for the shadow, to drive out the counterfeit by the complete substitution of the true."
 
 This language may seem much or little; we shall have to interpret it by other statements which more clearly reveal their designs. In this same address Mr. Stevenson said:—
 

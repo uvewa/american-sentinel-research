@@ -65,4 +65,4 @@ In the "hearing" before the Senate Committee last winter, in behalf of the propo
 > *"The Chairman*—He is an agnostic.
 > *"Senator George*—That raises a very interesting question as to what is the Christian religion."
 
-That is a fact. In that sentence Senator George hit the nail on the head, with a mighty stroke. The discussions of those who favor that proposed amendment show in miniature and in a very mild way, indeed, the contentions that would inevitably arise over the question as to 'what is the Christian religion, should that amendment ever be adopted. If the author of that resolution is wise, he will have learned wisdom by all this and will drop that thing forever.A. T. J.
+That is a fact. In that sentence Senator George hit the nail on the head, with a mighty stroke. The discussions of those who favor that proposed amendment show in miniature and in a very mild way, indeed, the contentions that would inevitably arise over the question as to what is the Christian religion, should that amendment ever be adopted. If the author of that resolution is wise, he will have learned wisdom by all this and will drop that thing forever.A. T. J.

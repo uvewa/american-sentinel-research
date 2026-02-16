@@ -21,4 +21,4 @@ keywords:
   - conscience
 ---
 
-To legislate for the promotion of the religious observance of any day as a Sabbath, is contrary to the Bible, to the Constitution of a free country and the rights of conscience.—*Sabbath Reco**rder.*
+To legislate for the promotion of the religious observance of any day as a Sabbath, is contrary to the Bible, to the Constitution of a free country and the rights of conscience.—*Sabbath Recorder.*

@@ -29,7 +29,7 @@ To those who think that the Sentinel's strictures on the Blair Bills are partisa
 
 Senator Blair, of New Hampshire, has presented an amendment to the Federal Constitution, concerning the establishment of a national educational system, the provisions of which are briefly as follows:—
 
-Section 1 provides that no State shall ever make or maintain any law respecting an establishment of religon, or prohibiting the free exercise thereof.
+Section 1 provides that no State shall ever make or maintain any law respecting an establishment of religion, or prohibiting the free exercise thereof.
 
 Section 2 makes it obligatory on every State to establish and maintain a system of free public schools for the education of children "in the common branches of knowledge, and in virtue, morality, and the principles of the Christian religion," but with an inhibition against the teaching of sectarian tenets, beliefs, ceremonials, or observances.
 

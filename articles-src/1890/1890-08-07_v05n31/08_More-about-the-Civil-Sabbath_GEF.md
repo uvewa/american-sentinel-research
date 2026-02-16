@@ -70,4 +70,6 @@ This distinction between the spiritual intent, and the civil benefit of the law 
 
 There are certain principles, which in the very nature of things, in all the universe of God, must tend to the happiness of all intelligent beings, and there are other principles which tend to their misery. Of the first, God said, "Thou shalt," and of the second, "Thou shalt not." Thus, all God's law rests in his love for his creatures, and in his desire for their *happiness* and *well-being;* but this law can not be enforced by the civil power, and any attempt to thus enforce it upon the people, tends, and in all history has tended, to their *misery* and *ill-being*, and is, therefore, utterly subversive of the designs of God's law and government.
 
-By this it is seen that the same argument that upholds the so-called "civil Sunday," would carry the nation to any lengths into the iniquitous labyrinths of religious legislation and persecution.G. E. FIFIELD.
+By this it is seen that the same argument that upholds the so-called "civil Sunday," would carry the nation to any lengths into the iniquitous labyrinths of religious legislation and persecution.
+
+G. E. FIFIELD.

@@ -19,4 +19,4 @@ keywords:
   - kingdom
 ---
 
-> "Jesus answered, My kingdom is not of this world." [15]
+> "Jesus answered, My kingdom is not of this world."

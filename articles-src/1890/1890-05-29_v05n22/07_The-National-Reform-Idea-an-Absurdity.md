@@ -24,7 +24,7 @@ keywords:
   - R. M. Somerville
 ---
 
-DR. DAVID Mc ALLISTER seems to think that religion depends upon the statutes of States and the edicts of empires. In this, he joins in opinion with the most rabid of atheists and anarchists who constantly charge religionists with being the dupes of power exercised through State authority.
+DR. DAVID McALLISTER seems to think that religion depends upon the statutes of States and the edicts of empires. In this, he joins in opinion with the most rabid of atheists and anarchists who constantly charge religionists with being the dupes of power exercised through State authority.
 
 The Emperor Constantine made Christianity the religion of the Roman Empire, and to this fact, many unbelievers in Christianity attribute its extraordinary growth. The very opposite of this is more probably the truth. Gibbon shows very plainly that Constantine himself, vacillated between Christianity and the old State religion of Rome almost to the end of his days, just as politicians seeking support from contending factions now do, when doubtful as to which party is most likely to prevail. It is often a fine stroke of political policy, for an aspirant for power and fame, to espouse what outwardly appears to be the weaker party in a State, and thus connect his name with its rise, and growth into full power and control. The statesman who has the shrewdness to fall in with the rising tide of public sentiment, at the proper moment, is sure to reap power and emoluments in the end.
 
@@ -36,7 +36,7 @@ In its primitive purity, Christianity had no use for the State as a means of pro
 
 Why should the aid of the politician be invoked, to strengthen and support a movement having for its object the *reform* of public opinion, while *his* object as a general rule, is to quietly *float* with popular opinion *as it is?* Convince him that you have the votes to carry him along, and he is with you. Fail to do this, and he is in your way.
 
-No religion ever remained pure and true to humanity, that sought to carry foward its propaganda by means of political strategem, political power, and political spoils.
+No religion ever remained pure and true to humanity, that sought to carry forward its propaganda by means of political strategem, political power, and political spoils.
 
 The idea that the State can make *itself *moral, by the formula of "Be it enacted," is to invoke from the masses of the people, a moral force which, by hypothesis, does not exist among them; and it is as absurd, under our theory of popular government, as the attempt of a man to lift himself by the straps of his boots.
 
@@ -46,7 +46,7 @@ The truth is, the State, as such, does not and cannot believe in anything. A law
 
 The Rev. R. M. Somerville evidently is not satisfied with the proposition to simply print the name of God in the Constitution. He wants Christ recognized as a politician also, to the extent of having his name mixed up with the names of the lawyers that figure so largely in our old musty law books. It is the old antiquated notion of religious *things* instead of religious men. Make the *things* sacred in order that they may make *us* pious! Does it not smack of image worship and idolatry?
 
-When will the Church learn that moral [173] force can. be transmitted only by the tender cords of sympathy and love? Does not all experience prove that the State is incompetent *to force* men to love and believe, by means of policemen, courts, and armies?
+When will the Church learn that moral force can be transmitted only by the tender cords of sympathy and love? Does not all experience prove that the State is incompetent *to force* men to love and believe, by means of policemen, courts, and armies?
 
 Physical force is available to control *action* only. The attempt, through physical force, to make men love one another, is to make them hate and despise one another.
 

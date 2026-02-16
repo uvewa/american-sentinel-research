@@ -25,7 +25,7 @@ keywords:
   - evangelical churches
 ---
 
-THIS is the title of a book which we find denounced by the American Sabbath Union, in the "Pearl of Days" column of the *Mail and Express*, of May 9. The denunciation of this "dangerous" thing was written by Kev. James S. Mott, one of the Vice-Presidents of the American Sabbath Union; indorsed by the Rev. J. H. Knowles, Secretary of the Union, and printed in the "Pearl of Days," the organ of the Union. Therefore it is strictly official. Speaking of the title of the book, Mr. Mott says
+THIS is the title of a book which we find denounced by the American Sabbath Union, in the "Pearl of Days" column of the *Mail and Express*, of May 9. The denunciation of this "dangerous" thing was written by Rev. James S. Mott, one of the Vice-Presidents of the American Sabbath Union; indorsed by the Rev. J. H. Knowles, Secretary of the Union, and printed in the "Pearl of Days," the organ of the Union. Therefore it is strictly official. Speaking of the title of the book, Mr. Mott says
 
 > Such is the winning title of a book which is being pushed throughout our country with all the energy that the book canvasser can exercise. And yet we have never examined a work in which a good title has been employed in a more uncandid way to inculcate pestiferous doctrines. We should be led to expect a volume of devotional articles, and such presentation of divine truth as is currently accepted by evangelical churches.
 
@@ -44,7 +44,7 @@ When we had read this blast of the American Sabbath Union, we sent and got a cop
 > "Can the Ethiopian change his skin, or the leopard his spots? *then may ye also do good, that are accustomed to do evil*." Jer. 13:23.
 > 4. How, then, can one be brought to God?
 > "For Christ also hath once suffered for sins the just for the unjust, *that he might bring us to God." *1 Peter 3:18.
-Turning back just two leaves we find - the heading, "Repentance," under which we have this:—
+Turning back just two leaves we find the heading, "Repentance," under which we have this:—
 
 > 1. To whom is repentance to be preached?
 
@@ -110,4 +110,6 @@ When the American Sabbath Union thus shows itself ready to denounce, and meet wi
 
 Yes, indeed! Such is "the winning title" of the book, and by examination we find that the book is as winning as the title. And we hope that every one who sees this, or who saw that which the American Sabbath Union said about the book, will look up a canvasser and get a copy of the book and read it as closely as we have read it.
 
-As the American Sabbath Union says that the book "is being pushed throughout our country with all the energy that the book canvasser can exercise," it ought not to be very hard for individuals to find one of these canvassers and get a copy of the book.A. T. J.
+As the American Sabbath Union says that the book "is being pushed throughout our country with all the energy that the book canvasser can exercise," it ought not to be very hard for individuals to find one of these canvassers and get a copy of the book.
+
+A. T. J.

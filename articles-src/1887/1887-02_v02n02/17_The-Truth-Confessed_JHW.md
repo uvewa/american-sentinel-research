@@ -30,7 +30,7 @@ keywords:
 
 The National Reformers persistently talk about the "Christian Sabbath," and the "Christian law of marriage," and one of their most prominent "Secretaries" said, in the *Statesman,* that "the race is indebted to the religion of Christ for the pure blessing of the family." The gospel is of infinite worth to the fallen race, but we do not believe it is honored or advanced by destroying its relations. To deny original obligations and original institutions is to neutralize the gospel, for the gospel is purely *remedial,* and to merge every obligation and institution into the gospel is to make it elementary and not remedial.
 
-But the truth will out sometimes, In the *Christian Nation* of December 22, 1886, in the Sunday-school Notes by Rev. W. J. Coleman, himself a zealous "Reformer," are the following words:—
+But the truth will out sometimes. In the *Christian Nation* of December 22, 1886, in the Sunday-school Notes by Rev. W. J. Coleman, himself a zealous "Reformer," are the following words:—
 
 > "Marriage and the Sabbath, these are the two gifts of God to Paradise, which have survived the fall. How sadly sin has marred them both, yet they bear the aroma of the Eden whence they came, and hold inclosed within them the greater part of the happiness yet engaged [enjoyed?] in this world."
 

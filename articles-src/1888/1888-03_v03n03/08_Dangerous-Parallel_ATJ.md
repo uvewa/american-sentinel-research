@@ -37,11 +37,11 @@ Alongside of the statements of the Elgin Sunday-law Convention, given in a foreg
 
 Neander says of the fourth century:—
 
-> "As is evident from the synodal laws of the fourth century, worldly-minded bishops, instead of caring for the salvation of their flocks, were often but too much inclined to travel about, and entangle themselves in worldly concerns."—*Church History, Vol. 2, page 16. Torrey's Edition, Boston, 1857.*
+> "As is evident from the synodal laws of the fourth century, worldly-minded bishops, instead of caring for the salvation of their flocks, were often but too much inclined to travel about, and entangle themselves in worldly concerns."—*Church History, Vol. 2, page 16. Torrey's Edition, Boston, 1837.*
 
 So it is now with these Sunday-law preachers, in their working up of religio-political conventions, and their lobbying almost every Legislature in the land. But what was the purpose of these worldly-minded bishops in entangling themselves in worldly concerns? Neander tells:—
 
-> "This theocratical theory was already the prevailing one in the time of Constantine; and. . . the bishops voluntarily made themselves dependent on him by their disputes, and by *their determination to make use of the power of the State for the furtherance of their own aims."—Id., p. 132.*
+> "This theocratical theory was already the prevailing one in the time of Constantine; and. . . the bishops voluntarily made themselves dependent on him by their disputes, and by *their determination to make use of the power of the State for the furtherance of their own aims."—Id., p. 133.*
 
 What then were their aims? Their first and greatest aim was the exaltation of themselves; and second only to that was the exaltation of Sunday. These two things had been their principal aims, and especially of the bishops of Rome, for more than a hundred years, when Constantine gave them a chance to make their aims effectual by the power of the State. The first assertion of the arrogant pretensions of the bishop of Rome to power over the whole church, was made in behalf of Sunday by Victor, who was bishop of Rome from a. d. 193 to 202.
 
@@ -75,7 +75,7 @@ Oh, yes! That is the secret of the hindrance [21] to their devotion. If there wa
 
 But yet those ambitious prelates of the fourth century were not content with stopping all manner of work, and closing public places, on Sunday. They had secured the power of the State so far, and they determined to carry it yet further, and use the power of the State to compel everybody to worship according to the dictates of the church. And one of the greatest Fathers of the church, was father to this theory. That was the great church Father and Catholic saint, Augustine—and by the way, he is grandfather to National Reform too, as we shall prove one of these days. Augustine taught that,—
 
-> "It is indeed better that men should be brought to serve God by instruction than by fear of punishment or by pain. But because the former means are better, the latter must not therefore be neglected. . . . Many must often be brought back to their Lord, like wicked servants, by the rod of temporal suffering, before they attain to the highest grade of religious development."—*Schaff,* *Church History Vol. II, section 27.*
+> "It is indeed better that men should be brought to serve God by instruction than by fear of punishment or by pain. But because the former means are better, the latter must not therefore be neglected. . . . Many must often be brought back to their Lord, like wicked servants, by the rod of temporal suffering, before they attain to the highest grade of religious development."—*Schaff,* *Church History, Vol. II, section 27.*
 
 And says Neander:—
 

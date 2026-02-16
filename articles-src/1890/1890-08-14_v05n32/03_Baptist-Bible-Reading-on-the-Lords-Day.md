@@ -25,7 +25,7 @@ keywords:
   - saloons
 ---
 
-THE *Leader* (Baptist) of May 29, published an account of a Baptist Biblereading Conference at San Bernardino. As at Oakland, Dr. Read conducted the Bible - reading on "The Lord's Day." His arguments on this we have previously noticed. At the close, the observance of the day, and the "civil sabbath," were touched upon. The report in the *Leader *said:—
+THE *Leader* (Baptist) of May 29, published an account of a Baptist Bible-reading Conference at San Bernardino. As at Oakland, Dr. Read conducted the Bible-reading on "The Lord's Day." His arguments on this we have previously noticed. At the close, the observance of the day, and the "civil sabbath," were touched upon. The report in the *Leader *said:—
 
 > How shall we observe the Lord's day? Whatever brings you nearer to Christ is right; whatever leads you farther away from him is wrong.
 

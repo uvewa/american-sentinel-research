@@ -38,4 +38,6 @@ Dr. Bascom says of the Bible, "All Christian sects assign it distinctly a centra
 
 No one will deny that the Catholics are a sect, yet they do not assign the King James version of the Bible a central position, or any position at all.
 
-The fact is, all Christians taken together constitute a sect, a division of the people, distinct and separate from the rest of mankind. And this is right. God's people have always been sectarian in their belief and practice, and it is by the command of God that they are so. "Come out from among them, and be ye separate," saith the Lord, "and touch not the unclean thing, and I will receive you." As Christians are a sect, and Christianity sectarian, the Bible, which is the exponent of Christianity, must also be distinctly sectarian in its character.A. DELOS WESTCOTT.
+The fact is, all Christians taken together constitute a sect, a division of the people, distinct and separate from the rest of mankind. And this is right. God's people have always been sectarian in their belief and practice, and it is by the command of God that they are so. "Come out from among them, and be ye separate," saith the Lord, "and touch not the unclean thing, and I will receive you." As Christians are a sect, and Christianity sectarian, the Bible, which is the exponent of Christianity, must also be distinctly sectarian in its character.
+
+A. DELOS WESTCOTT.

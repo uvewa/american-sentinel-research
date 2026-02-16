@@ -31,7 +31,7 @@ This part must be played out to the end, even if some genuine patriots detect th
 
 What is the English of this? The lion has been abused by the lamb for a long time. The lion is now willing to become magnanimous, and will forgive the spites and rebuffs received from the lamb—for the present.
 
-Rome is now to head the forces of reformation as against the licentious Mormon priesthood. Sho now poses as the party of reform! The. Protestants of America have never been able to adopt radical legislation that would entirely remove the Mormon cancer because of Roman indifference to the Mormon evil. Henceforward legislation in this direction bids fair to be thoroughly drastic in its nature.
+Rome is now to head the forces of reformation as against the licentious Mormon priesthood. She now poses as the party of reform! The Protestants of America have never been able to adopt radical legislation that would entirely remove the Mormon cancer because of Roman indifference to the Mormon evil. Henceforward legislation in this direction bids fair to be thoroughly drastic in its nature.
 
 In the past Rome has favored the introduction of the irreligious continental Sabbath to take the place of the Christian observance of that day.
 

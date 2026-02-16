@@ -39,4 +39,6 @@ Such a misappropriation of public money however is a very small item in comparis
 
 Considerable has been said lately about bettering the condition of the enlisted men in the army. There is plenty of room for it. And the total abolition of the whole system of State chaplaincies in the army and everywhere else, would be an excellent beginning.
 
-Under the circumstances it is difficult to suppose that this man was not known to be what he was, *when he was appointed. *For President Arthur, who appointed him, was an attendant at the very church of which he was a minister before he was appointed chaplain. It is indeed a telling example.A. T. J.
+Under the circumstances it is difficult to suppose that this man was not known to be what he was, *when he was appointed. *For President Arthur, who appointed him, was an attendant at the very church of which he was a minister before he was appointed chaplain. It is indeed a telling example.
+
+A. T. J.

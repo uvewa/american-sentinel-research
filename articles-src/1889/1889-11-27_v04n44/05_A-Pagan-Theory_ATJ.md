@@ -24,8 +24,6 @@ keywords:
   - Bay View
 ---
 
-# A Pagan Theory.
-
 At Bay View, Mich., the past summer, the Woman's Christian Temperance Union held a school of methods, at which Prof. E. E. White, superintendent of public schools of Cincinnati, made a speech on "The Duty of the Hour," in which, according to Miss Willard's report in the *Union Signal,* he made the following statement:—
 
 > "You must either concede the right of the State to teach everything or deny the right of the State to teach anything. We must take conscience as the compass and put reason at the helm of the ship of State or we cannot weather the gale. The family, Church and State, should in a holy alliance gather about the cradle."

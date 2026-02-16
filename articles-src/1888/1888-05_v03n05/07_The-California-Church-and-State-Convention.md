@@ -27,7 +27,7 @@ keywords:
 
 The California State Prohibition Convention was held in San Francisco the first week in April. The first words of its platform were these:—
 
-> "The Prohibiton party of the State of California in convention assembled, reverently recognize Almighty God as the supreme ruler, to whose laws all human laws should conform."
+> "The Prohibition party of the State of California in convention assembled, reverently recognize Almighty God as the supreme ruler, to whose laws all human laws should conform."
 
 The seventh plank in its platform is this:—
 

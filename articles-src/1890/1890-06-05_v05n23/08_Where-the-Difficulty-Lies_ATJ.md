@@ -59,4 +59,6 @@ But, aside from this, these people do not go to the penitentiary to be reformed;
 
 We admit that the religion of Jesus Christ will solve the problem, not only of penal discipline, but of parental and every other kind of discipline; but it is impossible for the State to apply it either in the penal institutions or anywhere else. Besides if the State is to apply this remedy in penal institutions, why shall the State not apply it outside? If the State is to teach the religion of Jesus Christ to people in the penitentiary to make them good while they are there, and to keep them out when they get out, why shall not the State teach that religion to the people before they get into the penitentiary, and in order that they may not get in there? And if the State shall do this, then what is there for the Church to do, and what is the Church for?
 
-Thus, and so surely, does the State become a Church, and a Church the State, by every theory that would have the State undertake to the slightest extent the work of teaching religion. And every plea that the State shall do so is a confession that the Church either has no place in the world, or else has forgotten her place.A. T. J.
+Thus, and so surely, does the State become a Church, and a Church the State, by every theory that would have the State undertake to the slightest extent the work of teaching religion. And every plea that the State shall do so is a confession that the Church either has no place in the world, or else has forgotten her place.
+
+A. T. J.

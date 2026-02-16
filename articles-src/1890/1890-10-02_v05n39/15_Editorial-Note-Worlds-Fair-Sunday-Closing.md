@@ -20,6 +20,6 @@ keywords:
   - Sunday closing
 ---
 
-ON the 23d ult., the World's Fair Commission referred to a committee, a resolution offered by Commissioner Rush Strong, of Tennessee, declaring that, "as a Sabbathkeeping nation, and being desirous of following in the channel of all great American Expositions, the Commission is opposed to opening, or keeping open, the Exposition on Sunday."
+ON the 23d ult., the World's Fair Commission referred to a committee, a resolution offered by Commissioner Rush Strong, of Tennessee, declaring that, "as a Sabbath-keeping nation, and being desirous of following in the channel of all great American Expositions, the Commission is opposed to opening, or keeping open, the Exposition on Sunday."
 
 This is supposed to mean that definite action on the question will not be taken for two years, or just before the opening of the Fair.

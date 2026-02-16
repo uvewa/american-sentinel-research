@@ -55,35 +55,35 @@ Dr. Schaff says that Constantine issued his sun's day decree "in conformity to h
 
 On this point Gibbon furnishes decisive evidence:—
 
-> "The devotion of Constantine was more peculiarly directed to the genius of the sun, the Apollo of Greek and Roman mythology; and he was pleased to be represented with the symbols of the god of light and poetry. . The altars of Apollo were crowned with the votive offerings of Constantine; and the credulous multitude were taught to believe that the emperor was permitted to behold with mortal eyes the visible majesty of their tutelar deity. . . . The sun was universally celebrated as the invincible guide and protector of Constantino."—*Decline and Fall, vol. 2, chap. 20.*
+> "The devotion of Constantine was more peculiarly directed to the genius of the sun, the Apollo of Greek and Roman mythology; and he was pleased to be represented with the symbols of the god of light and poetry. . . . The altars of Apollo were crowned with the votive offerings of Constantine; and the credulous multitude were taught to believe that the emperor was permitted to behold with mortal eyes the visible majesty of their tutelar deity. . . . The sun was universally celebrated as the invincible guide and protector of Constantine."—*Decline and Fall, vol. 2, chap. 20.*
 
 And again, a note on the same page says:—
 
 > "The panegyric of Eumenius, which was pronounced a few months before the Italian war, abounds with the most unexceptionable evidence of the Pagan superstition of Constantine, and of his particular veneration for Apollo, or the sun."
 
-The Encyclopedia Brittanica says:—
+The Encyclopedia Britannica says:—
 
-> "The notion of conversion in the sense of a real acceptance of the new religion, and a thorough rejection of the old, is inconsistent with the hesitating attitude in which ho stood towards both. Much of this may indeed be due to motives of politic d expediency, but there is a good deal that cannot be so explained. Paganism must still have been an operative belief with the man who, down almost to the close of his life, retained so many heathen [18] superstitions. He was at best only half- heathen, half Christian, who could seek to combine the worship of Christ with the worship of Apollo, having the name of the one and the figure of the other impressed upon his coins."—*Art. Constantine.*
+> "The notion of conversion in the sense of a real acceptance of the new religion, and a thorough rejection of the old, is inconsistent with the hesitating attitude in which he stood towards both. Much of this may indeed be due to motives of political expediency, but there is a good deal that cannot be so explained. Paganism must still have been an operative belief with the man who, down almost to the close of his life, retained so many heathen superstitions. He was at best only half-heathen, half Christian, who could seek to combine the worship of Christ with the worship of Apollo, having the name of the one and the figure of the other impressed upon his coins."—*Art. Constantine.*
 
 Of the religion of Constantine, and of the sun god, Dr. Schaff thus speaks:—
 
-> "At first, Constantino, like his father, in the spirit of the Noo-Platonic syncretism of dying heathendom, reverenced all the gods as mysterious powers; especially Apollo, the god of the sun, to whom, in the year 308, ho presented munificent gifts. Nay, so late as the year 321 ho enjoined regular consultation of the soothsayers in public misfortunes, according to ancient heathen usage; even later, he placed his new residence, Byzantium, under the protection of the God of the martyrs and the heathen goddoss of fortune; and down to the end of his life ho retained the title and dignity of a *Pontifex Maximus,* or high priest of the heathen heirarchy. His coins boro on the one side the letters of the name of Christ, on the other the figure of the sun-god, and the inscription, *Sol invictus."—Church History, vol. 2.*
+> "At first, Constantine, like his father, in the spirit of the Neo-Platonic syncretism of dying heathendom, reverenced all the gods as mysterious powers; especially Apollo, the god of the sun, to whom, in the year 308, he presented munificent gifts. Nay, so late as the year 321 he enjoined regular consultation of the soothsayers in public misfortunes, according to ancient heathen usage; even later, he placed his new residence, Byzantium, under the protection of the God of the martyrs and the heathen goddess of fortune; and down to the end of his life he retained the title and dignity of a *Pontifex Maximus,* or high priest of the heathen heirarchy. His coins bore on the one side the letters of the name of Christ, on the other the figure of the sun-god, and the inscription, *Sol invictus."—Church History, vol. 2.*
 
-Once more wo hear Dr. Schaff in regard to the life and character of Constantino:—
+Once more we hear Dr. Schaff in regard to the life and character of Constantine:—
 
-> "When at last on his death bed ho submitted to baptism, with the remark, 'Now let us cast away all duplicity,' ho honestly admitted the conflict of two antagonistic principles which swayed his private character and public life."—*Church History, vol. 2.*
+> "When at last on his death bed he submitted to baptism, with the remark, 'Now let us cast away all duplicity,' he honestly admitted the conflict of two antagonistic principles which swayed his private character and public life."—*Church History, vol. 2.*
 
-Much, very much, historical evidence may be added to show the character of Constantino, of whom the Encyclopedia Brittanica says: "Tested by character, indeed, he stands among the lowest of all those to whom the epithet [great] has in ancient or modern times been applied."
+Much, very much, historical evidence may be added to show the character of Constantine, of whom the Encyclopedia Britannica says: "Tested by character, indeed, he stands among the lowest of all those to whom the epithet [great] has in ancient or modern times been applied."
 
-But this is the man who gave to the world the legacy of Church and State; who caused the State to "servo the interests of the Church;" and who lent the strength of his empire to "maintain and enforce the true religion;" to whoso action the *Statesman* so approvingly refers as a warrant for and example of "Sabbath legislation." But never was a more groundless claim set up than that of ascribing to Constantine the issuing of an edict in favor of the Sabbath. His edict was heathenish—that, and that only, as all reliable history attests.
+But this is the man who gave to the world the legacy of Church and State; who caused the State to "serve the interests of the Church;" and who lent the strength of his empire to "maintain and enforce the true religion;" to whose action the *Statesman* so approvingly refers as a warrant for and example of "Sabbath legislation." But never was a more groundless claim set up than that of ascribing to Constantine the issuing of an edict in favor of the Sabbath. His edict was heathenish—that, and that only, as all reliable history attests.
 
-What was the effect of his patronizing or serving the interests of the church? Ho elevated the bishops to the dignity of civil magistrates, especially the bishop of Rome, whom he invested with the primacy. An early historian said:—
+What was the effect of his patronizing or serving the interests of the church? He elevated the bishops to the dignity of civil magistrates, especially the bishop of Rome, whom he invested with the primacy. An early historian said:—
 
-> "Constantine likewise enacted a law favoring the clergy, permitting judgment to be passed by the bishops when litigants preferred appealing to them rather than to the secular courts; he enacted that their decree should bo valid, and as far superior to that of other judges as if pronounced by the emperor himself; that the governor and military officers should see to the execution of these decrees; and that sentence, when passed by them, should be irreversible."—*Sozomen, Ecclesiastical History.*
+> "Constantine likewise enacted a law favoring the clergy, permitting judgment to be passed by the bishops when litigants preferred appealing to them rather than to the secular courts; he enacted that their decree should be valid, and as far superior to that of other judges as if pronounced by the emperor himself; that the governor and military officers should see to the execution of these decrees; and that sentence, when passed by them, should be irreversible."—*Sozomen, Ecclesiastical History.*
 
-To such a state of things our National Bo- formers aspire, when the "final decision" shall be with "the churches and the clergy."
+To such a state of things our National Reformers aspire, when the "final decision" shall be with "the churches and the clergy."
 
-But what was the effect of the State thus "serving the interests of the church," and "upholding and maintaining the true, religion"? With all reliable writers there is but ono decision on this point. We can only give sample statements:—
+But what was the effect of the State thus "serving the interests of the church," and "upholding and maintaining the true religion"? With all reliable writers there is but one decision on this point. We can only give sample statements:—
 
 > "Passing rapidly from a state of distress and persecution to the summit of prosperity, the church degenerated as rapidly from her ancient purity, and forfeited the respect of future ages in the same proportion as she received the blind veneration of her own. Covetousness, especially, became almost a characteristic vice."—*Hallam, Middle Ages.*
 
@@ -113,9 +113,9 @@ A. D. 312, professed to have a vision of the cross. There is, however, no eviden
 
 337, near the close of his life was baptized into the Christian faith.
 
-Some have endeavored to shield his character as a Christian by placing his conversion subsequent to his atrocious murders in 32G; but in so doing they remove it still farther from the date of his Sunday edict, and have him presiding over the council of Nice before he professed Christianity. It is a "mixed case" do the best they can.
+Some have endeavored to shield his character as a Christian by placing his conversion subsequent to his atrocious murders in 326; but in so doing they remove it still farther from the date of his Sunday edict, and have him presiding over the council of Nice before he professed Christianity. It is a "mixed case" do the best they can.
 
-They who can confidently decide that Constantino was a genuine Christian at *any time *in his life—anything but a crafty politician and a selfish ruler—must be able to adjust the balances very accurately to show where Christianity predominates over paganism! We believe that paganism may exist and flourish with any amount of *profession* of Christianity; but we do not believe that Christianity can exist with both the pr*ofession* and *practice* of paganism. For this reason we cannot admit that Constantine ever was a Christian.
+They who can confidently decide that Constantine was a genuine Christian at *any time* in his life—anything but a crafty politician and a selfish ruler—must be able to adjust the balances very accurately to show where Christianity predominates over paganism! We believe that paganism may exist and flourish with any amount of *profession* of Christianity; but we do not believe that Christianity can exist with both the *profession* and *practice* of paganism. For this reason we cannot admit that Constantine ever was a Christian.
 
 Our writer in the *Statesman* says:—
 

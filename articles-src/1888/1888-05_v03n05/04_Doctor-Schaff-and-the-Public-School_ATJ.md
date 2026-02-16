@@ -39,7 +39,7 @@ It is particularly interesting to notice the Doctor's plans for imparting religi
 
 > "The Catholics certainly have a right to demand the Douay version as a substitute for that of King James, and both might be read, the one to the Catholic the other to the Protestant pupils."
 
-There are some questions that we should like to have answered on this proposition: 1. Is the same teacher to give instruction from the Douay version to the Catholics, and from King James's to the Protestants? or shall there be two teachers—a Catholic and a Protestant—in every school? 2. If the Catholics have "a *right* to *demand* the Douay version," and the Protestant, have a right to demand King James's version, then why is it that those who are neither Catholics nor "orthodox" Protestants, have not "a right" to demand that there shall be no version at all used in the public shools? or is it true that all rights belong alone to Catholics and "Protestants"? 3. Is it so wholly essential to the welfare of the Nation that the Catholic "demands" shall be satisfied more than those of any other people in the nation?
+There are some questions that we should like to have answered on this proposition: 1. Is the same teacher to give instruction from the Douay version to the Catholics, and from King James's to the Protestants? or shall there be two teachers—a Catholic and a Protestant—in every school? 2. If the Catholics have "a *right* to *demand* the Douay version," and the Protestant, have a right to demand King James's version, then why is it that those who are neither Catholics nor "orthodox" Protestants, have not "a right" to demand that there shall be no version at all used in the public schools? or is it true that all rights belong alone to Catholics and "Protestants"? 3. Is it so wholly essential to the welfare of the Nation that the Catholic "demands" shall be satisfied more than those of any other people in the nation?
 
 The reason which Doctor Schaff gives, why the State cannot be safely intrusted with this duty, is that,—
 
@@ -65,4 +65,4 @@ How it would be possible to frame a scheme of public instruction more utterly ab
 
 > "Possibly the more liberal portion of our Roman Catholic fellow-citizens might agree to such a compromise" (as is proposed in the statements which we have quoted).
 
-There is a good deal being said about the danger to our institutions, from Romanism. There is such danger, but it lies not in Romanism direct, but in this degenerate Protestantism ambitious of civil power and willing to compromise with Rome to obtain it. This it is that needs to be constantly and carefully watched.A. T. J.
+There is a good deal being said about the danger to our institutions, from Romanism. There is such danger, but it lies not in Romanism direct, but in this degenerate Protestantism ambitious of civil power and willing to compromise with Rome to obtain it. This it is that needs to be constantly and carefully watched. A. T. J.

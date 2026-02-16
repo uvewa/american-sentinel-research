@@ -29,7 +29,7 @@ THE following extracts from the Congressional Record, of February 19, are sugges
 
 > *Mr. Sherman:* I present a petition of citizens of Ohio, collected by the National Woman's Christian Temperance Union, praying for the passage of a National Sunday-rest law. I notice the printed indorsement on the back of the petition states that it contains 701 individual signatures. This is evidently not true; but I suppose the statement ought to be that it contains the signatures of clergymen or otherwise representing 701 individual persons. It seems to me that the person who made the indorsement, ought not to state it in the way it is, for it is not true, as stated.
 
-> *Mr. Spooner:* I find on my desk, doubtless intended to be presented to the Senate, a petition said to contain 2,000 individual signatures from Wiscon sin, praying for the passage of a Sunday-rest law. In the envelope I find, and I present to the Senate, three printed slips with a printed form of petition, and the following indorsement:—
+> *Mr. Spooner:* I find on my desk, doubtless intended to be presented to the Senate, a petition said to contain 2,000 individual signatures from Wisconsin, praying for the passage of a Sunday-rest law. In the envelope I find, and I present to the Senate, three printed slips with a printed form of petition, and the following indorsement:—
 > Indorsed by Madison Convention of Congregational churches, representing churches of five counties, with membership of 1,400.
 > Attest, JAMES M. CAMPBELL, President.
 > *Sun Prairie, Wis., June* 10, 1889.

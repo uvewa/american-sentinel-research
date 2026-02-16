@@ -58,4 +58,6 @@ In addition to all this there is the example of all these fifteen denominations 
 
 Again, we say, if such is the result of a governmental attempt to teach a few Indian children, what would be the result of an effort by the Government to teach the children of all the people?
 
-In closing, we submit to our readers the following problem for solution: If the attempt of the United States Government to educate thirty or forty thousand Indian children, creates such a union of Church and State as is considered by senators to be impossible of divorcement, how strong a union of Church and State would be formed, in an attempt of the United States Government to educate fifteen or twenty million white children?A. T. J.
+In closing, we submit to our readers the following problem for solution: If the attempt of the United States Government to educate thirty or forty thousand Indian children, creates such a union of Church and State as is considered by senators to be impossible of divorcement, how strong a union of Church and State would be formed, in an attempt of the United States Government to educate fifteen or twenty million white children?
+
+A. T. J.

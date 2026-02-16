@@ -40,7 +40,7 @@ The *Christian Nation* of July 13, 1887, presents an argument to show that "Nati
 
 On this point of "any other ism" we have a word to say, and we shall say it, after the manner of the *Christian Nation,* by presenting a few facts—more than three—for the consideration of the people in general and of the *Christian Nation* in particular.
 
-*First fact.* The first step that was ever taken, the first paper that was ever presented, in favor of the National Reform movement, or the organizatian of that association, was by a Reformed Presbyterian.
+*First fact.* The first step that was ever taken, the first paper that was ever presented, in favor of the National Reform movement, or the organization of that association, was by a Reformed Presbyterian.
 
 *Second fact.* Until within about the last three years, all the active public workers —the District Secretaries—of the National Reform Association have been Reformed Presbyterians, and all but three of them—Leiper, Weir, and Mills—are now Reformed Presbyterians.
 
@@ -55,11 +55,11 @@ On this point of "any other ism" we have a word to say, and we shall say it, aft
 > 1. "This important truth of the Lordship of Jesus Christ over the nations, was attained by our reforming and martyred Fathers in Scotland, . . . and has been transmitted down to us sealed with their blood, and is the precious and peculiar inheritance of the Reformed Presbyterian Church, and distinguishes her from all the other evangelical churches in this and other lands. No other church professes to maintain this great principle in its practical applications."
 
 > 2. "The distinctive principles of the Reformed Presbyterian Church are the principles, *and the only principles,* of National Reform."
-> 3. "Now the Association for National Reform simply proposes to have these distincive principles of the Reformed Presbyterian Church adopted into the Constitution of the United States, annulling any parts of that Constitution that may be inconsistent with these principles. . . . The adoption of this Amendment into the Constitution would be the Government doing . . . the highest honor to the Lord Jesus Christ, and the greatest benefit *to our church."*
+> 3. "Now the Association for National Reform simply proposes to have these distinctive principles of the Reformed Presbyterian Church adopted into the Constitution of the United States, annulling any parts of that Constitution that may be inconsistent with these principles. . . . The adoption of this Amendment into the Constitution would be the Government doing . . . the highest honor to the Lord Jesus Christ, and the greatest benefit *to our church."*
 > 4. "The principles of National Reform are our principles, and its work is our work. *National Reform is simply the practical application of the principles of the Reformed Presbyterian Church for the reformation of the nation."* (The Italics are his.)
 *Seventh fact.* These statements are confirmed by Rev. J. R. W. Sloane's account of the Reformed Presbyterian Church, in the "Schaff- Herzog Encyclopedia," in which he says:—
 
-> "The more special and distinctive principle of this church, the one in which she differs from *all others,* is her practical *protest against the secular character* of the United States Constitution. . . . They take the deepest in terest in that reform movement which has for its object the amendment of the United States Constitution in those particulars in which they consider it defective. Indeed, they feel specially called to aid in its success, at whatever cost or personal sacrifice."
+> "The more special and distinctive principle of this church, the one in which she differs from *all others,* is her practical *protest against the secular character* of the United States Constitution. . . . They take the deepest interest in that reform movement which has for its object the amendment of the United States Constitution in those particulars in which they consider it defective. Indeed, they feel specially called to aid in its success, at whatever cost or personal sacrifice."
 
 *Eighth fact.* The Reformed Presbyterian Synod of 1886 in its report on National Reform said:—
 
@@ -75,7 +75,7 @@ In proof of the "non-sectarian character of the National Reform creed" the *Chri
 
 The logic is perfectly easy. By their own words, we have the following syllogism:—
 
-Major: Reformed. Presbyterianism "originated the National Reform cause."
+Major: Reformed Presbyterianism "originated the National Reform cause."
 
 Minor: "The distinctive principles of the Reformed Presbyterian Church are the principles, and *the only principles, of National Reform."*
 

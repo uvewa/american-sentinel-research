@@ -26,7 +26,7 @@ GENERALLY speaking, absolute consistency in any human enterprise that is at all 
 
 The attempted coercion of the people of the United States to observe a certain Sabbath in a certain way, is absurd.
 
-The people of this Republic have attained to a certain degree of intellectual independence. Thinkers of great thoughts doubtless are rare, as they have ever been, but thinkers of practical thoughts have become exceedingly numerous; and the habit of social self-reliance, fostered by political freedom, has engendered a corresponding intellectual or mental self- reliance, which is freeing the race from superstition and moral bondage exactly as popular education frees it from literal ignorance.
+The people of this Republic have attained to a certain degree of intellectual independence. Thinkers of great thoughts doubtless are rare, as they have ever been, but thinkers of practical thoughts have become exceedingly numerous; and the habit of social self-reliance, fostered by political freedom, has engendered a corresponding intellectual or mental self-reliance, which is freeing the race from superstition and moral bondage exactly as popular education frees it from literal ignorance.
 
 People no longer believe that kings have divine rights—at least the people of the United States do not. In fact, the Declaration of our Independence teaches us that all governments derive their just powers from the consent of the governed. The Constitution of the United States recognizes no higher source of power than the "consent of the governed." That idea has permeated the social as well as the political fabric.
 

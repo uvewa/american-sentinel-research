@@ -22,4 +22,4 @@ For the four months ending January 2, 1889, the American Sentinel enjoyed an ave
 
 Circulation for week of January 9, 27,320 copies; for January 16, 29,870 copies; for January 23, 28,300 copies; for January 30, 29,645 copies; for last week, over 30,000 copies.
 
-Advertising rates made known upon application to our branch offices—43 Bond Street, New York; 18 Post Street, San Francisco; or American Sentinel, corner Twelfth and Castro Streets, Oakland, California. [33]
+Advertising rates made known upon application to our branch offices—43 Bond Street, New York; 18 Post Street, San Francisco; or American Sentinel, corner Twelfth and Castro Streets, Oakland, California.

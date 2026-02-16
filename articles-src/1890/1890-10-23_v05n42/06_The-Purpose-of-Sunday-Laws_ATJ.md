@@ -38,4 +38,4 @@ But suppose the reading of the word of God should keep them from church, and esp
 
 And all this is out of the abundance of the sympathy of the preachers for the workingman, and their anxiety that he shall enjoy physical rest and the benefit of a civil Sabbath! It is the same kind of sympathy that in the Middle Ages tormented men to death to save them from hell. The spirit of the Inquisition is inseparable from Sunday laws.
 
-> A. T. J.
+A. T. J.

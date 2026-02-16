@@ -28,9 +28,9 @@ Reference has been made in these columns to the arrogance of Cardinal Tashcherea
 
 > "The influence which the Church of Rome has acquired over the Legislature of this province would astonish an outsider. The simplest measure is not sure of becoming law unless the Government can certify that it has received the sanction of Cardinal Tashchereau."
 
-The dispatch says that on Wednesday, the 30th of January, in three cases bills were presented to the Legislature with the assurance that the bills had received the sanction of the Cardinal, and even in the case of an act providing for the registration of births, marriages, and deaths, which had repeatedly been asked for by the Board of Health of the province, when the act was proposed the Government took the pains to announce that it had been approved by the Cardinal and his bishop.
+The dispatch says that on Wednesday, the 30th of January, in three cases bills were presented to the Legislature with the assurance that the bills had received the sanction of the Cardinal, and even in the case of an act providing for the registration of births, marriages, and deaths, which had repeatedly been asked for by the Board of Health of the province, when the act was proposed the Government took the pains to announce that it had been approved by the Cardinal and his bishops.
 
-Further, the account says:—	.
+Further, the account says:—
 
 > "It was proposed to come to the assistance of the farmers whose grain had been destroyed by the wet weather of last fall, and the Premier promised that if a committee was formed, with the Cardinal for chairman, to distribute the funds, the Government would contribute liberally. The church in its turn sometimes treats the Government in a cavalier style. The Premier last year wished to compromise with the Jesuits, who have always been his staunch supporters, on their claim to be compensated for the estates of the order which had been confiscated by the imperial Government, when the order died out in 1800. He proposed to give them $400,000, which they were ready to accept, but the Cardinal intervened, and claimed the money on behalf of the Catholic universities on the ground that the order of Jesus had been excommunicated by the Pope, and had died out, and that the Jesuits of to-day were not their legal heirs.
 

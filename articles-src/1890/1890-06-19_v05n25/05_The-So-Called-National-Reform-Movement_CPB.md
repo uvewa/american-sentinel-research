@@ -28,7 +28,7 @@ keywords:
 
 THE National Reform movement is defined by David McAllister, D. D., LL. D., Treasurer of the National Reform Association and author of the "Manual of Christian Civil Government," as "organized opposition to the encroachments of the secular theory of civil government." "The secular theory," he says, "is summed up in the statement that "civil government has nothing to with religion but to let it alone!" This definition of the secular theory we accept; but the Doctor's definition of National Reform is defective for the reason that it gives the impression that the movement is wholly defensive, whereas it is decidedly aggressive, as will appear presently.
 
-In his "Manual of Christian Civil Government," Dr. Mc Allister says:—
+In his "Manual of Christian Civil Government," Dr. McAllister says:—
 
 > From the first the work of the Association has been both conservative and reformatory. It has never failed to stand in the breach when any of the Christian institutions of our Government, such as Sabbath laws, or the Bible and unsectarian religious instruction in our common schools, were assailed and needed sturdy defense. At the same time it used its utmost efforts to reform every abuse and wrong in our public life, and go to the root of the matter by such a radical reformation as would put the Nation in avowed allegiance to Christ as King of kings, and practical obedience to his law.
 

@@ -27,7 +27,7 @@ keywords:
 
 About this time, as the almanacs say, look out for a jubilee among National Reformers, the members of the American Sunday Union, etc. The reason for this prediction is found in the following special dispatch from Washington, to the San Francisco *Examiner* of March 16:—
 
-> "Secretary Proctor is an advocate of the Sunday- Rest law, as will soon be demonstrated by the appearance of an order from the War Department abolishing the Sunday dress parades at all army posts throughout the country.
+> "Secretary Proctor is an advocate of the Sunday-Rest law, as will soon be demonstrated by the appearance of an order from the War Department abolishing the Sunday dress parades at all army posts throughout the country.
 
 > "This subject has been agitated in the annual reports of army officials for years, but none of Mr. Proctor's predecessors have seen fit to direct the change. General Sheridan was opposed to the abolition, which probably accounts for nothing having been done in late years.
 > "The present Commanding General, however, believes that only absolutely necessary work should be done in the army on Sunday, and has strongly indorsed a recent report of the Inspector-General of the army recommending the abolition of the dress parade and all other unnecessary work on the Sabbath.
@@ -37,7 +37,7 @@ Thus the "workingman" is gradually getting his rights. The Sunday law is declare
 
 The desire for a Sunday law, so far as the army is concerned, is not because of any special love for the soldier, nor to relieve his conscience, but simply to gratify the feelings of those who, because they keep Sunday, are determined that everybody else shall. The *Examiner* closes an editorial comment on the proposed order, in the following ironical vein:—
 
-> "It is well known that soldiers look forward through the week to the opportunity to enjoy the ministrations of the chaplain, and then to sit [85] quietly in some secluded sea-side garden, meditating upon the teachings they have received. The dress parade brings a jarring earthly element into a day that they desire to devote to other things.
+> "It is well known that soldiers look forward through the week to the opportunity to enjoy the ministrations of the chaplain, and then to sit quietly in some secluded sea-side garden, meditating upon the teachings they have received. The dress parade brings a jarring earthly element into a day that they desire to devote to other things.
 
 > "Secretary Proctor will be gratefully remembered by the defenders of their country when their sabbaths are freed from the intrusion of work, and hearts and heads are swelling with spirituous emotions."
 

@@ -43,4 +43,6 @@ In a short time the topic of conversation was changed, and the Sunday-law questi
 
 *B*—I would support a measure that would sink every steamer, and burn every railroad train that moved on Sunday, and confiscate the property and imprison every man who worked on the Sabbath.
 
-The above conversation really took place between the writer and a prominent member of a Protestant church in Easton, Maryland. And with such a spirit they propose to put God in the Constitution and evangelize the United States.S. H. Willey.
+The above conversation really took place between the writer and a prominent member of a Protestant church in Easton, Maryland. And with such a spirit they propose to put God in the Constitution and evangelize the United States.
+
+S. H. Willey.

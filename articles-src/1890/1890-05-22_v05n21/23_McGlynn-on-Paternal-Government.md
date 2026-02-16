@@ -25,7 +25,7 @@ keywords:
   - National Reformism
 ---
 
-IN a recent speech at Cooper Union, Dr. Mc Glynn said:—
+IN a recent speech at Cooper Union, Dr. McGlynn said:—
 
 > We have long since got past the idea of paternal government. We do not believe in a Government that is to feed people till old age with a spoon. We believe in self-government, especially in political matters, and I am free to say that I believe in a great deal of self-government in the Church as well as in the State. The average American must feel his blood boil with indignation at this notion of nursing and coddling the working men and women, being kind to the beggars, taking interest in their moral and spiritual as well as their material welfare.
 

@@ -19,7 +19,7 @@ keywords:
   - Newburg
 ---
 
-We are sure that this nation does not one- half—half! no not one one-hundreth part— appreciate the wonders that National Reform proposes to accomplish for her. Just think of it. When National Reform shall have succeeded in setting its buzzard securely upon the Nation's Capitol, in place of the American Eagle, then, O then,
+We are sure that this nation does not one-half—half! no not one one-hundreth part—appreciate the wonders that National Reform proposes to accomplish for her. Just think of it. When National Reform shall have succeeded in setting its buzzard securely upon the Nation's Capitol, in place of the American Eagle, then, O then,
 
 No pestilence shall ever croak,
 

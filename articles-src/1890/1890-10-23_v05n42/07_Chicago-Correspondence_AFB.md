@@ -71,4 +71,6 @@ Without doubt the majority of those who are agitating this question are actuated
 
 Your correspondent is more than ever convinced that THE AMERICAN SENTINEL has entered upon its mission none too soon. These movements are but the vanguard of a large and rapidly organizing army, or as one of the editors of the Chicago *Evening Journal* stated it, "They are the ripples on the surface of a great sea."
 
-We will speak of the agitation to close the World's Fair on Sunday, in our next.A. F. BALLENGER.
+We will speak of the agitation to close the World's Fair on Sunday, in our next.
+
+A. F. BALLENGER.

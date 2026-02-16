@@ -24,7 +24,7 @@ keywords:
   - Sunday recreation
 ---
 
-AT Ottowa, Canada, a great stir has been created among the ones who want to be religious for others as well as themselves, because of the playing of the game of "hockey" within the grounds of the Governor-General. This is a game of ball, played with a club having a curved end. One of the prominent ones of the opposition put their case in the following statement:—
+AT Ottawa, Canada, a great stir has been created among the ones who want to be religious for others as well as themselves, because of the playing of the game of "hockey" within the grounds of the Governor-General. This is a game of ball, played with a club having a curved end. One of the prominent ones of the opposition put their case in the following statement:—
 
 > As a member of the Christian religion in this city, I must enter my protest against the practice lately introduced of hockey at Rideau Hall on Sunday. The fact that young men are asked seems so like a command that it requires some fortitude to refuse, and when clergymen's sons and bald- headed old men are both seen there desecrating the Lord's day the public ought to take steps towards discountenancing such proceedings.
 

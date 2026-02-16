@@ -59,7 +59,7 @@ President Julius H. Seelye, D.D., Amherst College.
 
 Professor Edmund H. Bennett, LL.D., Law Department of Boston University.
 
-Rev. Edwin B. Webb, D.D., Shawmut Ave., Congrega¬tional Church, Boston.
+Rev. Edwin B. Webb, D.D., Shawmut Ave., Congregational Church, Boston.
 
 Rev. A. A. Miner, D.D., LL.D., Boston.
 
@@ -177,7 +177,7 @@ Hon. B. F. Saffold, Supreme Court of Alabama.
 
 ## MISSISSIPPI.
 
-Right Rev. W. M. Green, D.D., Bishop of the Protest¬ant Episcopal Church.
+Right Rev. W. M. Green, D.D., Bishop of the Protestant Episcopal Church.
 
 President Walter Hillman, LL.D., Central Female Institute, Mississippi.
 
@@ -209,7 +209,7 @@ Brev't. Brig. Gen. James A. Ekin, Louisville.
 
 Hon. M. B. Hagans, Superior Court of Cincinnati.
 
-Right Rev. G. T. Bedell, D.D., Bishop of the Protest¬ant Episcopal Church.
+Right Rev. G. T. Bedell, D.D., Bishop of the Protestant Episcopal Church.
 
 Rev. Sylvester F. Scovel, President of Wooster University.
 
@@ -319,7 +319,7 @@ Rev. H. P. McClurkin, D.D., Wahoo.
 
 ## KANSAS.
 
-Right Rev. Thomas H. Vail, D.D. LL.D., Bishop of he Diocese of Kansas.
+Right Rev. Thomas H. Vail, D.D. LL.D., Bishop of the Diocese of Kansas.
 
 ## COLORADO.
 

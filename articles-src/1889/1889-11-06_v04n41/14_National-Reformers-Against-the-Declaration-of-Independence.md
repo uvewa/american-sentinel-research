@@ -25,7 +25,7 @@ keywords:
 
 # National Reformers Against the Declaration of Independence.
 
-Only a few years since scarcely anyone in this country thought of calling in question those matchless utterances of the Declaration of Independence, namely, that "all men are created equal" and that governments derive "their just powers from the consent of the governed." But now the exigencies of National Reform, so- called, demand that these matchless political truths shall be challenged. Thus in the Missouri Sabbath Convention at Sedalia, Rev. W. D. Gray, the secretary of the permanent organization, said, referring to the American Sabbath Union:—
+Only a few years since scarcely anyone in this country thought of calling in question those matchless utterances of the Declaration of Independence, namely, that "all men are created equal" and that governments derive "their just powers from the consent of the governed." But now the exigencies of National Reform, so-called, demand that these matchless political truths shall be challenged. Thus in the Missouri Sabbath Convention at Sedalia, Rev. W. D. Gray, the secretary of the permanent organization, said, referring to the American Sabbath Union:—
 
 > "I do not believe that governments derive their just powers from the consent of the governed, and so the object of this movement is to change that feature of our fundamental law."
 
@@ -35,7 +35,7 @@ More recently Rev. Dr. Holland, of St. Louis, is reported to have used the follo
 
 This utterance has justly excited the indignation of those who are really attached to the principles of our government, but we have seen no protest from National Reformers. Commenting on Dr. Holland's words, the San Francisco *Examiner* says:—
 
-> "Thomas Jefferson had the good-fortune to die some time ago. Otherwise he would have had frequently to suffer the pain of seeing the Declaration of Independence demolished by people who had acquired enough political learning to spell it out. Perhaps if he were living he would say that he never committed the absurdity of maintaining that all men were equal in capacity, but that he confined himself to the more reasonable assumption that they were equal in their right to use what capacity they had to the best advantage.
+> "Thomas Jefferson had the good fortune to die some time ago. Otherwise he would have had frequently to suffer the pain of seeing the Declaration of Independence demolished by people who had acquired enough political learning to spell it out. Perhaps if he were living he would say that he never committed the absurdity of maintaining that all men were equal in capacity, but that he confined himself to the more reasonable assumption that they were equal in their right to use what capacity they had to the best advantage.
 
 > "But when this government was established its founders had no suspicion that the country would ever be honored by the presence of Dr. Holland. If they had they would probably have embodied in the Constitution a provision for the exclusion of idiots. Even now, however, there is no law requiring Scotch gentlemen who are dissatisfied with the principles of our government to stay in America."
 

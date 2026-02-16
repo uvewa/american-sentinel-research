@@ -19,4 +19,4 @@ keywords:
   - U. S. Senate Report
 ---
 
-The proper object of Government is to protect all persons in the enjoyment of their religious as well as civil rights, and not to. determine for any whether they shall esteem one day above the other, or esteem all days alike holy.— *U. S. Senate Report, 1829.*
+The proper object of Government is to protect all persons in the enjoyment of their religious as well as civil rights, and not to determine for any whether they shall esteem one day above the other, or esteem all days alike holy.— *U. S. Senate Report, 1829.*

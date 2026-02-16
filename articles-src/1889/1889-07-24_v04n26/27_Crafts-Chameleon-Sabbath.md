@@ -30,4 +30,4 @@ But in Minnesota he advocated a Christian Sabbath, and declared that the convent
 
 > "The object of this Association shall be to preserve the Christian Sabbath, or Lord's day, as a day of rest and worship."
 
-We are glad this matter has beep made plain, so the people may understand just what the Reformers mean when they present the various features of their chameleon Sabbath. There is nothing like having all these obscure points well defined. It is fair to presume, however, that Mr. Crafts' doctrine of the "ideal Sabbath of the Puritans" expresses the design of the above-quoted sections when fully carried out.
+We are glad this matter has been made plain, so the people may understand just what the Reformers mean when they present the various features of their chameleon Sabbath. There is nothing like having all these obscure points well defined. It is fair to presume, however, that Mr. Crafts' doctrine of the "ideal Sabbath of the Puritans" expresses the design of the above-quoted sections when fully carried out.

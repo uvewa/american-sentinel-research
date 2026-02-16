@@ -57,4 +57,4 @@ The National Reformers have intimated that if they can but secure the desired am
 
 Alas for the church when she is wedded to the civil power! for then she will become the hold of every foul spirit, and a cage of every unclean and hateful bird.
 
-"Give us in the National Constitution, the simple acknowledgment of the law of God as the supreme law of nations, and all the results indicated in this note will ultimately be secured." *— Christian Statesman, 1875.* And we are fully persuaded that it will be so, and much more too than is here indicated.E. R. Jones.
+"Give us in the National Constitution, the simple acknowledgment of the law of God as the supreme law of nations, and all the results indicated in this note will ultimately be secured." *— Christian Statesman, 1875.* And we are fully persuaded that it will be so, and much more too than is here indicated. E. R. Jones.

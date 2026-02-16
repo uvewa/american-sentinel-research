@@ -19,7 +19,7 @@ keywords:
   - religious legislation
 ---
 
-A PACKAGE of petitions from Michigan, has been received in Washington, by the secretary of the National Religions Liberty Association, with a note attached which reads as follows:—
+A PACKAGE of petitions from Michigan, has been received in Washington, by the secretary of the National Religious Liberty Association, with a note attached which reads as follows:—
 
 > I circulated this petition in my school district. All signed it.
 

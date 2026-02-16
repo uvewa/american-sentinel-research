@@ -32,4 +32,6 @@ We look with horror on the wholesale work of slaughter done by the Inquisition, 
 
 History repeats itself; because human nature is the same in all ages, and always will be, and we can avoid making the mistakes that others have made only by firmly adhering to principle and right. If we would honor those who established this Nation and those who have preserved it, let us remember that these noble, unselfish men bought with their blood, blessings of liberty and peace that we have no right to recklessly throw away.
 
-Such a move as is set on foot by the National Reformers should stir up every true American to work to forever preserve the blessings of "life, liberty, and the pursuit of happiness." S. O. LANE
+Such a move as is set on foot by the National Reformers should stir up every true American to work to forever preserve the blessings of "life, liberty, and the pursuit of happiness."
+
+S. O. LANE

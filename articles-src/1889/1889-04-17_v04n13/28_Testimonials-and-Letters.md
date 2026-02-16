@@ -25,7 +25,7 @@ keywords:
   - petitions
 ---
 
-De Witt C. Davis, attomey-at-law in Texas, says:—
+De Witt C. Davis, attorney-at-law in Texas, says:—
 
 > "I have read the American Sentinel for two years, and the more I read it the better I am pleased with it. I am entirely with you in opposition to changing our United States Constitution so as to *turn Congress loose—*backed up by all the clergymen or the preachers of the Union—to legislate on religion and Sunday questions. When this shall be done, the 'Pandora's box' of American troubles will be opened. If the pious regard for Sunday and religion has to be enforced by law, then the liberty of conscience in such matters, granted to us by the Constitution, will be destroyed. Then whose conscience shall we obey? I send you a postal note for $1.00. Please send me the weekly American Sentinel for one year."
 

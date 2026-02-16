@@ -39,11 +39,11 @@ To this paragraph in the book there is added the following note:—
 
 Now we should like for anybody candidly to state where there is anything said in this that should subject the book to banishment from the public schools. It is simply a statement of facts, and a very mild statement at that. Whether the treasury of the church had been exhausted by the ambitious projects of Leo's predecessors; or whether it was exhausted by his predecessors at all, is a question upon which it is not necessary to enter, because it is not germane to the subject. The main question is one of simple fact, Was the treasury exhausted? and did that lead to the traffic in indulgences, which stirred up Luther, and led to the Reformation?
 
-Leo's immediate predecessor, Julius II., had spent the whole time of his pontificate —a little more than nine years—in almost constant wars, m some of which he led the troops himself and acted the part of general.
+Leo's immediate predecessor, Julius II., had spent the whole time of his pontificate —a little more than nine years—in almost constant wars, in some of which he led the troops himself and acted the part of general.
 
 It was he who began the building of the Church of St. Peter at Rome; and he issued a bull granting indulgences to those who would contribute to the project. Although to sustain his wars and alliances the expenses of Julius were enormous, yet he did leave considerable treasure. But even though the treasury was not exhausted by his predecessors, it was easy enough for Leo X. to exhaust it, for he was almost a matchless spendthrift. Says Von Ranke:—
 
-> "'That the Pope should ever keep a thousand ducats together was a tiling as impossible,' says Francesco Vettori of this pontiff, 'as that a stone should of its own will take to flying through the air.' He has been reproached with having spent the revenues of three Popes: that of his predecessor, from whom he inherited a considerable treasure, his own, and that of his successor, to whom he bequeathed a mass of debt."—*History of the Popes, book 4, sec. 2.*
+> "'That the Pope should ever keep a thousand ducats together was a thing as impossible,' says Francesco Vettori of this pontiff, 'as that a stone should of its own will take to flying through the air.' He has been reproached with having spent the revenues of three Popes: that of his predecessor, from whom he inherited a considerable treasure, his own, and that of his successor, to whom he bequeathed a mass of debt."—*History of the Popes, book 4, sec. 2.*
 
 Says Lawrence:—
 
@@ -101,7 +101,7 @@ These words make positive the *fact* stated in Swinton's note that indulgences *
 
 So the case of the book and the Boston School Board stands just thus:—
 
-1. The book pays that at the time of Leo X. the Papal treasury was exhausted: and that is a historical fact.
+1. The book says that at the time of Leo X. the Papal treasury was exhausted: and that is a historical fact.
 
 2. The book says that to recruit his exhausted finances, he adopted an extensive sale of indulgences: and that is a historical fact.
 

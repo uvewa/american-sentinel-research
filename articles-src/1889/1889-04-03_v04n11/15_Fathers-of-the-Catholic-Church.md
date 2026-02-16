@@ -34,7 +34,7 @@ Because human nature is the same in all ages of the world. Hence he who would kn
 
 Is alone worth the price of the book.
 
-The chapter on "The Apostolic Church" consists largely of Quotations from Scripture, showing that grave errors both of faith and practice existed in the church even in the days of the apostles, so that the early existence of a practice proves nothing as to its correctness.
+The chapter on "The Apostolic Church" consists largely of quotations from Scripture, showing that grave errors both of faith and practice existed in the church even in the days of the apostles, so that the early existence of a practice proves nothing as to its correctness.
 
 Then a chapter is devoted to each of the Fathers, and to his writings. The Sunday argument, so far as it is drawn from the Fathers, is completely demolished by the citation of other testimony from them in favor of some of the grossest evils of the Catholic Church.
 
@@ -46,4 +46,4 @@ As all are constantly meeting quotations from the Fathers in behalf of Sunday. I
 
 The book is printed on fine tinted paper, neatly bound in cloth, with gilt side stamp, and contains 392 pages.
 
-*Oakland Cal. *[87-88]
+*Oakland, Cal.*

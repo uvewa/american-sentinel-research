@@ -28,4 +28,4 @@ The dispatch declares, however, that "owing to the absurdly extreme measures tak
 
 It is noticeable that the press comments do not take exception to the principle involved, but only criticise the action taken by the League as extreme and beyond what public opinion will uphold.
 
-These organizations will continue to push the enforcement of religious laws and city ordinances to the farthest limit in which they can secure the application of the penalties attached, until at last, and not far in the future, this country will find itself under the rule of a religgious oligarchy. The Religious Liberty Association was organized none too soon.
+These organizations will continue to push the enforcement of religious laws and city ordinances to the farthest limit in which they can secure the application of the penalties attached, until at last, and not far in the future, this country will find itself under the rule of a religious oligarchy. The Religious Liberty Association was organized none too soon.

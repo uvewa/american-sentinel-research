@@ -20,4 +20,4 @@ keywords:
   - street-cars
 ---
 
-Elliott F. Shepard, president of the so- called Sabbath Union, is charged by the New York *Sun* with patronizing street-cars on Sunday. It seems to us that the man who is endeavoring to compel everybody to rest on Sunday should not encourage the "desecration" which he so persistently condemns in others.
+Elliott F. Shepard, president of the so-called Sabbath Union, is charged by the New York *Sun* with patronizing street-cars on Sunday. It seems to us that the man who is endeavoring to compel everybody to rest on Sunday should not encourage the "desecration" which he so persistently condemns in others.

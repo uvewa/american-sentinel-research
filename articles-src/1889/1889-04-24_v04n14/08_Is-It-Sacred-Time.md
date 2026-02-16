@@ -21,7 +21,7 @@ keywords:
 
 # Is It Sacred Time?
 
-One of the subscribers of the *Morning Times *of Oakland has written it a letter, stating theft his only objection to the paper is that it publishes a Sunday edition, thus necessitating secular labor on sacred time. The *Times,* after informing its correspondent that the bulk of the labor on a Sunday-morning newspaper is completed before Saturday at midnight, a fact familiar to everybody who knows anything about newspapers, goes on to make some telling points, which we should be pleased to see answered, if they are answerable. Accordingly, we present to our readers a portion of the article:—
+One of the subscribers of the *Morning Times *of Oakland has written it a letter, stating that his only objection to the paper is that it publishes a Sunday edition, thus necessitating secular labor on sacred time. The *Times,* after informing its correspondent that the bulk of the labor on a Sunday-morning newspaper is completed before Saturday at midnight, a fact familiar to everybody who knows anything about newspapers, goes on to make some telling points, which we should be pleased to see answered, if they are answerable. Accordingly, we present to our readers a portion of the article:—
 
 > "But our Christian friends say that we are transgressing divine law by not resting our printing press on Sunday. With that we must respectfully, but firmly, take issue. . . .We declare that all Sabbath legislation from the time of Constantine to the present has been purely human—not divine."
 

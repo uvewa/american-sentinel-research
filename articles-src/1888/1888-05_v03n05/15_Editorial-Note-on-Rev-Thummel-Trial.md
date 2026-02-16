@@ -25,7 +25,7 @@ keywords:
   - Penal Code section 166
 ---
 
-We have received from the editor of the *Herold der Warheit* a translation of a part of the remarks of the prosecuting attorney of the city of Cassel, Germany, in the case of the Rev. Thümmel, who was indicted for attacking the Papacy and calling the Pope antichrist. In moving for nine, months' imprisonment for Thümmel, and two months' imprisonment for the publisher of the article, the prosecuting attorney said, among other things:—
+We have received from the editor of the *Herold der Warheit* a translation of a part of the remarks of the prosecuting attorney of the city of Cassel, Germany, in the case of the Rev. Thümmel, who was indicted for attacking the Papacy and calling the Pope antichrist. In moving for nine months' imprisonment for Thümmel, and two months' imprisonment for the publisher of the article, the prosecuting attorney said, among other things:—
 
 > "The defendant refers (or appeals) to Dr. M. Luther. First, it must be considered that Luther lived three hundred years ago, and that meanwhile the customs, the tone, and tastes, etc., have changed. If Luther lived to-day, and should say and write the same things that he did then, he would undoubtedly, by reason of section 166 of the Penal Code, be condemned."
 

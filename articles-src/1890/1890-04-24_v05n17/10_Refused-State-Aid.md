@@ -28,7 +28,7 @@ REV. J. G. LEMEN is the founder and manager of an orphanage in Council Bluffs, I
 
 > HON. J. K. MCGAVREN,—
 
-> *Dear Sir:* Yours of the 10th at hand. I heartily thank you, in the name of Christ and his helpless little ones, for what you did, considering the heart- motive that prompted you in the act.
+> *Dear Sir:* Yours of the 10th at hand. I heartily thank you, in the name of Christ and his helpless little ones, for what you did, considering the heart-motive that prompted you in the act.
 > But, the more I have prayed and thought over the matter, the more I am convinced that it is not a matter that I desire pushed, for the following reasons:—
 > 1. This is a work of faith. We desire to look to God and to him alone.
 > 2. If we accept this aid, we help to set a precedent for all sorts of private and sectarian charities making a raid on the public treasury. This I believe to be a bad precedent. If then, so believing, I lend my sanction to this, I do evil that good may come, which is wrong.

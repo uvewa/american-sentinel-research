@@ -33,7 +33,7 @@ keywords:
 
 # "Justice."
 
-THIS was the subject of a lecture in the Jewish synagogue of Oakland, Sunday evening, January 12, by Justice Charles N. Fox, of the supreme court. The peculiarity of the appearance of this lecturer before a Jewish audience, with such a subject, is emphasized by the fact that the judge is an ardent Sunday-law advocate; and when that subject was a campaign issue before the people a few years ago, he was one of the prominent orators opposed to the repeal of the California Sunday Jaw.
+THIS was the subject of a lecture in the Jewish synagogue of Oakland, Sunday evening, January 12, by Justice Charles N. Fox, of the supreme court. The peculiarity of the appearance of this lecturer before a Jewish audience, with such a subject, is emphasized by the fact that the judge is an ardent Sunday-law advocate; and when that subject was a campaign issue before the people a few years ago, he was one of the prominent orators opposed to the repeal of the California Sunday law.
 
 The lecturer said, "The law of all civilized countries is but an elaboration of that given to the children of Israel, amid the thunders of Sinai," and then he repeated the ten commandments. The hard part of it is, reverting to his perorations of seven years ago, to see how a Sunday law could be an elaboration of the ten commandments, which very plainly indicate that the first day of the week is one of secular labor.
 
@@ -49,6 +49,8 @@ On the theory that "we cannot hope to live to see pure, unadulturated justice ad
 
 > When the church of the Christian and the synagogue of the Hebrew will be alike the place for the [60] worship of the one God, Father of men—then a man may enter either and make his devotions, knowing he is in a tabernacle of the one ever-living God. Then peace will wave her wand over the world.
 
-Shall we suppose that he was contemplating the benign effects of a national Sunday law, or a National Reformed Constitution, when he portrayed that beautiful image of the unanimity of Hebrew and Christian worship under the progress of "men's laws?" It used to be a settled theory on the Western plains that the rattlesnake and the prairie-dog dwelt harmoniously in the same burrow; but when the writer killed a rattler with a whole prairie dog inside of it, the cause of the harmony was explained. It was a clear case of coercion. Just so it will be when the Hebrew worship, as such, will so perfectly assimilate to the then "Christian" that there will be no perceptible difference.W. N. GLENN.
+Shall we suppose that he was contemplating the benign effects of a national Sunday law, or a National Reformed Constitution, when he portrayed that beautiful image of the unanimity of Hebrew and Christian worship under the progress of "men's laws?" It used to be a settled theory on the Western plains that the rattlesnake and the prairie-dog dwelt harmoniously in the same burrow; but when the writer killed a rattler with a whole prairie dog inside of it, the cause of the harmony was explained. It was a clear case of coercion. Just so it will be when the Hebrew worship, as such, will so perfectly assimilate to the then "Christian" that there will be no perceptible difference.
+
+W. N. GLENN.
 
 > *Oakland, California.*

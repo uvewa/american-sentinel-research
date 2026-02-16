@@ -25,7 +25,7 @@ keywords:
 
 > We believe in the religion taught by Jesus Christ.
 
-> We believe in temperance, and. regard the liquor traffic as a curse to society.
+> We believe in temperance, and regard the liquor traffic as a curse to society.
 > We believe in supporting the civil government, and submitting to its authority.
 > We deny the right of any civil government to legislate on religious questions.
 > We believe it is the right, and should be the privilege, of every man to worship according to the dictates of his own conscience.

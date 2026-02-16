@@ -26,7 +26,7 @@ keywords:
 
 Some time ago a prohibition paper quoted a lot of statistics concerning the last presidential election, and made the following comment and calculation:—
 
-> "There are in the United States 15,210,141 church members. The vote for President in 1884 was... St. John, 151,809, or about 10 to 1,000 church membership. Had the church been united on the question of prohibition it might have polled instead. . . about 3,042,028 votes."
+> "There are in the United States 15,210,141 church members. The vote for President in 1884 was... St. John, 151,809, or about 10 to 1,000 church membership. Had the church been united on the question of prohibition it might have polled instead. . . about 5,042,028 votes."
 
 To this the *Interior,* in its issue of March 24, 1887, responded as follows:—
 

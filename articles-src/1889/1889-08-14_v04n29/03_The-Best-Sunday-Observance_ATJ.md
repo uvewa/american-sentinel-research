@@ -47,4 +47,6 @@ But, on the other hand, when the aid of the civil power is sought, and Sabbath o
 
 By these evidences it is clear that every person who respects Christianity, and who wishes to secure the best Sunday observance, and to have Christian services best attended, ought to oppose Sunday laws with all his might. It is entirely out of respect to Christianity that the American Sentinel opposes all Sabbath laws of civil government.
 
-Let religious institutions be sustained by religious means. Let Christian duties be maintained by Christian methods. Let attendance at Christian services be secured by Christian influences and Christian persuasion. This is the position of the American Sentinel, and it ought to be the position of every person who loves Jesus Christ.A. T. J.
+Let religious institutions be sustained by religious means. Let Christian duties be maintained by Christian methods. Let attendance at Christian services be secured by Christian influences and Christian persuasion. This is the position of the American Sentinel, and it ought to be the position of every person who loves Jesus Christ.
+
+A. T. J.

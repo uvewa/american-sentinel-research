@@ -19,4 +19,4 @@ keywords:
   - Cincinnati
 ---
 
-THE "call" for that National Reform convention, lately held in Cincinnati, was signed by eighty-two persons. Seventy- three of these were preachers, the rest were made of eight laymen and one woman. And yet they try to pass that off as a representative "citizens" meeting, simply in the interests of the State!
+THE "call" for that National Reform convention, lately held in Cincinnati, was signed by eighty-two persons. Seventy-three of these were preachers, the rest were made of eight laymen and one woman. And yet they try to pass that off as a representative "citizens" meeting, simply in the interests of the State!

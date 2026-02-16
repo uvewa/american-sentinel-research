@@ -64,4 +64,6 @@ Mr. Crafts further says: --
 
 It is not in any sense a misrepresentation to say that the admission of a single Catholic to the Union was strenuously opposed. That is a positive fact. It was opposed, and that by Mr. Crafts himself. Even to the extent of trying repeatedly to adjourn the meeting, and it was only owing to the fact that it *was* more strenuously favored that even one Catholic was elected as a member of the Executive Committee. Although there isn't a great deal of credit attaching to the Union on that account, because the Catholics, according to the count, were the majority of all—7,200,000 to 5,977,693—and yet they were allowed only one member upon an Executive Committee of more than a dozen.
 
-The American Sabbath Union had better start new, and do its work fairly.A. T. J.
+The American Sabbath Union had better start new, and do its work fairly.
+
+A. T. J.

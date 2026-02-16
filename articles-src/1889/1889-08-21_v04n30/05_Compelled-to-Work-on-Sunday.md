@@ -41,7 +41,7 @@ It appears that in 1828 the government had no power to compel their constituents
 
 *Senator Call—"*What law is it, either State or National, that requires work against a man's conscience on Sunday?"
 
-*Mr. Elliot—"*Post-office clerks are required to work on Sunday. At the former hearing I called your attention to the fact that the present laws with regard to the postal service give too much discretion to local postmasters with regard to the requirements, the opening of the office, etc., on the Lord's day.
+*Mr. Elliott—"*Post-office clerks are required to work on Sunday. At the former hearing I called your attention to the fact that the present laws with regard to the postal service give too much discretion to local postmasters with regard to the requirements, the opening of the office, etc., on the Lord's day.
 
 *Senator Call*—"The law requires certain work to be performed on Sunday, but it does not compel any man to do it who is conscientiously opposed to working on that day. You say the State is trifling with the conscience of the church. How does it do so?"
 

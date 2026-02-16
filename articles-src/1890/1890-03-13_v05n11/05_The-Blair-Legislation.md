@@ -28,7 +28,7 @@ keywords:
 
 # The Blair Legislation.
 
-*To the Editor of the Courant:*—Perhaps. I had better state at the outset, that although my business interests are largely centered in Connecticut, my place of residence is in New Hampshire and I am now a member of the Legislature of that State. As the Hon. Senator, Mr. Blair, of New Hampshire, seems to be doing all in his power in national legislation to pull down the bulwark of religious liberty in this country, I cannot refrain from calling the attention of the citizens of the State of "steady habits" to some of the more salient facts in the case. Mr. Blair's Sunday-rest-day bill and also his Educational Amendment, are both of a religious nature, making necessary a resolution to amend and eliminate from the national Constitution, the first amendment, which reads:—
+*To the Editor of the Courant:*—Perhaps I had better state at the outset, that although my business interests are largely centered in Connecticut, my place of residence is in New Hampshire and I am now a member of the Legislature of that State. As the Hon. Senator, Mr. Blair, of New Hampshire, seems to be doing all in his power in national legislation to pull down the bulwark of religious liberty in this country, I cannot refrain from calling the attention of the citizens of the State of "steady habits" to some of the more salient facts in the case. Mr. Blair's Sunday-rest-day bill and also his Educational Amendment, are both of a religious nature, making necessary a resolution to amend and eliminate from the national Constitution, the first amendment, which reads:—
 
 > Congress shall make no laws respecting an establishment of religion, or prohibiting the free exercise thereof.
 

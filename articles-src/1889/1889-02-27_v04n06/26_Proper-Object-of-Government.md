@@ -17,4 +17,4 @@ keywords:
   - Richard M. Johnson
 ---
 
-The proper object of government is to protect all persons in the enjoyment of- their religious as well as civil rights, and not to determine for any whether they shall esteem one day above another, or esteem all days alike holy.—*Hon, Richard M. Johnson, 1828.*
+The proper object of government is to protect all persons in the enjoyment of their religious as well as civil rights, and not to determine for any whether they shall esteem one day above another, or esteem all days alike holy.—*Hon. Richard M. Johnson, 1828.*

@@ -47,7 +47,7 @@ IN the course of the discussion in regard to the admission of Idaho into the Uni
 > "You do believe in one God, the Creator and Governor of the universe, the rewarder of the good, the punisher of the wicked; and you do acknowledge the scriptures of the Old and New Testament to be given by divine inspiration, and own and profess the Protestant religion."
 > This prohibits, if enforced, a Roman Catholic from becoming a member of the Legislature of the State of Vermont, and certainly excludes every infidel. I will not consume time by reading from the constitutions of all the States. . . .
 > I have cited these cases to show that Tennessee has done nothing cruel, unjust, unusual, or contrary to the spirit of a free and enlightened government when she placed a few restrictions around the right to vote and hold office, but on the contrary she has not gone to any such length as have the States which those who criticise her represent.
-The congressman from Tennessee is .in error as regards his quotation from the Vermont Constitution, for the clause which he quotes is to be found in the Constitution of 1786, but is omitted in the Constitution of 1793 now in force. However there are other provisions remaining which are, in almost equal measure, out of harmony with the true principles of civil government.
+The congressman from Tennessee is in error as regards his quotation from the Vermont Constitution, for the clause which he quotes is to be found in the Constitution of 1786, but is omitted in the Constitution of 1793 now in force. However there are other provisions remaining which are, in almost equal measure, out of harmony with the true principles of civil government.
 
 But the remarkable fact remains that after a century has elapsed for the development of the principles enunciated by Thomas Jefferson and his compatriots in the establishment of this Government, such views should be expressed unchallenged in the Congress of the United States; and the fundamental law of all the States be called to witness to their propriety and soundness.
 
@@ -55,7 +55,7 @@ Such incidents as this would argue it not amiss for our legislators to withdraw 
 
 The following portion of that act would be of special value in such an exercise:—
 
-> That our civil rights have no dependence on our religious opinions, any more than on our opinions in physic and geometry; that therefore the proscribing any citizen as unworthy of the public confidence, by laying upon him an incapacity of being called to offices of trust and emolument unless he profess or renounce this or that religious opinion, is depriving him injuriously of those privileges and advantages to which, in common with his fellowcitizens, he has a natural right, etc.
+> That our civil rights have no dependence on our religious opinions, any more than on our opinions in physic and geometry; that therefore the proscribing any citizen as unworthy of the public confidence, by laying upon him an incapacity of being called to offices of trust and emolument unless he profess or renounce this or that religious opinion, is depriving him injuriously of those privileges and advantages to which, in common with his fellow-citizens, he has a natural right, etc.
 
 This act also provides that opinions and professions in matters of religion shall in nowise diminish, enlarge or affect civil capacities.
 

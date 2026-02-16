@@ -31,7 +31,7 @@ keywords:
 
 # The People Awaken.
 
-UNDER the auspices of the National Religious Liberty Association, there was held in Washington City, Tuesday, January 28, a citizens' meeting for the discussion of the Breckinridge Sunday bill for the District of Columbia. A good deal of preliminary work had been done. Nearly 20,000 SENTINELS and 8,000 circulars of announcement had been distributed, and eight hundred personal invitations sent out, besides printed notices in all the city papers. As a result between five hundred and six hundred people assembled. General A. A. Birney presided. The meeting was intended to be an impartial discussion of the bill. The personal invitations which were sent to all the ministers, Woman's Christian Temperance Union workers, and to six hundred lawyers of the city, besides a personal letter to Mr. W. F. Crafts, read as follows, the first being to the lawyers
+UNDER the auspices of the National Religious Liberty Association, there was held in Washington City, Tuesday, January 28, a citizens' meeting for the discussion of the Breckinridge Sunday bill for the District of Columbia. A good deal of preliminary work had been done. Nearly 20,000 SENTINELS and 8,000 circulars of announcement had been distributed, and eight hundred personal invitations sent out, besides printed notices in all the city papers. As a result between five hundred and six hundred people assembled. General A. A. Birney presided. The meeting was intended to be an impartial discussion of the bill. The personal invitations which were sent to all the ministers, Woman's Christian Temperance Union workers, and to six hundred lawyers of the city, besides a personal letter to Mr. W. F. Crafts, read as follows, the first being to the lawyers:
 
 > January 24, 1890, City. DEAR SIR:
 
@@ -56,10 +56,13 @@ The speeches, which, with the exception noted, were necessarily against the bill
 > *Resolved,* That the bill (H. R. 3854), entitled "An act to prevent persons from being forced to labor on Sunday," does not meet our approbation, but that we do earnestly protest against its passage, or the passage of any bill of similar import, for the following reasons, to wit:
 
 > First. There is no call or occasion for the passage of such a law. No person in the District of Columbia is, or has been forced to labor on Sunday against his will, at any time since the abolition of slavery therein.
-> Second. Works of necessity or mercy are not defined in the bill, and their meaning and application are left to the arbitrary prejudice or caprice of police magistrates. Under such a law, street cars railroad trains, steamboats and private carriages might be stopped; and a citizen might be fined for preaching, for shaving himself, or having his dinner cooked on Sunday.
+> Second. Works of necessity or mercy are not defined in the bill, and their meaning and application are left to the arbitrary prejudice or caprice of police magistrates. Under such a law, street cars, railroad trains, steamboats and private carriages might be stopped; and a citizen might be fined for preaching, for shaving himself, or having his dinner cooked on Sunday.
 > Third. Such a law would be a departure from the fundamental principle of the institutions of this country, which recognizes the right of a citizen to do as he pleases, provided he does not encroach upon the rights of others; and it empowers a police judge to inquire into and decide upon the conscientious beliefs of any citizen charged with doing, or causing to be done, secular work on Sunday.
 > Fourth. The passage of such a law is designed, and in effect would be an entering wedge for a system of aggressive laws tending to subvert the secular character of our Government in derogation of the Constitution, and the religious freedom of the citizen guaranteed thereby.
 > Fifth. The proposed law partakes of the most offensive features of the early laws of New England, Maryland, and other colonies of the olden time, known as "Blue laws," and is therefore a long step backward, instead of forward in human progress.
-The unanimous sentiment is that it was a most successful meeting. A. T. J
+
+The unanimous sentiment is that it was a most successful meeting.
+
+A. T. J.
 
 > *Washington, D. C., Jan.* 29. [49]

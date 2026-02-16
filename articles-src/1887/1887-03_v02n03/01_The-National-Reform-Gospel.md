@@ -25,7 +25,7 @@ keywords:
 
 National Reform Secretary J. H. Leiper says:—
 
-> "Wo preach exactly the same gospel to the body politic—that moral individual we call the nation—[that we do to the demoralized individual person]."—*Christian Statesman, June 18, 1885.*
+> "We preach exactly the same gospel to the body politic—that moral individual we call the nation—[that we do to the demoralized individual person]."—*Christian Statesman, June 18, 1885.*
 
 The gospel which Christ sends by his ministers to the "demoralized individual" person is this: "Go ye into all the world, and preach the gospel to every creature. He that believeth *and is baptized* shall be saved." And this: "Go ye therefore, and teach all nations, *baptizing them* in the name of the Father, and of the Son, and of the Holy Ghost; teaching them to observe all things whatsoever I have commanded you."
 

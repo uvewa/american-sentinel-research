@@ -44,13 +44,13 @@ But that is not all there is to this matter. As we have stated, Mr. Crafts and h
 
 The decision distinctly says, "The prohibition against labor on Sunday is not involved." So that the decision is not in any sense what Mr. Crafts attempts to make it.
 
-Now for the facts in the case. The case is known as one of the Chinese Laundry cases, brought up from San Francisco—the case of *Soon Hing v. Crowley.* The City of San Francisco passed an ordinance regulating laundries and public wash-houses. The fourth Section declared that "No person owning, or employed in, a public laundry, or a public [154] wash-house within the prescribed limits, shall wash or iron clothes between the honrs of ten in the evening and six in the morning, or upon any portion of Sunday."
+Now for the facts in the case. The case is known as one of the Chinese Laundry cases, brought up from San Francisco—the case of *Soon Hing v. Crowley.* The City of San Francisco passed an ordinance regulating laundries and public wash-houses. The fourth Section declared that "No person owning, or employed in, a public laundry, or a public [154] wash-house within the prescribed limits, shall wash or iron clothes between the hours of ten in the evening and six in the morning, or upon any portion of Sunday."
 
 Soon Hing was arrested by the police of San Francisco, and he applied to the United States Circuit Court for a writ of *habeas corpus* upon the plea that this section was in contravention of the provisions of the Burlingame Treaty, and of the Fourteenth Amendment to the Constitution of the United States in that it deprived "the petitioner of *the equal protection of the laws.* The judges of the Circuit Court were divided in opinion, that of the presiding justice prevailing, and the case was certified to the Supreme Court "for review." In rendering the decision the Court referred to a case that it had decided only seventy-one days before, and said:—
 
 > The fourth section is identical in both. *The prohibition against labor on Sunday in this section is not involved here,* as it was not in that case; and the provision for the cessation of labor in the laundries, within certain prescribed limits of the city and county during certain hours of the night, is purely a police regulation, which is, as we there said, within the competency of any municipality possessed of the ordinary powers belonging to such bodies.
 
-To get a full understanding of the matter it is necessary to quote from the case to which the Court here referred. It is the ease of *Bourbier v. Crowley.* The Court said:—
+To get a full understanding of the matter it is necessary to quote from the case to which the Court here referred. It is the ease of *Barbier v. Crowley.* The Court said:—
 
 > That fourth section, so far as it is involved in the case before the Police Judge was simply a prohibition to carry on the washing and ironing of clothes in public laundries and wash-houses, within certain prescribed limits of the city and county [of San Francisco], from ten o'clock at night until six o'clock in the morning of the following day. *The prohibition of labor on Sunday is not involved.* The provision is purely a police regulation within the competency of any municipality possessed of the ordinary powers belonging to such bodies; and it would be an extraordinary usurpation of the authority of the municipality if a Federal tribunal should undertake to supervise such regulations. It may be a necessary measure of precaution in a city composed largely of wooden buildings, like San Francisco, that occupations in which fires are constantly required should cease after certain hours at night until the following morning; *and of the necessity of such legislation the municipal bodies are the exclusive judges;* at least any correction of their action in such matters can come only from State legislation, or State tribunals. . . . Neither the [Fourteenth] Amendment, broad and comprehensive as it is, nor any other amendment, was designed to interfere with the power of the State, sometimes termed its police power, to prescribe regulations to promote the health, peace, morals, education, and good order of the people, and to legislate so as to increase the industries of the State, develop its resources, and add to its wealth and prosperity.—*113 U. S. 30, 31.*
 
@@ -58,7 +58,7 @@ Thus it is proved by the very words of the decision which Mr. Crafts quotes that
 
 But did the Court use the words quoted by Mr. Crafts? Yes, and this is how it came about: The petitioner had argued that the said section was "void on the ground that it deprived a man of the right to work at all times," and in the same line of the decision throughout, the Court held that this objection was "without force" because such regulations are properly within the police power of cities and municipalities. The Court said:—
 
-> On few subjects lias there been more regulation. How many hours shall constitute a day's work in the absence of contract, at what time in our cities shops shall close at night, are constant subjects of legislation.
+> On few subjects has there been more regulation. How many hours shall constitute a day's work in the absence of contract, at what time in our cities shops shall close at night, are constant subjects of legislation.
 
 And then it was that, continuing, the Court said:—
 
@@ -66,7 +66,7 @@ Laws setting aside Sunday as a day of rest are upheld, not from any right of the
 
 This reference to Sunday laws is used by the Court only as an illustration of the exercise of the police power of the States and municipalities. And even if it were not so used, even if it were used with direct reference to the question of Sunday labor, the force of the decision, so far from showing any power of the United States Government to enact Sunday laws, would show on the contrary that such laws are wholly within the jurisdiction of the States, as a part of what the Court called the police power of the States and of which it declared "it would be an extraordinary usurpation of the authority of the municipality if a Federal tribunal should undertake to supervise such regulations."
 
-But it is not even this; for decisions are of legal force "only so far as regards the subject matter then involved." The decisions of courts are expressions of law upon the points involved, and upon these only, and whatever may be said with reference to any subject which is not involved is of no legal force. Especially is this so when the court plainly says that such subject is not involved in the case. Put in the form of a syllogism the case quoted by MR. Crafts, stands thus:—
+But it is not even this; for decisions are of legal force "only so far as regards the subject matter then involved." The decisions of courts are expressions of law upon the points involved, and upon these only, and whatever may be said with reference to any subject which is not involved is of no legal force. Especially is this so when the court plainly says that such subject is not involved in the case. Put in the form of a syllogism the case quoted by Mr. Crafts, stands thus:—
 
 Decisions are of force "only so far as regards the subject matter then involved."
 
@@ -74,7 +74,7 @@ This decision plainly says, "The prohibition of labor on Sunday is not involved 
 
 Therefore the decision cited by Mr. Crafts in support of Sunday laws, is of no force whatever with reference to any question of labor on Sunday.
 
-The use which Mr. Crafts and his fellowworkers make of the reference to Sunday laws in this case, is false.
+The use which Mr. Crafts and his fellow-workers make of the reference to Sunday laws in this case, is false.
 
 1. In that they make it a decision on the question of Sunday laws, whereas the decision plainly says, virtually twice, that the question of labor on Sunday is not involved.
 

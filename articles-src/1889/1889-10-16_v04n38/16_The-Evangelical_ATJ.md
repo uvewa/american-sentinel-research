@@ -28,7 +28,7 @@ keywords:
 
 # The Evangelical.
 
-At the hearing before the Senate Committee on Education and Labor February 15, 1889, in behalf of the Blair resolution, to teach religion in all the schools of the nation, there were prominent men pleading for the adoption of the proposed amendment, from Philadelphia, New York, and Baltimore. Rev. George K. Morris, D. D., of Philadelphia, drew the line between those who favored the amendment and those who opposed it, by the following statement:—
+At the hearing before the Senate Committee on Education and Labor February 15, 1889, in behalf of the Blair resolution, to teach religion in all the schools of the nation, there were prominent men pleading for the adoption of the proposed amendment, from Philadelphia, New York, and Baltimore. Rev. George E. Morris, D. D., of Philadelphia, drew the line between those who favored the amendment and those who opposed it, by the following statement:—
 
 > "I ask your attention to the fact that on this matter of the proposed constitutional amendment, the country stands divided principally along the line indicated by the evangelical church bodies on the one side, and the Roman Catholic Church on the other."
 

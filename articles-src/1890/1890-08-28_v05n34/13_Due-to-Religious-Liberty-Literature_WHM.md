@@ -30,14 +30,14 @@ keywords:
   - National Religious Liberty Association
 ---
 
-MR. L. A. CALLICOTT, of Lanes, Dyer County, Tennessee, was tried some time since, under the Tennessee statute, forbidding Sunday labor, and found guilty, but a new trial was ordered which took place July 21, before Judge Flippin. Col. T. E. Richardson, who is counsel in the famous King case, which has gone to the United States District Court, defended Mr. Callicott. The defendant is a Seventh-day Adventist, and the question was broached, as to whether the commandment, "Six days shalt thou labor and do all thy work," made it a sin for him to rest on Sunday. E. E. Marvin, an elder of the Seventhday Adventist denomination, was put upon the witness stand, and the following was elicited, as reported in the *Review and Herald:—*
+MR. L. A. CALLICOTT, of Lanes, Dyer County, Tennessee, was tried some time since, under the Tennessee statute, forbidding Sunday labor, and found guilty, but a new trial was ordered which took place July 21, before Judge Flippin. Col. T. E. Richardson, who is counsel in the famous King case, which has gone to the United States District Court, defended Mr. Callicott. The defendant is a Seventh-day Adventist, and the question was broached, as to whether the commandment, "Six days shalt thou labor and do all thy work," made it a sin for him to rest on Sunday. E. E. Marvin, an elder of the Seventh-day Adventist denomination, was put upon the witness stand, and the following was elicited, as reported in the *Review and Herald:—*
 
 > *Colonel. Richardson.*—"Mr. Marvin, where do you live?"
 
 > *Mr*.* Marvin*.—"At Trezevant, Carroll County, Tennessee."
 > *Colonel Richardson.*—"Are you a minister of the Seventh-day Adventist Church?"
 > *Mr. Marvin*.—"Yes, sir."
-> *Col**onel Richardson*.—"What is the belief and practice of your church concerning the Sabbath?"
+> *Colonel Richardson*.—"What is the belief and practice of your church concerning the Sabbath?"
 > *Mr*.* Marvin.*—"We believe the seventh day is the Sabbath of the Lord, as brought to view in Exodus, twentieth chapter, and keep it as such; and with James (chapter 2:12) we believe this to be a law of *liberty,* and that we have a heaven-born right to obey it in any State or nation."
 > *Colonel Richardson*.—"You regard it as a Christian duty to keep that day holy and no other?"
 > *Mr. Marvin.*—"Yes, sir."
@@ -60,7 +60,7 @@ The Attorney-General then yielded the case, and the Judge charged the jury to br
 
 This testimony is worthy of note, for it brings out the pith of the whole question of Sunday laws. Sunday keeping *is* a religious act, nothing else,—never was anything else since the Babylonians and their ancestors established the worship of the sun god, which the "venerable day of the sun" perpetuates to the present hour, with the added sanctities of the Christian Sabbath attached in these later times.
 
-If any man believes that "the seventhday" is the Sabbath of the Lord his God, to compel him to yield a formal allegiance to the first day (the day of the sun) is forcing him to conform "to an opposing religion."
+If any man believes that "the seventh-day" is the Sabbath of the Lord his God, to compel him to yield a formal allegiance to the first day (the day of the sun) is forcing him to conform "to an opposing religion."
 
 The Judge in this case charged rightly.
 

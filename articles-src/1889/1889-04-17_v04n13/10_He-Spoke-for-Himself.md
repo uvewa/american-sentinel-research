@@ -40,4 +40,4 @@ Feb. 27, 1889.
 > "I have the honor to remain, with much respect, yours faithfully, J. P. Donahue,
 *"Chancellor.*
 
-*"To D. E. Lindsey, Esq., 708 Rayner Avenue, Baltimore, Md."*
+*"To D. E. Lindsay, Esq., 708 Rayner Avenue, Baltimore, Md."*

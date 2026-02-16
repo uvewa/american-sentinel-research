@@ -42,6 +42,6 @@ The very religious Pharisees, by the force of their influence, finally compelled
 
 But were not Pilate and his official colleagues to be obeyed civilly? Christ, in his Sermon on the Mount, taught the people to respect these very men. Whenever he was interrogated upon the point of civil obedience, he advised it. But in points of religion, he advised them to "render unto God the things that are God's."
 
-Pilate should have dismissed the assembly, as his wife advised him to do, but the voices of the people and the priests prevailed, and Pilate made the chief mistake of his life by letting himself be influenced to go beyond his jurisdiction—tc interfere in matters purely of a religious character
+Pilate should have dismissed the assembly, as his wife advised him to do, but the voices of the people and the priests prevailed, and Pilate made the chief mistake of his life by letting himself be influenced to go beyond his jurisdiction—to interfere in matters purely of a religious character.
 
 Whenever the legislative bodies of our country permit themselves to be influenced by the churches to enter the arena of religious legislation, they will be in spirit and kind repeating the history of Pilate in his condemnation of Christ. They should let these things alone, and attend to the kind of matters that relate to Cesar. Wm. Covert.

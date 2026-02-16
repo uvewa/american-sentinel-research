@@ -17,4 +17,4 @@ keywords:
   - paternal government
 ---
 
-Western civilization utterly repudiates this idea [of paternal government], denies the existence of any analogy between the family and the State, and seeks to make men and not *children* of the people.—*Pres. George Washbum.*
+Western civilization utterly repudiates this idea [of paternal government], denies the existence of any analogy between the family and the State, and seeks to make men and not *children* of the people.—*Pres. George Washburn.*

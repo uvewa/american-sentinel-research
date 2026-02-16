@@ -46,4 +46,6 @@ Next he argues that the public school is a part of the Government, and says:—
 
 > If the public school is a part of the Government, then any sect or other body of men, denying that the public school is a place where their children can be educated without violating their consciences, must be considered as hostile to the Government—in this case, the people of the United States—and, if they claim citizenship in the United States, as traitors to their Nation.
 
-Such despotic principles as these need no comment. They furnish their own comment. It would be well if those [330] "Americans from choice" would learn what American principles are, before they begin to assume the prerogative of asserting the despotic principles of the Government which they failed to leave behind them.A. T. J.
+Such despotic principles as these need no comment. They furnish their own comment. It would be well if those [330] "Americans from choice" would learn what American principles are, before they begin to assume the prerogative of asserting the despotic principles of the Government which they failed to leave behind them.
+
+A. T. J.

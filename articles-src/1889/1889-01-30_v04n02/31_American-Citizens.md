@@ -91,4 +91,4 @@ Publishers American Sentinel,
 
 Gentlemen: Inclosed please find one year's subscription to your paper, which advocates a doctrine to which I cordially subscribe, to wit, that Church and State must be kept separate and apart, if our republic and her institutions are to be preserved.
 
-The Sentinel is now published WEEKLY at the exceedingly low price of One Dollar per year. In clubs of ten or more copies to one address, 75 cents each. Agents wanted. [17]
+The Sentinel is now published WEEKLY at the exceedingly low price of One Dollar per year. In clubs of ten or more copies to one address, 75 cents each. Agents wanted.

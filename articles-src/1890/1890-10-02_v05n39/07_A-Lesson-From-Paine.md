@@ -31,6 +31,6 @@ INFIDELS of the present day profess to believe that bigotry and intolerance are 
 
 And again, of governments established by force, Paine says:—
 
-> Governments thus established last as long as the power to support them lasts; but that they might avail themselves of every engine in their favor, they united fraud to force, and set up an idol which they called *divine right*, and which, in imitation of the Pope who affects to be spiritual and temporal, *and in contradiction to the f**ounder of the Christian *religion, twisted itself afterward into an idol of another shape, called Church and State.
+> Governments thus established last as long as the power to support them lasts; but that they might avail themselves of every engine in their favor, they united fraud to force, and set up an idol which they called *divine right*, and which, in imitation of the Pope who affects to be spiritual and temporal, *and in contradiction to the founder of the Christian religion*, twisted itself afterward into an idol of another shape, called Church and State.
 
 Paine, infidel though he was, knew full well, and was man enough to acknowledge it, that the doctrine of Church and State was not *Christian* doctrine in any proper sense of the word, and it would be well if his disciples of the present day had equal discernment, and as great candor.

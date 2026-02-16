@@ -42,4 +42,6 @@ Just what these evils are, Mr. Conkling does not say; but a remark from another 
 
 > The spoils system extends its wonderful sway even to these far-off shores, and the lust of office induces men to leave their homes in the States and take petty positions in this distant and isolated country. Alas, alas! there are many abuses yet to be remedied before our country becomes what it should be in accord with its name and fame throughout the earth.
 
-So long as human nature remains what it is now, the abuses which the Doctor deplores are practically unavoidable to some extent, in civil government, but the Church might be kept comparatively free from them by keeping it entirely separate from the State. State aid corrupts the Church and does not improve the State, indeed, it corrupts both Church and State. C. P. B.
+So long as human nature remains what it is now, the abuses which the Doctor deplores are practically unavoidable to some extent, in civil government, but the Church might be kept comparatively free from them by keeping it entirely separate from the State. State aid corrupts the Church and does not improve the State, indeed, it corrupts both Church and State.
+
+C. P. B.

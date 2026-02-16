@@ -23,4 +23,4 @@ Here is a point that reveals not only the interest that the Sunday-law workers h
 
 > "It was there given out to the vast audience that a full report of the address by Dr. Crafts would appear in this morning's *Times* and that the opportunity to procure a copy should not be neglected. Nothing was said, however, about the fact that the hard-working compositors employed in the *Times* office would have to work on Sunday night setting up Dr. Crafts' denunciation of Sunday work."
 
-It is not Sunday work that they want to stop as much as it is Sunday-keeping they want to enforce. It is not so much the workingmen they want to protect, as it is the preachers that they they want to empower.
+It is not Sunday work that they want to stop as much as it is Sunday-keeping they want to enforce. It is not so much the workingmen they want to protect, as it is the preachers that they want to empower.

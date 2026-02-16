@@ -44,7 +44,7 @@ keywords:
 
 *Mr. R.*—Because they believe the Scriptures require them to do so.
 
-*Mr.* Q.—Do you think it is a religious duty that you owe to God to do this, or is it only a civil duty that you owe to the State?
+*Mr. Q.*—Do you think it is a religious duty that you owe to God to do this, or is it only a civil duty that you owe to the State?
 
 *Mr. R.*—You have the advantage of me as you have given the subject more thought than I have. But if we had no Sunday law we could not hold religious service on Sunday at all.
 
@@ -74,9 +74,9 @@ keywords:
 
 *Mr. Q.*—I have observed the seventh day of the week as the Sabbath of the Lord for more than twenty-one years. During all this time I have gone to the house of worship regularly on that day, and yet I have never asked my neighbors to refrain from labor on that day because I went to worship on that day.
 
-*Mr. Q.*—But there were so few of you.
+*Mr. R.*—But there were so few of you.
 
-*Mr. R.*—Yes, sir. We are not many, and because we are few, there is all the more people at work making a noise while we are at worship. Yet we keep the day to the Lord, and our worship is not disturbed, for we realize that we are rendering unto God the things which belong to God, and if others do not choose to do so it is none of our business.
+*Mr. Q.*—Yes, sir. We are not many, and because we are few, there is all the more people at work making a noise while we are at worship. Yet we keep the day to the Lord, and our worship is not disturbed, for we realize that we are rendering unto God the things which belong to God, and if others do not choose to do so it is none of our business.
 
 We have often been puzzled to understand how it is that the conscience of a person can be so badly disturbed because he may happen to see or hear someone working on Sunday, and yet that same person makes no scruple about disturbing his neighbor who keeps another day, although he professes to observe the golden rule and love his neighbor as himself.
 

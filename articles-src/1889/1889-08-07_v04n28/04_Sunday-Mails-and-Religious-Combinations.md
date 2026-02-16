@@ -18,7 +18,7 @@ keywords:
   - Congress
 ---
 
-In 1828-29 Congress was asked to suspend the carrying of the mails upon Sunday, and the committee to which the matter was referred reported adversely to granting the prayer of the petition. One of their reasons was as follows:—
+In 1828–29 Congress was asked to suspend the carrying of the mails upon Sunday, and the committee to which the matter was referred reported adversely to granting the prayer of the petition. One of their reasons was as follows:—
 
 > *"Extensive religious combinations to effect a political object are, in the opinion of the committee, always dangerous.* This first effort of this kind calls for the establishment of a principle which, in the opinion of the committee, would lay the foundation for dangerous innovations upon the spirit of the Constitution, and upon the religious rights of the citizens. *If admitted, it may be justly apprehended that the future measures of the Government will be strongly marked, if not eventually controlled, by the same influence. All religious despotisms commence by combination and influence, and when that influence begins to operate upon the political institutions of a country, the civil power soon bends under it; and the catastrophe of other nations furnishes an awful warning of the consequences."*
 

@@ -21,7 +21,8 @@ keywords:
 
 > What constitutes a State?
 
-> *Not* high-raised battlement and labored mound, . Thick wall and moated gate;
+> *Not* high-raised battlement and labored mound,
+> Thick wall and moated gate;
 > *Not* cities proud with spires and turrets crowned.
 > *Not* broad-armed bays and ports.
 > Where laughing at the storm, rich navies ride:

@@ -54,7 +54,7 @@ Therefore this resolution does propose that the United States Government shall m
 
 Now Christianity is the expression and embodiment of a religion.
 
-This resolution proposes to pledge the United States Government to the maintenance of an establishment of Christianity?
+This resolution proposes to pledge the United States Government to the maintenance of an establishment of Christianity.
 
 Therefore this resolution does propose to pledge the United States Government to the maintenance of an establishment of religion.
 

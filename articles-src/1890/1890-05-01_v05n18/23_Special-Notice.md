@@ -23,4 +23,4 @@ To all to whom the SENTINEL comes we wish to say this word. The SENTINEL is inva
 
 Therefore, dear friends, if the SENTINEL continues to come to you after you have asked us to stop sending it, you may know that we do not send it, do not know who does, and therefore cannot stop it, and that it is useless to write to us a second time on the subject.
 
-Also it is well to bear in mind that, although the SENTINEL, may come to you without your having subscribed for it, you will never be asked to pay anything for it. We do not send any SENTINELS anywhere except those which are paid for. If you have not subscribed and yet receive the paper, you will understand that somebody is either sending it to you himself, or has sent money to us to pay for sending it to you.
+Also it is well to bear in mind that, although the SENTINEL may come to you without your having subscribed for it, you will never be asked to pay anything for it. We do not send any SENTINELS anywhere except those which are paid for. If you have not subscribed and yet receive the paper, you will understand that somebody is either sending it to you himself, or has sent money to us to pay for sending it to you.

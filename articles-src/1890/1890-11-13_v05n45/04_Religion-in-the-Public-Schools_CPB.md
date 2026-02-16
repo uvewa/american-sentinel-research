@@ -48,4 +48,6 @@ Turning to the Sermon on the Mount, we are confronted by difficulties no less se
 
 These examples might be multiplied almost indefinitely, but it is quite unnecessary; the fact is that there is no such thing as "unsectarian teaching of religion" possible. Even the most elementary truths of the Christian religion cannot be taught without teaching things which are sectarian as between different bodies of professed Christians to say nothing of the beliefs of those who are not Christians, but whose rights are just as sacred, and to be just as jealously guarded by the State, as are the rights of Christians.
 
-The State is composed of people of all religions and of no religion. The public schools, are supported by a tax levied upon all property alike, and it is but just that it should be expended in a manner approved by all, or that, at least, men should not be compelled to indirectly contribute to the support and propagation of religious tenets which they do not believe, by being taxed for the support of schools in which religion is taught.C. P. B.
+The State is composed of people of all religions and of no religion. The public schools, are supported by a tax levied upon all property alike, and it is but just that it should be expended in a manner approved by all, or that, at least, men should not be compelled to indirectly contribute to the support and propagation of religious tenets which they do not believe, by being taxed for the support of schools in which religion is taught.
+
+C. P. B.

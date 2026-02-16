@@ -19,4 +19,4 @@ keywords:
   - political organizations
 ---
 
-REFORMS are not to come from political organizations, but from your own individual work and mine. In order to make that example effective we must be on the side of right and justice.—*Col*.* R*.* W*.* Thompson, Terre Haute*,* Ind*.
+REFORMS are not to come from political organizations, but from your own individual work and mine. In order to make that example effective we must be on the side of right and justice.—*Col. R. W. Thompson, Terre Haute, Ind.*

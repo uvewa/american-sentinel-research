@@ -24,7 +24,7 @@ keywords:
 
 # Follies of the Wise.
 
-IT seems from a Washington dispatch printed in the *Boston Advertiser,* that Mr.. Edmunds is still meditating upon his proposed national university at Washington,, and is even thinking of making the establishment of such an institution a memorial and celebration of the discovery of America:—
+IT seems from a Washington dispatch printed in the *Boston Advertiser,* that Mr. Edmunds is still meditating upon his proposed national university at Washington, and is even thinking of making the establishment of such an institution a memorial and celebration of the discovery of America:—
 
 > Senator Edmunds, in speaking about the Chicago World's Fair bill to-day, said that he did not intend to antagonize that measure when it comes up for consideration, but that he did propose to bring forward at as early a day as possible his National University bill.
 

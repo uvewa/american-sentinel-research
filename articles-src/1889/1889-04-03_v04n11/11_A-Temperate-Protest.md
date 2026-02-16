@@ -24,7 +24,7 @@ keywords:
 
 # A Temperate Protest.
 
-The following protest was adopted by unanimous vote of a large congregation assembled in Aurora, Ill, February 3. It is temperate in its language, and we do not see how anybody can dissent from its statements without convicting himself of bigotry:—
+The following protest was adopted by unanimous vote of a large congregation assembled in Aurora, Ill., February 3. It is temperate in its language, and we do not see how anybody can dissent from its statements without convicting himself of bigotry:—
 
 *To the Hon. Senate and House of Representatives of the U. S. Congress—*
 

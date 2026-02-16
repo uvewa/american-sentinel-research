@@ -14,4 +14,4 @@ keywords:
   - petitions
 ---
 
-FOR blank petitions against religious legislation, address W. H. MC KEE, 225 A Street, N. E., Washington, D. C. [215-216]
+FOR blank petitions against religious legislation, address W. H. McKEE, 225 A Street, N. E., Washington, D. C.

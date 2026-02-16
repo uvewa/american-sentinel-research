@@ -26,7 +26,7 @@ keywords:
   - common English version
 ---
 
-THE proper answer to the question whether the Bible is "a sectarian booh:," depends wholly upon what is meant by the question, and upon the relations in which it is asked.
+THE proper answer to the question whether the Bible is "a sectarian book," depends wholly upon what is meant by the question, and upon the relations in which it is asked.
 
 The common English version of the Bible, being equally accepted and used among all Protestants, is not, as between them, in any sense sectarian. This same version, however, is such as between Protestants and Catholics, since it is not accepted and used by both. So, also, the Douay version of the Bible, though not sectarian as between Catholics, is such as between Protestants and Catholics, since it is not accepted and used by both. To introduce into the public school either of these versions, and make the reading of either a part of school exercise, whether for the purpose of worship or that of religious instruction, is plainly to place in the public school a sectarian book as between Protestants and Catholics.
 

@@ -41,6 +41,6 @@ The *Freidereker* is a German paper published in Milwaukee, Wis., devoted to the
 
 The language of the above petition is plain, and shows the inevitable drift of all religious legislation by the State. By this straw, although in a foreign country, we may easily forecast the prevailing direction of the wind in the United States when the Blair measures shall have been enacted into laws. At that meeting the Catholic loyalties of the entire Austrian Empire were represented by delegates, under the guidance of their priests, bishops, and cardinals, working in the interest of the church. The European powers were urged to re-enthrone the Pope of Rome, and delegates pledged themselves to support and favor the church press and the church schools.
 
-With the Protestant churches in America banded together in a 44 National Reform Association" to further the work of making an *Image *to the Papacy within our own Government, is there not cause for alarm at the menace to our religious liberty. May the American people read correctly the signs of the times. There are breakers ahead.
+With the Protestant churches in America banded together in a "National Reform Association" to further the work of making an *Image *to the Papacy within our own Government, is there not cause for alarm at the menace to our religious liberty. May the American people read correctly the signs of the times. There are breakers ahead.
 
 *Columbus, Ohio.*

@@ -22,7 +22,7 @@ keywords:
   - Bellamyism
 ---
 
-THE assumption of police power over the State by the Legislature of Massachusetts for the enforcement of the Sundayclosing of saloons, and the earnest effort made by the supporters of that measure to proselyte other States to the same dangerous policy, is still another evidence of the decided trend of the so-called "reformers" toward paternalism in Government.
+THE assumption of police power over the State by the Legislature of Massachusetts for the enforcement of the Sunday-closing of saloons, and the earnest effort made by the supporters of that measure to proselyte other States to the same dangerous policy, is still another evidence of the decided trend of the so-called "reformers" toward paternalism in Government.
 
 Mr. Dudley, of Boston, said, in the Sunday Convention, held in Washington last winter: "Massachusetts determined to take it into her own hands to enforce her own laws and to control the police force; but in Boston was shown the force of the law—the power behind it. . . . It has been claimed that this is an interference with the local government, but it is not. Fifty-nine out of every sixty of these convictions are for violations of the Sunday law, and only one for a violation of the city law."
 

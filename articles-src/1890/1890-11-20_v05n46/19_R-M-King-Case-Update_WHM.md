@@ -49,4 +49,6 @@ While in jail he has been "interviewed" by a representative of the county paper,
 
 > The editor of the *News-Banner* came down yesterday, and I had quite a talk with him. He asked me if the Judge would turn me out would I go home and quit work on Sunday? I told him that I could not promise that. I told him that I thought that I had a God-given right to work six days if I chose to do so. He also asked me if I would leave the State if the Governor would pardon me? I told him, No, sir!
 
-In the United States of America, during the last decade of the nineteenth century, a man, without known fault as a Christian and a citizen, is fined and imprisoned because in his devout simplicity, he reads in his Bible the commandment of God, "Six days shalt thou labor and do all thy work, but the seventh day is the Sabbath of the Lord thy God, in it thou shalt do no work," etc., and acts accordingly. Is it possible to imagine a more ludicrous travesty on justice, true religion, and common sense?W. H. M.
+In the United States of America, during the last decade of the nineteenth century, a man, without known fault as a Christian and a citizen, is fined and imprisoned because in his devout simplicity, he reads in his Bible the commandment of God, "Six days shall thou labor and do all thy work, but the seventh day is the Sabbath of the Lord thy God, in it thou shalt do no work," etc., and acts accordingly. Is it possible to imagine a more ludicrous travesty on justice, true religion, and common sense?
+
+W. H. M.

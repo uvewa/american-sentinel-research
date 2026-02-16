@@ -22,4 +22,4 @@ MINISTER'S wife (Sunday morning)— "Is it possible, my dear, that after all you
 
 Minister (very much hurt)—"You ought to know me better than that, Maria; this is last evening's paper."—*The Epoch.*
 
-We presume that this minister was read ing that great exponent of moral ideas, published in this city, which demands rigid Sunday laws, advertises Sunday excursions, and which, while denouncing Sunday papers as demoralizing, suggests that the columns of its Saturday evening edition always contain matter suitable for Sunday reading.
+We presume that this minister was reading that great exponent of moral ideas, published in this city, which demands rigid Sunday laws, advertises Sunday excursions, and which, while denouncing Sunday papers as demoralizing, suggests that the columns of its Saturday evening edition always contain matter suitable for Sunday reading.

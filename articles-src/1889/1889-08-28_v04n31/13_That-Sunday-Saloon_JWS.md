@@ -36,4 +36,4 @@ This is undoubtedly what such an argument means, if it means anything, for the s
 
 As long as the Sunday saloon is classed with Sunday newspapers, Sunday base-ball, etc., people naturally consider that it is legitimate on other days. And why not? Base-ball, newspapers, etc., are legitimate, certainly, and whenever the saloon is classed in with such things, people necessarily conclude that, apart from Sunday, the saloon is just as honest as any of these things mentioned.
 
-The saloon should certainly be opposed, and the whole of the accursed traffic connected with it should be wiped out forever; but, let our opposition be based upon the consistent grounds that the saloon is pernicious in its work and effects, not only on Sunday, but upon every other day of the week as well.J. W. Scoles.
+The saloon should certainly be opposed, and the whole of the accursed traffic connected with it should be wiped out forever; but, let our opposition be based upon the consistent grounds that the saloon is pernicious in its work and effects, not only on Sunday, but upon every other day of the week as well. J. W. Scoles.

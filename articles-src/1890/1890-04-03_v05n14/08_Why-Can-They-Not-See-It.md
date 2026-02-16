@@ -30,7 +30,7 @@ keywords:
   - Trinity law
 ---
 
-WE here present an extract from the speech of Mr. J. 0. Corliss, made at the late hearing before the Committee on District of Columbia, on the Breckinridge Sunday bill. It contains good points:—
+WE here present an extract from the speech of Mr. J. O. Corliss, made at the late hearing before the Committee on District of Columbia, on the Breckinridge Sunday bill. It contains good points:—
 
 This bill, instead of having a civil character, is a purely religious document, as you will notice by an examination of it. A civil bill can make provision for only civil matters; but this one enjoins the observance of a day, the non-observance of which is no incivility to any one. Sunday observance originated in religious worship, and has ever been regarded as a purely religious rite. Civil offenses are those which invade the rights of property or person; but if one labors on Sunday, he invades the rights of no human being. He robs no one of any property or of a single personal right. His neighbor may observe the day if he chooses, just the same as if the other man were doing so.
 

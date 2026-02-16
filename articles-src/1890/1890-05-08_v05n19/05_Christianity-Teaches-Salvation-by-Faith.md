@@ -18,4 +18,4 @@ keywords:
   - morality
 ---
 
-> *It is not Christianity to teach the children "Be virtuous and you shall be happy." It is Christianity only to teach them "Relieve on the Lord Jesus Christ and thou shall be saved."*
+> *It is not Christianity to teach the children "Be virtuous and you shall be happy." It is Christianity only to teach them "Believe on the Lord Jesus Christ and thou shalt be saved."*

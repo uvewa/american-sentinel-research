@@ -26,7 +26,7 @@ keywords:
 
 THE *Central Christian Advocate* says:—
 
-> It is not to the public school that we must look for the religious education of our children. The most we can do in this respect, so far as the public school is concerned, is to see that all the teachers are religious men aud women. The public school cannot be maintained except as a secular school.
+> It is not to the public school that we must look for the religious education of our children. The most we can do in this respect, so far as the public school is concerned, is to see that all the teachers are religious men and women. The public school cannot be maintained except as a secular school.
 
 The *Observer* quotes this, and comments as follows:—
 

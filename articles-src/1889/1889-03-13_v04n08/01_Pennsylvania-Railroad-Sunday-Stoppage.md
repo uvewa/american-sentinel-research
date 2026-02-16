@@ -17,4 +17,4 @@ keywords:
   - Pittsburg
 ---
 
-All freight trains on the Pennsylvania Railroad, except those bearing stock and perishable freight, were stopped at Pittsburg, on Saturday, February 1G, at 10 p. m., to give the employes a rest on Sunday. The Pennsylvania Company proposes to adopt this plan on all of its lines.
+All freight trains on the Pennsylvania Railroad, except those bearing stock and perishable freight, were stopped at Pittsburg, on Saturday, February 16, at 10 p. m., to give the employes a rest on Sunday. The Pennsylvania Company proposes to adopt this plan on all of its lines.

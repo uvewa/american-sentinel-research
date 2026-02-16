@@ -18,4 +18,4 @@ keywords:
   - Compulsory Education law
 ---
 
-THE Woman's Christian Temperance Union takes to itself much credit for securing the Illinois Compulsory Education law. They are entitled to all the credit that attaches to such a statute. The law is entirely worthy of its source
+THE Woman's Christian Temperance Union takes to itself much credit for securing the Illinois Compulsory Education law. They are entitled to all the credit that attaches to such a statute. The law is entirely worthy of its source.

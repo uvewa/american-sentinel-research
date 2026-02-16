@@ -31,7 +31,7 @@ keywords:
 
 The Pope has sent out a note of rejoicing over his triumphant conquest of Germany, upon which, under the above heading, the *Christian Advocate* comments as follows:—
 
-> "One of the most pitiable spectacles presented in these latter days to the world's gaze ds that of Prussia—great and Protestant Prussia—doing obeisance to the Pope of Rome.
+> "One of the most pitiable spectacles presented in these latter days to the world's gaze is that of Prussia—great and Protestant Prussia—doing obeisance to the Pope of Rome.
 
 > "If any human force could make Martin Luther and Philip Melanchthon arise from their graves beneath the marble slabs in the Wittenberg church, it would be this. But, alas! so bound hand and foot is their land to-day, that not one strong voice in the whole country dares to sound the alarm and tell the whole civilized world what is going on in Berlin.
 > "The climax has just been reached in the Pope's allocution, which came by cablegram from Rome. His holiness appeals to the whole world to hear his cry of victory over German Protestantism. Here are some of his jubilant notes:—

@@ -29,7 +29,7 @@ keywords:
 
 That the two have nothing to do with each other, except for each to leave the other alone to do its own work in its own way, and that any interference of the one with the other invariably leads to bad results, is what is clearly shown in a pamphlet of 176 pages, with the above title, written by Alonzo T. Jones, of the American Sentinel. The little book is the outgrowth of several lectures delivered in Minneapolis, in October, 1888. Much interest was awakened by the lectures at the time, and many requests were made for them to be furnished in such shape that they could be studied. Accordingly they were written out from the short-hand notes, revised and expanded, and the result is something that will well repay careful study. Following is the complete tables of contents:—
 
-Chapter 1.—What is Due to God, and What to Cesar?—Moral Law and Civil Law Compared—Sin and Crime Defined—God the only Moral Governor—The Principle Expressed by Christ is the Principle Embodied in the American Constitution.
+Chapter 1.—What is Due to God, and What to Cæsar?—Moral Law and Civil Law Compared—Sin and Crime Defined—God the only Moral Governor—The Principle Expressed by Christ is the Principle Embodied in the American Constitution.
 
 Chapter 2.—The Powers that Be.—An Exposition of Romans 13:1 by Examples from Holy Writ—How Earthly Governments are Ordained of God—The Powers of Rulers Limited by the Will of the People.
 
