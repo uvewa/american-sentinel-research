@@ -1,0 +1,17 @@
+# American Sentinel
+
+PUBLISHED WEEKLY, BY THE
+
+PACIFIC PRESS PUBLISHING COMPANY.
+
+No. 43 BOND STREET, NEW YORK.
+
+Entered at the New York Post-Office.
+
+EDITOR, - - - ALONEO T. JONES.
+
+ASSOCIATE EDITORS, | CALVIN P. BOLLMAN.
+
+WILLIAM H. BURKE.
+
+Volume 8, Number 49. New York, December 14, 1893.
