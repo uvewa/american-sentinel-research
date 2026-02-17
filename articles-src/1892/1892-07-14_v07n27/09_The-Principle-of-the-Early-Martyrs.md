@@ -1,0 +1,26 @@
+---
+title: "The Principle of the Early Martyrs"
+date: 1892-07-14
+publication: "American Sentinel"
+volume: 7
+issue: 27
+attribution: "editorial"
+
+principles:
+  - "Persecution"
+  - "Religious Liberty"
+
+applications:
+  - "Historical Parallels"
+  - "Freedom of Conscience"
+
+keywords:
+  - Early Christians
+  - Martyrs
+  - Tennessee
+  - Seventh-day Adventists
+  - Jupiter
+  - Incense
+---
+
+IT WAS FOR THIS VERY PRINCIPLE THAT THOUSANDS OF THE EARLY CHRISTIAN MARTYrs LAID DOWN THEIR LIVES. THEY WERE LEFT FREE TO WORSHIP THE TRUE GOD, BUT WERE REQUIRED TO SHOW RESPECT TO THE PREVAILING RELIGIO TO THE EXTENT OF THROWING A PINCH OF INCENSE INTO THE FIRE IN HONOR OF JUPITER. BUT THEY WENT TO THE STAKE RATHER THAN DO IT, JUST AS THE TENNESSEE ADVENTISTS GO TO JAIL, AND WOULD DOUBTLESS FACE DEATH ITSELF, RATHER THAN PROVE DISLOYAL TO THEIR CONVICTIONS OF DUTY TOWARD GOD. "CHRISTIANITY IS NOT A RELIGION OF CIRCUMSTANCES BUT OF PRINCIPLES."

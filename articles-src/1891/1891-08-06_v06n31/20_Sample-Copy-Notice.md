@@ -1,0 +1,19 @@
+---
+title: "Sample Copy Notice"
+date: 1891-08-06
+publication: "American Sentinel"
+volume: 6
+issue: 31
+attribution: "editorial"
+
+principles:
+  - "Religious Liberty"
+
+applications:
+  - "Freedom of Conscience"
+
+keywords:
+  - subscription
+---
+
+Note.—Any one receiving the AMERICAN SENTINEL without having ordered it may know that it is sent to him by some friend, unless plainly marked "Sample copy." It is our invariable rule to send out no papers without pay in advance, except by special arrangement, therefore, those who have not ordered the SENTINEL need have no fears that they will be asked to pay for it simply because they take it from the post-office.

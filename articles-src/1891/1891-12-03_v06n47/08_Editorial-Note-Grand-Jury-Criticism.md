@@ -1,0 +1,23 @@
+---
+title: "Editorial Note: Grand Juries Criticize Enforcement Leagues"
+date: 1891-12-03
+publication: "American Sentinel"
+volume: 6
+issue: 47
+attribution: "editorial"
+
+principles:
+  - "Religious Liberty"
+  - "The Sabbath Question"
+
+applications:
+  - "Sunday Legislation"
+
+keywords:
+  - Rome Georgia
+  - Newark New Jersey
+  - Law and Order League
+  - American Sabbath Union
+---
+
+THE GRAND JURY OF ROME, GEORGIA, HAS FOUND IT NECESSARY TO CRITICIZE WITH SEVERITY THE ACTION OF THE LAW AND ORDER LEAGUE OF THAT CITY. IN NEWARK, NEW JERSEY, THE GRAND JURY HAS LIKEWISE MENTIONED UNFAVORABLY THE COURSE TAKEN BY THIS LEGAL ARM OF THE AMERICAN SABBATH UNION. HOW LONG WILL IT BE BEFORE THE AUTHORITIES AND THE PEOPLE WILL REALIZE THE MIGHTY FEDERATION OF LEAGUES, ASSOCIATIONS, AND SOCIETIES WHICH EXISTS FOR THE PURPOSE OF OVERTHROWING CIVIL LIBERTY IN RELIGIOUS AFFAIRS?
