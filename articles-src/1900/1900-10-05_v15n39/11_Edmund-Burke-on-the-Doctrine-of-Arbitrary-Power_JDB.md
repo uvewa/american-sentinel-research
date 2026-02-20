@@ -1,0 +1,53 @@
+---
+title: "Edmund Burke on the Doctrine of Arbitrary Power"
+author: "John D. Bradley"
+author_short: "JDB"
+date: 1900-10-05
+publication: "American Sentinel"
+volume: 15
+issue: 39
+attribution: "explicit"
+principles:
+  - "Limits of Civil Authority"
+  - "Constitutional Principles"
+applications:
+  - "Proper Role of Government"
+  - "Civil vs Religious Arguments"
+keywords:
+  - Edmund Burke
+  - Warren Hastings
+  - arbitrary power
+  - Declaration of Independence
+  - imperialism
+  - India
+  - George III
+  - Westminster Hall
+---
+
+## EDMUND BURKE ON THE DOCTRINE OF ARBITRARY POWER.
+
+The quotations from prominent Americans recently given in these columns under the heading "Departing from American Principles," when sifted to their real essence, are an avowal of the doctrine of arbitrary power for the American Government. The principles of the Declaration of Independence are jeered and scoffed at because they maintain the equality of all men in their right-to civil and religious freedom and can not be made to harmonize with the assumption that dominion is the natural and necessary prerogative of some men and subjection the natural and necessary portion of other men.
+
+All legislation based upon such assumption is an assertion and exercise of arbitrary power—that is, government solely by the will and pleasure of the governing. All religious legislation is based upon this assumption, for in enacting and enforcing such laws it is assumed by the governing power that it can legislate without delegated authority, and can enforce laws which have absolutely no function in the protection of human rights. The power to enact religious laws can not be delegated, because no human being has an iota of authority in such matters over any other human being. Therefore all such legislation, not being necessary for the protection of human rights and having no authority or support but the will of those in power, is necessarily an assumption and exercise of arbitrary power.
+
+Those who jeer at the Declaration and declare its principles to be without foundation in history and incapable of syllogistic justification, and who assert that the nation has crossed the Rubicon of imperial responsibility, hold that the persons occupying the places of responsibility and authority in the American Government are warranted in the exercise of absolute and arbitrary rule over masses of men and countries of peoples.
+
+The claim to such authority and power is by no means original with those who now make it. On a certain notable occasion the exercise of this power for very similar purposes and under very similar circumstances was claimed in very similar terms. The answer made at that to this claim was ample then and it is ample now. It was an arraignment of the doctrine of arbitrary power that will be sufficient and unanswerable so long as truth and justice shall endure. In brief, the circumstances which called forth this language were these:
+
+In extending the commerce and trade of his country and introducing the blessings of Anglo-Saxon civilization the first governor-general of England's greatest dependency proceeded to govern without reference to the principles or constitution of the country of his birth. After a dozen years of this humane (?) dominion outside of law and constitutional principles his administration had become so corrupt and so oppressive that his countrymen who cared for liberty and for human rights without partiality for race or color, though separated by oceans and continents from the scenes of his desolating tyrannies, could endure it no longer and demanded his impeachment. And notwithstanding the personal favor and friendship of the sovereign (George III.) and the almost irresistible influence and power secured by the possession of millions of rupees accumulated during his rule, he was at last arraigned by the representatives of his countrymen before the High Court of Parliament.
+
+His defense when confronted with the shocking details of the enormities of his administration was, in words and in substance, the arguments that the American people have listened to now for some time, and to which they are still listening. He declared that in the country in which he governed an entirely different set of rules and of principles must be followed; that the people over whom he ruled were of a "most depraved state," and incapable of enjoying anything but oppression, and that he was authorized in ruling them arbitrarily because that was the kind of rule they had always been used to.
+
+Edmund Burke, at the trial before the Lords in Westminster Hall, replied in part as follows:
+
+"My lords, you have now heard the principles on which Mr. Hastings governs the part of Asia subjected to the British empire. You have heard his opinion of the mean and depraved state of those who are subject to it. You have heard his lecture upon arbitrary power, which he states to be the constitution of Asia. You hear the application he makes of it, and you hear the practices which he employs to justify it, and who the persons were on whose authority he relies and whose example he professes to follow. In the first place, your lordships will be astonished at the audacity with which he speaks of his own administration as if he was reading a speculative lecture on the evils attendant upon some vicious system of foreign government, in which he had no sort of concern whatsoever. And then, when in this speculative way he has established, or thinks he has, the vices of the government, he conceives he has found a sufficient apology for his own crimes. And if he violates the most solemn engagements, if he oppresses, extorts, and robs, if he imprisons, confiscates, banishes at his sole will and pleasure, when we accuse him for his ill treatment of the people committed to him as a sacred trust, his defense is,—'To be robbed, violated, oppressed is their privilege; let the constitution of their country answer for it; I did not make it for them. Slaves I found them, and as slaves I have treated them. I was a despotic prince; despotic governments are jealous and the subjects prone to rebellion. This very proneness of the subject to shake off his allegiance exposes him to continual danger from his sovereign's jealousy; and this is consequent upon the political state of Hindostanic governments.' He lays it down as a rule that despotism is the genuine constitution of India; that a disposition to rebellion in the subject or dependent prince is the necessary effect of this despotism, and that jealousy and its consequences naturally arise on the part of the sovereign; that the government is everything and the subject nothing; that the great landed men are in a mean and depraved state. . . .
+
+"But nothing is more false than that despotism is the constitution of any country in Asia that we are acquainted with. It is certainly not true of any Mahomedan constitution; but if it were, do your lordships really think that the nation would bear, that any human creature would bear, to hear an English governor defend himself on such principles? or, if he can defend himself on such principles, is it possible to deny the conclusion that no man in India has a security for anything, but by being totally independent of the British government? Here he has declared his opinion that he is a despotic prince; that he is to use arbitrary power, and, of course, all his acts are covered with that shield. 'I know,' says he 'the constitution of Asia only from its practice.' Will your lordships submit to hear the corrupt practices of mankind made the principles of government? No; it will be your pride and glory to teach men intrusted with power that, in their use of it, they are to conform to principles, and not to draw their principles from the corrupt practice of any man whatever. Was there ever heard or could it be conceived that a governor would dare to heap up all the evil practices, all the cruelties, oppressions, extortions, corruptions, briberies, of all the ferocious usurpers, desperate robbers, thieves, cheats, and jugglers that ever had office from one end of Asia to another, and consolidating all this mass of the crimes and absurdities of barbarous domination into one code, establish it as the whole duty of an English governor? I believe that till this time so audacious a thing was never attempted by man.
+
+"He have arbitrary power! My lords, the East India Company have not arbitrary power to give him; the king has no arbitrary power to give him; your lordships have not, nor the Commons, nor the whole legislature. We have no arbitrary power to give, because arbitrary power is a thing which neither any man can hold nor any man can give. No man can lawfully govern himself according to his own will, much less can one person be governed by the will of another. We are all born in subjection, all born equally, high and low, governors and governed, in subjection to one great, immutable, pre-existent law, prior to all our devices, and prior to all our contrivances, paramount to all our ideas and all our sensations, antecedent to our very existence, by which we are knit and connected in the eternal frame of the universe, out of which we cannot stir.
+
+"This great law does not arise from our conventions or compacts; but, on the contrary, it gives to our conventions and compacts all the force and sanction they can have; it does not arise from our vain institutions. Every good gift is of God; all power is of God, and He, who has given the power, and from whom alone it originates, will never suffer the exercise of it to be practiced upon any less solid foundation than the power itself. If, then, all dominion of man over man is the effect of the divine disposition, it is bound by the eternal laws of Him that gave it, with which no human authority can dispense; neither he that exercises it nor even those who are subject to it; and if they were mad enough to make an express compact that should release their magistrate from his duty, and should declare their lives, liberties, and properties dependent upon, not rules and laws, but his mere capricious will, that covenant would be void. The accepter of it has not his authority increased, but he has his crime doubled. Therefore, can it be imagined, if this be true, that He will suffer this great gift of government, the greatest, the best, that was ever given by God to mankind, to be the plaything and the sport of the feeble will of a man who, by a blasphemous, absurd, and petulant usurpation, would place his own feeble, contemptible, ridiculous will in the place of the divine wisdom and justice?"
+
+J. D. B.
+
+(Concluded next week.)

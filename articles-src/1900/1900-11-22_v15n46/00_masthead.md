@@ -1,0 +1,15 @@
+# THE SENTINEL OF LIBERTY
+*(Continuing American Sentinel.)*
+
+PUBLISHED WEEKLY AT 324 DEARBORN STREET,
+CHICAGO, ILL., BY THE
+**INTERNATIONAL RELIGIOUS LIBERTY ASSOCIATION.**
+
+Entered at the Chicago Post Office as Second-Class Matter.
+
+VOLUME 15. CHICAGO, NOVEMBER 22, 1900. NUMBER 46.
+
+|  SUBSCRIPTION PRICE, | - | - | - | - | - | - | $1.00  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  L. A. SMITH,
+C. P. BOLLMAN, | - | - | - | - | - | - | Editors.  |

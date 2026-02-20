@@ -1,0 +1,38 @@
+---
+title: "Teaching Morality on a Non-Religious Basis"
+date: 1900-10-18
+publication: "American Sentinel"
+volume: 15
+issue: 41
+attribution: "reprint"
+original_publication: "Lutheran Witness"
+principles:
+  - "Religion and Education"
+applications:
+  - "State Schools and Religious Instruction"
+keywords:
+  - public schools
+  - moral philosophy
+  - Stoics
+  - Epicureans
+  - Kant
+  - utilitarianism
+  - Confucius
+  - China
+---
+
+From the Lutheran Witness.
+
+In all ages of the world, as far as history dates back, there have been men who have sought to inculcate morality, *i. e.*, the duty of doing right, apart from religion. And the present age is no exception to this rule. Right here in our country this question of teaching morality on a non-religious basis is being forced to the front, of late, by the circumstance that a good many people are beginning to see the evil fruits of an education devoid of religious moral training, such as the majority of our children are receiving in the public schools of our country. This leads many to conclude that in order to save our people from becoming a nation of infidels and profligates it will be necessary to introduce the teaching of religion into our public schools. Several attempts have been made to introduce some kind of religious instruction to suit the tastes of all the various Christian and non-Christian patrons of the public schools, but as there are, as a rule, among these, atheists and freethinkers who will have no religious instruction, even of the most "broad" and liberal kind, for their children, this attempt has always ended in failure, and is bound to end thus in the future. There is only one way left, then, in the opinion of these people, to ward off the awful danger that is threatening our nation from this quarter, and that is to lay more stress on the teaching of morality on a non-religious basis in our public schools. We may well ask the question, therefore: Will any beneficial results be likely to accrue from such a method of teaching morality?
+
+Perhaps it will help us to find an answer to this question if we go back and review the effects that this manner of teaching morality has produced in the past. What is commonly called "moral philosophy" is exactly what is expressed by the heading of this article. This philosophy had its origin in Greece, where there were principally two schools, the Stoics and the Epicureans. Both these systems made the happiness of the individual the final goal of moral conduct as well as the standard of morality, *i. e.*, they taught that man ought to strive to do those things at all times that tended to make him happy, and that if he succeeded in this he had fulfilled the object of his existence. But the two systems differed in this, that the Epicurean sought happiness in the enjoyment of pleasures, while to the Stoic it consisted in an inner self-sufficiency, *i. e.*, in such a high degree of satisfaction with yourself that you can afford to despise enjoyment and even endure suffering with equanimity. This "happiness principle" prevailed with more or less variation until, in the last century, the German philosopher Kant brought forward the proposition that obedience to duty, regardless of happiness, is the first and foremost demand of morality. This was supplemented later by the theory of utilitarianism, which defines duty as consisting in doing that which brings the greatest benefit to society.
+
+This hurried outline of the history of moral philosophy will suffice to show that the teaching of morality on a non-religious basis has not been of a very stable character in the past. One system has antagonized and supplanted the other, and to-day philosophers are as far from agreeing what morality really consists in as they were thousands of years ago. This, it would seem, does not offer very much encouragement to those who advocate a moral training in our public schools divorced from religion. There is to this day no foundation upon which to base such a training, and to judge by past experiences, there never will be any. So long as a man refuses to accept the moral teachings of the Bible his conception of morality will always remain hazy and indefinite, because then his only moral guide is his natural conscience, which is corrupted since the fall, and therefore often errs in distinguishing between right and wrong.
+
+Nor will the advocates of this non-religious training in morality be able to derive much encouragement for their cause from the successes of moral philosophy in the past. No doubt it has, in individual cases, produced characters which, in the eyes of men, were models. But, upon the whole, it is safe to say that it has done but little for the uplifting and betterment of humankind. The Stoic system of philosophy produced a set of men that were unconcerned about their own or their neighbor's welfare, because it was their belief that the greatest happiness consisted in bearing unconcernedly whatever fate might bring to a person. The Epicurean system soon degenerated into a mere practice of the well-known motto: "Let us eat and drink, for to-morrow we die," and there is no doubt that it contributed in no small degree to the licentiousness and profligacy of the Roman Empire during its last declining years, and that the final collapse of Rome was largely due to the debauching influence of this system.
+
+As for the utilitarian system, which has of late superseded those just spoken of, it must indeed be admitted that its tendency is of a more elevating character, but in spite of this it has been comparatively barren of results so far, chiefly for the reason, no doubt, that its own adherents are still dissatisfied with the system and are continually striving to perfect it by applying to it the process of evolution, and as there is little hope of ever completing this process, the prospects for deriving any benefits from this system for our rising generation in the way of inculcating morality in the public schools of our country are meager enough indeed.
+
+It will also pay us here to cast a glance at China, where the renowned moralist Confucius inaugurated a system of morality on a non-religious basis thousands of years ago, which is clung to with remarkable tenacity by his nation to this very day. Confucius inculcated as the chief precepts of morality, veneration for ancestors and their customs, and filial obedience on the part of children to their parents and on the part of subjects to their government. What have been the effects of this system upon the Chinese people? It has made the Chinese a bigoted, self-satisfied people, hating bitterly every reform that would better their condition. It has made them a race of slaves and cowards, easily kept in humiliating bondage by a tyrannical government, whose rapacious officials regard the people merely as a source from which to extort as much money as possible for their own benefit.
+
+Yes, teaching morality on a non-religious basis is an experiment that has been tried again and again in various ages and sections of the world, and thus far every attempt has proved a failure, and those who are now advocating its being tried in our public schools are not likely to have any better success with it. It is still true what the wise man said three thousand years ago, that "the fear of the Lord is the beginning of wisdom." There is no true foundation for morality save that furnished by the divine Word, as Doctor Luther has stated so admirably in his "Small Catechism," in his explanation of the commandments. This one foundation for true morality is the fear and love of God.
