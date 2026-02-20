@@ -382,6 +382,22 @@ STATIC_TEMPLATE = r'''
             background: rgba(255,255,255,0.1);
         }
 
+        .download-offline-btn {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.8rem;
+            padding: 0.3rem 0.7rem;
+            border: 1px solid rgba(255,255,255,0.4);
+            border-radius: 4px;
+            white-space: nowrap;
+            opacity: 0.85;
+            transition: opacity 0.2s, background 0.2s;
+        }
+        .download-offline-btn:hover {
+            opacity: 1;
+            background: rgba(255,255,255,0.1);
+        }
+
         /* ================================================================
            LAYOUT: SIDEBAR + MAIN
            ================================================================ */
@@ -1898,6 +1914,7 @@ STATIC_TEMPLATE = r'''
             .sidebar,
             .sidebar-overlay,
             .hamburger-btn,
+            .download-offline-btn,
             .search-wrapper,
             .pagination,
             .back-btn,
@@ -2013,6 +2030,7 @@ STATIC_TEMPLATE = r'''
                     <h1>American Sentinel Research Archive</h1>
                     <p class="subtitle">Historical writings on religious liberty and church-state separation, 1886&ndash;1900</p>
                 </div>
+                <a href="offline.html" download class="download-offline-btn" id="download-offline-btn" title="Download for offline use">&#11015; Offline</a>
                 <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
             </div>
         </header>
@@ -2184,7 +2202,7 @@ STATIC_TEMPLATE = r'''
                                 <button class="detail-action-btn" id="cite-btn" aria-label="Cite this article" title="Cite">Cite</button>
                                 <button class="detail-action-btn" id="share-btn" aria-label="Share article" title="Share">Share</button>
                                 <button class="detail-action-btn" id="print-btn" aria-label="Print article" title="Print">Print</button>
-                                <button class="detail-action-btn" id="pdf-btn" aria-label="View original PDF scan" title="View Original Scan">PDF</button>
+                                <a class="detail-action-btn" id="pdf-btn" href="#" target="_blank" rel="noopener" aria-label="View original PDF scan" title="View Original Scan">PDF</a>
                             </div>
                         </div>
                         <div class="article-detail-meta" id="detail-meta"></div>
@@ -2279,6 +2297,7 @@ STATIC_TEMPLATE = r'''
         var ARTICLES_BASE = 'articles/';
         var SEARCH_DATA_URL = 'search-data.json';
         var PAGE_SIZE = 25;
+        var OFFLINE_MODE = false;
 
         /* ============================================================
            STATE
@@ -2485,6 +2504,11 @@ STATIC_TEMPLATE = r'''
            DATA LOADING
            ============================================================ */
         function loadCatalog() {
+            if (OFFLINE_MODE) {
+                catalog = window.__OFFLINE_CATALOG;
+                onCatalogLoaded();
+                return;
+            }
             var xhr = new XMLHttpRequest();
             xhr.open('GET', CATALOG_URL, true);
             xhr.onreadystatechange = function() {
@@ -2513,6 +2537,20 @@ STATIC_TEMPLATE = r'''
 
         function loadSearchData(callback) {
             if (searchDataLoaded) {
+                if (callback) callback();
+                return;
+            }
+            if (OFFLINE_MODE) {
+                var articles = window.__OFFLINE_ARTICLES;
+                var tmp = document.createElement('div');
+                searchData = {};
+                for (var aid in articles) {
+                    if (articles.hasOwnProperty(aid)) {
+                        tmp.innerHTML = articles[aid];
+                        searchData[aid] = tmp.textContent || tmp.innerText || '';
+                    }
+                }
+                searchDataLoaded = true;
                 if (callback) callback();
                 return;
             }
@@ -3879,6 +3917,9 @@ STATIC_TEMPLATE = r'''
             dom.saveBtn.innerHTML = isSaved(articleId) ? '&#9733;' : '&#9734;';
             dom.saveBtn.className = 'detail-action-btn' + (isSaved(articleId) ? ' saved' : '');
 
+            // PDF link
+            updatePdfLink();
+
             // Meta line
             var metaParts = [];
             if (article.author) metaParts.push(escapeHtml(article.author));
@@ -4240,6 +4281,22 @@ STATIC_TEMPLATE = r'''
         }
 
         function fetchArticleContent(articleId) {
+            if (OFFLINE_MODE) {
+                var html = window.__OFFLINE_ARTICLES[articleId];
+                if (html) {
+                    dom.detailBody.innerHTML = html;
+                    if (searchMatchedTerms.length > 0) {
+                        var matchCount = highlightTermInBody(searchMatchedTerms);
+                        showHighlightNav(matchCount);
+                        if (matchCount > 0) goToHighlight(0);
+                    }
+                } else {
+                    dom.detailBody.innerHTML = '<div class="no-results">' +
+                        '<h3>Article content not available</h3>' +
+                        '<p>The full text of this article was not included in this offline archive.</p></div>';
+                }
+                return;
+            }
             var url = ARTICLES_BASE + encodeURIComponent(articleId) + '.html';
             var xhr = new XMLHttpRequest();
             xhr.open('GET', url, true);
@@ -4812,23 +4869,33 @@ STATIC_TEMPLATE = r'''
             window.print();
         }
 
-        function viewOriginalPdf() {
-            if (!currentArticleId) return;
+        function updatePdfLink() {
+            if (!currentArticleId) { dom.pdfBtn.href = '#'; return; }
             var article = articleById[currentArticleId];
-            if (!article || !article.date || !article.volume || !article.issue) return;
+            if (!article || !article.date || !article.volume || !article.issue) { dom.pdfBtn.href = '#'; return; }
             var year = article.date.substring(0, 4);
             var vol = String(article.volume).padStart(2, '0');
             var num = String(article.issue).padStart(2, '0');
-            var filename = 'American Sentinel (' + article.date + ') Volume ' + vol + ', Number ' + num + '.pdf';
-            var url = '/files/american-sentinel-pdf-issues/' + year + '/' + encodeURIComponent(filename);
-            window.open(url, '_blank');
+            var pdfDate = article.date.length === 7 ? article.date + '-01' : article.date;
+            // Publication renamed to "Sentinel of Liberty" from v15n18 (1900-05-10)
+            var pubName = (article.volume === 15 && article.issue >= 18) ? 'Sentinel of Liberty' : 'American Sentinel';
+            var filename = pubName + ' (' + pdfDate + ') Volume ' + vol + ', Number ' + num + '.pdf';
+            var base = OFFLINE_MODE ? 'https://americansentinel.org' : '';
+            dom.pdfBtn.href = base + '/files/american-sentinel-pdf-issues/' + year + '/' + encodeURIComponent(filename);
         }
 
         /* ============================================================
            INITIALIZATION
            ============================================================ */
         function init() {
+            OFFLINE_MODE = typeof window.__OFFLINE_CATALOG !== 'undefined';
             cacheDom();
+
+            // Hide download button in offline mode
+            if (OFFLINE_MODE) {
+                var dlBtn = document.getElementById('download-offline-btn');
+                if (dlBtn) dlBtn.style.display = 'none';
+            }
 
             // Event listeners
             dom.searchInput.addEventListener('input', onSearchInput);
@@ -4895,7 +4962,7 @@ STATIC_TEMPLATE = r'''
             // Share, Print & PDF
             dom.shareBtn.addEventListener('click', shareArticle);
             dom.printBtn.addEventListener('click', printArticle);
-            dom.pdfBtn.addEventListener('click', viewOriginalPdf);
+            // PDF link href is set dynamically in updatePdfLink()
 
             // Citation modal events
             dom.citeBtn.addEventListener('click', showCiteModal);
@@ -4962,7 +5029,7 @@ STATIC_TEMPLATE = r'''
 # Site builder
 # ---------------------------------------------------------------------------
 
-def build_site(content_dir: Path, output_dir: Path, template_path: Path | None):
+def build_site(content_dir: Path, output_dir: Path, template_path: Path | None, offline: bool = False):
     """
     Build the complete static research portal.
 
@@ -5147,6 +5214,69 @@ def build_site(content_dir: Path, output_dir: Path, template_path: Path | None):
     print(f"  Output: {output_dir.resolve()}")
     print("=" * 50)
 
+    # ------------------------------------------------------------------
+    # Step 8 (optional): Generate offline.html
+    # ------------------------------------------------------------------
+    if offline:
+        print()
+        generate_offline_html(output_dir)
+
+
+# ---------------------------------------------------------------------------
+# Offline HTML generator
+# ---------------------------------------------------------------------------
+
+def generate_offline_html(output_dir: Path):
+    """Generate a single self-contained offline.html with all data embedded."""
+    print("=== Generating offline.html ===")
+    start = time.time()
+
+    index_path = output_dir / 'index.html'
+    catalog_path = output_dir / 'catalog.json'
+    articles_dir = output_dir / 'articles'
+
+    if not index_path.exists():
+        print("  Error: index.html not found — run build first")
+        return
+    if not catalog_path.exists():
+        print("  Error: catalog.json not found — run build first")
+        return
+
+    index_html = index_path.read_text(encoding='utf-8')
+    catalog_json = catalog_path.read_text(encoding='utf-8')
+
+    # Collect all article HTML fragments
+    articles_obj = {}
+    article_files = sorted(articles_dir.glob('*.html'))
+    for af in article_files:
+        article_id = af.stem
+        articles_obj[article_id] = af.read_text(encoding='utf-8')
+    print(f"  Embedded articles: {len(articles_obj)}")
+
+    articles_json = json.dumps(articles_obj, ensure_ascii=False, separators=(',', ':'))
+
+    # Escape </script> inside embedded JSON to prevent premature tag closing
+    catalog_json_safe = catalog_json.replace('</script>', '<\\/script>')
+    articles_json_safe = articles_json.replace('</script>', '<\\/script>')
+
+    # Inject data scripts before </body>
+    inject = (
+        '<script>window.__OFFLINE_CATALOG = ' + catalog_json_safe + ';</script>\n'
+        '<script>window.__OFFLINE_ARTICLES = ' + articles_json_safe + ';</script>\n'
+    )
+
+    if '</body>' in index_html:
+        offline_html = index_html.replace('</body>', inject + '</body>', 1)
+    else:
+        offline_html = index_html + '\n' + inject
+
+    offline_path = output_dir / 'offline.html'
+    offline_path.write_text(offline_html, encoding='utf-8')
+
+    size_mb = offline_path.stat().st_size / (1024 * 1024)
+    elapsed = time.time() - start
+    print(f"  Written: offline.html ({size_mb:.1f} MB) in {elapsed:.1f}s")
+
 
 # ---------------------------------------------------------------------------
 # CLI entry point
@@ -5183,9 +5313,15 @@ Examples:
         help='Path to custom HTML template (default: built-in template). '
              'Template may use {SITE_TITLE} and {CATALOG_URL} placeholders.',
     )
+    parser.add_argument(
+        '--offline',
+        action='store_true',
+        default=False,
+        help='Generate offline.html — a single self-contained file for offline use.',
+    )
 
     args = parser.parse_args()
-    build_site(args.content_dir, args.output, args.template)
+    build_site(args.content_dir, args.output, args.template, offline=args.offline)
 
 
 if __name__ == '__main__':
