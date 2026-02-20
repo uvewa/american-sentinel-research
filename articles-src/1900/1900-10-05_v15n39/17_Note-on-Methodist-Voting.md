@@ -1,20 +1,20 @@
 ---
-title: "Note on Methodist Voting"
+title: Note on Methodist Voting
 date: 1900-10-05
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 15
 issue: 39
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Church and State"
+- Church and State
 applications:
-  - "Church and State"
+- Separation of Church and State
 keywords:
-  - Michigan Christian Advocate
-  - Methodist
-  - temperance
-  - saloon
-  - political party
+- Michigan Christian Advocate
+- Methodist
+- temperance
+- saloon
+- political party
 ---
 
 The Michigan Christian Advocate, in giving some advice to "the voting Methodist," cites this paragraph from the chapter on temperance in the Methodist discipline: "We record our deliberate judgment that no political party has a right to expect, nor ought it to receive, the support of Christian men so long as it stands committed to the license policy or refuses to put itself on record in an attitude of open hostility to the saloon. But the foregoing must not be considered as in the interest of any political party."

@@ -1,31 +1,27 @@
 ---
-title: "The Public Schools"
+title: The Public Schools
 date: 1890-11-20
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 5
 issue: 46
-attribution: "reprint"
-original_publication: "The National View"
-
+attribution: reprint
+original_publication: The National View
 principles:
-  - "Religion and Education"
-  - "Church and State"
-
+- Religion and Education
+- Church and State
 applications:
-  - "State Schools and Religious Instruction"
-  - "Secular Education"
-  - "Separation of Church and State"
-
+- State Schools and Religious Instruction
+- Separation of Church and State
 keywords:
-  - public schools
-  - religious instruction
-  - church schools
-  - republican government
-  - secular education
-  - State
-  - Catholic
-  - Protestant
-  - Agnostic
+- public schools
+- religious instruction
+- church schools
+- republican government
+- secular education
+- State
+- Catholic
+- Protestant
+- Agnostic
 ---
 
 IT is not the business of the public schools to give a complete education, or even an approximation thereto. The principles upon which they are founded is simply to go so far as within reasonable limitations, may be deemed necessary for the protection and safety of the State. Beyond this we have no business to go. Religion is an individual want or realization, which pertains to the individual alone, or, distinct from his rights and duties, as represented in the State—a part of which he is, and in all of which he bears a responsible share, over and above any allegiance which he owes to his own spiritual nature or the religious powers which represent this element in the ecclesiastical organism which gives form and force to the outward acts of man.

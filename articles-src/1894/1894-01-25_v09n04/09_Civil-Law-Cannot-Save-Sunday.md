@@ -1,25 +1,22 @@
 ---
-title: "Civil Law Cannot Save Sunday"
+title: Civil Law Cannot Save Sunday
 date: 1894-01-25
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 4
-attribution: "reprint"
-original_publication: "Sabbath Outlook"
-
+attribution: reprint
+original_publication: Sabbath Outlook
 principles:
-  - "The Sabbath Question"
-  - "Limits of Civil Authority"
-
+- The Sabbath Question
+- Limits of Civil Authority
 applications:
-  - "Sunday Legislation"
-  - "Civil vs Religious Law"
-  - "Legislating Morality"
-
+- Sunday Legislation
+- Religious vs Civil Law
+- Legislating Morality
 keywords:
-  - Rev. Dr. J. H. Knowles
-  - Mail and Express
-  - Sabbath observance
+- Rev. Dr. J. H. Knowles
+- Mail and Express
+- Sabbath observance
 ---
 
 Rev. Dr. J. H. Knowles, in Mail and Express (New York), says:—

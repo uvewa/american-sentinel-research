@@ -1,29 +1,25 @@
 ---
-title: "The Eastern Question"
+title: The Eastern Question
 date: 1896-02-20
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 8
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-
+- Religious Liberty
+- Church and State
 applications:
-  - "Historical Parallels"
-  - "Prophecy and Current Events"
-
+- Historical Parallels
 keywords:
-  - Constantinople
-  - Turkey
-  - Eastern Question
-  - Russia
-  - Ottoman Empire
-  - Peter the Great
-  - Crimean War
-  - Daniel prophecy
-  - Michael stands up
+- Constantinople
+- Turkey
+- Eastern Question
+- Russia
+- Ottoman Empire
+- Peter the Great
+- Crimean War
+- Daniel prophecy
+- Michael stands up
 ---
 
 APFAIRS in the vicinity of Constantinople and in Asia Minor are more pacific than they were a few weeks ago; but the Eastern Question is not settled, nor will it be until the Turk shall have been driven from Europe.

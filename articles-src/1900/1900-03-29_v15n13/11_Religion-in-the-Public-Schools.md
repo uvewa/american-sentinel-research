@@ -1,32 +1,31 @@
 ---
-title: "Religion in the Public Schools."
+title: Religion in the Public Schools.
 date: 1900-03-29
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 15
 issue: 13
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Religion and Education"
-  - "Church and State"
-  - "Separation of Church and State"
+- Religion and Education
+- Church and State
 applications:
-  - "State Schools and Religious Instruction"
-  - "Sectarian Education"
-  - "Public Funding of Religious Schools"
-  - "Separation of Church and State"
+- State Schools and Religious Instruction
+- Sectarian Education
+- Public Funding of Religious Schools
+- Separation of Church and State
 keywords:
-  - The Outlook
-  - Dr. McSweeney
-  - Roman Catholic Church
-  - parochial schools
-  - public schools
-  - ecclesiastical system
-  - state education
-  - Spain
-  - Italy
-  - France
-  - Germany
-  - Canada
+- The Outlook
+- Dr. McSweeney
+- Roman Catholic Church
+- parochial schools
+- public schools
+- ecclesiastical system
+- state education
+- Spain
+- Italy
+- France
+- Germany
+- Canada
 ---
 
 ## Religion in the Public Schools.

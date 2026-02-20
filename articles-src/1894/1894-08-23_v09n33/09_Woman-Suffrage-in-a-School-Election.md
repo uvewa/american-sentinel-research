@@ -1,22 +1,19 @@
 ---
-title: "Woman Suffrage in a School Election"
+title: Woman Suffrage in a School Election
 date: 1894-08-23
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 33
-attribution: "reprint"
-original_publication: "Primitive Catholic"
-
+attribution: reprint
+original_publication: Primitive Catholic
 principles:
-  - "Church and State"
-
+- Church and State
 applications:
-  - "Church and State"
-
+- Separation of Church and State
 keywords:
-  - South Amboy
-  - St. Mary's Catholic Church
-  - Junior Order A. P. A.
+- South Amboy
+- St. Mary's Catholic Church
+- Junior Order A. P. A.
 ---
 
 Much ill-feeling has been engendered in South Amboy by the school election. The election was the first held under the new law, and a full board was elected. The trouble has grown out of the action of the priest in charge of St. Mary's Roman Catholic Church, who, it is said, ordered the women of the parish to vote for the candidates of their religious faith. About the time the polls opened the Catholic women met in St. Mary's School Hall. From there they went to the polling place in blocks of four. All were provided with ballots.

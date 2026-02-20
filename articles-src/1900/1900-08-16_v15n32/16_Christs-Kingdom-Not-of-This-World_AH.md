@@ -1,21 +1,21 @@
 ---
-title: "Christ's Kingdom Not of This World"
+title: Christ's Kingdom Not of This World
 date: 1900-08-16
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 15
 issue: 32
-attribution: "reprint"
-original_publication: "Religion and the State, by A. Hovey, D. D."
+attribution: reprint
+original_publication: Religion and the State, by A. Hovey, D. D.
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Separation of Church and State"
-  - "Civil vs Religious Law"
+- Separation of Church and State
+- Religious vs Civil Law
 keywords:
-  - Pilate
-  - apostles
-  - theocracy
+- Pilate
+- apostles
+- theocracy
 ---
 
 From "Religion and the State," by A. Hovey, D. D.

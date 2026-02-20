@@ -1,26 +1,22 @@
 ---
-title: "What They Want"
+title: What They Want
 date: 1896-02-20
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 8
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
-
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Christian Nation Claims"
-  - "Religious Institutions and Civil Power"
-  - "Clerical Control of Government"
-
+- Christian Nation Claims
+- Religious Institutions and Civil Power
 keywords:
-  - National Reform
-  - Sunday legislation
-  - W. F. Crafts
-  - Christian Statesman
-  - preachers as successors of prophets
+- National Reform
+- Sunday legislation
+- W. F. Crafts
+- Christian Statesman
+- preachers as successors of prophets
 ---
 
 The "National Reform" conception of the State,—the conception upon which Sunday legislation is demanded of Congress and other law-making bodies,—is that the State is the creature of God, and therefore amenable to God's moral law,—that law which says, "Thou shalt have no other gods before me," "Remember the Sabbath day to keep it holy," etc.

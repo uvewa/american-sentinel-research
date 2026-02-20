@@ -1,25 +1,22 @@
 ---
-title: "How Will They Do It?"
+title: How Will They Do It?
 date: 1886-06
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 1
 issue: 6
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Religious Liberty"
-
+- Church and State
+- Religious Liberty
 applications:
-  - "Religious Tests"
-  - "Christian Nation Claims"
-  - "Freedom of Conscience"
-
+- No Religious Tests
+- Christian Nation Claims
+- Freedom of Conscience
 keywords:
-  - National Reform Association
-  - religious tests
-  - E. B. Graham
-  - Jonathan Edwards
+- National Reform Association
+- religious tests
+- E. B. Graham
+- Jonathan Edwards
 ---
 
 WHEN the National Reform Association shall have accomplished its task; when it shall have obtained its proposed amendments to the Constitution, and the consequent legislation; when, by the application of its religious tests it shall have secured the conformity of all Christians, and, by the application of the Rev. E. B. Graham's mild-mannered measures, and the Rev. Jonathan Edwards's mode of Christian endeavor, shall have cleared the country of all dissenters; when thus they shall have created their Christian nation, we should like very much to know how they are going to keep it Christian. There will be, constantly, and by thousands, those who will be coming of age, and who will assume the responsibilities of citizenship.

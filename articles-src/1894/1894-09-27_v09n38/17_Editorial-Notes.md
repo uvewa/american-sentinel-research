@@ -1,27 +1,24 @@
 ---
-title: "Editorial Notes"
+title: Editorial Notes
 date: 1894-09-27
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 38
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Religious Liberty"
-
+- Church and State
+- Religious Liberty
 applications:
-  - "Papal Authority"
-  - "Separation of Church and State"
-
+- Religious Institutions and Civil Power
+- Separation of Church and State
 keywords:
-  - Leo XIII
-  - papal infallibility
-  - ex cathedra
-  - Mgr. Satolli
-  - Australia
-  - Parramatta
-  - Adventists
+- Leo XIII
+- papal infallibility
+- ex cathedra
+- Mgr. Satolli
+- Australia
+- Parramatta
+- Adventists
 ---
 
 Any one receiving the AMERICAN SENTINEL without having ordered it may know that it is sent to him by some friend. Therefore, those who have not ordered the SENTINEL need have no fears that they will be asked to pay for it.

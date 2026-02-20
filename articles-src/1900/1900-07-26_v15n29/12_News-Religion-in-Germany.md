@@ -1,21 +1,21 @@
 ---
-title: "Religion in Germany"
+title: Religion in Germany
 date: 1900-07-26
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 15
 issue: 29
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Religion and Education"
+- Church and State
+- Religion and Education
 applications:
-  - "Government Favoritism toward Religion"
-  - "Religious Instruction in Schools"
+- Government Favoritism toward Religion
+- State Schools and Religious Instruction
 keywords:
-  - Germany
-  - Sunday laws
-  - Dr. Stocker
-  - public schools
+- Germany
+- Sunday laws
+- Dr. Stocker
+- public schools
 ---
 
 Officially, Germany is one of the most religious of countries. It has Sunday laws which are strictly enforced. Christianity is recognized by the government, and its institutions are supported out of the public treasury. Religion is taught in the public schools, which all the children are required to attend, so that none is without religious instruction.

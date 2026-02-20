@@ -1,23 +1,20 @@
 ---
-title: "The Church Wants Power"
+title: The Church Wants Power
 date: 1897-03-25
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 12
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
-
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Proper Role of Government"
-  - "Church Power and Authority"
-
+- Proper Role of Government
+- Religious Institutions and Civil Power
 keywords:
-  - godliness
-  - political power
-  - divine power
+- godliness
+- political power
+- divine power
 ---
 
 THE CHURCH to-day wants power. That is evident enough from her own testimony. She realizes that she is not making that stand against the world's tide of sin and corruption that she should, and in various ways she makes confession of this truth.

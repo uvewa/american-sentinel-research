@@ -1,29 +1,26 @@
 ---
-title: "The Regency of God on Earth"
-author: "Alonzo T. Jones"
-author_short: "ATJ"
+title: The Regency of God on Earth
+author: Alonzo T. Jones
+author_short: ATJ
 date: 1894-08-30
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 34
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Religious Liberty"
-
+- Church and State
+- Religious Liberty
 applications:
-  - "Church and State"
-  - "Protestant-Catholic Alliance"
-  - "Religious Institutions and Civil Power"
-
+- Separation of Church and State
+- Protestant-Catholic Alliance
+- Religious Institutions and Civil Power
 keywords:
-  - Leo XIII
-  - Papal encyclical
-  - Regency of God
-  - Vicegerent
-  - Catholic World
-  - New York Tribune
+- Leo XIII
+- Papal encyclical
+- Regency of God
+- Vicegerent
+- Catholic World
+- New York Tribune
 ---
 
 Joachim Pecci, as Leo XIII., is pope of Rome, and of all that the word Rome suggests.

@@ -1,25 +1,22 @@
 ---
-title: "Moral and Civil Government"
-author: "W. W. Prescott"
-author_short: "WWP"
+title: Moral and Civil Government
+author: W. W. Prescott
+author_short: WWP
 date: 1896-04-09
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 15
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Limits of Civil Authority"
-  - "Church and State"
-
+- Limits of Civil Authority
+- Church and State
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - sin and crime
-  - morality and civility
-  - forgiveness
+- sin and crime
+- morality and civility
+- forgiveness
 ---
 
 **MORAL AND CIVIL GOVERNMENT.**

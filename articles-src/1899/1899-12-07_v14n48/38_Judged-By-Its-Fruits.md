@@ -1,47 +1,43 @@
 ---
-title: "Judged By Its Fruits."
+title: Judged By Its Fruits.
 date: 1899-12-07
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 14
 issue: 48
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Religious Institutions and Civil Power"
-
+- Church and State
 applications:
-  - "Religious Institutions and Civil Power"
-  - "Government Favoritism toward Religion"
-
+- Religious Institutions and Civil Power
+- Government Favoritism toward Religion
 keywords:
-  - Pope Leo XIII
-  - papal blessing
-  - Golden Rose
-  - Bomba king of Naples
-  - Francis Joseph emperor of Austria
-  - Sadowa
-  - Queen Isabella of Spain
-  - Louis Napoleon
-  - Empress Eugenie
-  - Germany
-  - England
-  - Prince Imperial
-  - Zulus
-  - Mrs. W. T. Sherman
-  - King Humbert
-  - Italy
-  - Boulanger
-  - Brazil
-  - Maximilian
-  - Mexico
-  - Sisters of Charity
-  - Dr. Windthorst
-  - Spanish troops
-  - Cuba
-  - Grand Bazar de Charite
-  - empress of Austria
-  - Primitive Catholic
+- Pope Leo XIII
+- papal blessing
+- Golden Rose
+- Bomba king of Naples
+- Francis Joseph emperor of Austria
+- Sadowa
+- Queen Isabella of Spain
+- Louis Napoleon
+- Empress Eugenie
+- Germany
+- England
+- Prince Imperial
+- Zulus
+- Mrs. W. T. Sherman
+- King Humbert
+- Italy
+- Boulanger
+- Brazil
+- Maximilian
+- Mexico
+- Sisters of Charity
+- Dr. Windthorst
+- Spanish troops
+- Cuba
+- Grand Bazar de Charite
+- empress of Austria
+- Primitive Catholic
 ---
 
 ## Judged By Its Fruits.

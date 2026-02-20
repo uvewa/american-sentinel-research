@@ -1,30 +1,27 @@
 ---
-title: "Civil Laws and Religion"
-author: "C. P. Bollman"
-author_short: "CPB"
+title: Civil Laws and Religion
+author: C. P. Bollman
+author_short: CPB
 date: 1887-03
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 2
 issue: 3
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Limits of Civil Authority"
-  - "Religious Liberty"
-  - "Church and State"
-
+- Limits of Civil Authority
+- Religious Liberty
+- Church and State
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-  - "Freedom of Conscience"
-  - "Religious Legislation"
-  - "State Establishment of Religion"
-
+- Proper Role of Government
+- Religious vs Civil Law
+- Freedom of Conscience
+- Religious Legislation
+- State Establishment of Religion
 keywords:
-  - National Reform
-  - Inquisition
-  - Peter and John
-  - Roman Catholicism
+- National Reform
+- Inquisition
+- Peter and John
+- Roman Catholicism
 ---
 
 # Civil Laws and Religion.

@@ -1,20 +1,20 @@
 ---
-title: "War and the Duel"
+title: War and the Duel
 date: 1897-09-02
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 34
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Religious Liberty"
+- Religious Liberty
 applications:
-  - "Christianity and War"
+- Proper Role of Government
 keywords:
-  - duelling
-  - war
-  - Prince Henry
-  - Count of Turin
-  - Abyssinia
+- duelling
+- war
+- Prince Henry
+- Count of Turin
+- Abyssinia
 ---
 
 A duel is a combat between two individuals. War is a combat between two nations. It is a duel on a grand scale.

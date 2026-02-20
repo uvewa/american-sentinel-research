@@ -1,35 +1,32 @@
 ---
-title: "The Sixteenth Amendment and the National League"
-author: "Alonzo T. Jones"
-author_short: "ATJ"
+title: The Sixteenth Amendment and the National League
+author: Alonzo T. Jones
+author_short: ATJ
 date: 1894-03-22
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 12
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
-  - "Religious Liberty"
-
+- Church and State
+- Limits of Civil Authority
+- Religious Liberty
 applications:
-  - "Separation of Church and State"
-  - "State Establishment of Religion"
-  - "Religious Legislation"
-  - "Government Favoritism toward Religion"
-  - "Religion and Education"
-
+- Separation of Church and State
+- State Establishment of Religion
+- Religious Legislation
+- Government Favoritism toward Religion
+- State Schools and Religious Instruction
 keywords:
-  - Sixteenth Amendment
-  - National League for the Protection of American Institutions
-  - James M. King
-  - John Jay
-  - Blair amendment
-  - Evangelical Alliance
-  - Supreme Court of Wisconsin
-  - Union League Club
-  - compulsory education
+- Sixteenth Amendment
+- National League for the Protection of American Institutions
+- James M. King
+- John Jay
+- Blair amendment
+- Evangelical Alliance
+- Supreme Court of Wisconsin
+- Union League Club
+- compulsory education
 ---
 
 We have been asked what objection we have against the proposed Sixteenth Amendment to the United States Constitution?

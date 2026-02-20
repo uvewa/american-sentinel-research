@@ -1,25 +1,22 @@
 ---
-title: "The Power of Love"
+title: The Power of Love
 date: 1898-09-29
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 13
 issue: 38
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Religious Liberty"
-
+- Church and State
+- Religious Liberty
 applications:
-  - "Church Politics"
-  - "Voluntary vs Coerced Religion"
-
+- Religious Institutions and Civil Power
+- Voluntary vs Coerced Religion
 keywords:
-  - power of love
-  - cross of Calvary
-  - self-sacrifice
-  - papacy
-  - politics
+- power of love
+- cross of Calvary
+- self-sacrifice
+- papacy
+- politics
 ---
 
 The power of love is the greatest power in the universe. It is the power of God; for "God is love." And being the greatest power in the universe, it is the power bequeathed to the Christian Church for the accomplishment of her mission in the world.

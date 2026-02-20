@@ -1,27 +1,24 @@
 ---
-title: "The Surrender of Conscience"
+title: The Surrender of Conscience
 date: 1898-09-29
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 13
 issue: 38
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Religious Liberty"
-  - "Limits of Civil Authority"
-
+- Religious Liberty
+- Limits of Civil Authority
 applications:
-  - "Freedom of Conscience"
-  - "Legislating Morality"
-  - "Sunday Laws"
-
+- Freedom of Conscience
+- Legislating Morality
+- Sunday Legislation
 keywords:
-  - Count Esterhazy
-  - Dreyfus case
-  - France
-  - Sunday laws
-  - militarism
-  - Jesuitism
+- Count Esterhazy
+- Dreyfus case
+- France
+- Sunday laws
+- militarism
+- Jesuitism
 ---
 
 A PROMINENT figure in the proceedings relating to the Dreyfus case, Count Esterhazy, has, it is said, made confession to several persons that he is guilty of having manufactured much of the evidence by which Dreyfus was convicted of treason and sent to his terrible punishment. The Sun, of this city, in making note of the infamy of such a character, says:—

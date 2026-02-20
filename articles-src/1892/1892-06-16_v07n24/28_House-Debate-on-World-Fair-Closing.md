@@ -1,25 +1,24 @@
 ---
-title: "House Debate on World's Fair Closing"
+title: House Debate on World's Fair Closing
 date: 1892-06-16
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 7
 issue: 24
-attribution: "reprint"
-original_publication: "Examiner"
+attribution: reprint
+original_publication: Examiner
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Religious Legislation"
-  - "Sunday Legislation"
-  - "Legislative Propriety"
+- Religious Legislation
+- Sunday Legislation
 keywords:
-  - House of Representatives
-  - World's Fair
-  - Sunday closing
-  - Johnstone
-  - Bland
-  - Dockery
+- House of Representatives
+- World's Fair
+- Sunday closing
+- Johnstone
+- Bland
+- Dockery
 ---
 
 THIS is the way the discussion on the Sunday closing of the World's Fair, in the House of Representatives, appeared to the Washington correspondent of the Examiner:

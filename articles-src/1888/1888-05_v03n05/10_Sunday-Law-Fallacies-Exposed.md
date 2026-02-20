@@ -1,29 +1,26 @@
 ---
-title: "Sunday-Law Fallacies Exposed"
+title: Sunday-Law Fallacies Exposed
 date: 1888-05
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 3
 issue: 5
-attribution: "reprint"
-original_publication: "Cincinnati Commercial Gazette"
-
+attribution: reprint
+original_publication: Cincinnati Commercial Gazette
 principles:
-  - "The Sabbath Question"
-  - "Limits of Civil Authority"
-
+- The Sabbath Question
+- Limits of Civil Authority
 applications:
-  - "Sunday Legislation"
-  - "Legislating Morality"
-  - "Civil vs Religious Law"
-
+- Sunday Legislation
+- Legislating Morality
+- Religious vs Civil Law
 keywords:
-  - Sabbath commandment
-  - seventh day
-  - first day
-  - Presbyterian Church
-  - Jehovah
-  - saloons
-  - crimes
+- Sabbath commandment
+- seventh day
+- first day
+- Presbyterian Church
+- Jehovah
+- saloons
+- crimes
 ---
 
 The Cincinnati *Commercial Gazette* of March 10 makes some good points against the advocates of civil statutes to enforce the observance of Sunday, or, as they call it, Sabbath. The article is too long to print entire, but we insert the main points, that expose the sophistry of those political religionists who propose to enforce religious observances under cover of civil statutes; and who propose to carry civil government into the realm of morals, or rather propose to reduce the moral law to a level with civil statutes, and to give to the law of God the sanction of civil enactments.

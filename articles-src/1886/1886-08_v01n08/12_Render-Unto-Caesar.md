@@ -1,22 +1,19 @@
 ---
-title: "Render Unto Caesar"
+title: Render Unto Caesar
 date: 1886-08
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 1
 issue: 8
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
-
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Separation of Church and State"
-  - "Civil vs Religious Law"
-
+- Separation of Church and State
+- Religious vs Civil Law
 keywords:
-  - Caesar
-  - Scripture
+- Caesar
+- Scripture
 ---
 
 "THEN saith he unto them, Render therefore unto Cesar the things which are Cesar's; and unto God the things that are God's." [64]

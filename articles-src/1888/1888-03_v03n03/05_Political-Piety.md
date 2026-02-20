@@ -1,27 +1,24 @@
 ---
-title: "Political Piety"
+title: Political Piety
 date: 1888-03
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 3
 issue: 3
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Religious Liberty"
-
+- Church and State
+- Religious Liberty
 applications:
-  - "Government Favoritism toward Religion"
-  - "Religious vs Civil Arguments"
-
+- Government Favoritism toward Religion
+- Civil vs Religious Arguments
 keywords:
-  - Julius Caesar
-  - Froude
-  - T. J. Clunie
-  - Chinese immigration
-  - John Sherman
-  - President Cleveland
-  - tariff question
+- Julius Caesar
+- Froude
+- T. J. Clunie
+- Chinese immigration
+- John Sherman
+- President Cleveland
+- tariff question
 ---
 
 Mr. Froude tells us that in the age of Julius Caesar, "public men spoke conventionally of Providence, that they might throw on their opponents the odium of impiety." Among the many things in our own day which show a tendency to the same results that followed the age of Caesar, this is not an exception. It is becoming common now for aspiring politicians to make capital for themselves by pretending that their opponents do not show proper respect to God, when they themselves have no more respect for him than has any other worshiper of mammon. A mass-meeting was held lately in San Francisco to work up legislation for the further restriction of Chinese immigration. State Senator T. J. Clunie made the principal speech, and one of his grand arguments against the Chinese being admitted to this country, was, that "they don't worship our God." But they have an excellent reason for that; and that is, *They can't vote.* If only the Chinese could vote we have not the least doubt that many of them would be just as ardent worshipers of the god of the San Francisco politicians as is Mr. Clunie himself.

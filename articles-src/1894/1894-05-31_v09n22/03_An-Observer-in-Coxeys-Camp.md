@@ -1,30 +1,27 @@
 ---
-title: "An Observer in Coxey's Camp"
+title: An Observer in Coxey's Camp
 date: 1894-05-31
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 22
-attribution: "reprint"
-original_publication: "New York Independent"
-
+attribution: reprint
+original_publication: New York Independent
 principles:
-  - "Limits of Civil Authority"
-  - "Persecution"
-
+- Limits of Civil Authority
+- Persecution
 applications:
-  - "Police Brutality"
-  - "Workers' Rights"
-  - "Government Role"
-
+- Legal Persecution
+- Day of Rest / Labor Arguments
+- Proper Role of Government
 keywords:
-  - Coxey's Army
-  - Army of the Commonweal
-  - Carl Browne
-  - Washington
-  - unemployment
-  - socialism
-  - police violence
-  - Labor Day
+- Coxey's Army
+- Army of the Commonweal
+- Carl Browne
+- Washington
+- unemployment
+- socialism
+- police violence
+- Labor Day
 ---
 
 On April 28th I visited the main "Army of the Commonweal," encamped at Rockville, Maryland. My purpose was the study of this popular uprising of the nineteenth century, while the army was at peace in country districts and just before its exciting entry into Washington.

@@ -1,26 +1,23 @@
 ---
-title: "The Object of Civil Government"
-author: "H. E. Giddings"
-author_short: "HEG"
+title: The Object of Civil Government
+author: H. E. Giddings
+author_short: HEG
 date: 1897-02-11
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 6
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Limits of Civil Authority"
-
+- Limits of Civil Authority
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - physical power
-  - self-government
-  - consent of the governed
-  - Nebuchadnezzar
-  - Pilate
+- physical power
+- self-government
+- consent of the governed
+- Nebuchadnezzar
+- Pilate
 ---
 
 ## The Object of Civil Government.

@@ -1,30 +1,27 @@
 ---
-title: "The Philippines Question"
+title: The Philippines Question
 date: 1898-08-25
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 13
 issue: 33
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Religious Liberty"
-
+- Church and State
+- Religious Liberty
 applications:
-  - "State Establishment of Religion"
-  - "Freedom of Religion"
-
+- State Establishment of Religion
+- Freedom of Conscience
 keywords:
-  - Philippines
-  - Manila
-  - Spain
-  - monks
-  - Franciscan
-  - Dominican
-  - Augustinian
-  - Jesuits
-  - papacy
-  - General Merritt
+- Philippines
+- Manila
+- Spain
+- monks
+- Franciscan
+- Dominican
+- Augustinian
+- Jesuits
+- papacy
+- General Merritt
 ---
 
 A commission composed of an equal number of representatives of the United States and of Spain is soon to begin a session to determine what disposition shall be made of the Philippines. A German paper says that the foreign firms in Manila met recently and agreed to urge upon the commission that the Franciscan, Dominican, and Augustinian monks be expelled from the islands, and that there be a stipulation for the freedom of religion.

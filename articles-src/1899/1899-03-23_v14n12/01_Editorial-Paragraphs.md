@@ -1,26 +1,23 @@
 ---
-title: "Editorial Paragraphs"
+title: Editorial Paragraphs
 date: 1899-03-23
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 14
 issue: 12
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-  - "The Sabbath Question"
-
+- Religious Liberty
+- Church and State
+- The Sabbath Question
 applications:
-  - "Enforced Religious Observance"
-  - "Limits of Civil Authority"
-  - "Separation of Church and State"
-
+- Enforced Religious Observance
+- Proper Role of Government
+- Separation of Church and State
 keywords:
-  - Sunday laws
-  - civil Sabbath
-  - religious rest
-  - worship
+- Sunday laws
+- civil Sabbath
+- religious rest
+- worship
 ---
 
 FORGETTING your neighbor's rights is the next step to losing your own.

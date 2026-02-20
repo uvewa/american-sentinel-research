@@ -1,41 +1,37 @@
 ---
-title: "Editorial Notes"
+title: Editorial Notes
 date: 1894-05-31
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 22
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-  - "Persecution"
-
+- Religious Liberty
+- Church and State
+- Persecution
 applications:
-  - "Sunday Laws"
-  - "Sunday Law Enforcement"
-  - "Papal Political Influence"
-  - "Religious Legislation"
-
+- Sunday Legislation
+- Religious Institutions and Civil Power
+- Religious Legislation
 keywords:
-  - Maryland arrests
-  - Adventists
-  - Jamestown
-  - barbers union
-  - anarchism
-  - Napoleon
-  - papacy
-  - Tennessee
-  - Capps case
-  - New York
-  - Sunday arrests
-  - Leo XIII
-  - encyclical
-  - Satolli
-  - lottery
-  - gambling
-  - church fairs
-  - London School Board
+- Maryland arrests
+- Adventists
+- Jamestown
+- barbers union
+- anarchism
+- Napoleon
+- papacy
+- Tennessee
+- Capps case
+- New York
+- Sunday arrests
+- Leo XIII
+- encyclical
+- Satolli
+- lottery
+- gambling
+- church fairs
+- London School Board
 ---
 
 Two more arrests for Sunday labor have been made in Maryland. As usual the subjects are Adventists. One is a preacher, who, after having raised up a small church of that faith, at Shady Side, Md., was preparing to move to a neighboring locality for another series of meetings. We are not informed as to the exact status of the cases at this time.

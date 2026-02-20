@@ -1,24 +1,24 @@
 ---
-title: "Sunday Enforcement in Arkansas"
+title: Sunday Enforcement in Arkansas
 date: 1900-10-05
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 15
 issue: 39
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "The Sabbath Question"
-  - "Church and State"
-  - "Persecution"
+- The Sabbath Question
+- Church and State
+- Persecution
 applications:
-  - "Sunday Legislation"
-  - "Legal Persecution"
-  - "Church and State"
+- Sunday Legislation
+- Legal Persecution
+- Separation of Church and State
 keywords:
-  - Arkansas
-  - Searcy
-  - Senator Crockett
-  - Sabbath-breaking
-  - Christian Sabbath
+- Arkansas
+- Searcy
+- Senator Crockett
+- Sabbath-breaking
+- Christian Sabbath
 ---
 
 # SUNDAY ENFORCEMENT IN ARKANSAS.

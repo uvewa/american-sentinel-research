@@ -1,26 +1,23 @@
 ---
-title: "Civil Sabbath"
+title: Civil Sabbath
 date: 1888-09
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 3
 issue: 9
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "The Sabbath Question"
-  - "Limits of Civil Authority"
-  - "Religious Liberty"
-
+- The Sabbath Question
+- Limits of Civil Authority
+- Religious Liberty
 applications:
-  - "Sabbath Observance and Enforcement"
-  - "Civil vs Religious Law"
-  - "Freedom of Conscience"
-
+- Sabbath Observance and Enforcement
+- Religious vs Civil Law
+- Freedom of Conscience
 keywords:
-  - Christian Statesman
-  - civil Sabbath
-  - fourth commandment
-  - Cesar
+- Christian Statesman
+- civil Sabbath
+- fourth commandment
+- Cesar
 ---
 
 # Civil Sabbath

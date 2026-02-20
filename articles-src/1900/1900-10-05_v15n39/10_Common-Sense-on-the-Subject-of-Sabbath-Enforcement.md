@@ -1,25 +1,25 @@
 ---
-title: "Common Sense on the Subject of Sabbath Enforcement"
+title: Common Sense on the Subject of Sabbath Enforcement
 date: 1900-10-05
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 15
 issue: 39
-attribution: "reprint"
-original_publication: "Saturday Night, Toronto, Ont."
+attribution: reprint
+original_publication: Saturday Night, Toronto, Ont.
 principles:
-  - "The Sabbath Question"
-  - "Church and State"
-  - "Religious Liberty"
+- The Sabbath Question
+- Church and State
+- Religious Liberty
 applications:
-  - "Sunday Legislation"
-  - "Church and State"
-  - "Freedom of Conscience"
+- Sunday Legislation
+- Separation of Church and State
+- Freedom of Conscience
 keywords:
-  - Westminster
-  - Lord's Day Alliance
-  - Toronto
-  - Sabbath
-  - Canadian journal
+- Westminster
+- Lord's Day Alliance
+- Toronto
+- Sabbath
+- Canadian journal
 ---
 
 # COMMON SENSE ON THE SUBJECT OF SABBATH ENFORCEMENT.

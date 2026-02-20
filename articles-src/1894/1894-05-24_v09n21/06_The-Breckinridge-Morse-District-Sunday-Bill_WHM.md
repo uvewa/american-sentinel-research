@@ -1,34 +1,31 @@
 ---
-title: "The Breckinridge-Morse District Sunday Bill"
-author: "W. H. McKee"
-author_short: "WHM"
+title: The Breckinridge-Morse District Sunday Bill
+author: W. H. McKee
+author_short: WHM
 date: 1894-05-24
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 21
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Religious Liberty"
-  - "Limits of Civil Authority"
-  - "Church and State"
-  - "Constitutional Principles"
-
+- Religious Liberty
+- Limits of Civil Authority
+- Church and State
+- Constitutional Principles
 applications:
-  - "Religious Legislation"
-  - "Sunday Laws"
-  - "Freedom of Conscience"
-  - "Legislating Morality"
-  - "First Amendment Protections"
-
+- Religious Legislation
+- Sunday Legislation
+- Freedom of Conscience
+- Legislating Morality
+- First Amendment Protections
 keywords:
-  - Breckinridge Sunday bill
-  - Morse Sunday bill
-  - District of Columbia
-  - Religious Liberty Association
-  - Blair Sunday-Rest bill
-  - Maryland law
-  - Constantine
+- Breckinridge Sunday bill
+- Morse Sunday bill
+- District of Columbia
+- Religious Liberty Association
+- Blair Sunday-Rest bill
+- Maryland law
+- Constantine
 ---
 
 [The following is a portion of a brief presented before the Horse Committee on the District of Columbia, by W. H. McKee, attorney for the Religious Liberty Association, on the occasion of the hearing on the Breckinridge Sunday bill for the District of Columbia, Jan. 6, 1891. It is just as applicable to the Morse Sunday bill for the District, now before the Commissioners for the District and the Horse Committee.]

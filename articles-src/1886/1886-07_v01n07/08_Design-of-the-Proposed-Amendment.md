@@ -1,28 +1,25 @@
 ---
-title: "Design of the Proposed Amendment"
+title: Design of the Proposed Amendment
 date: 1886-07
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 1
 issue: 7
-attribution: "reprint"
-original_publication: "Rev. Wm. Ballentine pamphlet"
-
+attribution: reprint
+original_publication: Rev. Wm. Ballentine pamphlet
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
-
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Religious Legislation"
-  - "Civil vs Religious Law"
-
+- Religious Legislation
+- Religious vs Civil Law
 keywords:
-  - Rev. Wm. Ballentine
-  - Associate Synod
-  - Dr. Wishart
-  - United Presbyterian
-  - Blair Bill
-  - Westminster standards
-  - Judge Story
+- Rev. Wm. Ballentine
+- Associate Synod
+- Dr. Wishart
+- United Presbyterian
+- Blair Bill
+- Westminster standards
+- Judge Story
 ---
 
 IN June, 1873, Rev. Wm. Ballentine, then pastor of the Associate Congregation of Bloomfield, Ohio, delivered a lecture before the Associate Synod, on National Reform. A few weeks afterward, Dr. Wishart published a reply in the *United Presbyterian,* of Pittsburg , and to these strictures Mr. Ballentine replied in a pamphlet, being denied admission to the columns of the *United Presbyterian.* With this explanation, we invite the reader's attention to the following extract from Mr. Ballentine's pamphlet. It shows in a clear light how the proposed amendment, if adopted, will lower the Scriptures to the level of ordinary civil affairs:—

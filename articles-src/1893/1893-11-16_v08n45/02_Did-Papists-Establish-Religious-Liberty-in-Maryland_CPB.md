@@ -1,35 +1,32 @@
 ---
-title: "Did Papists Establish Religious Liberty in Maryland?"
-author: "C. P. Bollman"
-author_short: "CPB"
+title: Did Papists Establish Religious Liberty in Maryland?
+author: C. P. Bollman
+author_short: CPB
 date: 1893-11-16
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 8
 issue: 45
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-  - "Historical Parallels"
-
+- Religious Liberty
+- Church and State
+- Persecution
 applications:
-  - "Separation of Church and State"
-  - "State Establishment of Religion"
-  - "Historical Parallels"
-  - "Minority Religious Rights"
-
+- Separation of Church and State
+- State Establishment of Religion
+- Historical Parallels
+- Minority Religious Rights
 keywords:
-  - Maryland
-  - Roman Catholics
-  - Cecilius Calvert
-  - Lord Baltimore
-  - Puritans
-  - religious toleration
-  - religious liberty
-  - Church of England
-  - American Cyclopaedia
-  - Leonard Calvert
+- Maryland
+- Roman Catholics
+- Cecilius Calvert
+- Lord Baltimore
+- Puritans
+- religious toleration
+- religious liberty
+- Church of England
+- American Cyclopaedia
+- Leonard Calvert
 ---
 
 We have several times recently referred to the claim of the papists that Roman Catholics established religious liberty in Maryland, and have challenged their right to any credit whatever on that score. First, because what they did was done only to prevent the legal establishment of some form of Protestantism; and second, because religious liberty was never established in Maryland, but only religious toleration. It has been well said that "toleration is not the opposite of intoleration, but is only a counterfeit of it. Both are despotisms. The one assumes to itself the right of withholding liberty of conscience, and the other of granting it." But toleration is the highest conception possible to papists, and consequently no State under the control of papists ever established religious *liberty*.

@@ -1,26 +1,23 @@
 ---
-title: "The Function of Conscience"
+title: The Function of Conscience
 date: 1896-05-14
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 20
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Religious Liberty"
-  - "Limits of Civil Authority"
-
+- Religious Liberty
+- Limits of Civil Authority
 applications:
-  - "Freedom of Conscience"
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-
+- Freedom of Conscience
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - conscience
-  - moral standard
-  - reason
-  - civil government
-  - sabbath laws
+- conscience
+- moral standard
+- reason
+- civil government
+- sabbath laws
 ---
 
 THE FUNCTION OF CONSCIENCE.

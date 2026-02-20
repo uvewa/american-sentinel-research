@@ -1,29 +1,26 @@
 ---
-title: "Common Law in English Decisions"
-author: "Addison Blakely"
-author_short: "AB"
+title: Common Law in English Decisions
+author: Addison Blakely
+author_short: AB
 date: 1896-01-09
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 2
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Constitutional Principles"
-  - "Limits of Civil Authority"
-
+- Constitutional Principles
+- Limits of Civil Authority
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - common law
-  - Lord Coke
-  - Fortescue
-  - natural law
-  - statute law
-  - custom law
-  - Sunday laws
+- common law
+- Lord Coke
+- Fortescue
+- natural law
+- statute law
+- custom law
+- Sunday laws
 ---
 
 ## COMMON LAW IN ENGLISH DECISIONS.

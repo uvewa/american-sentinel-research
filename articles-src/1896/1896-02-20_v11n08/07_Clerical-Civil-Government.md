@@ -1,32 +1,28 @@
 ---
-title: "Clerical Civil Government"
+title: Clerical Civil Government
 date: 1896-02-20
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 8
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Persecution"
-  - "Religious Liberty"
-
+- Church and State
+- Persecution
+- Religious Liberty
 applications:
-  - "Historical Parallels"
-  - "Religious Institutions and Civil Power"
-  - "Clerical Control of Government"
-  - "Religious Intolerance"
-
+- Historical Parallels
+- Religious Institutions and Civil Power
+- Religious Intolerance
 keywords:
-  - National Reform
-  - Scottish Covenanters
-  - Presbyterianism
-  - Buckle's History of Civilization
-  - Encyclopedia Britannica
-  - Kirk Session
-  - Sunday observance
-  - Spanish Inquisition
-  - clergy control
+- National Reform
+- Scottish Covenanters
+- Presbyterianism
+- Buckle's History of Civilization
+- Encyclopedia Britannica
+- Kirk Session
+- Sunday observance
+- Spanish Inquisition
+- clergy control
 ---
 
 A knowledge of what this Government will become when its legislators surrender fully to the demands of the clergy, and its laws are modeled after (their ideas of) the will of God, is not dependent upon theory or logic. It is furnished us by the plain testimony of historical facts.

@@ -1,21 +1,21 @@
 ---
-title: "Protestant Work in Cuba"
+title: Protestant Work in Cuba
 date: 1900-07-26
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 15
 issue: 29
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Religion and Education"
+- Religion and Education
 applications:
-  - "Religious Instruction in Schools"
-  - "Sectarian Education"
+- State Schools and Religious Instruction
+- Sectarian Education
 keywords:
-  - Cuba
-  - Catholic Standard and Times
-  - Havana
-  - public schools
-  - proselytizing
+- Cuba
+- Catholic Standard and Times
+- Havana
+- public schools
+- proselytizing
 ---
 
 A Cuban correspondent of the Catholic Standard and Times, writing from Havana under date of July 9, says of the operations of Protestants in the island:

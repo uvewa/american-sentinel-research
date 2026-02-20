@@ -1,27 +1,24 @@
 ---
-title: "Righteousness by Faith and Not by Civil Law"
-author: "H. J. Farman"
-author_short: "HJF"
+title: Righteousness by Faith and Not by Civil Law
+author: H. J. Farman
+author_short: HJF
 date: 1894-01-25
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 4
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Limits of Civil Authority"
-  - "Religious Liberty"
-
+- Limits of Civil Authority
+- Religious Liberty
 applications:
-  - "Legislating Morality"
-  - "Civil vs Religious Law"
-  - "Religious Legislation"
-
+- Legislating Morality
+- Religious vs Civil Law
+- Religious Legislation
 keywords:
-  - National Reformers
-  - Jonathan Edwards
-  - righteousness by faith
-  - ten commandments
+- National Reformers
+- Jonathan Edwards
+- righteousness by faith
+- ten commandments
 ---
 
 The standard of righteousness as held by Protestants in general is the same, namely, the ten commandments. The Baptists, Methodists, Congregationalists, Presbyterians, Episcopalians, Unitarians and others in this country hold with us the same standard by which righteousness is determined—the ten commandments. (See catechisms and creeds of the different churches.) This same standard of righteousness is held to by nearly all the Christian churches in the world, at least in theory if not in practice.

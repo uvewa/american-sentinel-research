@@ -1,32 +1,29 @@
 ---
-title: "The National Establishment of the Christian Religion"
-author: "Alonzo T. Jones"
-author_short: "ATJ"
+title: The National Establishment of the Christian Religion
+author: Alonzo T. Jones
+author_short: ATJ
 date: 1888-09
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 3
 issue: 9
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-  - "Constitutional Principles"
-
+- Church and State
+- Constitutional Principles
 applications:
-  - "State Establishment of Religion"
-  - "Religious Legislation"
-  - "Religion and Education"
-  - "Historical Parallels"
-
+- State Establishment of Religion
+- Religious Legislation
+- State Schools and Religious Instruction
+- Historical Parallels
 keywords:
-  - Blair amendment
-  - National religion
-  - public schools
-  - Christian religion
-  - National creed
-  - Constantine
-  - Council of Nice
-  - Papacy
+- Blair amendment
+- National religion
+- public schools
+- Christian religion
+- National creed
+- Constantine
+- Council of Nice
+- Papacy
 ---
 
 # The National Establishment of the Christian Religion.

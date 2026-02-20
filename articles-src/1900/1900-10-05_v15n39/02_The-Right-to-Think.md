@@ -1,27 +1,27 @@
 ---
-title: "The Right to Think"
+title: The Right to Think
 date: 1900-10-05
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 15
 issue: 39
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-  - "Limits of Civil Authority"
+- Religious Liberty
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Freedom of Conscience"
-  - "Proper Role of Government"
-  - "Church and State"
-  - "National Reform Association"
+- Freedom of Conscience
+- Proper Role of Government
+- Separation of Church and State
+- Christian Nation Claims
 keywords:
-  - Papacy
-  - Reformation
-  - National Reform party
-  - consent of the governed
-  - Declaration of Independence
-  - Sedalia
-  - Chautauqua Assembly
+- Papacy
+- Reformation
+- National Reform party
+- consent of the governed
+- Declaration of Independence
+- Sedalia
+- Chautauqua Assembly
 ---
 
 ## THE RIGHT TO THINK.

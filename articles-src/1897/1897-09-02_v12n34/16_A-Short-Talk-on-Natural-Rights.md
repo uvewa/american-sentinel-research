@@ -1,23 +1,22 @@
 ---
-title: "A Short Talk on Natural Rights"
+title: A Short Talk on Natural Rights
 date: 1897-09-02
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 34
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Religious Liberty"
-  - "Constitutional Principles"
+- Religious Liberty
+- Constitutional Principles
 applications:
-  - "Rights of Conscience"
-  - "Natural Rights"
+- Rights of Conscience
 keywords:
-  - natural rights
-  - Declaration of Independence
-  - Creator
-  - life
-  - liberty
-  - pursuit of happiness
+- natural rights
+- Declaration of Independence
+- Creator
+- life
+- liberty
+- pursuit of happiness
 ---
 
 ## A Short Talk on Natural Rights.

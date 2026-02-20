@@ -1,22 +1,22 @@
 ---
-title: "Science With the Bible, and Without the Bible"
+title: Science With the Bible, and Without the Bible
 date: 1897-09-02
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 34
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Religious Liberty"
+- Religious Liberty
 applications:
-  - "Religion in Education"
+- State Schools and Religious Instruction
 keywords:
-  - Bible
-  - science
-  - gravitation
-  - cohesion
-  - evolution
-  - nebular hypothesis
-  - Newton
+- Bible
+- science
+- gravitation
+- cohesion
+- evolution
+- nebular hypothesis
+- Newton
 ---
 
 Salvation is the one great subject of the Bible.

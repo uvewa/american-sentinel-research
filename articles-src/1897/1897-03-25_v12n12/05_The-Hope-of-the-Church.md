@@ -1,24 +1,21 @@
 ---
-title: "The Hope of the Church"
+title: The Hope of the Church
 date: 1897-03-25
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 12
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Religious Liberty"
-
+- Church and State
+- Religious Liberty
 applications:
-  - "Church Power and Authority"
-  - "Christian Nation Claims"
-
+- Religious Institutions and Civil Power
+- Christian Nation Claims
 keywords:
-  - Second Coming
-  - resurrection
-  - politics
-  - blessed hope
+- Second Coming
+- resurrection
+- politics
+- blessed hope
 ---
 
 ## The Hope of the Church.

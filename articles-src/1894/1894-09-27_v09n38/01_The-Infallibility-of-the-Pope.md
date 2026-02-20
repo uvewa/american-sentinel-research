@@ -1,26 +1,23 @@
 ---
-title: "The Infallibility of the Pope"
+title: The Infallibility of the Pope
 date: 1894-09-27
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 38
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
-
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Church and State"
-  - "Papal Authority"
-
+- Separation of Church and State
+- Religious Institutions and Civil Power
 keywords:
-  - Pope
-  - Infallibility
-  - Vatican Council
-  - Ex Cathedra
-  - Leo XIII
-  - Cardinal Gibbons
+- Pope
+- Infallibility
+- Vatican Council
+- Ex Cathedra
+- Leo XIII
+- Cardinal Gibbons
 ---
 
 "THE infallibility of the pope"—where does it come from? and how does he get it?

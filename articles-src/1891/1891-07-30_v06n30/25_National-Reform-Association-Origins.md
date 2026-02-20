@@ -1,30 +1,27 @@
 ---
-title: "National Reform Association Origins"
+title: National Reform Association Origins
 date: 1891-07-30
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 6
 issue: 30
-attribution: "reprint"
-original_publication: "Independent"
-
+attribution: reprint
+original_publication: Independent
 principles:
-  - "Church and State"
-  - "Christian Nation Claims"
-
+- Church and State
 applications:
-  - "State Establishment of Religion"
-  - "Religious Intolerance"
-
+- State Establishment of Religion
+- Religious Intolerance
+- Christian Nation Claims
 keywords:
-  - National Reform Association
-  - Reformed Presbyterian Church
-  - Scotch Covenanter Church
-  - D. McAllister
-  - R. J. George
-  - Christian Statesman
-  - Christian Nation
-  - R. C. Wylie
-  - Felix R. Brunot
+- National Reform Association
+- Reformed Presbyterian Church
+- Scotch Covenanter Church
+- D. McAllister
+- R. J. George
+- Christian Statesman
+- Christian Nation
+- R. C. Wylie
+- Felix R. Brunot
 ---
 
 The "s editorial notes the Independent, c. ' y 16, mentions some facts in reference to the National Reform Association with the legitimate deductions therefrom, which ought to have a wide circulation and receive consideration wherever the especial views of this Association and its first-born offshoot the Sabbath Union are taught. The Independent says:—

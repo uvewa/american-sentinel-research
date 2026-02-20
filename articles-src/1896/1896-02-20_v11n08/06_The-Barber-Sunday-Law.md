@@ -1,27 +1,24 @@
 ---
-title: "The Barber Sunday Law"
+title: The Barber Sunday Law
 date: 1896-02-20
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 8
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "The Sabbath Question"
-  - "Limits of Civil Authority"
-
+- The Sabbath Question
+- Limits of Civil Authority
 applications:
-  - "Sunday Legislation"
-  - "Class Legislation"
-  - "Religious vs Civil Law"
-
+- Sunday Legislation
+- Religious Legislation
+- Religious vs Civil Law
 keywords:
-  - New York
-  - Justice Ingraham
-  - Appellate division
-  - Supreme Court
-  - barber shops
-  - sabbath desecration
+- New York
+- Justice Ingraham
+- Appellate division
+- Supreme Court
+- barber shops
+- sabbath desecration
 ---
 
 Religious legislation in the State of New York has been recently strengthened by a decision by Justice Ingraham, of the Appellate division of the State Supreme Court, affirming the constitutionality of the law requiring all the barber shops in the State to be closed on Sundays, except in the cities of New York and Saratoga, where they are permitted to be open on Sundays till 1 o'clock P.M. The language by which the Justice sought to sustain his decision is as follows:—

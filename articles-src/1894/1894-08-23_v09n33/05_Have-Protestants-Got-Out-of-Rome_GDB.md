@@ -1,29 +1,26 @@
 ---
-title: "Have Protestants Got Out of Rome?"
-author: "G. D. Ballou"
-author_short: "GDB"
+title: Have Protestants Got Out of Rome?
+author: G. D. Ballou
+author_short: GDB
 date: 1894-08-23
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 33
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-  - "Persecution"
-
+- Religious Liberty
+- Church and State
+- Persecution
 applications:
-  - "Freedom of Conscience"
-  - "Church and State"
-  - "Legal Persecution"
-  - "Sunday Legislation"
-
+- Freedom of Conscience
+- Separation of Church and State
+- Legal Persecution
+- Sunday Legislation
 keywords:
-  - Reformation
-  - Diet of Augsburg
-  - Ridpath
-  - Cyclopedia of Universal History
+- Reformation
+- Diet of Augsburg
+- Ridpath
+- Cyclopedia of Universal History
 ---
 
 Was the Reformation of the sixteenth century a true and complete reform in principle, or was it only partial and incomplete in its principles and consequences? Let the following reflections by Ridpath, in his "Cyclopedia of Universal History," vol. 2, page 615, answer. After stating that the Diet of Augsburg, September 1555, produced a religious peace, which was more than a name, in that freedom of worship and equality of rights before the law were freely and fully granted, he proceeds in the next paragraph as follows:—

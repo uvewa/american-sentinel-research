@@ -1,29 +1,25 @@
 ---
-title: "Opening Political Assemblages With Prayer"
-author: "W. E. Cornell"
-author_short: "WEC"
+title: Opening Political Assemblages With Prayer
+author: W. E. Cornell
+author_short: WEC
 date: 1894-08-30
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 34
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-  - "Religious Liberty"
-
+- Church and State
+- Religious Liberty
 applications:
-  - "Church and State"
-  - "Separation of Church and State"
-
+- Separation of Church and State
 keywords:
-  - Political prayer
-  - State chaplaincy
-  - Iowa legislature
-  - Republican State Convention
-  - Rev. Mr. Weaver
-  - Rev. Mr. Shinn
-  - Des Moines
+- Political prayer
+- State chaplaincy
+- Iowa legislature
+- Republican State Convention
+- Rev. Mr. Weaver
+- Rev. Mr. Shinn
+- Des Moines
 ---
 
 It has long been customary in this country to open political assemblages, conventions, etc., by prayer. At the national capital a chaplain is employed and paid from the public funds for this purpose, while in the State legislatures it is a sort of compliment passed around among the various sects, each prayer costing the taxpayers $5; at least this is true in some States. Many cases where remarkable political prayers have been offered are on record, and the writer not long since saw a collection of them covering several columns of a newspaper.

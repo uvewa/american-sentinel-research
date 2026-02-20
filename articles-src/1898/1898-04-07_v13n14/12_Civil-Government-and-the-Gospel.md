@@ -1,23 +1,23 @@
 ---
-title: "Civil Government and the Gospel"
+title: Civil Government and the Gospel
 date: 1898-04-07
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 13
 issue: 14
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Separation of Church and State"
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
+- Separation of Church and State
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - civil government
-  - gospel
-  - force
-  - love
-  - character
+- civil government
+- gospel
+- force
+- love
+- character
 ---
 
 "The powers that be are ordained of God." Rom. 13:1. "The powers that be" represent civil government. In a fallen world, civil government—a government of force—is a necessity.

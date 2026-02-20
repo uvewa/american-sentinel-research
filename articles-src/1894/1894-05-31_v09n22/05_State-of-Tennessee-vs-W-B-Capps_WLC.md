@@ -1,34 +1,31 @@
 ---
-title: "State of Tennessee vs. W. B. Capps in Error: Brief and Argument of W. L. Carter, of Counsel for the Defense"
-author: "W. L. Carter"
-author_short: "WLC"
+title: 'State of Tennessee vs. W. B. Capps in Error: Brief and Argument of W. L. Carter, of Counsel for the Defense'
+author: W. L. Carter
+author_short: WLC
 date: 1894-05-31
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 22
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Religious Liberty"
-  - "Limits of Civil Authority"
-  - "Constitutional Principles"
-
+- Religious Liberty
+- Limits of Civil Authority
+- Constitutional Principles
 applications:
-  - "Sunday Laws"
-  - "Freedom of Conscience"
-  - "Religious Tests"
-  - "Seventh-day Sabbath Keepers"
-
+- Sunday Legislation
+- Freedom of Conscience
+- No Religious Tests
+- Sabbath Observance and Enforcement
 keywords:
-  - Tennessee
-  - W. B. Capps
-  - Seventh-day Adventist
-  - nuisance
-  - common law
-  - Parker case
-  - Lorry case
-  - Sunday labor
-  - religious liberty
+- Tennessee
+- W. B. Capps
+- Seventh-day Adventist
+- nuisance
+- common law
+- Parker case
+- Lorry case
+- Sunday labor
+- religious liberty
 ---
 
 STATE OF TENNESSEE,

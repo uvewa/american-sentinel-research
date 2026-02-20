@@ -1,27 +1,24 @@
 ---
-title: "W. C. T. U. Resolution on God's Law"
+title: W. C. T. U. Resolution on God's Law
 date: 1888-12
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 3
 issue: 12
-attribution: "editorial"
-original_publication: "Christian Statesman"
-
+attribution: editorial
+original_publication: Christian Statesman
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
-
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Religious Legislation"
-  - "Civil vs Religious Law"
-
+- Religious Legislation
+- Religious vs Civil Law
 keywords:
-  - Eighth District Woman's Christian Temperance Union
-  - Augusta
-  - civil law
-  - law of God
-  - Sinai
-  - National Reform
+- Eighth District Woman's Christian Temperance Union
+- Augusta
+- civil law
+- law of God
+- Sinai
+- National Reform
 ---
 
 The *Christian Statesman* doubtless rejoices to be able to print the following:—

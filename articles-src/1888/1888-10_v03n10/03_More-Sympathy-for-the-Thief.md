@@ -1,24 +1,21 @@
 ---
-title: "More Sympathy for the Thief"
+title: More Sympathy for the Thief
 date: 1888-10
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 3
 issue: 10
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Limits of Civil Authority"
-  - "Persecution"
-
+- Limits of Civil Authority
+- Persecution
 applications:
-  - "Sunday Legislation"
-  - "Religious Legislation"
-  - "Civil vs Religious Law"
-
+- Sunday Legislation
+- Religious Legislation
+- Religious vs Civil Law
 keywords:
-  - Selma
-  - California
-  - Blair Bill
+- Selma
+- California
+- Blair Bill
 ---
 
 Recently a preacher in Selma, Cal., delivered a sermon in which he said:—

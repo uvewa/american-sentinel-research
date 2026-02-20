@@ -1,31 +1,27 @@
 ---
-title: "A New Factor in Governmental Affairs"
+title: A New Factor in Governmental Affairs
 date: 1893-03-16
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 8
 issue: 11
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "The Sabbath Question"
-  - "Religious Institutions and Civil Power"
-
+- Church and State
+- The Sabbath Question
 applications:
-  - "Separation of Church and State"
-  - "Government Favoritism toward Religion"
-  - "Sunday Legislation"
-  - "Religious Institutions and Civil Power"
-
+- Separation of Church and State
+- Government Favoritism toward Religion
+- Sunday Legislation
+- Religious Institutions and Civil Power
 keywords:
-  - World's Fair Sunday closing
-  - Columbian Exposition
-  - ministers petition
-  - inauguration Sunday concerts
-  - Baltimore Conference of Methodists
-  - Bishop Newman
-  - Grover Cleveland
-  - national religion
+- World's Fair Sunday closing
+- Columbian Exposition
+- ministers petition
+- inauguration Sunday concerts
+- Baltimore Conference of Methodists
+- Bishop Newman
+- Grover Cleveland
+- national religion
 ---
 
 THE act of Congress by which it has closed the World's Fair on Sunday has already been used as a precedent for further proceedings by Government officials, in the same line, and also to remind the administration just entering upon its duties that a new factor has entered into governmental affairs, the influence of which must be acknowledged in official life. One paragraph of the ministers' petition to Congress, respecting the forbidding of the Sunday concerts in connection with the inauguration, reads thus:—

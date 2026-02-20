@@ -1,25 +1,25 @@
 ---
-title: "Israel Would Form a State"
+title: Israel Would Form a State
 date: 1897-06-24
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 25
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Religious Liberty"
+- Church and State
+- Religious Liberty
 applications:
-  - "Church and State"
-  - "Historical Parallels"
+- Separation of Church and State
+- Historical Parallels
 keywords:
-  - Israel
-  - Samuel
-  - Saul
-  - David
-  - Solomon
-  - Gideon
-  - Abimelech
-  - Jotham
+- Israel
+- Samuel
+- Saul
+- David
+- Solomon
+- Gideon
+- Abimelech
+- Jotham
 ---
 
 ISRAEL would form a State, and have a king, that they might be "like all the nations."

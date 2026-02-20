@@ -1,51 +1,48 @@
 ---
-title: "Pointed Press Paragraphs."
+title: Pointed Press Paragraphs.
 date: 1899-06-22
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 14
 issue: 25
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-  - "The Sabbath Question"
-
+- Religious Liberty
+- Church and State
+- The Sabbath Question
 applications:
-  - "Historical Parallels"
-  - "Persecution"
-  - "Sunday Legislation"
-  - "Religious Institutions and Civil Power"
-
+- Historical Parallels
+- Legal Persecution
+- Sunday Legislation
+- Religious Institutions and Civil Power
 keywords:
-  - Bohemia
-  - Rome
-  - Protestants
-  - Catholics
-  - dum-dum bullets
-  - peace conference
-  - Hague
-  - Samoa
-  - King Mataafa
-  - czar
-  - China
-  - Africa
-  - missionary
-  - rum
-  - John Bull
-  - Sunday newspaper
-  - pope
-  - international arbitration tribunal
-  - Bishop McCabe
-  - Philippines
-  - Constantinople
-  - Sultan
-  - Bishop McCabe
-  - Eastern Argus
-  - Canadian Baptist
-  - Chicago Times-Herald
-  - Catholic Standard and Times
-  - Kansas City Times
+- Bohemia
+- Rome
+- Protestants
+- Catholics
+- dum-dum bullets
+- peace conference
+- Hague
+- Samoa
+- King Mataafa
+- czar
+- China
+- Africa
+- missionary
+- rum
+- John Bull
+- Sunday newspaper
+- pope
+- international arbitration tribunal
+- Bishop McCabe
+- Philippines
+- Constantinople
+- Sultan
+- Bishop McCabe
+- Eastern Argus
+- Canadian Baptist
+- Chicago Times-Herald
+- Catholic Standard and Times
+- Kansas City Times
 ---
 
 One of the revenges of history is now taking place in Bohemia. In the seventeenth century the Protestants of this country were virtually exterminated at the instigation of Rome. So horrible was the persecution and slaughter that the population was reduced from 3,000,000 to 780,000 in twenty years. Now there is a great revulsion from Romanism. The history of the past is rising up in judgment. In two cities over 2,000 Catholics have united with the Protestant churches, and the movement is going on under energetic leaders. It is true there is a political impulse to the movement, but it is gathering power and may issue in something better.—Canadian Baptist.

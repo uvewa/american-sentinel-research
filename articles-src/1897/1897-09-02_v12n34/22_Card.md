@@ -1,17 +1,15 @@
 ---
-title: "Card"
+title: Card
 date: 1897-09-02
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 34
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Religious Liberty"
-applications:
-  - "Missionary Work"
+- Religious Liberty
 keywords:
-  - Foreign Mission Board
-  - Seventh-day Adventist
+- Foreign Mission Board
+- Seventh-day Adventist
 ---
 
 # Card.

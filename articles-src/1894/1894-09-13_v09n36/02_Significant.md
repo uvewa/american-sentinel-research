@@ -1,25 +1,22 @@
 ---
-title: "Significant"
+title: Significant
 date: 1894-09-13
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 36
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Limits of Civil Authority"
-  - "Persecution"
-
+- Limits of Civil Authority
+- Persecution
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - Colorado
-  - lynching
-  - oath-bound league
-  - anarchists
-  - Cripple Creek
+- Colorado
+- lynching
+- oath-bound league
+- anarchists
+- Cripple Creek
 ---
 
 The following statement of facts raise the query, Who are the antichrists?—

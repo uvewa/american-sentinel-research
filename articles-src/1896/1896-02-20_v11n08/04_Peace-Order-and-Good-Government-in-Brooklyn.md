@@ -1,27 +1,24 @@
 ---
-title: "Peace, Order, and Good Government in Brooklyn"
+title: Peace, Order, and Good Government in Brooklyn
 date: 1896-02-20
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 8
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "The Sabbath Question"
-  - "Limits of Civil Authority"
-
+- The Sabbath Question
+- Limits of Civil Authority
 applications:
-  - "Sunday Legislation"
-  - "Proper Role of Government"
-  - "Class Legislation"
-
+- Sunday Legislation
+- Proper Role of Government
+- Religious Legislation
 keywords:
-  - Brooklyn
-  - mass meeting
-  - excise law
-  - Sunday saloon closing
-  - Dr. Meredith
-  - Mayor Worster
+- Brooklyn
+- mass meeting
+- excise law
+- Sunday saloon closing
+- Dr. Meredith
+- Mayor Worster
 ---
 
 On the evening of January 29, a large "mass meeting" was held in Dr. Meredith's church, Brooklyn, for the purpose of securing a more rigid enforcement of the excise Sunday law in that city. Speeches were made and resolutions passed which were deemed appropriate to the occasion. The preamble and first resolution read thus:—

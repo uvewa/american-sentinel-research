@@ -1,34 +1,31 @@
 ---
-title: "Sunday 'Laws' Opposed to Public Policy"
-author: "Addison Blakely, Ph.D."
-author_short: "AB"
+title: Sunday 'Laws' Opposed to Public Policy
+author: Addison Blakely, Ph.D.
+author_short: AB
 date: 1896-02-06
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 6
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Religious Liberty"
-  - "Persecution"
-  - "The Sabbath Question"
-
+- Religious Liberty
+- Persecution
+- The Sabbath Question
 applications:
-  - "Sunday Legislation"
-  - "Legal Persecution"
-  - "Seventh-day Sabbath"
-
+- Sunday Legislation
+- Legal Persecution
+- Sabbath Observance and Enforcement
 keywords:
-  - California
-  - Arkansas
-  - Tennessee
-  - Georgia
-  - Judge Williams
-  - Bar Association
-  - Senator Crockett
-  - seventh-day Sabbath
-  - Sunday statutes
-  - Congress
+- California
+- Arkansas
+- Tennessee
+- Georgia
+- Judge Williams
+- Bar Association
+- Senator Crockett
+- seventh-day Sabbath
+- Sunday statutes
+- Congress
 ---
 
 # SUNDAY "LAWS" OPPOSED TO PUBLIC POLICY.

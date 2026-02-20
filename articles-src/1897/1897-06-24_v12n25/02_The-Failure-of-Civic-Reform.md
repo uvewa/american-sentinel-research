@@ -1,21 +1,21 @@
 ---
-title: "The Failure of \"Civic Reform\""
+title: The Failure of "Civic Reform"
 date: 1897-06-24
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 25
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Church and State"
-  - "Proper Role of Government"
+- Separation of Church and State
+- Proper Role of Government
 keywords:
-  - Dr. Parkhurst
-  - civic reformation
-  - Tammany
-  - New York City
+- Dr. Parkhurst
+- civic reformation
+- Tammany
+- New York City
 ---
 
 DR. PARKHURST, the noted apostle of civic reformation, has announced his retirement from active service in that line, on account of failing health. Upon his departure to seek its restoration in a foreign clime, he announced to his congregation that henceforth "my one devotion will be to my pulpit, to the life and work of this church, and to the interests of its families and individual members."

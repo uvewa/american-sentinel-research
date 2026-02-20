@@ -1,30 +1,27 @@
 ---
-title: "The Puritan Sabbath For 'Physical Rest'"
-author: "Alonzo T. Jones"
-author_short: "ATJ"
+title: The Puritan Sabbath For 'Physical Rest'
+author: Alonzo T. Jones
+author_short: ATJ
 date: 1894-11-29
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 47
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "The Sabbath Question"
-  - "Limits of Civil Authority"
-  - "Religious Liberty"
-
+- The Sabbath Question
+- Limits of Civil Authority
+- Religious Liberty
 applications:
-  - "Sunday Legislation"
-  - "Legislating Morality"
-  - "Civil vs Religious Law"
-
+- Sunday Legislation
+- Legislating Morality
+- Religious vs Civil Law
 keywords:
-  - Puritans
-  - Nicolas Bownde
-  - fourth commandment
-  - Sabbath
-  - physical rest
-  - seventh day
+- Puritans
+- Nicolas Bownde
+- fourth commandment
+- Sabbath
+- physical rest
+- seventh day
 ---
 
 ## The Puritan Sabbath For "Physical Rest."

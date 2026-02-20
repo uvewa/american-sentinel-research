@@ -1,25 +1,22 @@
 ---
-title: "No Representatives in Religion"
+title: No Representatives in Religion
 date: 1897-02-11
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 6
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Religious Liberty"
-  - "Limits of Civil Authority"
-
+- Religious Liberty
+- Limits of Civil Authority
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - legislators
-  - representatives
-  - religious legislation
-  - accountability
-  - individual conscience
+- legislators
+- representatives
+- religious legislation
+- accountability
+- individual conscience
 ---
 
 ## No Representatives in Religion.

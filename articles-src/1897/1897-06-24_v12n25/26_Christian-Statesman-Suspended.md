@@ -1,20 +1,20 @@
 ---
-title: "Christian Statesman Suspended"
+title: Christian Statesman Suspended
 date: 1897-06-24
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 25
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Church and State"
+- Church and State
 applications:
-  - "Church and State"
+- Separation of Church and State
 keywords:
-  - Christian Statesman
-  - Dr. David McAllister
-  - National Reform Association
-  - Reformed Presbyterian Synod
-  - Beaver Falls Pennsylvania
+- Christian Statesman
+- Dr. David McAllister
+- National Reform Association
+- Reformed Presbyterian Synod
+- Beaver Falls Pennsylvania
 ---
 
 THE *Christian Statesman*, well known as the organ of the National Reform party, has been suspended as a weekly paper, and its editor, Dr. David McAllister, removed from editorial charge of the same, by the action of the Reformed Presbyterian Synod, in session at Beaver Falls, Pa., June 2. This action was taken, we learn, because of heretical articles which the editor has been for some time publishing on the subject of church unity. The editor complains of this as being a blow against "the soul of editorial liberty."

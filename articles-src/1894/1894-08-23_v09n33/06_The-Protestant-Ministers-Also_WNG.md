@@ -1,26 +1,23 @@
 ---
-title: "The Protestant Ministers Also"
-author: "W. N. Glenn"
-author_short: "WNG"
+title: The Protestant Ministers Also
+author: W. N. Glenn
+author_short: WNG
 date: 1894-08-23
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 33
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-  - "Religion and Education"
-
+- Church and State
+- Religion and Education
 applications:
-  - "Church and State"
-  - "Sectarian Education"
-
+- Separation of Church and State
+- Sectarian Education
 keywords:
-  - San Francisco
-  - Stockton
-  - Ministers' Union
-  - evolution
+- San Francisco
+- Stockton
+- Ministers' Union
+- evolution
 ---
 
 A GREAT deal has been said, and much of it justly said, about the arrogance of the Catholic priesthood in the matter of the expurgation from the public school text-books of certain matters of well authenticated history, which show up the papal church of the past in an unenviable light. Much has also been said, and justly said, in denunciation of the subserviency of certain boards of education (notably that of San Francisco), in yielding to the aforesaid demands of the Catholic clergy. One who has given utterance to the bitterest words against Catholics and Catholic aggression is a leading Protestant minister of Stockton, Cal.

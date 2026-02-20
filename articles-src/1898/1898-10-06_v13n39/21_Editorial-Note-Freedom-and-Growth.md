@@ -1,16 +1,15 @@
 ---
-title: "Editorial Note: Freedom and Growth"
+title: 'Editorial Note: Freedom and Growth'
 date: 1898-10-06
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 13
 issue: 39
-attribution: "reprint"
-original_publication: "Rev. Richard E. Sykes"
+attribution: reprint
+original_publication: Rev. Richard E. Sykes
 principles:
-  - "Religious Liberty"
+- Religious Liberty
 applications:
-  - "Freedom of Conscience"
-  - "Freedom of Thought"
+- Freedom of Conscience
 keywords: []
 ---
 

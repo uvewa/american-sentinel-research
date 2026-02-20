@@ -1,22 +1,22 @@
 ---
-title: "Civil Government Not Religious"
+title: Civil Government Not Religious
 date: 1900-09-13
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 15
 issue: 36
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - sin
-  - crime
-  - natural rights
-  - marriage
-  - Papacy
+- sin
+- crime
+- natural rights
+- marriage
+- Papacy
 ---
 
 Civil government can not be Christian and it ought not to be anti-Christian. It should simply be devoid of religious character—that is, it ought to be civil.

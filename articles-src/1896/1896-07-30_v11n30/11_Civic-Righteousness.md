@@ -1,25 +1,22 @@
 ---
-title: "Civic Righteousness"
+title: Civic Righteousness
 date: 1896-07-30
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 30
-attribution: "reprint"
-original_publication: "Present Truth (London, Eng.)"
-
+attribution: reprint
+original_publication: Present Truth (London, Eng.)
 principles:
-  - "Limits of Civil Authority"
-  - "Constitutional Principles"
-
+- Limits of Civil Authority
+- Constitutional Principles
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - civic righteousness
-  - commandments of God
-  - Proverbs
-  - Psalm 119
+- civic righteousness
+- commandments of God
+- Proverbs
+- Psalm 119
 ---
 
 "CIVIC RIGHTEOUSNESS."

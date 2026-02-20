@@ -1,25 +1,22 @@
 ---
-title: "The Fountain of Law"
+title: The Fountain of Law
 date: 1896-04-09
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 15
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Limits of Civil Authority"
-  - "Religious Liberty"
-
+- Limits of Civil Authority
+- Religious Liberty
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-  - "Sunday Legislation"
-
+- Proper Role of Government
+- Religious vs Civil Law
+- Sunday Legislation
 keywords:
-  - natural law
-  - justice
-  - Sunday laws
-  - Dred Scott decision
+- natural law
+- justice
+- Sunday laws
+- Dred Scott decision
 ---
 
 ## THE FOUNTAIN OF LAW.

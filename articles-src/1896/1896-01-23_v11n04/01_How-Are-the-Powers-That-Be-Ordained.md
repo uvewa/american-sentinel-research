@@ -1,26 +1,23 @@
 ---
-title: "How Are the 'Powers That Be' Ordained?"
+title: How Are the 'Powers That Be' Ordained?
 date: 1896-01-23
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 4
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Limits of Civil Authority"
-  - "Constitutional Principles"
-
+- Limits of Civil Authority
+- Constitutional Principles
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - Romans 13
-  - usurpation
-  - Armenia
-  - Herod
-  - Nero
-  - Torquemada
+- Romans 13
+- usurpation
+- Armenia
+- Herod
+- Nero
+- Torquemada
 ---
 
 # HOW ARE THE "POWERS THAT BE" ORDAINED?

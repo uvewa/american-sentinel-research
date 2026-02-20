@@ -1,16 +1,16 @@
 ---
-title: "Statute vs. Law"
+title: Statute vs. Law
 date: 1900-10-18
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 15
 issue: 41
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Constitutional Principles"
+- Constitutional Principles
 applications:
-  - "Civil vs Religious Law"
+- Religious vs Civil Law
 keywords:
-  - justice
+- justice
 ---
 
 STATUTE may, and in fact often does, countenance wrong, but *law* recognizes only justice.

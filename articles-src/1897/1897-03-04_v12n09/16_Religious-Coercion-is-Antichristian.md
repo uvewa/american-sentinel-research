@@ -1,24 +1,21 @@
 ---
-title: "Religious Coercion is Antichristian"
+title: Religious Coercion is Antichristian
 date: 1897-03-04
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 9
-attribution: "reprint"
-original_publication: "Present Truth"
-
+attribution: reprint
+original_publication: Present Truth
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-
+- Religious Liberty
+- Church and State
 applications:
-  - "Voluntary vs Coerced Religion"
-  - "Limits of Civil Authority"
-
+- Voluntary vs Coerced Religion
+- Proper Role of Government
 keywords:
-  - temporal power
-  - spiritual coercion
-  - Christ
+- temporal power
+- spiritual coercion
+- Christ
 ---
 
 *"Present Truth," London, England.*

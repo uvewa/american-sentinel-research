@@ -1,30 +1,27 @@
 ---
-title: "Religious Liberty and Polygamy"
-author: "A. F. Ballenger"
-author_short: "AFB"
+title: Religious Liberty and Polygamy
+author: A. F. Ballenger
+author_short: AFB
 date: 1890-10-02
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 5
 issue: 39
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Religious Liberty"
-  - "Limits of Civil Authority"
-
+- Religious Liberty
+- Limits of Civil Authority
 applications:
-  - "Proper Role of Government"
-  - "Freedom of Conscience"
-  - "Civil vs Religious Law"
-
+- Proper Role of Government
+- Freedom of Conscience
+- Religious vs Civil Law
 keywords:
-  - polygamy
-  - Mormon Church
-  - marriage
-  - natural rights
-  - Utah
-  - Brigham Young
-  - Secretary Blaine
+- polygamy
+- Mormon Church
+- marriage
+- natural rights
+- Utah
+- Brigham Young
+- Secretary Blaine
 ---
 
 # Religious Liberty and Polygamy.

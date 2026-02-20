@@ -1,27 +1,24 @@
 ---
-title: "How They Will Talk"
-author: "W. A. Colcord"
-author_short: "WAC"
+title: How They Will Talk
+author: W. A. Colcord
+author_short: WAC
 date: 1894-07-19
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 29
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-  - "Persecution"
-
+- Church and State
+- Persecution
 applications:
-  - "Religious Legislation"
-  - "Church Domination"
-
+- Religious Legislation
+- Religious Institutions and Civil Power
 keywords:
-  - American Sabbath Union
-  - World's Fair
-  - Sunday law
-  - Congress
-  - national law
+- American Sabbath Union
+- World's Fair
+- Sunday law
+- Congress
+- national law
 ---
 
 In the formation of a union of Church and State, little by little the Church encroaches upon the domain of the State, until she finally obtains and usurps full control. The demands are mild at first. A law touching only one point is all that is asked, and this in a very mild form, and perhaps for ostensibly humanitarian reasons. But this one, though small in appearance, is big with results. By it the precedent for religious legislation, is established. This furnishes a foundation for all the like legislation that may follow. By and by another law is wanted, or the first one to be made a little more stringent.

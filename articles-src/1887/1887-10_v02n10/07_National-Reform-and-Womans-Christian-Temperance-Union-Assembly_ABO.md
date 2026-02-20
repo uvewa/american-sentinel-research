@@ -1,44 +1,41 @@
 ---
-title: "National Reform and Woman's Christian Temperance Union Assembly"
-author: "A. B. Oyen"
-author_short: "ABO"
+title: National Reform and Woman's Christian Temperance Union Assembly
+author: A. B. Oyen
+author_short: ABO
 date: 1887-10
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 2
 issue: 10
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-  - "The Sabbath Question"
-  - "Religious Liberty"
-
+- Church and State
+- The Sabbath Question
+- Religious Liberty
 applications:
-  - "Christian Nation Claims"
-  - "Religious Legislation"
-  - "Sunday Legislation"
-  - "Prohibition"
-
+- Christian Nation Claims
+- Religious Legislation
+- Sunday Legislation
+- Legislating Morality
 keywords:
-  - Lakeside Ohio
-  - National Reform Association
-  - Woman's Christian Temperance Union
-  - David McAllister
-  - A. B. Leonard
-  - J. M. Foster
-  - M. A. Gault
-  - R. C. Wylie
-  - Mary A. Woodbridge
-  - Mrs. Bateham
-  - W. J. Coleman
-  - J. B. Helwig
-  - James P. Mills
-  - Young Men's Christian Association
-  - Divorce Association
-  - Sunday Laws
-  - Prohibition
-  - Woman Suffrage
-  - Constitutional Amendment
+- Lakeside Ohio
+- National Reform Association
+- Woman's Christian Temperance Union
+- David McAllister
+- A. B. Leonard
+- J. M. Foster
+- M. A. Gault
+- R. C. Wylie
+- Mary A. Woodbridge
+- Mrs. Bateham
+- W. J. Coleman
+- J. B. Helwig
+- James P. Mills
+- Young Men's Christian Association
+- Divorce Association
+- Sunday Laws
+- Prohibition
+- Woman Suffrage
+- Constitutional Amendment
 ---
 
 # National Reform and Woman's Christian Temperance Union Assembly.

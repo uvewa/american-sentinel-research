@@ -1,31 +1,27 @@
 ---
-title: "Faith and Works"
-author: "Alonzo T. Jones"
-author_short: "ATJ"
+title: Faith and Works
+author: Alonzo T. Jones
+author_short: ATJ
 date: 1894-05-31
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 22
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-
+- Religious Liberty
+- Church and State
 applications:
-  - "Catholic Doctrine vs. Biblical Faith"
-  - "Justification by Faith"
-  - "Papal Authority"
-
+- Religious Intolerance
+- Religious Institutions and Civil Power
 keywords:
-  - justification by faith
-  - Catholic Church
-  - faith of the creed
-  - devils' faith
-  - old covenant
-  - new covenant
-  - works
-  - Reformation
+- justification by faith
+- Catholic Church
+- faith of the creed
+- devils' faith
+- old covenant
+- new covenant
+- works
+- Reformation
 ---
 
 "WHATSOEVER is not of faith is sin." Rom. 14:23.

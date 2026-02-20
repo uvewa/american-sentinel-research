@@ -1,29 +1,26 @@
 ---
-title: "Religion and State Again"
+title: Religion and State Again
 date: 1893-11-16
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 8
 issue: 45
-attribution: "reprint"
-original_publication: "The Independent Patriot"
-
+attribution: reprint
+original_publication: The Independent Patriot
 principles:
-  - "Church and State"
-  - "Religious Liberty"
-  - "Limits of Civil Authority"
-
+- Church and State
+- Religious Liberty
+- Limits of Civil Authority
 applications:
-  - "Separation of Church and State"
-  - "State Establishment of Religion"
-  - "Proper Role of Government"
-  - "Religious Liberty"
-
+- Separation of Church and State
+- State Establishment of Religion
+- Proper Role of Government
+- Freedom of Conscience
 keywords:
-  - Chicago Presbyterian
-  - First Amendment
-  - state religion
-  - freedom of choice
-  - religious majorities
+- Chicago Presbyterian
+- First Amendment
+- state religion
+- freedom of choice
+- religious majorities
 ---
 
 The Chicago Presbyterian says: "We believe, as did the fathers of the Republic, in the separation of the Church and State, but we do not believe, as they did not believe, in the alienation of religion and the State." Just what may be meant by this is not a little difficult to determine, either from the words quoted, or the entire article. It seems, however, that while the Presbyterian would not foist upon the State any Church organization, or require the State to support any sectarian formulae; it would have the State and religion as closely allied as possible. But what religion would it have thus allied? Is there any which the Presbyterian can allude to in this remark, distinct from organization? Is not this statement simply a covert argument in favor of the union in fact of Church and State?

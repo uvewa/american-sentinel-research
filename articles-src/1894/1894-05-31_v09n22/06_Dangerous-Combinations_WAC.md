@@ -1,30 +1,27 @@
 ---
-title: "Dangerous Combinations"
-author: "W. A. Colcord"
-author_short: "WAC"
+title: Dangerous Combinations
+author: W. A. Colcord
+author_short: WAC
 date: 1894-05-31
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 22
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-  - "Religious Liberty"
-
+- Church and State
+- Religious Liberty
 applications:
-  - "Religious Legislation"
-  - "Sunday Laws"
-  - "Religious Political Influence"
-
+- Religious Legislation
+- Sunday Legislation
+- Religious Institutions and Civil Power
 keywords:
-  - Australia
-  - Council of Churches
-  - Christian Electors Association
-  - Lord's Day Observance Society
-  - National Scripture Education League
-  - religious combinations
-  - 1829 Sunday law petition
+- Australia
+- Council of Churches
+- Christian Electors Association
+- Lord's Day Observance Society
+- National Scripture Education League
+- religious combinations
+- 1829 Sunday law petition
 ---
 
 IN 1829 there was a united effort on the part of a number of religious denominations in the United States to secure from the national Government a Sunday law. Many petitions and memorials were sent to Congress. The committee to whom the matter was referred in the Senate, rendered a very able report, in which occur these words:—

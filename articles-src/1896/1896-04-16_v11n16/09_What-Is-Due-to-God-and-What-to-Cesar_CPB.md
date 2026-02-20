@@ -1,29 +1,26 @@
 ---
-title: "What Is Due to God, and What to Cesar?"
-author: "C. P. Bollman"
-author_short: "CPB"
+title: What Is Due to God, and What to Cesar?
+author: C. P. Bollman
+author_short: CPB
 date: 1896-04-16
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 16
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Limits of Civil Authority"
-  - "Church and State"
-
+- Limits of Civil Authority
+- Church and State
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-  - "Separation of Church and State"
-
+- Proper Role of Government
+- Religious vs Civil Law
+- Separation of Church and State
 keywords:
-  - Caesar
-  - morality
-  - civil government
-  - moral law
-  - ten commandments
-  - Inquisition
+- Caesar
+- morality
+- civil government
+- moral law
+- ten commandments
+- Inquisition
 ---
 
 # WHAT IS DUE TO GOD, AND WHAT TO CESAR?

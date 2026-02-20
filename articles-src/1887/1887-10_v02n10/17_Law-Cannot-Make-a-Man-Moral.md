@@ -1,22 +1,19 @@
 ---
-title: "Law Cannot Make a Man Moral"
+title: Law Cannot Make a Man Moral
 date: 1887-10
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 2
 issue: 10
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Limits of Civil Authority"
-
+- Limits of Civil Authority
 applications:
-  - "Proper Role of Government"
-  - "Legislating Morality"
-  - "Civil vs Religious Law"
-
+- Proper Role of Government
+- Legislating Morality
+- Religious vs Civil Law
 keywords:
-  - Morality
-  - Civil Law
+- Morality
+- Civil Law
 ---
 
 An exchange says:—

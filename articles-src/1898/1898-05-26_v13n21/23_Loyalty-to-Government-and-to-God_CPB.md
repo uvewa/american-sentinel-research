@@ -1,31 +1,28 @@
 ---
-title: "Loyalty to Government and to God"
-author: "C. P. Bollman"
-author_short: "CPB"
+title: Loyalty to Government and to God
+author: C. P. Bollman
+author_short: CPB
 date: 1898-05-26
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 13
 issue: 21
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Religious Liberty"
-  - "Limits of Civil Authority"
-
+- Religious Liberty
+- Limits of Civil Authority
 applications:
-  - "Freedom of Conscience"
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-
+- Freedom of Conscience
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - loyalty
-  - civil government
-  - divine law
-  - Shadrach
-  - Meshach
-  - Abednego
-  - Daniel
-  - war
+- loyalty
+- civil government
+- divine law
+- Shadrach
+- Meshach
+- Abednego
+- Daniel
+- war
 ---
 
 Civil government is necessary to the well being of social, moral beings in alienation from God. God had so constituted man that he naturally seeks civil society. It is thus that the Creator has ordained "the powers that be." It is thus also that governments derive "their just powers from the consent of the governed." All usurpation is sin, for it is theft, and God ordains no sin.

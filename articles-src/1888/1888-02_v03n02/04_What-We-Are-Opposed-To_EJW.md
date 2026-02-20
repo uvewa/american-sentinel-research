@@ -1,30 +1,27 @@
 ---
-title: "What We Are Opposed To"
-author: "Ellet J. Waggoner"
-author_short: "EJW"
+title: What We Are Opposed To
+author: Ellet J. Waggoner
+author_short: EJW
 date: 1888-02
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 3
 issue: 2
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-  - "Persecution"
-  - "Religious Liberty"
-
+- Church and State
+- Persecution
+- Religious Liberty
 applications:
-  - "Church and State"
-  - "Religious Intolerance"
-  - "Historical Parallels"
-
+- Separation of Church and State
+- Religious Intolerance
+- Historical Parallels
 keywords:
-  - Reformed Presbyterian Church
-  - National Reform Association
-  - Covenanters
-  - National Covenant
-  - James Wallace
-  - Scotland
+- Reformed Presbyterian Church
+- National Reform Association
+- Covenanters
+- National Covenant
+- James Wallace
+- Scotland
 ---
 
 At various times the Reformed Presbyterian Church has been referred to in the columns of the Sentinel, and the statement has been made that the principles of the National Reform Association are those of that church, and that if the National Reform movement becomes a success, the Government of the United States will virtually be a Reformed Presbyterian Government. A worthy member of the Reformed Presbyterian Church has taken exception to this statement, and thinks that we are doing an injustice to that church, by making such statements. Certainly no injustice was intended, and the Sentinel has never designed to cast any reflections on that church. The statements were made simply for the purpose of showing that the success of the National Reform movement will effect a virtual union of Church and State.

@@ -1,26 +1,23 @@
 ---
-title: "The Movement Against Church Patronage in England"
+title: The Movement Against Church Patronage in England
 date: 1894-05-31
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 22
-attribution: "reprint"
-original_publication: "N. Y. Sun"
-
+attribution: reprint
+original_publication: N. Y. Sun
 principles:
-  - "Church and State"
-
+- Church and State
 applications:
-  - "State Establishment of Religion"
-  - "Church-State Relations"
-
+- State Establishment of Religion
+- Separation of Church and State
 keywords:
-  - Church of England
-  - lay patronage
-  - advowson
-  - Wales disestablishment
-  - Sir William Harcourt
-  - bishops
+- Church of England
+- lay patronage
+- advowson
+- Wales disestablishment
+- Sir William Harcourt
+- bishops
 ---
 
 It is well known that the right of presentation to livings in the Church of England belongs, in a multitude of cases, to lay patrons, and that this fact has repeatedly given rise to grave scandals. Not only have avowed atheists and notorious blacklegs—the late Marquis of Ailesbury was an example—exercised the power of bestowing, as free gifts, life appointments to rectorships, but such appointments have been made the subject of sale at public auction.

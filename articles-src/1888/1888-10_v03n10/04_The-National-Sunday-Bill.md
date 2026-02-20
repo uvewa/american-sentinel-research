@@ -1,25 +1,22 @@
 ---
-title: "The National Sunday Bill"
+title: The National Sunday Bill
 date: 1888-10
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 3
 issue: 10
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
-  - "Religious Liberty"
-
+- Church and State
+- Limits of Civil Authority
+- Religious Liberty
 applications:
-  - "Sunday Legislation"
-  - "Religious Legislation"
-  - "Civil vs Religious Law"
-
+- Sunday Legislation
+- Religious Legislation
+- Religious vs Civil Law
 keywords:
-  - Blair Bill
-  - National Sunday law
-  - Constantine
+- Blair Bill
+- National Sunday law
+- Constantine
 ---
 
 The National Sunday Bill, introduced into the United States Senate by Senator Blair, is a queer piece of legislation for this enlightened age and country, in more senses than one. We have referred to it in our columns before; but as the legislation itself is the first step taken in an endless controversy, this is ample excuse for referring to it again. But besides this there is sufficient material in the bill itself to justify a long discussion, and even continuous repetition, until the people shall see the danger there is threatening their cherished liberties and dearest rights.

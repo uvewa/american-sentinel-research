@@ -1,28 +1,25 @@
 ---
-title: "The Duty of the Christian Soldier"
-author: "C. P. Bollman"
-author_short: "CPB"
+title: The Duty of the Christian Soldier
+author: C. P. Bollman
+author_short: CPB
 date: 1898-06-16
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 13
 issue: 24
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Religious Liberty"
-  - "Limits of Civil Authority"
-
+- Religious Liberty
+- Limits of Civil Authority
 applications:
-  - "Freedom of Conscience"
-  - "Civil vs Religious Law"
-
+- Freedom of Conscience
+- Religious vs Civil Law
 keywords:
-  - John the Baptist
-  - Christian soldier
-  - war
-  - violence
-  - Spain
-  - sword of the Spirit
+- John the Baptist
+- Christian soldier
+- war
+- violence
+- Spain
+- sword of the Spirit
 ---
 
 John the Baptist was the forerunner of Christ. His work was to "prepare the way of the Lord," to "make straight in the desert a highway for our God." All things which John spake of Christ were true as even the Jews admitted; while our Saviour himself declared that "among them' that are born of women there hath not arisen a greater than John the Baptist." Therefore no doctrine can come to us with any higher sanctions than the teaching of John.

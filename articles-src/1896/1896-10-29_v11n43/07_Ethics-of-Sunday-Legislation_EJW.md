@@ -1,30 +1,27 @@
 ---
-title: "Ethics of Sunday Legislation"
-author: "E. J. Waggoner"
-author_short: "EJW"
+title: Ethics of Sunday Legislation
+author: E. J. Waggoner
+author_short: EJW
 date: 1896-10-29
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 11
 issue: 43
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "The Sabbath Question"
-  - "Church and State"
-  - "Persecution"
-
+- The Sabbath Question
+- Church and State
+- Persecution
 applications:
-  - "Sunday Legislation"
-  - "Separation of Church and State"
-  - "Persecution For Conscience' Sake"
-
+- Sunday Legislation
+- Separation of Church and State
+- Legal Persecution
 keywords:
-  - Sunday laws
-  - National Reform
-  - civil holiday
-  - Christian sabbath
-  - seventh day
-  - Sabbatarian
+- Sunday laws
+- National Reform
+- civil holiday
+- Christian sabbath
+- seventh day
+- Sabbatarian
 ---
 
 # ETHICS OF SUNDAY LEGISLATION.

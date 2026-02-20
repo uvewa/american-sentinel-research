@@ -1,31 +1,27 @@
 ---
-title: "Methodist Ministers on Catholic Education"
+title: Methodist Ministers on Catholic Education
 date: 1890-04-10
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 5
 issue: 15
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Religion and Education"
-  - "Church and State"
-
+- Religion and Education
+- Church and State
 applications:
-  - "Parochial Schools"
-  - "Sectarian Education"
-  - "Religious Institutions and Civil Power"
-
+- Sectarian Education
+- Religious Institutions and Civil Power
 keywords:
-  - Chicago
-  - Methodist ministers' meeting
-  - Rev. D. R. Shepard
-  - Northwestern University
-  - Rev. Foster
-  - Dr. W. C. Bennett
-  - Methodist Institute at Evanston
-  - Catholic Church
-  - parochial schools
-  - New York
+- Chicago
+- Methodist ministers' meeting
+- Rev. D. R. Shepard
+- Northwestern University
+- Rev. Foster
+- Dr. W. C. Bennett
+- Methodist Institute at Evanston
+- Catholic Church
+- parochial schools
+- New York
 ---
 
 IN the Methodist ministers' meeting in Chicago, on the 31st ult., there was a lively discussion on the question of "The Attitude of Rome toward Our System of Education." Rev. D. R. Shepard, professor of political economy in the Northwestern University, attacked the parochial-school system and said that it appeared to be the design of the Catholic Church to incorporate into the very systems of the children its dogmas and beliefs. He denounced the Romish system of education as "mediaeval, inadequate, and weak." He thought, however, that there was little danger from the fact that the American Catholics are not in hearty sympathy with their own system.

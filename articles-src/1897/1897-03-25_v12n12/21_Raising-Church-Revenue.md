@@ -1,22 +1,19 @@
 ---
-title: "Raising Church Revenue"
+title: Raising Church Revenue
 date: 1897-03-25
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 12
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-
+- Church and State
 applications:
-  - "Church Power and Authority"
-
+- Religious Institutions and Civil Power
 keywords:
-  - Brooklyn
-  - Lenox Road Baptist Church
-  - H. J. Guller
-  - entertainments
+- Brooklyn
+- Lenox Road Baptist Church
+- H. J. Guller
+- entertainments
 ---
 
 ## Raising Church Revenue.

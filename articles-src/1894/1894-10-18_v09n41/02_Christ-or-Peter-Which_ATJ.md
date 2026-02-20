@@ -1,27 +1,23 @@
 ---
-title: "Christ or Peter—Which?"
-author: "Alonzo T. Jones"
-author_short: "ATJ"
+title: Christ or Peter—Which?
+author: Alonzo T. Jones
+author_short: ATJ
 date: 1894-10-18
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 41
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-
+- Church and State
 applications:
-  - "Papal Infallibility"
-  - "Religious Authority"
-
+- Religious Institutions and Civil Power
 keywords:
-  - Peter
-  - papal infallibility
-  - Vatican Council
-  - Cardinal Gibbons
-  - Council of Trent
-  - Pius IX
+- Peter
+- papal infallibility
+- Vatican Council
+- Cardinal Gibbons
+- Council of Trent
+- Pius IX
 ---
 
 In our consideration of the claim of papal "infallibility" last week, we found that Christ and not Peter is the rock upon which the Church is built. But let us have the word of the Lord by Peter himself on this point. Thus it is written by the hand of Peter: "As new-born babes, desire the sincere milk of the word, that ye may grow thereby: if so be ye have tasted that the Lord is gracious: to whom coming as unto a living stone, disallowed indeed of men, but chosen of God and precious, ye also as lively stones are built up a spiritual house, an holy priesthood, to offer up spiritual sacrifices, acceptable to God by Jesus Christ. Wherefore it is also contained in the Scripture, Behold I lay in Sion a chief corner stone, elect, precious: and he that believeth on him shall not be confounded. Unto you, therefore, that believe, he is precious; but unto them which be disobedient, the stone which the builders disallowed, the same is made the head of the corner." 1 Peter 2:2-7. That the "stone" here referred to is none other than Jesus Christ himself, and not Peter in any sense, is clear from the words spoken by Peter in another place, thus, speaking of "Jesus Christ of Nazareth," whom the Jews had crucified, he says. "This is the stone which was set at nought of you builders, which is become the head of the corner." Acts 4:10, 11.

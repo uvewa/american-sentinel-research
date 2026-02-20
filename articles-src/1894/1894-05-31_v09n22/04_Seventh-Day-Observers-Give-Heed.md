@@ -1,30 +1,26 @@
 ---
-title: "Seventh-Day Observers, Give Heed!"
+title: Seventh-Day Observers, Give Heed!
 date: 1894-05-31
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 22
-attribution: "reprint"
-original_publication: "Sabbath Recorder"
-
+attribution: reprint
+original_publication: Sabbath Recorder
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-  - "Limits of Civil Authority"
-
+- Religious Liberty
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Sunday Laws"
-  - "Biblical Authority"
-  - "Catholic Church Authority"
-
+- Sunday Legislation
+- Religious Institutions and Civil Power
 keywords:
-  - Seventh-day Baptists
-  - Sunday observance
-  - Bible authority
-  - Higher Criticism
-  - Roman Catholic
-  - World's Fair
-  - Sabbath controversy
+- Seventh-day Baptists
+- Sunday observance
+- Bible authority
+- Higher Criticism
+- Roman Catholic
+- World's Fair
+- Sabbath controversy
 ---
 
 [Under the title, "Seventh-day Baptists, Give Heed," Rev. A. H. Lewis contributes the following article to the Sabbath Recorder. While Dr. Lewis does not realize that the "Collapse of recent efforts to save Sunday by civil law" is only apparent, and that in reality all the legislative and judicial functions of the country have been immediately committed to its support, yet the logical development of the argument for the support of first-day observance is just what he has pointed out,—necessarily ending in the doing away with the authority of the Scriptures and making the Bible only a book of general principles, necessarily ending in a papacy as its infallible interpreter.]

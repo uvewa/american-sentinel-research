@@ -1,27 +1,24 @@
 ---
-title: "The Church and State"
-author: "W. T. Harris"
-author_short: "WTH"
+title: The Church and State
+author: W. T. Harris
+author_short: WTH
 date: 1888-02
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 3
 issue: 2
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
-
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Separation of Church and State"
-  - "Civil vs Religious Law"
-
+- Separation of Church and State
+- Religious vs Civil Law
 keywords:
-  - sin
-  - crime
-  - holiness
-  - justice
-  - secular institutions
+- sin
+- crime
+- holiness
+- justice
+- secular institutions
 ---
 
 Whence has come about in modern history the great doctrine of the separation of the Church and State, for the purification of religion and the security of civil freedom?

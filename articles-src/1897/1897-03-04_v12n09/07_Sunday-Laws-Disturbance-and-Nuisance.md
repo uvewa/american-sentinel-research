@@ -1,26 +1,23 @@
 ---
-title: "Sunday Laws, \"Disturbance,\" and \"Nuisance\""
-author: "James T. Ringgold"
+title: Sunday Laws, "Disturbance," and "Nuisance"
+author: James T. Ringgold
 date: 1897-03-04
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 9
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "The Sabbath Question"
-  - "Limits of Civil Authority"
-
+- The Sabbath Question
+- Limits of Civil Authority
 applications:
-  - "Sunday Legislation"
-  - "Civil vs Religious Law"
-
+- Sunday Legislation
+- Religious vs Civil Law
 keywords:
-  - nuisance
-  - disturbance
-  - religious exercises
-  - Baltimore Bar
-  - Brownist
+- nuisance
+- disturbance
+- religious exercises
+- Baltimore Bar
+- Brownist
 ---
 
 *By James T. Ringgold, of the Baltimore Bar.*

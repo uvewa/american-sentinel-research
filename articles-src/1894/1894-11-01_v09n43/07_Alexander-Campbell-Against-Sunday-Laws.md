@@ -1,27 +1,24 @@
 ---
-title: "Alexander Campbell Against Sunday Laws"
+title: Alexander Campbell Against Sunday Laws
 date: 1894-11-01
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 43
-attribution: "reprint"
-original_publication: "Washington (Pa.) Reporter"
-
+attribution: reprint
+original_publication: Washington (Pa.) Reporter
 principles:
-  - "Limits of Civil Authority"
-  - "The Sabbath Question"
-
+- Limits of Civil Authority
+- The Sabbath Question
 applications:
-  - "Civil vs Religious Law"
-  - "Legislating Morality"
-  - "Sunday Legislation"
-
+- Religious vs Civil Law
+- Legislating Morality
+- Sunday Legislation
 keywords:
-  - Alexander Campbell
-  - West Middletown Moral Society
-  - Pennsylvania Sunday law
-  - National Reform Association
-  - United Presbyterian
+- Alexander Campbell
+- West Middletown Moral Society
+- Pennsylvania Sunday law
+- National Reform Association
+- United Presbyterian
 ---
 
 Alexander Campbell Against Sunday Laws.

@@ -1,26 +1,23 @@
 ---
-title: "The Mission of the American Sentinel"
+title: The Mission of the American Sentinel
 date: 1897-06-10
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 23
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-
+- Religious Liberty
+- Church and State
 applications:
-  - "Separation of Church and State"
-  - "Freedom of Conscience"
-  - "Civil vs Religious Law"
-
+- Separation of Church and State
+- Freedom of Conscience
+- Religious vs Civil Law
 keywords:
-  - Government
-  - Conscience
-  - Gospel
-  - Persecution
-  - Hypocrisy
+- Government
+- Conscience
+- Gospel
+- Persecution
+- Hypocrisy
 ---
 
 THE AMERICAN SENTINEL stands in defense of a principle, and that is why the paper exists. From the day it was established it has been an uncompromising advocate of the absolute separation of religion from the State, not in name only, but in fact. This is a question that concerns every intelligent person in every land under the sun.

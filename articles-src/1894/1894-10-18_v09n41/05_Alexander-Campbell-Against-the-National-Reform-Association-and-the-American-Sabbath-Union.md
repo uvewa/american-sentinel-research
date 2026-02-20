@@ -1,31 +1,28 @@
 ---
-title: "Alexander Campbell Against the National Reform Association and the American Sabbath Union"
+title: Alexander Campbell Against the National Reform Association and the American Sabbath Union
 date: 1894-10-18
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 9
 issue: 41
-attribution: "reprint"
-original_publication: "Washington Reporter"
-
+attribution: reprint
+original_publication: Washington Reporter
 principles:
-  - "Religious Liberty"
-  - "Church and State"
-  - "Limits of Civil Authority"
-
+- Religious Liberty
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Separation of Church and State"
-  - "Sunday Legislation"
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-
+- Separation of Church and State
+- Sunday Legislation
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - Alexander Campbell
-  - West Middletown Moral Society
-  - National Reform Association
-  - American Sabbath Union
-  - United Presbyterians
-  - Pennsylvania Sunday law
-  - Wylie
+- Alexander Campbell
+- West Middletown Moral Society
+- National Reform Association
+- American Sabbath Union
+- United Presbyterians
+- Pennsylvania Sunday law
+- Wylie
 ---
 
 (In 1820 there was organized in West Middletown, Washington Co., Pa., a society, called the West Middletown Moral Society. The principal object of the society was to enforce the Pennsylvania Sunday law of 1794, which is still on the statute books of the State. This Moral Society was organized by the United Presbyterians, the same people who, later in 1863, organized the National Reform Association. Alexander Campbell, the founder of the Christian or Disciple Church, ably opposed the society in a series of articles published in the Reporter, of Washington, county seat of Washington County. His articles were signed "Candidus." A United Presbyterian minister, by the name of Wylie, attempted to defend the society, and signed himself "Timothy." The discussion continued from April 17, 1820, the date of Mr. Campbell's first article, to February 22, 1822, during which time almost every phase of the compulsory Sunday law question was treated. As a result the Moral Society perished, not to appear again until 1863 when it was revived by the same denomination under the name, National Reform Association. Every word of Mr. Campbell's invincible logic and withering denunciation is applicable to the association, resuscitated under the name, National Reform Association, and kindred organizations, such as the American Sabbath Union, the Pennsylvania Sabbath Association, etc.)

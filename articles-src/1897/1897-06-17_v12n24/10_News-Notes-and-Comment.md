@@ -1,22 +1,22 @@
 ---
-title: "News, Notes, and Comment"
+title: News, Notes, and Comment
 date: 1897-06-17
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 24
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "Limits of Civil Authority"
+- Limits of Civil Authority
 applications:
-  - "Civil vs Religious Law"
+- Religious vs Civil Law
 keywords:
-  - law
-  - morality
-  - Blackstone
-  - Sharswood
-  - mala in se
-  - mala prohibita
-  - conscience
+- law
+- morality
+- Blackstone
+- Sharswood
+- mala in se
+- mala prohibita
+- conscience
 ---
 
 It has been said that ideas never die. A poet has beautifully sung:—

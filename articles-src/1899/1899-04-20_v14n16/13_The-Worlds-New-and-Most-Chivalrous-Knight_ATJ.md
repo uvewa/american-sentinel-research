@@ -1,35 +1,31 @@
 ---
-title: "The World's New and Most Chivalrous Knight"
-author: "Alonzo T. Jones"
-author_short: "ATJ"
+title: The World's New and Most Chivalrous Knight
+author: Alonzo T. Jones
+author_short: ATJ
 date: 1899-04-20
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 14
 issue: 16
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-  - "Christian Nation Claims"
-
+- Church and State
 applications:
-  - "Christian Nation Claims"
-  - "Religious Institutions and Civil Power"
-  - "Government Favoritism toward Religion"
-  - "State Establishment of Religion"
-
+- Christian Nation Claims
+- Religious Institutions and Civil Power
+- Government Favoritism toward Religion
+- State Establishment of Religion
 keywords:
-  - John Henry Barrows
-  - World's Congress of Religions
-  - Oberlin College
-  - Greater America
-  - National Reform
-  - Philippines
-  - Anglo-Saxon race
-  - world religion
-  - Christian nation
-  - imperialism
-  - Chicago University
+- John Henry Barrows
+- World's Congress of Religions
+- Oberlin College
+- Greater America
+- National Reform
+- Philippines
+- Anglo-Saxon race
+- world religion
+- Christian nation
+- imperialism
+- Chicago University
 ---
 
 ## The World's New and Most Chivalrous Knight.

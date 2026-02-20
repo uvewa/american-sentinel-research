@@ -1,26 +1,23 @@
 ---
-title: "The Sentinel and the Woman's Christian Temperance Union"
-author: "Alonzo T. Jones"
-author_short: "ATJ"
+title: The Sentinel and the Woman's Christian Temperance Union
+author: Alonzo T. Jones
+author_short: ATJ
 date: 1888-10
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 3
 issue: 10
-attribution: "explicit"
-
+attribution: explicit
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
-
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Religious Legislation"
-  - "Civil vs Religious Law"
-
+- Religious Legislation
+- Religious vs Civil Law
 keywords:
-  - Woman's Christian Temperance Union
-  - N. R. Johnston
-  - temperance
-  - Prohibition
+- Woman's Christian Temperance Union
+- N. R. Johnston
+- temperance
+- Prohibition
 ---
 
 The following letter is from a thoroughgoing National Reformer. We willingly give it space.

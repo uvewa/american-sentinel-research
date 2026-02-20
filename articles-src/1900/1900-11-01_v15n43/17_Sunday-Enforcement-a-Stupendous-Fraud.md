@@ -1,22 +1,22 @@
 ---
-title: "Sunday Enforcement a Stupendous Fraud"
+title: Sunday Enforcement a Stupendous Fraud
 date: 1900-11-01
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 15
 issue: 43
-attribution: "editorial"
+attribution: editorial
 principles:
-  - "The Sabbath Question"
-  - "Limits of Civil Authority"
-  - "Religious Liberty"
+- The Sabbath Question
+- Limits of Civil Authority
+- Religious Liberty
 applications:
-  - "Sunday Legislation"
-  - "Civil vs Religious Law"
-  - "Freedom of Conscience"
+- Sunday Legislation
+- Religious vs Civil Law
+- Freedom of Conscience
 keywords:
-  - Sunday law
-  - seventh day Sabbath
-  - fourth commandment
+- Sunday law
+- seventh day Sabbath
+- fourth commandment
 ---
 
 ### A Scene in Court.

@@ -1,23 +1,20 @@
 ---
-title: "A Government of God on Earth"
+title: A Government of God on Earth
 date: 1897-05-20
-publication: "American Sentinel"
+publication: American Sentinel
 volume: 12
 issue: 20
-attribution: "editorial"
-
+attribution: editorial
 principles:
-  - "Church and State"
-  - "Limits of Civil Authority"
-
+- Church and State
+- Limits of Civil Authority
 applications:
-  - "Proper Role of Government"
-  - "Civil vs Religious Law"
-
+- Proper Role of Government
+- Religious vs Civil Law
 keywords:
-  - law of God
-  - redemption
-  - faith
+- law of God
+- redemption
+- faith
 ---
 
 In a Christian government God is King, Judge, and Lawgiver, and the individual man or woman is the subject who is governed. There is a government of God on earth wherever there is an individual who has entered into governmental relations with God. This can be done only by faith, for "the carnal mind is enmity against God," and only faith in God can eliminate the carnal or natural propensities from the soul.
