@@ -1,0 +1,72 @@
+---
+title: "Back Page Editorial Notes."
+date: 1899-07-20
+publication: "American Sentinel"
+volume: 14
+issue: 28
+attribution: "editorial"
+
+principles:
+  - "The Sabbath Question"
+  - "Church and State"
+  - "Constitutional Principles"
+  - "Limits of Civil Authority"
+
+applications:
+  - "Sabbath Observance and Enforcement"
+  - "Sunday Legislation"
+  - "Separation of Church and State"
+  - "Proper Role of Government"
+
+keywords:
+  - Peace Congress
+  - Philippines
+  - National Reform
+  - oligarchy
+  - despotism
+  - American Sabbath
+  - Australian Sabbath
+  - fourth commandment
+  - Aguinaldo
+  - imperialism
+  - natural rights
+  - Mormonism
+  - politics
+  - Sunday golf
+  - Sunday baseball
+  - Bayside
+  - Long Island
+  - British government
+  - dum dum bullet
+  - Sunday Sun
+---
+
+THE PEACE CONGRESS IS EXPECTED TO CONCLUDE ITS SITTING JULY 26.
+
+IN OUR NEXT ISSUE WE WILL REPORT THE OUTCOME OF THE THREE TRIALS FOR SUNDAY BREAKING HELD THIS MONTH IN GEORGIA AND MISSISSIPPI.
+
+ENLISTMENTS IN THE ARMY TO SERVE IN THE PHILIPPINES IS A MUCH MORE POPULAR THING IN THE UNITED STATES THAN IT IS AMONG THE VOLUNTEERS AT MANILA WHOSE TERMS OF SERVICE HAVE EXPIRED.
+
+THE NATIONAL REFORM THEORY OF GOVERNMENT IS THAT OF GOVERNMENT BY CONSENT OF THE "ORTHODOX" CERGY; AN Oligarchy is a government by consent of the "nobility;" a plutocracy is a government by consent of the rich; an imperial government is a government by consent of an emperor and his favorites or by some party holding supreme power; and all these various forms of despotism rest on the same principle—that of government by consent of some of the governed. On that principle it is impossible to erect anything else than a despotism.
+
+IN AUSTRALIA—IT APPEARS FROM THE SPEECH OF AN AUSTRALIAN CERGYMAN AT THE LATE CHRISTIAN ENDEAVOR CONVENTION—THEY DO NOT WANT THE "AMERICAN SABBATH" ANY MORE THAN SOME PEOPLE HERE WANT THE "EUROPEAN SABBATH." IN THE AUSTRALIAN VIEW THE "AMERICAN SABBATH" IS A THING TO BE CAREFULLY EXCLUDED. IT IS NOT ONLY NOTHING WORTH SAVING, BUT A POSITIVE EVIL THE ESTABLISHMENT OF WHICH IN AUSTRALIA WOULD BE NOTHING SHORT OF A CALAMITY. CAN IT BE, THEN, THAT THIS "AMERICAN SABBATH" IS REALLY A THING OF SUCH GREAT VALUE AS SOME AMERICAN WRITERS AND SPEAKERS WOULD HAVE US THINK? IS IT NOT THE TRUTH THAT THE "SABBATH OF THE LORD" SPECIFIED IN THE FOURTH COMMANDMENT IS THE ONLY SABBATH OF VALUE, AND WORTH HOLDING TO?
+
+THE APOLOGISTS FOR THE WAR OF SUBJUGATION IN THE PHILIPPINES HAVE MUCH TO SAY IN DISPARAGREMENT OF AGUINALDO AND HIS FOLLOWERS, BUT THEY NEVER SAY ANYTHING ABOUT THE PRINCIPLES BY WHICH THE CAMPAIGN IS JUSTIFIED OR CONDEMNED. THEY ATTEMPT TO JUSTIFY THE CAMPAIGN BY ALLEGING THAT THE FILIPINOS ARE TREACHEROUS, MERCENARIO AND GENERALLY AN INCAPABLE AND WORTHLESS LOT,—AS IF ALL THIS, EVEN IF TRUE, COULD MAKE ANY DIFFERENCE IN THE MATTER OF THEIR NATURAL RIGHTS. THE MOST WORTHLESS SPECIMENS OF THE WHITE RACE IN AMERICA—MEN AS BASE AND DEGENERATE AS ANY TO BE FOUND IN THE PHILIPPINES—ARE ACCORDED ALL THE RIGHTS OF AMERICAN CITIZENS, AND NO IMPECIALIST WOULD DARE ATTEMPT TO PUT IN PRACTICE HERE THE DOCTRINE HE PREACHES WITH REFERENCE TO THE PEOPLE OF LUZON. DESPOTISM BASES ITS CLAIMS UPON DIFFERENCES—REAL OR ALLEGED—BETWEEN MEN; BUT JUST GOVERNMENT IS BASED NOT ON HUMAN DIFFERENCES, BUT ON HUMAN RIGHTS. DESPOTISMS ARE BASED ON MEN, BUT JUST GOVERNMENT RESTS ON PRINCIPLES.
+
+THE AGGRESSIVENESS AND SUCCESS OF MORMONISM IN THIS COUNTRY IS REGARDED, AND RIGHTLY, AS A NATIONAL MENACE. BUT WHY? NOT BECAUSE OF ITS PECULIAR RELIGIOUS DOCTRINES, BUT BECAUSE IT IS A POLITICAL POWER. IT DOMINATES STATE AFFAIRS IN UTAH AND HAS A STRONG HOLD UPON THE SURROUNDING STATES, AND MAY SOON HOLD THE BALANCE OF POWER IN CONGRESS. THE MORMON CHURCH IS IN POLITICS, AND THIS IS THE MENACE OF MORMONISM TO THE NATION; BUT THE OTHER CHURCHES IN THE LAND ARE ESTOPPED FROM MAKING ANY PROTEST, FOR THEY ARE DOING THE SAME THING. THEY ALL BELIEVE THAT CHRISTIANS SHOULD GO INTO POLITICS AND MAKE POLITICS PURE BY THE APPLICATION OF CHRISTIANITY TO IT. THE CHRISTIAN SHOULD VOTE "AS JESUS WOULD HAVE HIM VOTE," ETC. THIS IS WHAT THEY SAY FOR THEMSELVES, AND WHY CANNOT MORMONS SAY THE SAME FOR THEMSELVES? THEY CAN; AND MORMONISM AS A NATIONAL MENACE CAN NEVER BE CONSISTENTLY OR SUCCESSFULLY COMBATTED BY THE CHURCHES, SAVE ON THE PRINCIPLE—THE GENUINE CHRISTIAN PRINCIPLE—THAT RELIGION AND POLITICS SHOULD NOT BE MIXED.
+
+ON LONG ISLAND SUNDAY GOLF IS LEGAL, BUT SUNDAY BASEBALL IS PROHIBITED. SUNDAY, JULY 9, A BASEBALL GAME AT BAYSIDE WAS STOPPED BY THE POLICE, WHEREUPON THE PLAYERS BEGAN A MIMIC GOLF GAME WITH THEIR CLUBS AND THE BALL, WITH THE RESULT DESCRIBED IN THE FOLLOWING:
+
+"While a large number of spectators were enjoying the spectacle immensely and entering thoroughly into the spirit of the protest against official discrimination, a policeman opportunely sharpened the point of the satire by rushing up and crying: "Here! Here! What are you fellows doing?"
+
+"We're playing golf," was the reply, in a meek chorus, while the players continued to mimic their more favored rivals of the links.
+
+"The policeman watched them in perplexity for a few minutes, and, having satisfied himself that they were not playing the national game, retreated, with the gruff admonition:
+
+"Well, if that's golf you're all right, but if I catch you playing baseball, I'll make it hot for ye."
+
+And such efforts are supposed to deepen the popular regard for Sunday!
+
+THE SUNDAY SUN, OF LONDON, ENG., REPORTS THAT THE BRITISH GOVERNMENT IS MANUFACTURING A NEW BULLET WHICH IS EVEN MORE DEADLY THAN THE "DUM DUM." REPORT SAYS THAT 200,000,000 ROUNDS OF THIS BARBAROUS AMMUNITION ARE ALREADY IN STOCK.
+
+Presumably this is to be used upon barbarian "rebels" in lands belonging to or coveted by that government. But must not the "palm" of barbarity be given to the people who kill their enemies in the most barbarous fashion? When a civilized people show themselves barbarous toward savages, they show that civilization has only cloaked their barbarism, and not displaced it.
