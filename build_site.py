@@ -62,7 +62,14 @@ def markdown_to_html(md: str) -> str:
     in_list = False
     list_tag = 'ul'  # track whether current list is <ul> or <ol>
 
-    for line in lines:
+    def next_nonblank(idx):
+        """Return the next non-blank line after idx, or ''."""
+        for j in range(idx + 1, len(lines)):
+            if lines[j].strip():
+                return lines[j]
+        return ''
+
+    for i, line in enumerate(lines):
         # Headers
         if line.startswith('# '):
             if in_blockquote:
@@ -155,8 +162,15 @@ def markdown_to_html(md: str) -> str:
                 html_lines.append('</blockquote>')
                 in_blockquote = False
             if in_list:
-                html_lines.append(f'</{list_tag}>')
-                in_list = False
+                # Keep list open if the next content line is another list item
+                nxt = next_nonblank(i)
+                is_next_ol = bool(re.match(r'^\d+\.\s', nxt.strip())) if nxt else False
+                is_next_ul = nxt.startswith('- ') if nxt else False
+                if (list_tag == 'ol' and is_next_ol) or (list_tag == 'ul' and is_next_ul):
+                    pass  # keep list open
+                else:
+                    html_lines.append(f'</{list_tag}>')
+                    in_list = False
             html_lines.append('')
 
         # Regular paragraph
@@ -1047,6 +1061,7 @@ STATIC_TEMPLATE = r'''
 
         .article-detail.active {
             display: block;
+            overflow-x: hidden;
         }
 
         .back-btn {
@@ -1902,6 +1917,11 @@ STATIC_TEMPLATE = r'''
                 padding: 1rem 1.15rem;
             }
 
+            .detail-header-top {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
             .detail-actions {
                 flex-wrap: wrap;
             }
@@ -2485,13 +2505,13 @@ STATIC_TEMPLATE = r'''
         function formatDate(dateStr) {
             if (!dateStr) return '';
             var parts = dateStr.split('-');
-            if (parts.length !== 3) return dateStr;
             var months = ['January','February','March','April','May','June',
                           'July','August','September','October','November','December'];
             var monthIdx = parseInt(parts[1], 10) - 1;
-            var day = parseInt(parts[2], 10);
-            var year = parts[0];
             if (monthIdx < 0 || monthIdx > 11) return dateStr;
+            var year = parts[0];
+            if (parts.length === 2) return months[monthIdx] + ' ' + year;
+            var day = parseInt(parts[2], 10);
             return months[monthIdx] + ' ' + day + ', ' + year;
         }
 

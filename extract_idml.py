@@ -137,6 +137,10 @@ def parse_story(xml_content: str) -> list[Paragraph]:
                 char_style = csr.get('AppliedCharacterStyle', '')
                 char_style = char_style.replace('CharacterStyle/', '').replace('$ID/', '')
 
+                # Skip page-number markers (styled in red in the IDML)
+                if char_style == 'Red':
+                    continue
+
                 is_italic = 'Italic' in char_style or csr.get('FontStyle', '') == 'Italic'
                 is_bold = 'Bold' in char_style or csr.get('FontStyle', '') == 'Bold'
                 is_small_caps = 'Small Caps' in char_style or csr.get('Capitalization', '') == 'SmallCaps'
