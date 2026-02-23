@@ -1590,6 +1590,72 @@ STATIC_TEMPLATE = r'''
             opacity: 0.75;
         }
 
+        .read-full-issue-btn {
+            display: inline-block;
+            margin-top: 0.6rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #fff;
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.35);
+            border-radius: var(--radius-sm);
+            padding: 0.35rem 0.85rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background var(--transition-fast);
+        }
+
+        .read-full-issue-btn:hover {
+            background: rgba(255,255,255,0.25);
+            text-decoration: none;
+        }
+
+        /* Full issue continuous reading view */
+        .full-issue-header {
+            background: var(--color-navy);
+            color: #fff;
+            padding: 1.25rem 1.5rem;
+            border-radius: var(--radius-md);
+            margin-bottom: 1.5rem;
+        }
+
+        .full-issue-header h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-bottom: 0.15rem;
+        }
+
+        .full-issue-header .full-issue-sub {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.85rem;
+            opacity: 0.75;
+        }
+
+        .full-issue-article {
+            margin-bottom: 2.5rem;
+        }
+
+        .full-issue-article-title {
+            font-size: 1.4rem;
+            color: var(--color-navy);
+            margin-bottom: 0.3rem;
+            line-height: 1.3;
+        }
+
+        .full-issue-article-meta {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.85rem;
+            color: var(--color-text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        .full-issue-divider {
+            border: none;
+            border-top: 1px solid var(--color-border);
+            margin: 2.5rem 0;
+        }
+
         /* Keywords section at bottom of article */
         .article-keywords {
             margin-top: 2rem;
@@ -2001,6 +2067,18 @@ STATIC_TEMPLATE = r'''
                 position: static;
                 overflow-y: visible;
             }
+
+            .full-issue-article {
+                break-inside: avoid;
+            }
+
+            .full-issue-divider {
+                break-after: page;
+            }
+
+            .read-full-issue-btn {
+                display: none !important;
+            }
         }
 
         /* ================================================================
@@ -2353,6 +2431,7 @@ STATIC_TEMPLATE = r'''
         // Current search query for snippet highlighting
         var currentSearchQuery = '';
         var currentArticleId = null;
+        var currentIssueRead = null;
 
         // Advanced search state (merged into main search)
         var currentSearchMode = 'and';
@@ -3427,7 +3506,8 @@ STATIC_TEMPLATE = r'''
             header.id = 'issue-toc-header';
             header.innerHTML = '<h2>American Sentinel</h2>' +
                 '<div class="issue-toc-sub">Volume ' + sample.volume + ', Number ' + sample.issue +
-                ' &mdash; ' + formatDate(activeFilter.issue) + '</div>';
+                ' &mdash; ' + formatDate(activeFilter.issue) + '</div>' +
+                '<a class="read-full-issue-btn" href="#read/' + encodeHashParam(activeFilter.issue) + '">Read Full Issue</a>';
 
             dom.articleList.parentNode.insertBefore(header, dom.articleList);
         }
@@ -3913,9 +3993,15 @@ STATIC_TEMPLATE = r'''
 
         function showArticleDetail(articleId) {
             currentArticleId = articleId;
+            currentIssueRead = null;
             highlightMatches = [];
             currentHighlightIndex = -1;
             hideHighlightNav();
+
+            // Restore single-article UI elements (may be hidden by full-issue view)
+            var actions = document.querySelector('.detail-actions');
+            if (actions) actions.style.display = '';
+            dom.detailBackBtn.innerHTML = '&larr; Back to list';
 
             var article = articleById[articleId];
             if (!article) {
@@ -4022,6 +4108,138 @@ STATIC_TEMPLATE = r'''
         }
 
         /* ============================================================
+           FULL ISSUE READING VIEW
+           ============================================================ */
+        function getArticlesForIssueDate(issueDate) {
+            var articles = [];
+            for (var i = 0; i < catalog.articles.length; i++) {
+                if (catalog.articles[i].date === issueDate) {
+                    articles.push(catalog.articles[i]);
+                }
+            }
+            articles.sort(function(a, b) { return a.id.localeCompare(b.id); });
+            return articles;
+        }
+
+        function showFullIssue(issueDate) {
+            currentArticleId = null;
+            currentIssueRead = issueDate;
+
+            var articles = getArticlesForIssueDate(issueDate);
+            if (articles.length === 0) {
+                dom.detailBody.innerHTML = '<div class="no-results"><h3>Issue not found</h3>' +
+                    '<p>No articles found for this issue date.</p></div>';
+                dom.mainContent.classList.remove('split-view');
+                dom.listView.style.display = 'none';
+                dom.articleDetail.classList.add('active');
+                return;
+            }
+
+            var sample = articles[0];
+
+            // Set up the detail view layout
+            dom.mainContent.classList.remove('split-view');
+            dom.listView.style.display = 'none';
+            dom.articleDetail.classList.add('active');
+
+            // Set header to issue info
+            dom.detailTitle.textContent = '';
+            dom.detailMeta.innerHTML = '';
+            dom.detailTags.innerHTML = '';
+            dom.detailKeywords.style.display = 'none';
+            dom.articleNav.style.display = 'none';
+            dom.issueArticlesSection.style.display = 'none';
+            dom.relatedArticlesSection.style.display = 'none';
+
+            // Hide single-article action buttons
+            var actions = document.querySelector('.detail-actions');
+            if (actions) actions.style.display = 'none';
+
+            // Build issue header
+            var headerHtml = '<div class="full-issue-header">' +
+                '<h2>American Sentinel</h2>' +
+                '<div class="full-issue-sub">Volume ' + sample.volume + ', Number ' + sample.issue +
+                ' &mdash; ' + formatDate(issueDate) + '</div>' +
+                '<div class="full-issue-sub" style="margin-top:0.3rem;opacity:0.6">' +
+                articles.length + ' articles</div></div>';
+
+            // Show loading
+            dom.detailBody.innerHTML = headerHtml +
+                '<div class="article-loading"><div class="spinner"></div><p>Loading issue&hellip;</p></div>';
+
+            // Update back button text
+            dom.detailBackBtn.innerHTML = '&larr; Back to issue';
+
+            // Scroll to top
+            window.scrollTo(0, 0);
+
+            // Fetch all article HTML fragments
+            if (OFFLINE_MODE) {
+                var bodyHtml = headerHtml;
+                for (var i = 0; i < articles.length; i++) {
+                    var a = articles[i];
+                    if (i > 0) bodyHtml += '<hr class="full-issue-divider">';
+                    bodyHtml += buildFullIssueArticleHtml(a, window.__OFFLINE_ARTICLES[a.id] || '');
+                }
+                dom.detailBody.innerHTML = bodyHtml;
+            } else {
+                var loaded = 0;
+                var contents = new Array(articles.length);
+                for (var j = 0; j < articles.length; j++) {
+                    (function(idx) {
+                        var url = ARTICLES_BASE + encodeURIComponent(articles[idx].id) + '.html';
+                        var xhr = new XMLHttpRequest();
+                        xhr.open('GET', url, true);
+                        xhr.onreadystatechange = function() {
+                            if (xhr.readyState !== 4) return;
+                            contents[idx] = xhr.status === 200 ? xhr.responseText : '';
+                            loaded++;
+                            if (loaded === articles.length) {
+                                assembleFullIssue(articles, contents, headerHtml);
+                            }
+                        };
+                        xhr.onerror = function() {
+                            contents[idx] = '';
+                            loaded++;
+                            if (loaded === articles.length) {
+                                assembleFullIssue(articles, contents, headerHtml);
+                            }
+                        };
+                        xhr.send();
+                    })(j);
+                }
+            }
+        }
+
+        function assembleFullIssue(articles, contents, headerHtml) {
+            var bodyHtml = headerHtml;
+            for (var i = 0; i < articles.length; i++) {
+                if (i > 0) bodyHtml += '<hr class="full-issue-divider">';
+                bodyHtml += buildFullIssueArticleHtml(articles[i], contents[i]);
+            }
+            dom.detailBody.innerHTML = bodyHtml;
+        }
+
+        function buildFullIssueArticleHtml(article, contentHtml) {
+            var html = '<div class="full-issue-article" id="fia-' + escapeHtml(article.id) + '">';
+            html += '<h2 class="full-issue-article-title">' + escapeHtml(article.title || 'Untitled') + '</h2>';
+
+            var metaParts = [];
+            if (article.author) metaParts.push(escapeHtml(article.author));
+            else if (article.attribution === 'reprint' && article.original_publication)
+                metaParts.push('Reprinted from ' + escapeHtml(article.original_publication));
+            else if (article.attribution === 'editorial')
+                metaParts.push('Editorial');
+            if (metaParts.length > 0) {
+                html += '<div class="full-issue-article-meta">' + metaParts.join(' &bull; ') + '</div>';
+            }
+
+            html += '<div class="full-issue-article-body">' + (contentHtml || '') + '</div>';
+            html += '</div>';
+            return html;
+        }
+
+        /* ============================================================
            ARTICLE NAVIGATION (prev/next within issue)
            ============================================================ */
         function getIssueArticles(article) {
@@ -4086,7 +4304,8 @@ STATIC_TEMPLATE = r'''
             dom.issueArticlesSection.style.display = 'block';
             dom.issueArticlesSection.removeAttribute('open');
 
-            var html = '';
+            var html = '<li style="margin-bottom:0.5rem"><a href="#read/' + encodeHashParam(article.date) +
+                '" style="font-weight:600;color:var(--color-blue)">Read full issue &rarr;</a></li>';
             for (var i = 0; i < others.length; i++) {
                 var a = others[i];
                 var authorStr = a.author ? escapeHtml(a.author) :
@@ -4437,12 +4656,21 @@ STATIC_TEMPLATE = r'''
             // Article detail view
             if (hash.indexOf('article/') === 0) {
                 var articleId = decodeHashParam(hash.substring(8));
+                currentIssueRead = null;
                 showArticleDetail(articleId);
                 return;
             }
 
-            // No longer viewing a specific article
+            // Full issue reading view
+            if (hash.indexOf('read/') === 0) {
+                var issueDate = decodeHashParam(hash.substring(5));
+                showFullIssue(issueDate);
+                return;
+            }
+
+            // No longer viewing a specific article or issue
             currentArticleId = null;
+            currentIssueRead = null;
 
             // Parse filter state from hash
             var parsed = parseHash(hash);
@@ -4604,7 +4832,11 @@ STATIC_TEMPLATE = r'''
 
         function goBack() {
             var hash = window.location.hash.replace(/^#\/?/, '');
-            if (hash.indexOf('article/') === 0) {
+            if (hash.indexOf('read/') === 0) {
+                // From full-issue view, go back to issue TOC
+                var issueDate = decodeHashParam(hash.substring(5));
+                setHash('issue/' + encodeHashParam(issueDate));
+            } else if (hash.indexOf('article/') === 0) {
                 if (previousHash && previousHash.indexOf('article/') !== 0) {
                     window.location.hash = '#' + previousHash;
                 } else {
