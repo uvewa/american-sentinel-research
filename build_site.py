@@ -2369,7 +2369,7 @@ STATIC_TEMPLATE = r'''
     <noscript>
         <div class="noscript-message">
             <h2>JavaScript Required</h2>
-            <p>The American Sentinel Research Archive requires JavaScript to browse and search the article catalog. Please enable JavaScript in your browser settings and reload this page.</p>
+            <p>The {SITE_TITLE} requires JavaScript to browse and search the article catalog. Please enable JavaScript in your browser settings and reload this page.</p>
         </div>
     </noscript>
 
@@ -2380,8 +2380,8 @@ STATIC_TEMPLATE = r'''
         <header class="site-header" role="banner">
             <div class="site-header-inner">
                 <div>
-                    <a href="https://americansentinel.org" class="back-link">&larr; americansentinel.org</a>
-                    <h1>American Sentinel Research Archive</h1>
+                    <a href="{HOME_URL}" class="back-link">&larr; {HOME_LABEL}</a>
+                    <h1>{SITE_TITLE}</h1>
                     <p class="subtitle">Historical writings on religious liberty and church-state separation, 1886&ndash;1900</p>
                 </div>
                 <a href="offline.html" download class="download-offline-btn" id="download-offline-btn" title="Download for offline use">&#11015; Offline</a>
@@ -2663,7 +2663,7 @@ STATIC_TEMPLATE = r'''
 
         <!-- Footer -->
         <footer class="site-footer">
-            American Sentinel Research Archive &mdash; Preserving the words of Adventist pioneers on religious liberty
+            {SITE_TITLE} &mdash; Preserving the words of Adventist pioneers on religious liberty
         </footer>
     </div>
 
@@ -5865,7 +5865,7 @@ STATIC_TEMPLATE = r'''
             if (navigator.share) {
                 var article = currentArticleId ? articleById[currentArticleId] : null;
                 navigator.share({
-                    title: article ? article.title : 'American Sentinel Research Archive',
+                    title: article ? article.title : '{SITE_TITLE}',
                     url: url
                 }).catch(function() {});
             } else {
@@ -5906,8 +5906,7 @@ STATIC_TEMPLATE = r'''
             // Publication renamed to "Sentinel of Liberty" from v15n18 (1900-05-10)
             var pubName = (article.volume === 15 && article.issue >= 18) ? 'Sentinel of Liberty' : 'American Sentinel';
             var filename = pubName + ' (' + pdfDate + ') Volume ' + vol + ', Number ' + num + '.pdf';
-            var base = OFFLINE_MODE ? 'https://americansentinel.org' : '';
-            dom.pdfBtn.href = base + '/files/american-sentinel-pdf-issues/' + year + '/' + encodeURIComponent(filename);
+            dom.pdfBtn.href = 'files/american-sentinel-pdf-issues/' + year + '/' + encodeURIComponent(filename);
         }
 
         /* ============================================================
@@ -6089,7 +6088,9 @@ STATIC_TEMPLATE = r'''
 # Site builder
 # ---------------------------------------------------------------------------
 
-def build_site(content_dir: Path, output_dir: Path, template_path: Path | None, offline: bool = False):
+def build_site(content_dir: Path, output_dir: Path, template_path: Path | None, offline: bool = False,
+               site_name: str = 'American Sentinel Research Archive',
+               home_url: str = 'https://americansentinel.org'):
     """
     Build the complete static research portal.
 
@@ -6232,7 +6233,7 @@ def build_site(content_dir: Path, output_dir: Path, template_path: Path | None, 
     # ------------------------------------------------------------------
     print("=== Writing index.html ===")
 
-    site_title = "American Sentinel Research Archive"
+    site_title = site_name
     catalog_url = "catalog.json"
 
     # Use external template if provided and it exists, otherwise use built-in
@@ -6247,8 +6248,12 @@ def build_site(content_dir: Path, output_dir: Path, template_path: Path | None, 
         template_content = STATIC_TEMPLATE
 
     # Replace placeholders
+    # Derive HOME_LABEL from home_url (strip protocol, e.g. "https://aplib.org" → "aplib.org")
+    home_label = home_url.split('://', 1)[-1].rstrip('/')
     index_html = template_content.replace('{SITE_TITLE}', site_title)
     index_html = index_html.replace('{CATALOG_URL}', catalog_url)
+    index_html = index_html.replace('{HOME_URL}', home_url)
+    index_html = index_html.replace('{HOME_LABEL}', home_label)
 
     index_path = output_dir / 'index.html'
     index_path.write_text(index_html, encoding='utf-8')
@@ -6371,7 +6376,7 @@ Examples:
         type=Path,
         default=None,
         help='Path to custom HTML template (default: built-in template). '
-             'Template may use {SITE_TITLE} and {CATALOG_URL} placeholders.',
+             'Template may use {SITE_TITLE}, {CATALOG_URL}, {HOME_URL}, and {HOME_LABEL} placeholders.',
     )
     parser.add_argument(
         '--offline',
@@ -6379,9 +6384,20 @@ Examples:
         default=False,
         help='Generate offline.html — a single self-contained file for offline use.',
     )
-
+    parser.add_argument(
+        '--site-name',
+        default='American Sentinel Research Archive',
+        help='Site title shown in header, browser tab, and meta tags '
+             '(default: "American Sentinel Research Archive")',
+    )
+    parser.add_argument(
+        '--home-url',
+        default='https://americansentinel.org',
+        help='URL for the back-link in the header (default: "https://americansentinel.org")',
+    )
     args = parser.parse_args()
-    build_site(args.content_dir, args.output, args.template, offline=args.offline)
+    build_site(args.content_dir, args.output, args.template, offline=args.offline,
+               site_name=args.site_name, home_url=args.home_url)
 
 
 if __name__ == '__main__':
