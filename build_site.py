@@ -752,6 +752,248 @@ STATIC_TEMPLATE = r'''
             padding: 0.1rem 0.3rem;
         }
 
+        /* ── TTS Player ── */
+        .tts-player {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: #e2e8f0;
+            border-radius: var(--radius-md);
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+        }
+        body.tts-bar-visible { padding-bottom: 5rem; }
+
+        /* Banner state (pre-play) */
+        .tts-banner {
+            display: flex;
+            align-items: center;
+            gap: 0.85rem;
+            padding: 0.8rem 1.1rem;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .tts-banner:hover { background: rgba(255,255,255,0.06); }
+
+        .tts-banner-play {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.6rem;
+            height: 2.6rem;
+            border-radius: 50%;
+            background: #FBBF24;
+            border: none;
+            cursor: pointer;
+            flex-shrink: 0;
+            transition: background 0.15s, transform 0.1s;
+        }
+        .tts-banner-play:hover { background: #F59E0B; transform: scale(1.05); }
+        .tts-banner-play svg { fill: #181818; width: 1.1rem; height: 1.1rem; margin-left: 2px; }
+
+        .tts-banner-label {
+            font-size: 0.95rem;
+            font-weight: 500;
+            letter-spacing: 0.01em;
+        }
+
+        /* Controls state (playing) — fixed bottom bar */
+        .tts-controls-wrap {
+            display: none;
+            flex-direction: column;
+            font-size: 0.85rem;
+        }
+        .tts-controls-wrap.active {
+            display: flex;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 200;
+            background: #181818;
+            border-top: 1px solid #282828;
+            box-shadow: 0 -2px 24px rgba(0,0,0,0.5);
+            border-radius: 0;
+        }
+
+        /* Thin yellow progress bar across top edge */
+        .tts-progress-top {
+            height: 3px;
+            background: #282828;
+            width: 100%;
+        }
+        .tts-progress-top-fill {
+            height: 100%;
+            background: #FBBF24;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        /* Three-zone inner row */
+        .tts-bar-inner {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 1.5rem;
+            gap: 1.5rem;
+        }
+
+        .tts-zone { display: flex; align-items: center; }
+
+        .tts-zone-left {
+            flex: 1;
+            min-width: 0;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.15rem;
+        }
+        .tts-article-title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #fff;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100%;
+        }
+        .tts-article-sub {
+            font-size: 0.75rem;
+            color: #b3b3b3;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .tts-zone-center {
+            flex: 0 1 auto;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        .tts-zone-right {
+            flex: 1;
+            justify-content: flex-end;
+            gap: 0.75rem;
+        }
+
+        /* Mini progress bar in center zone */
+        .tts-mini-progress {
+            width: 8rem;
+            height: 4px;
+            background: #404040;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        .tts-mini-progress-fill {
+            height: 100%;
+            background: #FBBF24;
+            width: 0%;
+            transition: width 0.3s ease;
+            border-radius: 2px;
+        }
+
+        .tts-transport {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .tts-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+            border: none;
+            border-radius: 50%;
+            padding: 0.4rem;
+            cursor: pointer;
+            color: #b3b3b3;
+            transition: color 0.15s, transform 0.1s;
+        }
+        .tts-btn:hover { color: #fff; transform: scale(1.08); }
+        .tts-btn svg { width: 1.25rem; height: 1.25rem; fill: currentColor; }
+
+        .tts-btn-main {
+            width: 2.75rem;
+            height: 2.75rem;
+            border-radius: 50%;
+            background: #FBBF24;
+            color: #181818;
+            padding: 0;
+            transition: transform 0.1s, background 0.15s;
+        }
+        .tts-btn-main:hover { background: #F59E0B; color: #181818; transform: scale(1.06); }
+        .tts-btn-main svg { fill: #181818; width: 1.1rem; height: 1.1rem; }
+
+        .tts-rate {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            color: #b3b3b3;
+            font-size: 0.8rem;
+        }
+        .tts-rate input[type="range"] {
+            width: 4rem;
+            cursor: pointer;
+            accent-color: #FBBF24;
+        }
+        .tts-rate-label {
+            min-width: 2.2rem;
+            text-align: center;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .tts-voice select {
+            font-size: 0.78rem;
+            max-width: 9rem;
+            background: #282828;
+            color: #e2e8f0;
+            border: 1px solid #404040;
+            border-radius: var(--radius-sm);
+            padding: 0.2rem 0.35rem;
+        }
+
+        .tts-close {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #666;
+            font-size: 1.3rem;
+            padding: 0.25rem 0.4rem;
+            border-radius: 50%;
+            line-height: 1;
+            transition: color 0.15s, background 0.15s;
+        }
+        .tts-close:hover { color: #fff; background: rgba(255,255,255,0.1); }
+
+        .tts-active {
+            background: #fde68a;
+            border-radius: 3px;
+            padding: 1px 2px;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+        }
+
+        .full-issue-copy-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            margin-top: 0.6rem;
+            margin-right: 0.4rem;
+            padding: 0.35rem 0.8rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #fff;
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.35);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+        .full-issue-copy-btn:hover {
+            background: rgba(255,255,255,0.25);
+        }
+
         .search-loading-indicator {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             font-size: 0.8rem;
@@ -1991,6 +2233,19 @@ STATIC_TEMPLATE = r'''
             .detail-actions {
                 flex-wrap: wrap;
             }
+
+            .tts-bar-inner {
+                flex-wrap: wrap;
+                padding: 0.4rem 0.75rem;
+                gap: 0.5rem;
+            }
+            .tts-zone-center { order: -1; width: 100%; justify-content: center; }
+            .tts-mini-progress { display: none; }
+            .tts-btn-main { width: 2.5rem; height: 2.5rem; }
+            .tts-rate input[type="range"] { width: 2.5rem; }
+            .tts-voice select { max-width: 6rem; }
+            .tts-article-title { font-size: 0.78rem; }
+            .tts-article-sub { font-size: 0.7rem; }
         }
 
         /* ================================================================
@@ -2006,6 +2261,7 @@ STATIC_TEMPLATE = r'''
             .back-btn,
             .results-summary,
             .highlight-nav,
+            .tts-player,
             .site-header .back-link {
                 display: none !important;
             }
@@ -2299,6 +2555,7 @@ STATIC_TEMPLATE = r'''
                                 <button class="detail-action-btn" id="save-btn" aria-label="Save article" title="Save article">&#9734;</button>
                                 <button class="detail-action-btn" id="cite-btn" aria-label="Cite this article" title="Cite">Cite</button>
                                 <button class="detail-action-btn" id="share-btn" aria-label="Share article" title="Share">Share</button>
+                                <button class="detail-action-btn" id="copy-btn" aria-label="Copy article text" title="Copy Text">Copy</button>
                                 <button class="detail-action-btn" id="print-btn" aria-label="Print article" title="Print">Print</button>
                                 <a class="detail-action-btn" id="pdf-btn" href="#" target="_blank" rel="noopener" aria-label="View original PDF scan" title="View Original Scan">PDF</a>
                             </div>
@@ -2333,6 +2590,35 @@ STATIC_TEMPLATE = r'''
                         <button class="highlight-nav-btn" id="highlight-prev">&uarr; Prev</button>
                         <button class="highlight-nav-btn" id="highlight-next">&darr; Next</button>
                         <button class="highlight-nav-close" id="highlight-close" aria-label="Clear highlights">&times;</button>
+                    </div>
+
+                    <div class="tts-player" id="tts-player">
+                        <div class="tts-banner" id="tts-banner">
+                            <button class="tts-banner-play" id="listen-btn" aria-label="Listen to article"><svg viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20"/></svg></button>
+                            <span class="tts-banner-label">Listen to this article</span>
+                        </div>
+                        <div class="tts-controls-wrap" id="tts-controls">
+                            <div class="tts-progress-top"><div class="tts-progress-top-fill" id="tts-progress-top-fill"></div></div>
+                            <div class="tts-bar-inner">
+                                <div class="tts-zone tts-zone-left">
+                                    <div class="tts-article-title" id="tts-article-title"></div>
+                                    <div class="tts-article-sub" id="tts-article-sub"></div>
+                                </div>
+                                <div class="tts-zone tts-zone-center">
+                                    <span class="tts-transport">
+                                        <button class="tts-btn" id="tts-prev" title="Previous paragraph"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="3" height="14"/><polygon points="20,5 9,12 20,19"/></svg></button>
+                                        <button class="tts-btn tts-btn-main" id="tts-play-pause" title="Pause"><svg viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg></button>
+                                        <button class="tts-btn" id="tts-next" title="Next paragraph"><svg viewBox="0 0 24 24"><polygon points="4,5 15,12 4,19"/><rect x="17" y="5" width="3" height="14"/></svg></button>
+                                    </span>
+                                    <div class="tts-mini-progress"><div class="tts-mini-progress-fill" id="tts-progress-fill"></div></div>
+                                </div>
+                                <div class="tts-zone tts-zone-right">
+                                    <span class="tts-rate"><input type="range" id="tts-rate" min="0.5" max="2" step="0.1" value="0.9"> <span class="tts-rate-label" id="tts-rate-label">0.9x</span></span>
+                                    <span class="tts-voice"><select id="tts-voice"></select></span>
+                                    <button class="tts-close" id="tts-close" title="Close player">&times;</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="article-body" id="detail-body">
@@ -2552,6 +2838,22 @@ STATIC_TEMPLATE = r'''
             dom.citeCopyChicago = document.getElementById('cite-copy-chicago');
             dom.citeCopyBibtex = document.getElementById('cite-copy-bibtex');
             dom.toast = document.getElementById('toast');
+            dom.copyBtn = document.getElementById('copy-btn');
+            dom.listenBtn = document.getElementById('listen-btn');
+            dom.ttsPlayer = document.getElementById('tts-player');
+            dom.ttsBanner = document.getElementById('tts-banner');
+            dom.ttsControls = document.getElementById('tts-controls');
+            dom.ttsPlayPause = document.getElementById('tts-play-pause');
+            dom.ttsPrev = document.getElementById('tts-prev');
+            dom.ttsNext = document.getElementById('tts-next');
+            dom.ttsProgressTopFill = document.getElementById('tts-progress-top-fill');
+            dom.ttsProgressFill = document.getElementById('tts-progress-fill');
+            dom.ttsArticleTitle = document.getElementById('tts-article-title');
+            dom.ttsArticleSub = document.getElementById('tts-article-sub');
+            dom.ttsRate = document.getElementById('tts-rate');
+            dom.ttsRateLabel = document.getElementById('tts-rate-label');
+            dom.ttsVoice = document.getElementById('tts-voice');
+            dom.ttsClose = document.getElementById('tts-close');
 
             // Saved articles
             dom.savedSection = document.getElementById('saved-section');
@@ -3992,6 +4294,7 @@ STATIC_TEMPLATE = r'''
         }
 
         function showArticleDetail(articleId) {
+            ttsStop();
             currentArticleId = articleId;
             currentIssueRead = null;
             highlightMatches = [];
@@ -4001,6 +4304,9 @@ STATIC_TEMPLATE = r'''
             // Restore single-article UI elements (may be hidden by full-issue view)
             var actions = document.querySelector('.detail-actions');
             if (actions) actions.style.display = '';
+            dom.ttsPlayer.style.display = '';
+            var bannerLabel = dom.ttsPlayer.querySelector('.tts-banner-label');
+            if (bannerLabel) bannerLabel.textContent = 'Listen to this article';
             dom.detailBackBtn.innerHTML = '&larr; Back to list';
 
             var article = articleById[articleId];
@@ -4122,6 +4428,7 @@ STATIC_TEMPLATE = r'''
         }
 
         function showFullIssue(issueDate) {
+            ttsStop();
             currentArticleId = null;
             currentIssueRead = issueDate;
 
@@ -4151,9 +4458,12 @@ STATIC_TEMPLATE = r'''
             dom.issueArticlesSection.style.display = 'none';
             dom.relatedArticlesSection.style.display = 'none';
 
-            // Hide single-article action buttons
+            // Hide single-article action buttons but keep TTS player
             var actions = document.querySelector('.detail-actions');
             if (actions) actions.style.display = 'none';
+            dom.ttsPlayer.style.display = '';
+            var bannerLabel = dom.ttsPlayer.querySelector('.tts-banner-label');
+            if (bannerLabel) bannerLabel.textContent = 'Listen to this issue';
 
             // Build issue header
             var headerHtml = '<div class="full-issue-header">' +
@@ -4161,7 +4471,9 @@ STATIC_TEMPLATE = r'''
                 '<div class="full-issue-sub">Volume ' + sample.volume + ', Number ' + sample.issue +
                 ' &mdash; ' + formatDate(issueDate) + '</div>' +
                 '<div class="full-issue-sub" style="margin-top:0.3rem;opacity:0.6">' +
-                articles.length + ' articles</div></div>';
+                articles.length + ' articles</div>' +
+                '<div><button class="full-issue-copy-btn" data-action="copy-text">Copy Text</button>' +
+                '</div></div>';
 
             // Show loading
             dom.detailBody.innerHTML = headerHtml +
@@ -4475,10 +4787,11 @@ STATIC_TEMPLATE = r'''
             }, 2000);
         }
 
-        function copyToClipboard(text) {
+        function copyToClipboard(text, message) {
+            var msg = message || 'Citation copied!';
             if (navigator.clipboard && navigator.clipboard.writeText) {
                 navigator.clipboard.writeText(text).then(function() {
-                    showToast('Citation copied!');
+                    showToast(msg);
                 });
             } else {
                 // Fallback
@@ -4490,7 +4803,460 @@ STATIC_TEMPLATE = r'''
                 ta.select();
                 document.execCommand('copy');
                 document.body.removeChild(ta);
-                showToast('Citation copied!');
+                showToast(msg);
+            }
+        }
+
+        /* ============================================================
+           TEXT-TO-SPEECH (TTS)
+           ============================================================ */
+        var ttsState = {
+            active: false,
+            playing: false,
+            chunks: [],         // paragraph-level: [{text, element, sentences}, ...]
+            currentChunk: 0,    // current paragraph index
+            sentenceIdx: 0,     // current sentence within paragraph
+            rate: 0.9,
+            voiceIndex: -1,
+            utterance: null,
+            watchdogTimer: null,
+            skipCallbacks: 0
+        };
+
+        function ttsSupported() {
+            return !!(window.speechSynthesis && window.SpeechSynthesisUtterance);
+        }
+
+        function ttsBestDefaultVoice(voices) {
+            // Ranked preference lists per platform (first match wins)
+            var ua = navigator.userAgent;
+            var isMac = /Mac|iPhone|iPad|iPod/.test(ua);
+            var isAndroid = /Android/.test(ua);
+            var isWindows = /Windows/.test(ua);
+            // Build index: name -> voice array index (English only)
+            var nameMap = {};
+            for (var i = 0; i < voices.length; i++) {
+                if (voices[i].lang.indexOf('en') !== 0) continue;
+                nameMap[voices[i].name] = i;
+            }
+            var prefs = [];
+            if (isMac) {
+                prefs = ['Samantha', 'Ava', 'Zoe', 'Serena', 'Karen'];
+            } else if (isAndroid) {
+                // Google Natural voices (US female first, then male)
+                prefs = [
+                    'Google US English 5 (Natural)',
+                    'Google US English 1 (Natural)',
+                    'Google US English 2 (Natural)',
+                    'Google US English 4 (Natural)',
+                    'Google US English'
+                ];
+            } else if (isWindows) {
+                // Edge Natural voices first, then Chrome Google voice, then legacy
+                prefs = [
+                    'Microsoft Jenny Online (Natural) - English (United States)',
+                    'Microsoft Aria Online (Natural) - English (United States)',
+                    'Microsoft EmmaMultilingual Online (Natural) - English (United States)',
+                    'Microsoft Emma Online (Natural) - English (United States)',
+                    'Google US English',
+                    'Microsoft Zira - English (United States)',
+                    'Microsoft David - English (United States)'
+                ];
+            } else {
+                // Linux / ChromeOS / other
+                prefs = [
+                    'Google US English',
+                    'Google UK English Female',
+                    'Google UK English Male'
+                ];
+            }
+            // Also match by substring for Android's long voice names
+            for (var p = 0; p < prefs.length; p++) {
+                if (nameMap[prefs[p]] !== undefined) return nameMap[prefs[p]];
+            }
+            // Substring fallback for Android voices (en-us-x-tpc = best natural female)
+            if (isAndroid) {
+                var androidPrefs = ['en-us-x-tpc', 'en-us-x-iob', 'en-us-x-iog', 'en-us-x-iom'];
+                for (var a = 0; a < androidPrefs.length; a++) {
+                    for (var j = 0; j < voices.length; j++) {
+                        if (voices[j].lang.indexOf('en') === 0 && voices[j].name.indexOf(androidPrefs[a]) >= 0) return j;
+                    }
+                }
+            }
+            return -1;
+        }
+
+        function ttsPopulateVoices() {
+            if (!ttsSupported()) return;
+            var voices = speechSynthesis.getVoices();
+            if (!voices.length) return;
+            var sel = dom.ttsVoice;
+            sel.innerHTML = '';
+            var savedName = '';
+            try { savedName = localStorage.getItem('ttsVoice') || ''; } catch(e) {}
+            var foundSaved = false;
+            for (var i = 0; i < voices.length; i++) {
+                if (voices[i].lang.indexOf('en') !== 0) continue;
+                var opt = document.createElement('option');
+                opt.value = i;
+                opt.textContent = voices[i].name.replace(/ \(.*\)$/, '');
+                if (savedName && voices[i].name === savedName) {
+                    opt.selected = true;
+                    ttsState.voiceIndex = i;
+                    foundSaved = true;
+                }
+                sel.appendChild(opt);
+            }
+            // Auto-select best voice for this platform if no saved preference
+            if (!foundSaved) {
+                var bestIdx = ttsBestDefaultVoice(voices);
+                if (bestIdx >= 0) {
+                    ttsState.voiceIndex = bestIdx;
+                    sel.value = bestIdx;
+                }
+            }
+        }
+
+        // Split text into short sentence groups that won't trigger browser timeout
+        function ttsSplitSentences(text) {
+            if (text.length <= 180) return [text];
+            var groups = [];
+            var re = /[^.!?;:]*[.!?;:]+[\s"'\u201d\u2019)}\]]*/g;
+            var match;
+            var lastIdx = 0;
+            var buf = '';
+            while ((match = re.exec(text)) !== null) {
+                buf += match[0];
+                lastIdx = re.lastIndex;
+                if (buf.length >= 120) {
+                    groups.push(buf.trim());
+                    buf = '';
+                }
+            }
+            if (lastIdx < text.length) buf += text.substring(lastIdx);
+            if (buf.trim()) groups.push(buf.trim());
+            return groups.length > 0 ? groups : [text];
+        }
+
+        function ttsBuildChunks() {
+            var els = dom.detailBody.querySelectorAll('p, h1, h2, h3, h4, li, blockquote');
+            var chunks = [];
+            for (var i = 0; i < els.length; i++) {
+                var el = els[i];
+                if (el.closest('.article-loading') || el.closest('.no-results') || el.closest('.full-issue-header')) continue;
+                var text = (el.innerText || el.textContent || '').trim();
+                if (!text) continue;
+                chunks.push({
+                    text: text,
+                    element: el,
+                    sentences: ttsSplitSentences(text)
+                });
+            }
+            return chunks;
+        }
+
+        var ttsActiveEl = null; // DOM element currently modified for sentence highlighting
+
+        function ttsStart(fromChunk) {
+            if (!ttsSupported()) return;
+            var wasActive = ttsState.active;
+            var prevChunks = ttsState.chunks;
+            if (wasActive) {
+                speechSynthesis.cancel();
+                clearInterval(ttsState.watchdogTimer);
+            }
+
+            var chunks = wasActive && prevChunks.length ? prevChunks : ttsBuildChunks();
+            if (chunks.length === 0) { showToast('No text to read'); return; }
+
+            ttsState.active = true;
+            ttsState.playing = true;
+            ttsState.chunks = chunks;
+            ttsState.currentChunk = (typeof fromChunk === 'number') ? fromChunk : 0;
+            ttsState.sentenceIdx = 0;
+
+            // Load saved rate
+            try {
+                var savedRate = parseFloat(localStorage.getItem('ttsRate'));
+                if (savedRate >= 0.5 && savedRate <= 2) ttsState.rate = savedRate;
+            } catch(e) {}
+            dom.ttsRate.value = ttsState.rate;
+            dom.ttsRateLabel.textContent = ttsState.rate + 'x';
+
+            if (dom.ttsVoice.options.length === 0) ttsPopulateVoices();
+
+            ttsShowControls(true);
+            ttsUpdatePlayBtn(true);
+            ttsUpdateInfo();
+            ttsSpeakSentence();
+            ttsStartWatchdog();
+        }
+
+        var ttsSvgPause = '<svg viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg>';
+        var ttsSvgPlay = '<svg viewBox="0 0 24 24"><polygon points="7,4 21,12 7,20"/></svg>';
+
+        function ttsShowControls(show) {
+            dom.ttsBanner.style.display = show ? 'none' : 'flex';
+            if (show) {
+                // Move controls to body so they render even when .tts-player is hidden (full-issue mode)
+                document.body.appendChild(dom.ttsControls);
+                dom.ttsControls.classList.add('active');
+                document.body.classList.add('tts-bar-visible');
+                var title = dom.detailTitle.textContent;
+                if (!title) {
+                    var fih = document.querySelector('.full-issue-header h2');
+                    if (fih) title = fih.textContent;
+                }
+                dom.ttsArticleTitle.textContent = title || 'Untitled';
+            } else {
+                dom.ttsControls.classList.remove('active');
+                document.body.classList.remove('tts-bar-visible');
+                // Move controls back into .tts-player
+                dom.ttsPlayer.appendChild(dom.ttsControls);
+            }
+        }
+
+        function ttsUpdatePlayBtn(playing) {
+            dom.ttsPlayPause.innerHTML = playing ? ttsSvgPause : ttsSvgPlay;
+            dom.ttsPlayPause.title = playing ? 'Pause' : 'Play';
+        }
+
+        function ttsCalcTimeRemaining() {
+            var remaining = 0;
+            for (var i = ttsState.currentChunk; i < ttsState.chunks.length; i++) {
+                var sents = ttsState.chunks[i].sentences;
+                var startJ = (i === ttsState.currentChunk) ? ttsState.sentenceIdx : 0;
+                for (var j = startJ; j < sents.length; j++) {
+                    remaining += sents[j].split(/\s+/).length;
+                }
+            }
+            var mins = Math.ceil(remaining / (ttsState.rate * 150));
+            if (mins < 1) return '<1 min left';
+            return mins + ' min left';
+        }
+
+        function ttsUpdateInfo() {
+            if (ttsState.chunks.length > 0) {
+                var pct = ((ttsState.currentChunk + 1) / ttsState.chunks.length) * 100;
+                dom.ttsProgressTopFill.style.width = pct + '%';
+                dom.ttsProgressFill.style.width = pct + '%';
+                dom.ttsArticleSub.textContent = 'Paragraph ' + (ttsState.currentChunk + 1) + ' of ' + ttsState.chunks.length + ' \u00b7 ' + ttsCalcTimeRemaining();
+            }
+        }
+
+        // Highlight the active sentence within its paragraph
+        function ttsHighlightSentence() {
+            if (ttsState.currentChunk >= ttsState.chunks.length) return;
+
+            var chunk = ttsState.chunks[ttsState.currentChunk];
+            var el = chunk.element;
+
+            // If paragraph changed, restore old element first
+            if (ttsActiveEl && ttsActiveEl !== el) {
+                ttsRestoreEl();
+            }
+
+            // Save original HTML the first time we touch this element
+            if (!el._ttsOrig) {
+                el._ttsOrig = el.innerHTML;
+            }
+            ttsActiveEl = el;
+
+            // Build sentence spans — only the active sentence is highlighted
+            var html = '';
+            for (var i = 0; i < chunk.sentences.length; i++) {
+                if (i === ttsState.sentenceIdx) {
+                    html += '<span class="tts-active">' + escapeHtml(chunk.sentences[i]) + '</span>';
+                } else {
+                    html += escapeHtml(chunk.sentences[i]);
+                }
+                if (i < chunk.sentences.length - 1) html += ' ';
+            }
+            el.innerHTML = html;
+
+            // Scroll active sentence into view
+            var active = el.querySelector('.tts-active');
+            if (active) active.scrollIntoView({behavior: 'smooth', block: 'center'});
+        }
+
+        // Restore an element's original HTML
+        function ttsRestoreEl() {
+            if (ttsActiveEl && ttsActiveEl._ttsOrig !== undefined) {
+                ttsActiveEl.innerHTML = ttsActiveEl._ttsOrig;
+                delete ttsActiveEl._ttsOrig;
+            }
+            ttsActiveEl = null;
+        }
+
+        // Speak one short sentence fragment, chain to the next
+        function ttsSpeakSentence() {
+            if (!ttsState.active) return;
+
+            if (ttsState.currentChunk >= ttsState.chunks.length) {
+                ttsFinished();
+                return;
+            }
+
+            var chunk = ttsState.chunks[ttsState.currentChunk];
+
+            if (ttsState.sentenceIdx >= chunk.sentences.length) {
+                ttsState.currentChunk++;
+                ttsState.sentenceIdx = 0;
+                if (ttsState.currentChunk >= ttsState.chunks.length) {
+                    ttsFinished();
+                    return;
+                }
+                ttsUpdateInfo();
+            }
+
+            // Highlight the active sentence
+            ttsHighlightSentence();
+
+            var text = ttsState.chunks[ttsState.currentChunk].sentences[ttsState.sentenceIdx];
+            var utt = new SpeechSynthesisUtterance(text);
+            utt.rate = ttsState.rate;
+
+            if (ttsState.voiceIndex >= 0) {
+                var voices = speechSynthesis.getVoices();
+                if (voices[ttsState.voiceIndex]) utt.voice = voices[ttsState.voiceIndex];
+            }
+
+            utt.onend = function() {
+                if (!ttsState.active) return;
+                if (ttsState.skipCallbacks > 0) { ttsState.skipCallbacks--; return; }
+                ttsState.sentenceIdx++;
+                ttsSpeakSentence();
+            };
+
+            utt.onerror = function(e) {
+                if (e.error === 'canceled' || e.error === 'interrupted') return;
+                if (!ttsState.active) return;
+                if (ttsState.skipCallbacks > 0) { ttsState.skipCallbacks--; return; }
+                ttsState.sentenceIdx++;
+                ttsSpeakSentence();
+            };
+
+            ttsState.utterance = utt;
+            speechSynthesis.speak(utt);
+        }
+
+        function ttsStartWatchdog() {
+            clearInterval(ttsState.watchdogTimer);
+            ttsState.watchdogTimer = setInterval(function() {
+                if (!ttsState.active || !ttsState.playing) return;
+                if (!speechSynthesis.speaking && !speechSynthesis.paused) {
+                    ttsSpeakSentence();
+                }
+            }, 3000);
+        }
+
+        function ttsTogglePlayPause() {
+            if (!ttsState.active) return;
+            if (ttsState.playing) {
+                speechSynthesis.pause();
+                ttsState.playing = false;
+                ttsUpdatePlayBtn(false);
+            } else {
+                speechSynthesis.resume();
+                ttsState.playing = true;
+                ttsUpdatePlayBtn(true);
+            }
+        }
+
+        function ttsGoPrev() {
+            if (!ttsState.active || ttsState.chunks.length === 0) return;
+            ttsState.skipCallbacks++;
+            speechSynthesis.cancel();
+            if (ttsState.sentenceIdx > 0) {
+                ttsState.sentenceIdx--;
+            } else if (ttsState.currentChunk > 0) {
+                ttsState.currentChunk--;
+                ttsState.sentenceIdx = 0;
+                ttsUpdateInfo();
+            }
+            ttsState.playing = true;
+            ttsUpdatePlayBtn(true);
+            ttsSpeakSentence();
+        }
+
+        function ttsGoNext() {
+            if (!ttsState.active || ttsState.chunks.length === 0) return;
+            ttsState.skipCallbacks++;
+            speechSynthesis.cancel();
+            var chunk = ttsState.chunks[ttsState.currentChunk];
+            if (ttsState.sentenceIdx < chunk.sentences.length - 1) {
+                ttsState.sentenceIdx++;
+            } else if (ttsState.currentChunk < ttsState.chunks.length - 1) {
+                ttsState.currentChunk++;
+                ttsState.sentenceIdx = 0;
+                ttsUpdateInfo();
+            } else {
+                ttsFinished();
+                return;
+            }
+            ttsState.playing = true;
+            ttsUpdatePlayBtn(true);
+            ttsSpeakSentence();
+        }
+
+        function ttsStop() {
+            if (!ttsState.active) return;
+            speechSynthesis.cancel();
+            clearInterval(ttsState.watchdogTimer);
+            ttsRestoreEl();
+            ttsShowControls(false);
+            ttsState.active = false;
+            ttsState.playing = false;
+            ttsState.chunks = [];
+            ttsState.currentChunk = 0;
+            ttsState.sentenceIdx = 0;
+            ttsState.utterance = null;
+            dom.ttsProgressTopFill.style.width = '0%';
+            dom.ttsProgressFill.style.width = '0%';
+        }
+
+        function ttsFinished() {
+            setTimeout(function() {
+                if (speechSynthesis.speaking || speechSynthesis.pending) {
+                    ttsState.playing = true;
+                    ttsUpdatePlayBtn(true);
+                    return;
+                }
+                clearInterval(ttsState.watchdogTimer);
+                ttsRestoreEl();
+                ttsState.playing = false;
+                ttsUpdatePlayBtn(false);
+                dom.ttsArticleSub.textContent = 'Finished';
+                dom.ttsProgressTopFill.style.width = '100%';
+                dom.ttsProgressFill.style.width = '100%';
+            }, 300);
+        }
+
+        function ttsSetRate(rate) {
+            ttsState.rate = rate;
+            dom.ttsRateLabel.textContent = rate + 'x';
+            try { localStorage.setItem('ttsRate', rate); } catch(e) {}
+            if (ttsState.active && ttsState.playing) {
+                ttsState.skipCallbacks++;
+                speechSynthesis.cancel();
+                ttsSpeakSentence();
+            }
+        }
+
+        function ttsSetVoice(idx) {
+            ttsState.voiceIndex = parseInt(idx, 10);
+            try {
+                var voices = speechSynthesis.getVoices();
+                if (ttsState.voiceIndex >= 0 && voices[ttsState.voiceIndex]) {
+                    localStorage.setItem('ttsVoice', voices[ttsState.voiceIndex].name);
+                } else {
+                    localStorage.removeItem('ttsVoice');
+                }
+            } catch(e) {}
+            if (ttsState.active && ttsState.playing) {
+                ttsState.skipCallbacks++;
+                speechSynthesis.cancel();
+                ttsSpeakSentence();
             }
         }
 
@@ -4651,6 +5417,7 @@ STATIC_TEMPLATE = r'''
         }
 
         function handleRoute() {
+            ttsStop();
             var hash = window.location.hash.replace(/^#\/?/, '');
 
             // Article detail view
@@ -4854,6 +5621,13 @@ STATIC_TEMPLATE = r'''
             var target = e.target;
 
             while (target && target !== document.body) {
+                // Full-issue action buttons (Copy Text, Listen)
+                var action = target.getAttribute('data-action');
+                if (action === 'copy-text') {
+                    e.preventDefault();
+                    copyToClipboard(dom.detailBody.innerText, 'Text copied!');
+                    return;
+                }
                 // Save article button (in card list or detail)
                 var saveId = target.getAttribute('data-save-article');
                 if (saveId) {
@@ -5210,6 +5984,40 @@ STATIC_TEMPLATE = r'''
             dom.highlightPrev.addEventListener('click', prevHighlight);
             dom.highlightNext.addEventListener('click', nextHighlight);
             dom.highlightClose.addEventListener('click', clearHighlights);
+
+            // Copy & Listen
+            dom.copyBtn.addEventListener('click', function() {
+                copyToClipboard(dom.detailBody.innerText, 'Text copied!');
+            });
+            if (ttsSupported()) {
+                // Banner click starts playback
+                dom.ttsBanner.addEventListener('click', function() { ttsStart(); });
+                // Transport play/pause toggles
+                dom.ttsPlayPause.addEventListener('click', function() {
+                    if (!ttsState.active) {
+                        ttsStart();
+                    } else if (!ttsState.playing && ttsState.currentChunk >= ttsState.chunks.length) {
+                        ttsStart(0);
+                    } else {
+                        ttsTogglePlayPause();
+                    }
+                });
+                dom.ttsPrev.addEventListener('click', ttsGoPrev);
+                dom.ttsNext.addEventListener('click', ttsGoNext);
+                dom.ttsClose.addEventListener('click', ttsStop);
+                dom.ttsRate.addEventListener('input', function() {
+                    ttsSetRate(parseFloat(this.value));
+                });
+                dom.ttsVoice.addEventListener('change', function() {
+                    ttsSetVoice(this.value);
+                });
+                if (speechSynthesis.onvoiceschanged !== undefined) {
+                    speechSynthesis.addEventListener('voiceschanged', ttsPopulateVoices);
+                }
+                ttsPopulateVoices();
+            } else {
+                dom.ttsPlayer.style.display = 'none';
+            }
 
             // Share, Print & PDF
             dom.shareBtn.addEventListener('click', shareArticle);
