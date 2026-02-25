@@ -933,19 +933,42 @@ STATIC_TEMPLATE = r'''
         .tts-rate {
             display: flex;
             align-items: center;
-            gap: 0.35rem;
+            gap: 0;
             color: #b3b3b3;
             font-size: 0.8rem;
         }
-        .tts-rate input[type="range"] {
-            width: 4rem;
+        .tts-rate-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.6rem;
+            height: 1.6rem;
+            border: 1px solid rgba(255,255,255,0.25);
+            background: rgba(255,255,255,0.08);
+            color: #e0e0e0;
+            font-size: 0.95rem;
+            font-weight: 600;
             cursor: pointer;
-            accent-color: #FBBF24;
+            line-height: 1;
+            user-select: none;
+            -webkit-user-select: none;
         }
+        .tts-rate-btn:first-child { border-radius: 4px 0 0 4px; }
+        .tts-rate-btn:last-child  { border-radius: 0 4px 4px 0; }
+        .tts-rate-btn:active { background: rgba(255,255,255,0.2); }
         .tts-rate-label {
-            min-width: 2.2rem;
-            text-align: center;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 2.8rem;
+            height: 1.6rem;
+            padding: 0 0.25rem;
+            border-top: 1px solid rgba(255,255,255,0.25);
+            border-bottom: 1px solid rgba(255,255,255,0.25);
+            background: rgba(255,255,255,0.04);
             font-variant-numeric: tabular-nums;
+            font-size: 0.78rem;
+            text-align: center;
         }
 
         .tts-voice select {
@@ -2368,7 +2391,6 @@ STATIC_TEMPLATE = r'''
                 gap: 0.6rem;
                 flex-wrap: nowrap;
             }
-            .tts-rate input[type="range"] { width: 3.5rem; }
             .tts-voice select { max-width: 8rem; font-size: 0.75rem; }
 
             /* Close button → absolute top-right corner */
@@ -2756,7 +2778,7 @@ STATIC_TEMPLATE = r'''
                                 </div>
                                 <div class="tts-zone tts-zone-right">
                                     <button class="tts-chapters-btn" id="tts-chapters" style="display:none"><svg viewBox="0 0 24 24"><path d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"/></svg> <span id="tts-chapters-label">Articles</span></button>
-                                    <span class="tts-rate"><input type="range" id="tts-rate" min="0.5" max="2" step="0.1" value="0.9"> <span class="tts-rate-label" id="tts-rate-label">0.9x</span></span>
+                                    <span class="tts-rate"><button class="tts-rate-btn" id="tts-rate-down">&minus;</button><span class="tts-rate-label" id="tts-rate-label">0.90x</span><button class="tts-rate-btn" id="tts-rate-up">&plus;</button></span>
                                     <span class="tts-voice"><select id="tts-voice"></select></span>
                                     <button class="tts-close" id="tts-close" title="Close player">&times;</button>
                                 </div>
@@ -2997,7 +3019,8 @@ STATIC_TEMPLATE = r'''
             dom.ttsProgressFill = document.getElementById('tts-progress-fill');
             dom.ttsArticleTitle = document.getElementById('tts-article-title');
             dom.ttsArticleSub = document.getElementById('tts-article-sub');
-            dom.ttsRate = document.getElementById('tts-rate');
+            dom.ttsRateDown = document.getElementById('tts-rate-down');
+            dom.ttsRateUp = document.getElementById('tts-rate-up');
             dom.ttsRateLabel = document.getElementById('tts-rate-label');
             dom.ttsVoice = document.getElementById('tts-voice');
             dom.ttsClose = document.getElementById('tts-close');
@@ -5165,8 +5188,7 @@ STATIC_TEMPLATE = r'''
                 var savedRate = parseFloat(localStorage.getItem('ttsRate'));
                 if (savedRate >= 0.5 && savedRate <= 2) ttsState.rate = savedRate;
             } catch(e) {}
-            dom.ttsRate.value = ttsState.rate;
-            dom.ttsRateLabel.textContent = ttsState.rate + 'x';
+            dom.ttsRateLabel.textContent = ttsState.rate.toFixed(2) + 'x';
 
             if (dom.ttsVoice.options.length === 0) ttsPopulateVoices();
 
@@ -5454,8 +5476,11 @@ STATIC_TEMPLATE = r'''
         }
 
         function ttsSetRate(rate) {
+            rate = Math.round(rate * 100) / 100;  // avoid float drift
+            if (rate < 0.5) rate = 0.5;
+            if (rate > 2) rate = 2;
             ttsState.rate = rate;
-            dom.ttsRateLabel.textContent = rate + 'x';
+            dom.ttsRateLabel.textContent = rate.toFixed(2) + 'x';
             try { localStorage.setItem('ttsRate', rate); } catch(e) {}
             if (ttsState.active && ttsState.playing) {
                 ttsGeneration++;
@@ -6310,8 +6335,11 @@ STATIC_TEMPLATE = r'''
                         ttsCloseChapters();
                     }
                 });
-                dom.ttsRate.addEventListener('input', function() {
-                    ttsSetRate(parseFloat(this.value));
+                dom.ttsRateDown.addEventListener('click', function() {
+                    ttsSetRate(ttsState.rate - 0.02);
+                });
+                dom.ttsRateUp.addEventListener('click', function() {
+                    ttsSetRate(ttsState.rate + 0.02);
                 });
                 dom.ttsVoice.addEventListener('change', function() {
                     ttsSetVoice(this.value);
