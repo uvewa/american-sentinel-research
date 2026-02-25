@@ -6266,10 +6266,15 @@ STATIC_TEMPLATE = r'''
             dom.copyBtn.addEventListener('click', function() {
                 copyToClipboard(dom.detailBody.innerText, 'Text copied!');
             });
+            // Copy Text button in TTS banner (full-issue mode) — stop propagation
+            // so the click never reaches the banner handler which would start TTS
+            document.getElementById('tts-banner-copy').addEventListener('click', function(e) {
+                e.stopPropagation();
+                copyToClipboard(dom.detailBody.innerText, 'Text copied!');
+            });
             if (ttsSupported()) {
-                // Banner click starts playback (but not if copy button was clicked)
+                // Banner click starts playback
                 dom.ttsBanner.addEventListener('click', function(e) {
-                    if (e.target.closest('.tts-banner-copy')) return;
                     ttsStart();
                 });
                 // Transport play/pause toggles
