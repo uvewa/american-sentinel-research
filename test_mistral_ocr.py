@@ -7,7 +7,7 @@ import base64
 import json
 from mistralai import Mistral
 
-API_KEY = "JyOIMLTIaikkhKeGcjqBudlNMkTpeVCJ"
+API_KEY = os.environ.get("MISTRAL_API_KEY", "")  # set from memory/reference_mistral_api.md — never hardcode
 
 def ocr_pdf(pdf_path, output_path):
     """Send a PDF to Mistral OCR and save the markdown output."""
@@ -59,5 +59,7 @@ if __name__ == "__main__":
         # Default test: 1894 v09n01
         pdf_path = "/Users/apl/Documents/PUBLICAR/APL/English/American Sentinel (Religious Freedom)/0. American Sentinel/1. Originals/New Scan/1894/American Sentinel (1894-01-04) Volume 09, Number 01.pdf"
 
-    output_path = "/tmp/mistral_ocr_test.md"
+    # Persistent storage — never /tmp (cleared on reboot). Mistral is paid per-page.
+    output_path = "/Users/apl/StudioProjects/ocr/mistral_ocr_raw/test/mistral_ocr_test.md"
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
     ocr_pdf(pdf_path, output_path)

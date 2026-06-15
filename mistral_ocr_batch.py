@@ -9,9 +9,10 @@ import time
 import concurrent.futures
 from mistralai import Mistral
 
-API_KEY = "JyOIMLTIaikkhKeGcjqBudlNMkTpeVCJ"
+API_KEY = os.environ.get("MISTRAL_API_KEY", "")  # set from memory/reference_mistral_api.md — never hardcode
 PDF_DIR = "/Users/apl/Documents/PUBLICAR/APL/English/American Sentinel (Religious Freedom)/0. American Sentinel/1. Originals/New Scan/{year}/"
-OUTPUT_DIR = "/tmp/mistral_ocr/{year}/"
+# Persistent storage — never /tmp (cleared on reboot). Mistral is paid per-page.
+OUTPUT_DIR = "/Users/apl/StudioProjects/ocr/mistral_ocr_raw/{year}/"
 
 def ocr_one_pdf(pdf_path, output_path):
     """OCR a single PDF and save combined markdown."""
@@ -43,6 +44,17 @@ def ocr_one_pdf(pdf_path, output_path):
                 "document_url": signed.url,
             },
         )
+
+        # Save RAW response as-is (paid OCR, never lose data — user requirement 2026-05-15).
+        # Sibling .json next to the markdown output.
+        raw_path = output_path.replace(".md", ".raw.json") if output_path.endswith(".md") \
+            else output_path + ".raw.json"
+        try:
+            raw_data = result.model_dump() if hasattr(result, "model_dump") else result.dict()
+            with open(raw_path, "w") as f:
+                json.dump(raw_data, f, indent=2, ensure_ascii=False)
+        except Exception as raw_err:
+            print(f"  WARN: could not dump raw for {basename}: {raw_err}")
 
         # Save combined markdown
         with open(output_path, "w") as f:
